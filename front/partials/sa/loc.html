@@ -1,0 +1,64 @@
+<div class="content_heading">Issue LOC</div>
+<div class="fullwrap">
+	<div class="wrap_indi">
+		<div class="each_text">Request User</div>
+		<div class="each_data">{{requestdata.requser.userdesc}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">DDO Code</div>
+		<div class="each_data">{{requestdata.requestuser}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Head of Account</div>
+		<div class="each_data">{{requestdata.schemes.schemename+' ( '+requestdata.hoa+' ) '}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Current Balance <span class="small_txt">(in Rs.)</span></div>
+		<div class="each_data">{{getc(requestdata.accounts.balance)}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Existing Loc Balance<span class="small_txt">(in Rs.)</span></div>
+		<div class="each_data">{{getc(requestdata.accounts.loc)}}</div>
+	</div>
+	<div class="wrap_indi">
+                <div class="each_text">Loc Amount Limit<span class="small_txt">(in Rs.)</span></div>
+                <div class="each_data">{{getc(requestdata.locamt)}}</div>
+        </div>
+	<div class="wrap_indi">
+		<div class="each_text">Request Amount <span class="small_txt">(in Rs.)</span></div>
+		<div class="each_data">{{requestdata.reamount}}</div>
+	</div>
+	<div class="wrap_indi" style="padding-bottom:10px;border-bottom:1px dashed;width:500px;">
+		<div class="each_text">Request Date</div>
+		<div class="each_data">{{Dates.getDate(requestdata.requestdate)}}</div>
+	</div>
+	<div class="wrap_indi ex_cls_appr_rj_req">
+		<input type="radio" name="locreq" value="approve" ng-model='approval'>Approve Request
+		<input type="radio"  name="locreq" value="reject" ng-model='approval'>Reject Request
+	</div>
+	<div class="wrap_indi" style="padding-top:10px;border-top:1px dashed;width:500px;" ng-hide="approval=='reject'">
+		<div class="each_text">Issue Amount <span class="small_txt">(in Rs.)</span></div>
+		<input type="text" class="each_box amount_box" autocomplete="off" ng-model='issue_amt'>
+	</div>
+	<div class="wrap_indi" ng-hide="approval=='reject'">
+		<div class="each_text">LOC Reference No</span></div>
+		<input type="text" class="each_box" placeholder="Enter Reference No here" autocomplete="off" ng-model='refno'>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Remarks</span></div>
+		<textarea class="textarea" placeholder="Enter Remarks Here" style="width:254px;" ng-model='remarks'></textarea>
+	</div>
+	<div class="wrap_indi ex_wid" ng-hide="approval=='reject'">
+		<div class="each_desc ex_cls_sr_bkiss">
+			<p>Sir,</p>
+			<p class="fnt_nrm" ng-show="approval=='approve'">As per the above request,the LOC maybe approved as there is sufficient ledger balance.</p>
+			<p class="fnt_nrm" ng-show="approval=='reject'">As per the above request,the LOC maybe rejected per the remarks.</p>
+			<p>Regards</p>
+			<p style="color:#767676;"><i>{{username}}</i></p>
+		</div>
+	</div>
+	<div class="wrap_indi" style="padding-left:80px;">
+		<div class="main_button" style="width:200px;" ng-click="req_accept()">Forward to DTO/STO</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

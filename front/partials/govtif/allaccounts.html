@@ -1,0 +1,42 @@
+<div class="content_heading">Account Wise Balances & LOCs</div>
+<div class="fullwrap">
+	<div class="srch_dv">
+		<div class="srch_inpbx">
+			<input type="text" ng-model="acsearch" placeholder="Search with PD Account Name,DDO code,HOA,Balance,LOC" class="scrch_inp_bx">
+		</div>
+		<div class="srch_icn">
+			<img src="../front/images/srch.png" class="scrh_icn_img_tg">
+		</div>
+	</div>
+	
+	<div class="wrap_indi">
+	<p style="float:right;"><a href="/pd/back/public/{{fileloc}}">Download excel sheet</a></p>
+		<p class="ttl_out_txt">Total Outstanding Balances and LOC's <i>(as of today)</i> PD Account Wise</p>
+		<p class="shwng_dt_txt"><span class="stardiv">*</span> Showing data of accounts under (STOCODE:2702) region only</p>
+		<table class='each_table' style="margin-top:20px;">
+			<tr class='heading_row clr_wg'>
+				<td>Sno</td>
+				<td>PD Account Name</td>
+				<td>DDO Code</td>
+				<td>HOA</td>
+				<td>Account Type</td>
+				<td>Balance <span class="shwng_dt_txt">(in Rs.)</span></td>
+				<td>Balance <span class="shwng_dt_txt">(in words)</span></td>
+				<td>Existing LOC <span class="shwng_dt_txt"><i>(as of today)</i></span></td>
+				<td>Existing LOC <span class="shwng_dt_txt">(in words)</span></td>
+			</tr>
+			<tr ng-repeat="x in allaclist | filter:acsearch">
+				<td>{{$index+1}}</td>
+				<td>{{x.usernames.userdesc}}</td>
+				<td>{{x.ddocode}}</td>
+				<td>{{x.hoa}}</td>
+				<td>{{x.actype}}</td>
+				<td>{{x.balance}}</td>
+				<td>{{x.balwords}}</td>
+				<td>{{x.loc}}</td>
+				<td>{{x.locwords}}</td>
+			</tr>
+		</table>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

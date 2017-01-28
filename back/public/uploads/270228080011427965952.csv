@@ -1,0 +1,148 @@
+Sno,Party Name,Party Account no,Party Bank Name,Party Bank Branch,Party Bank Ifsc Code,Party Amount
+1,K.Shilpa,20027433480,State Bank of India,Tadikalapudi,SBIN0004817 ,35624
+2,J.Venu Gopal,32491134367,State Bank of India,Kovvur,SBIN0000860,58202
+3,P.Vijaya Kumar,20124453600,State Bank of India,Vedayapalem,SBIN0007457,36849
+4,"DSDO, DSA Nellore",20073347608,State Bank of India,"Vedyapalem, Nellore",SBIN0007457,329224
+5,G Gopichand,10089863801,State Bank of India,"Chenchupeta, Tenali",SBIN0003253,49462
+6,A.B. Kotam Raju,30801769438,State Bank of India, Patamata Vijayawada,SBIN0012948,29178
+7,R.Satyanarayana,31020970543,State Bank of India,"Chenchupeta, Tenali",SBIN0003253,39908
+8,V.V.Satya Sri,31185115067,State Bank of India,"Baskararaopeta, Vijayawada",SBIN0001917,14994
+9,K.Venkateswarlu,31097867594,State Bank of India,Old Guntur,SBIN0011092,33882
+10,G.C.Lakshmi,30278677017,State Bank of India,Main Branch Eluru,SBIN0000836,10466
+11,G. Subba Rao,34308071277,State Bank of India,Guntur,SBIN0006830,15066
+12,S.Varalamma,10428676762,State Bank of India,"Arakuvalley Brach, Vizag",SBIN0002691,12035
+13,K.Sharath Kumar,62166832520,State Bank of Hyderabad, Gunfoundry,SBHY0020066,57602
+14,B.Venkata Narsimha,62149192373,State Bank of Hyderabad, Gunfoundry,SBHY0020066,51682
+15,P.Kamala,62149176281,State Bank of Hyderabad, Gunfoundry,SBHY0020066,46422
+16,U.Kalyani,62149183164,State Bank of Hyderabad, Gunfoundry,SBHY0020066,59095
+17,K.Yesu Babu,62149264872,State Bank of Hyderabad, Gunfoundry,SBHY0020066,33699
+18,M.Venkateswar Rao,62149262285,State Bank of Hyderabad, Gunfoundry,SBHY0020066,34609
+19,B.Vijayakumar,62166836625,State Bank of Hyderabad, Gunfoundry,SBHY0020066,19953
+20,P.Siddappa,62149308583,State Bank of Hyderabad, Gunfoundry,SBHY0020066,23000
+21,S.Mohan Rao,62149436300,State Bank of Hyderabad, Gunfoundry,SBHY0020066,24465
+22,B E Shalinipriya,62149267817,State Bank of Hyderabad, Gunfoundry,SBHY0020066,27438
+23,K S N Pradeep,62186654245,State Bank of Hyderabad, Gunfoundry,SBHY0020066,21023
+24,M Ganesh,62149305082,State Bank of Hyderabad, Gunfoundry,SBHY0020066,20879
+25,K. Anjamma,62149251193,State Bank of Hyderabad, Gunfoundry,SBHY0020066,16090
+26,K. Narasimha (O.S),62149439957,State Bank of Hyderabad, Gunfoundry,SBHY0020066,16853
+27,B.Kamshamma,62149094761,State Bank of Hyderabad, Gunfoundry,SBHY0020066,14604
+28,S.Raghu Babu,62149146075,State Bank of Hyderabad, Gunfoundry,SBHY0020066,14445
+29,Rajasekar T,62209618168,State Bank of Hyderabad, Gunfoundry,SBHY0020066,19789
+30,M.Achyuta Kumari,62060524319,State Bank of Hyderabad,Hyderabad,SBHY0020070,20697
+31,L.Devanandam,3.65512E+12,Canara Bank,"Siripuram, Vizag",CNRB0003655,78616
+32,S.Venkata Ramana,2.7651E+12,Canara Bank,"Nagamalli thota, Kakinada",CNRB0002765,83032
+33,M.Ravi Kumar,6.60101E+11,Canara Bank,Eluru,CNRB0000660,33572
+34,R.Sambasiva rao,6.05101E+11,Canara Bank,Guntur,CNRB0000605,35595
+35,U.Srinivas Rao,62058194361,State Bank of Hyderabad,Collectorate,SBHY0021038,68600
+36,V.Nagaraju,3.39422E+13,Syndicate Bank,Kurnool,SYNB0003394,82988
+37,B.Seshapani,3.3942E+13,Syndicate Bank,Kurnool,SYNB0003394,43214
+38,M.Venkateswara Rao,6.59101E+11,Canara Bank,Anantapur,CNRB0000659,34920
+39,"Administrator, SSS Tirupathi",1.9651E+12,Canara Bank, Tirupati,CNRB0001965,132848
+40,"DSDO, DSA Ananthapur",6.59101E+11,Canara Bank, Ananthapur,CNRB0000659,127071
+41,"DSDO, DSA Chittoor",8.52101E+11,Canara Bank, Chittoor,CNRB0000852,195257
+42,"DSDO, DSA Kadapa",1.9622E+12,Canara Bank,Kadapa,CNRB0001962,279784
+43,"DSDO, DSA East Godavari",2.7651E+12,Canara Bank, Kakinada,CNRB0002765,430112
+44,"DSDO, DSA Guntur",6.05101E+11,Canara Bank, Guntur,CNRB0000605,446130
+45,"DSDO, DSA Krishna",1.6201E+12,Canara Bank, Vijayawada,CNRB0001620,635379
+46,"DSDO, DSA Kurnool",3.39422E+13,Syndicate Bank,Kurnool,SYNB0003394,246066
+47,"DSDO, DSA Prakasham",2.5361E+12,Canara Bank,Ongole,CNRB0002536,224919
+48,"DSDO, DSA Srikakulam",1.59701E+14,Indian Overseas Bank,"Balagathopu, Srikakulam",IOBA0001597,133067
+49,"DSDO, DSA Visakhapatnam",6.20101E+11,Canara Bank,Vizag,CNRB0002377,336524
+50,"DSDO, DSA Vizianagaram",6.44101E+11,Canara Bank,Vizianagaram,CNRB0000644,126154
+51,"DSDO, DSA West Godavari",6.60101E+11,Canara Bank,Eluru,CNRB0000660,392651
+52,G S Appa Rao,8.78101E+11,Canara Bank,Basheerbagh,CNRB0000878,32048
+53,D. Manjuvani,8.78101E+11,Canara Bank,Basheerbagh,CNRB0000878,19330
+54,N.V.Siva Reddy,8.78101E+11,Canara Bank,Basheerbagh,CNRB0000878,38665
+55,P.Rama Mohana Rao,8.78101E+11,Canara Bank,Basheerbagh,CNRB0000878,40493
+56,C.Joseph,8.78101E+11,Canara Bank,Basheerbagh,CNRB0000878,20644
+57,J.V.Suryanarayana,8.78101E+11,Canara Bank,Basheerbagh,CNRB0000878,34276
+58,K.Purnachandra Rao,8.78101E+11,Canara Bank,Basheerbagh,CNRB0000878,31067
+59,K.Rama Mohan Rao,8.78101E+11,Canara Bank,Basheerbagh,CNRB0000878,34456
+60,N.Ramakrishna,8.78101E+11,Canara Bank,Basheerbagh,CNRB0000878,46221
+61,M.Koteswara Rao,8.78101E+11,Canara Bank,Basheerbagh,CNRB0000878,43817
+62,D.Jagannadha Reddy,8.78101E+11,Canara Bank,Basheerbagh,CNRB0000878,46221
+63,D.Ravi,8.78101E+11,Canara Bank,Basheerbagh,CNRB0000878,42604
+64,J.Sampathkumar,8.78101E+11,Canara Bank,Basheerbagh,CNRB0000878,7356
+65,Md.Ismail,8.78101E+11,Canara Bank,Basheerbagh,CNRB0000878,44976
+66,M.R.K.Sharma,8.78101E+11,Canara Bank,Basheerbagh,CNRB0000878,15184
+67,R.Prameela Rani,8.78102E+11,Canara Bank,Basheerbagh,CNRB0000878,17207
+68,G.Chowdhary,8.78101E+11,Canara Bank,Basheerbagh,CNRB0000878,38537
+69,Ch.B.Mary Manjula,8.78101E+11,Canara Bank,Basheerbagh,CNRB0000878,19196
+70,B.C. Nageshwara Rao,8.78101E+11,Canara Bank,Basheerbagh,CNRB0000878,18718
+71,D.Sreelakshmi,8.78102E+11,Canara Bank,Basheerbagh,CNRB0000878,7356
+72,Ch.Vijaya Lakshmi,1.1451E+14,Andhra Bank,Nagole ,ANDB0001145,20771
+73,Mohd.Afsar Farooq,8.78101E+11,Canara Bank,Basheerbagh,CNRB0000878,35342
+74,P.Bangaraiah,8.78101E+11,Canara Bank,Basheerbagh,CNRB0000878,23874
+75,G Shankuntala,8.78101E+11,Canara Bank,Basheerbagh,CNRB0000878,3692
+76,G.Padmavathi,8.78101E+11,Canara Bank,Basheerbagh,CNRB0000878,3692
+77,K.Sujani,8.78102E+11,Canara Bank,Basheerbagh,CNRB0000878,20975
+78,M Deepika,1.9651E+12,Canara Bank,"Bairagipattada, Tirupathi",CNRB0001965,8976
+79,R.Sambasiva Rao,2.4301E+12,Canara Bank,  Visakhapatnam,CNRB0002430,16042
+80,V Veeraiah,6.05101E+11,Canara Bank,Guntur,CNRB0000605,8023
+81,S Nageswara Rao,1.6201E+12,Canara Bank,"Madhunagar, Vijayawada",CNRB0001620,16865
+82,K Ch Punnaiah   Chowdhary,1.6201E+12,Canara Bank,Vijayawada,CNRB0001620,31433
+83,K.T.S.R.Anjaneyulu,6.60101E+11,Canara Bank,Eluru 20338,CNRB0000660,23364
+84,K.Raja Kumari,2.7591E+12,Canara Bank,"Gandhinagar, Kakinada",CNRB0002759,23030
+85,K Achiyamma,6.20102E+11,Canara Bank,Vishakhapatnam,CNRB0000620,7356
+86,V. Satyavathi,6.60101E+11,Canara Bank,"Powerpet , Eluru",CNRB0000660,4518
+87,B.Roju Mani,1.3111E+12,Canara Bank,Guntur,CNRB0001311,6413
+88,G.Kanakavalli,1.8371E+12,Canara Bank,Srikakulam,CNRB0001837,23732
+89,R.Girija Kumari,8.52101E+11,Canara Bank,Chittoor,CNRB0000852,19251
+90,P.T.Sesaiah,5.31001E+12,Andhra Bank,Kurnool,ANDB0000053,7356
+91,G S Prasad,8.96101E+11,Canara Bank,Chirala 20761,CNRB0000896,30438
+92,V Narayana Rao,6.28101E+11,Canara Bank,Nellore,CNRB0000628,20129
+93,V.S.Prakasa Rao,2.4351E+12,Canara Bank,"Narsapur, West Godavari Dist.",CNRB0002435,25238
+94,K Nageswara Rao,1.6201E+12,Canara Bank,"Madhunagar, Vijayawada",CNRB0001620,12350
+95,S.Bibijan,1.9621E+12,Canara Bank,"Sankarapuram, Kadapa",CNRB0001962,7356
+96,K Nancharamma,6.05101E+11,Canara Bank,Guntur,CNRB0000605,7648
+97,Md.Ahteshamuddin,2.7651E+12,Canara Bank,"Nagamalli Thota,Kakinada",CNRB0002765,35040
+98,B.Marthamma,1.9621E+12,Canara Bank,"Sankarapuram, Kadapa",CNRB0001962,7282
+99,Smt Razia Bee,6.61101E+11,Canara Bank,Kurnool,CNRB0000661,7356
+100,Sk.Parveen,6.28101E+11,Canara Bank,Nellore ,CNRB0000628,3692
+101,M.Nancharamma,6.05101E+11,Canara Bank,Guntur,CNRB0000605,7356
+102,M.R.K.Murthy,6.61101E+11,Canara Bank,Kurnool,CNRB0000661,42012
+103,M.Shankaramma,6.61101E+11,Canara Bank,Kurnool,CNRB0000661,7356
+104,B.V.Prasada Rao,1.6201E+12,Canara Bank,"Madhunagar, Vijayawada",CNRB0001620,29733
+105,B.Saralamma,1.9621E+12,Canara Bank,Kadapa,CNRB0001962,8134
+106,S.Daniel,1.6201E+12,Canara Bank,"Madhunagar, Vijayawada",CNRB0001620,12106
+107,G.Mary,6.05101E+11,Canara Bank,Guntur,CNRB0000605,7225
+108,V.E.Vijaya Kumari,7.191E+13,Andhra Bank,"Ashoknagar, Eluru",ANDB0000719,12351
+109,K.Yugandhar,1.9651E+12,Canara Bank,"Tirupati , Chittoor",CNRB0001965,44028
+110,K. Bharathi,5.5601E+13,Indian Overseas Bank,Guntur,IOBA0000556,15855
+111,N.Appanna,7.101E+11,Andhra Bank,"Amadala valasa , Srikakuam",ANDB0000007,32122
+112,R. Venkataappaiah,6.05101E+11,Canara Bank,Guntur,CNRB0000605,12035
+113,B. Bharathi,5.17502E+14,Union Bank of India,Visakhapatnam,UBIN0551759,9362
+114,A. Nagaratnamma,1.6201E+12,Canara Bank,Vijayawada,CNRB0001620,12557
+115,B.Sudhakar,1.6201E+12,Canara Bank,Vijayawada,CNRB0001620,41887
+116,C.Lakshmi Narayana Reddy,6.59101E+11,Canara Bank,Ananthapur,CNRB0000659,37430
+117,K.S. Bhushana Rao,6.61101E+11,Canara Bank,Kurnool ,CNRB0000661,7065
+118,R. Amarnath,3.3101E+12,Andhra Bank,Blaji Nagar,ANDB0000033,22346
+119,G.Krupavaram,1.6201E+12,Canara Bank,"Madhunagar, 
+Vijayawada",CNRB0001620,14258
+120,V.Gopinath,1.1581E+14,Andhra Bank,S V Arts College ,ANDB0001158,27321
+121,B.Radha Krishnaiah,1.9621E+12,Canara Bank,Sankarapuram,CNRB0001962,4880
+122,K.Prasada Rao,6.41902E+14,Union Bank of India,NGO Colony ,UBIN0564192,18694
+123,G.Chinnaiah,1.6201E+12,Canara Bank,"Madhunagar, Vijayawada",CNRB0001620,42876
+124,C. V. N. G. Prasunamba,62149189257,State Bank of Hyderabad,Gunfoundry,SBHY0020066,18334
+125,V. Sivaram,62149035932,State Bank of Hyderabad,Gunfoundry,SBHY0020066,26872
+126,K. Krishna Kumar,62149195704,State Bank of Hyderabad,Gunfoundry,SBHY0020066,11904
+127,K.Venkateshwara Rao,62125569702,State Bank of Hyderabad,"Gandhi Chowk, Tenali",SBHY0020349,40867
+128,K.Mangamma,62181370187,State Bank of Hyderabad,Dargamitta ,SBHY0020897,22952
+129,K.Appa Rao.,62215746498,State Bank of Hyderabad,Srikakulam ,SBHY0020784,7115
+130,P.Kondamma,62237735457,State Bank of Hyderabad,"Sarpavaram, Kakinada",SBHY0020718,3692
+131,Ch. Appanna,62215949067,State Bank of Hyderabad,Srikakulam ,SBHY0020784,6440
+132,Y.Viswanadha Rao,62149038025,State Bank of Hyderabad,Gunfoundry ,SBHY0020066,21885
+133,M.S.R.C. Murthy,62149036822,State Bank of Hyderabad,Gunfoundry ,SBHY0020066,26364
+134,G.Chinna Kullai,52078899862,State Bank of Hyderabad,Kadapa (Main),SBHY0020513,7626
+135,K.Saraswathi,4.85101E+13,Andhra Bank,Ramanthapur,ANDB0000485,12607
+136,D.Gandhi,62149111053,State Bank of Hyderabad,Gunfoundry ,SBHY0020066,6497
+137,Y.Hasina,62324123876,State Bank of Hyderabad,Chinna Chowk ,SBHY0021067,16746
+138,D. Dilleswari,62310993391,State Bank of Hyderabad,Srikakulam,SBHY0020784,13057
+139,V. Swapna,62335682209,State Bank of Hyderabad,Vizag,SBHY0020282,28800
+140,G.Suresh Babu,3.37222E+13,Syndicate Bank,Budhawarpet,SYNB0003372,13886
+141,Y Brahma Reddy,8.78101E+11,Canara Bank,Basheerbagh,CNRB0000878,27053
+142,K.V.Sankara Rao,8.78101E+11,Canara Bank, Basheerbagh,CNRB0000878,33129
+143,T.Nagamma,8.84001E+13,Corporation Bank,Tanuku,CORP0000884 ,32800
+144,Ch.Ramesh,62149053292,State Bank of Hyderabad, Gunfoundry,SBHY0020066,39907
+145,Shaik Chandbi,8.78101E+11,Canara Bank,Basheerbagh,CNRB0000878,102540
+146,P.Ramakoteshwara Rao,62149300538,State Bank of Hyderabad, Gunfoundry,SBHY0020066,19700

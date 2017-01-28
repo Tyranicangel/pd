@@ -1,0 +1,30 @@
+<div class="content_heading">Cheque Book Requests</div>
+<div class="fullwrap">
+	<table class='each_table' ng-show="allrequests.length>0">
+		<tr class='heading_row'>
+			<th>Sno</th>
+			<th>Request User</th>
+			<th>DDO Code</th>
+			<th>No of Leaves</th>
+			<th>Request Date</th>
+			<th>View</th>
+		</tr>
+		<tr ng-repeat="request in allrequests">
+			<td>{{request.sno}}</td>
+			<td>{{request.requser.userdesc}}</td>
+			<td>{{request.requestuser}}</td>
+			<td>{{request.leaves}}</td>			
+			<td>{{Dates.getDate(request.requestdate)}}</td>
+			<td>
+				<a ui-sref="sa.cheque({requester:request.requestuser})"><div class="table_button">View</div></a>
+			</td>
+		</tr>
+	</table>
+	<div class="wrap_indi" ng-show="allrequests.length==0">
+		<div class="each_desc">
+			* You do not have any pending cheque book requests
+		</div>
+	</div>
+</div>
+
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

@@ -1,0 +1,443 @@
+Sno,Party Name,Party Account no,Party Bank Name,Party Bank Branch,Party Bank Ifsc Code,Party Amount
+1,"SasivardhiniIndustries,RajangaramRoad,Vemulapalli(V),Mandapeta(M),EastGodavariDistrict",31438282839,STATE BANK OF INDIA,Anaparthi,SBIN0001409,193125
+2,"LakshmiVenkateswaraCashewIndustries,Chebrolu(V),GollaproluMandal,EastGodavariDistrict",3.26E+13,SYNDICATE BANK,KAKINADA,SYNB0003259,253000
+3,"GodavariBiProducts,PlotNo52,Ida,Peddapuram,KakinadaRuralMandal,EastGodavariDistrict",9.37E+13,IDBI,KAKINADA,IBKL0000093,122590
+4,"SriRamkumarPackTecIndustry,R.SNo120/2,Machavaram(V),AmbajipetaMandal,EastGodavariDistrict",8.13E+11,ANDHRA BANK,AMALAPURAM,ANDB0000008,118500
+5,"HarikaSolventOils(P)Ltd.,RsNo.648/1A,650/1,3,4A,5A,ByPassRoad,Mandapeta,EastGodavariDistrict",30248479510,STATE BANK OF INDIA,MANDAPETA,SBIN0000996,271900
+6,"SanthoshimathaPaperProducts,PlotNo34,35,36&37,industrialPark,Sarpavaram(V),KakinadaRural(M),EastGodavariDistrict.",",094102000009805","SIDBI Bank, Rajahmundry Branch, Rajahmundry",RAJAHMUDRY,IBKL0000094,484350
+7,"S.R.VesselsPvtLtd.,RSNo.161,ADBRoad,Peddapuram,EastGodavariDistrict",3.47E+13,ANDHRA BANK,KAKINADA,ANDB0000347,80180
+8,"MadhaviOils&fats,ByepassRoad,Mandapeta,EastGodavariDistrict",32212175688,STATE BANK OF INDIA,MANDAPETA,SBIN0000996,683540
+9,"SriPadmaRefractoryMonolithics,Rs.No00/1,Neeladriraopeta,Gandepalli(M),EastGodavariDistrict",6.69E+13,"ANDHRA BANK
+",Z RANGAMPETA,ANDB0000669,172000
+10,"SriSatyaLakshmiGanapathiEggTray,Rs.No412,Kothuru(V),Anaparthi(M),EastGodavariDistrict",1.08E+13,ANDHRA BANK,DWARAPUDI,ANDB0000108,100740
+11,"LakshmiVenkateswaraCashewIndustries,Chebrolu(V),Gollaprollu(M),EastGodavariDistrict",3.26E+13,"SyndicateBank Gandhi Nagar,Kakinada",KAKINADA,SYNB0003259,223000
+12,"VVSGasesNLogistics,D.No70-18-2-5/7,BondaGunta,NFCLtoVakalapudiRoad,Kakinada",261100009,"Indian Overseas Bank, Main BrKakinada",KAKINADA,IOBA0000031,779670
+13,"SreeRavishankerIndustries,Rs.No417/4&4,Tetagunta(V),Tuni(M),EastGodavariDistrict",32157108758,STATE BANK OF INDIA,VIJAYAWADA,SBIN0003055,223940
+14,"SriVenkataSaiLakshmiGanapatTextiles,PlotNo46/8,Indl.Estate,Samalkot,EastGodavariDistrict",",030313100000201",ANDHRA BANK,KAKINADA,ANDB0000303,71710
+15,"GayathriEngineerings,PlotNoIda,Peddapuram,EastGodavariDistrict",4.05E+14,"Vijaya Bank, Ramachandrapuram",RAMACHANDRAPURAM,VIJB0004045,88230
+16,"SriDwarakamaiIndustry,Rs.No225/2C,Bandarulanka(V),Amalapuram(M),EastGodavariDistrict",32201681971,STATE BANK OF INDIA,AMALAPURAM,SBIN0000803,212000
+17,"SriGeethaIndustries,Rs.No83/2,Nadipudi(V),Amalapuram(M),EastGodavariDistrict",32402819095,STATE BANK OF INDIA,AMALAPURAM,SBIN0000803,132150
+18,"VishnuReclamations,Rs.No118/Kanavaram(V),Rajannagram(M),EastGodavariDistrict",31147840589,STATE BANK OF INDIA,RAJAHMUDRY,SBIN0007954,277950
+19,"SriChakraOils&ExtractionsPvtLtd.,S.No.8-1b,AnaparthitorajanagaramRoad,Anaparhti,EastGodavariDistrict",1.41E+12,ANDHRA BANK,Anaparthi,ANDB0000014,1467570
+20,SriGanapathiDrugIntermediatesPrivateLimitedPlotNo2BPhase-IIIIndustrialParkNadikudiDachepalliGunturDistrict,31477876632,STATE BANK OF INDIA,NADIKUDA,SBIN0001923,3560625
+21,NithyasriPlasticsPlotNo39BlockNo42Phase-II&IIIIDAGuntur1stWardGunturTown&District,62240275957,"SBH, Auto Nagar
+Guntur",GUNTUR,SBHY0021231,228090
+22,KSRSeedsKurnuthalaVatticherukurGunturDistrict,1.50E+13,"CORPORATION BANK, MAIN BRANCH, GUNTUR ",GUNTUR,CORP0000150,501320
+23,SriChandraSekharaColdStorageLimitedLingayapalemGunturMandal&District,'038111100000469,ANDHRA BANK,NARASARAOPET,ANDB0000381,841570
+24,SapthagiriMetalWorksPlotNo12345BlockNo10I.ESattenapalleSattenapalliGunturDistrict,5.03E+13,ANDHRA BANK,SATTENAPALLI,ANDB0000503,163790
+25,SreeVenkataSaiRaghavendraColdStoragePrivateLimitedD.No553554LalpuramGuntur&District,3072962837,"Central Bank of India, Lakhsmipuram
+Branch, Guntur",GUNTUR,CBIN0282364,1156440
+26,JyothiSwarupaColdDivisionLtdDNo:624AnkireddypalemGunturDist,79254023778,"Dena Bank,
+Patnam Bazar Branch, Guntur",GUNTUR,DKDN0610792,1716429
+27,KapilaMilkDairySyNo:592/1Rompincherla&GunturDist,62206911157,"STATE BANK OF HYDERABAD,",ROMPICHERLA,SBHY0020487,317468
+28,PranathiColdstoragePvtLTdSNo:55557/3LalapuramGunturDist,2.11E+14,"Indian Overseas Bank,
+Arundalpet  Branch, Guntur",GUNTUR,IOBA0002109,748177
+29,JaiBalajiColdStoragePvtLtdSyNO;225/3226227/1KubadpuramAnupalemGunturDist,31007773235,STATE BANK OF INDIA,PIDUGURALLA,SBIN0002783,757500
+30,MahalakshmiColdstorageSNo:317/A&319GunturRoadMacherla&GunturDist,62120888871,"SBH, Etukuru Road
+Branch, Guntur",GUNTUR,SBHY0021154,806300
+31,G.S.RColdStoragePvtLtdSyNo;581610/a582/ANH-5AnkireddypalemGunturDist,3.28E+13,"Syndicate Bank
+Brudhavan Gardens
+Guntur",GUNTUR,SYNB0003276,830979
+32,AvlanRubberIndustryPlotNo:227Phase-IIIAutonager1stWardGunturTownGunturDist,3.28E+13,"Syndicate Bank
+Brudhavan Gardens
+Guntur",GUNTUR,SYNB0003276,136833
+33,SriVazralaExportsSNo:2-1APrepudiPhiragipuramGunturDist,2.11E+14,"IOB Arundelpet
+Guntur",GUNTUR,IOBA0002109,256960
+34,RaghavendraSpinCotMillsSNo:213/DChintapallipaduRoadKurnuthalaVatticherukuGuntur,30864662072,STATE BANK OF INDIA,GUNTUR,SBIN0012681,845776
+35,DhanyaLakshmiColdStroageDNo:19491657/3GurajalaGunturDist,31898178901,STATE BANK OF INDIA,GURAZALA,SBIN0001022,659964
+36,HariHaraSpincotSNo:1663456KurnuthalaVattcherukuruGuntuDist,62295373564,"SBH, Kothapet
+Branch, Guntur",GUNTUR,SBHY0020346,889634
+37,SriSiriShrinivasaColdstoragePVtLtdDNo:114/3RepudiPhiragipuramGunturDist,6.07E+13,"STATE BANK OF HYDERABAD,",GUNTUR,ANDB0000607,3374043
+38,"PremierSpincot,166/3,4,5,6Kurnoothala,Vatticherukur(V),GunturDist",62292227845,"SBH, Kothapet
+Guntur",GUNTUR,SBHY0020346,1025646
+39,JyothiSwarupaColdDivisionLtdDNo:624AnkireddypalemGunturDist,79254023778,"Dena Bank,
+",GUNTUR,DKDN0610792,1716429
+40,KapilaMilkDairySyNo:592/1Rompincherla&GunturDist,62206911157,"STATE BANK OF HYDERABAD,",ROMPICHERLA,SBHY0020487,317468
+41,PranathiColdstoragePvtLTdSNo:55557/3LalapuramGunturDist,2.11E+14,"Indian Overseas Bank,
+Arundalpet  Branch, Guntur",GUNTUR,IOBA0002109,748177
+42,JaiBalajiColdStoragePvtLtdSyNO;225/3226227/1KubadpuramAnupalemGunturDist,31007773235,STATE BANK OF INDIA,PIDUGURALLA,SBIN0002783,757500
+43,PremierSpincot166/3456KurnoothalaVatticherukurGunturDist,62292227845,"SBH, Kothapet
+Guntur",GUNTUR,SBHY0020346,1025646
+44,KrishnaCottonIndustriesD.No84/2345MarripalemEdlapaduGunturDist.,3.96E+11,"ING VYSYA BANK
+LTD",GUNTUR,VYSA0003960,700730
+45,VijayaLakshmiGinningAndPressingSy.No218/D1&D2KurnuthalaVetticherukurGunturDist.,3.14E+13,"ANDHRA BANK
+",GUNTUR,ANDB0000314,751050
+46,PrudhviColdStoragePvtLtdSy.No291/4B1BhimavaramSattenapalliGunturDist.,3.17E+11,"ING VYSYA BANK
+LTD",GUNTUR,VYSA0003170,624313
+47,VijethaGranitesExportsSy.No291/AMurikipudiChilakaluripetGunturDist.,5.17E+12,"Bank of Baroda
+Guntur",GUNTUR,BARB0GUNTUR,334782
+48,VigneswaraBioBriquettesSy.No53-363-3KommuruKakumanuGunturDist.,5.18E+12,"Bank of Baroda
+Pedanandipadu",PEDANANDIPADU,BARB0PEDNNA,391027
+49,Kevy'sLabsPlotNo31To34Phase-1I.PNadikudiDachepalliGunturDist.,62216536886,"STATE BANK OF HYDERABAD,",JEDIMETLA,SBHY0020400,213595
+50,SK&JBCottenMills250/1ThimapuramEdlapaduGunturDist.,62167431651,"STATE BANK OF HYDERABAD,",GUNTUR,SBHY0020346,235912
+51,LakshmiVallabaColdStorageLtdDNo:284/A&BLalapuramGuntruDist,62183163769,"STATE BANK OF HYDERABAD,",GUNTUR,SBHY0020346,1570389
+52,AbhayaCementsPvtLimitedPlotNo8IndParkNadikidDachepalliGunturDist.,1.50E+13,"ANDHRA BANK
+",DACHEPALLI,ANDB0000150,1373089
+53,SrivalliIceIceIndustry7-426VellatururoadKarlapalemGunturDist,3.53E+14,Union Bank of India,KARLAPALEM,UBIN0535303,301716
+54,VijyayanthiColdStoragePLTDD.No283/1LalpuramGunturDist.,1.40E+15,"The Karur Vysya Bank
+ltd, Main Branch
+Jinnah Tower
+Guntur",GUNTUR,KVBL0001403,301716
+55,GSRcoldStorageLtdSNo:581610/a582/aNH-5Ankireddypallem,30104490914,STATE BANK OF INDIA,GUNTUR,SBIN0013483,412066
+56,SreeValliIceFactory670/23&4handolePitavalanipalemGunturDist.,3.00E+11,Union Bank of India,KARLAPALEM,UBIN0535303,290063
+57,AnjaneyaCottonTradersD.No14A&BChalavariPalliGunturM&Dist.,6.41E+14,Union Bank of India,GUNTUR,UBIN0564087,498696
+58,JyothiSwarupaColdDivisionLtdDNO:624AnkireddypalliGunturGunturDist,79254023778,"Dena Bank,
+Patnam Bazar Branch, Guntur",GUNTUR,DKDN0610792,1333624
+59,SriSiriSrinivasaColdStorageLtdDNo:114/3RepudiPhirangipuramGuntruDist,6.07E+13,"STATE BANK OF HYDERABAD,",GUNTUR,ANDB0000607,820937
+60,KrishnaCottonIndustriesD.No84/2345MariipalemEdlapalemGunturDist.,3.96E+11,"ING VYSYA BANK
+LTD",GUNTUR,VYSA0003960,1140964
+61,SuvarnaGranitesSy.No8199MaddiralaChilakaluripetaGunturDist.,3244505876,"Central Bank of India
+Chilakaluripet",CHILAKALURIPETA,CBIN0281220,162740
+62,ShriVenkataSaiColdStorageD.No70/2MedikonduruGunturDist.,62184620002,STATE BANK OF INDIA,GUNTUR,SBHY0020171,1501606
+63,PranathiColdStoragePrivateLimitedSy.No53557/3LalpuramGuntur,2.11E+14,"Indian Overseas Bank,
+Arundalpet  Branch, Guntur",GUNTUR,IOBA0002109,726177
+64,ChillapalliExportsPrivateLimitedSy.No255A256NidamarruMangalagiriGunturDist.,2.64E+13,"BANK OF BARODA, BENZ CIRCLE , VIJAYAWADA ",VIJAYAWADA,BARBOBENVIJ,1236863
+65,HariHaraSpinCottSy.No166/3456KurnuthalaVatticherukuGunturDist.,62295373564,"SBH, Kothapet
+Branch, Guntur",GUNTUR,SBHY0020346,1515306
+66,SaiTejaGranitesSy.No294/1MurikipudiChilakaluripetGunturDist.,4.47E+13,ANDHRA BANK,PIDUGURALLA,ANDB0000447,"59,928"
+67,VasaviRatnaColdStoragePrivateLtdTikkireddypalemPrathipaduGunturDist.,1.23E+13,"Indian Overseas Bank
+4th Line Brodipet
+Guntur",GUNTUR,IOBA0000123,929863
+68,"SwathiCotgin(TMC)(P)Ltd,Veluru(V),Chilalurupet(M)GunturDist",3.14E+13,"ANDHRA BANK
+",GUNTUR,ANDB0000314,4131687
+69,RamaligeswaraGraniteIndustriesSy.No278/8347&414EllamandaNarasaraopetGunturDist.,3.81E+13,ANDHRA BANK,NARASARAOPET,ANDB0000381,130500
+70,SriSeshasaiGranitsSNo:496/4EnugupalemVinukondaGunturdist,30296399932,STATE BANK OF INDIA,VINUKONDA,SBIN000780,42867
+71,SaiGopalPolymersSyNo;228/A212thwardNarasaropetGunturDist,3.28E+13,"Syndicate Bank
+Brudavan Gardens
+Guntur",GUNTUR,SYNDB0003276,253324
+72,EcoConeProductsDNo:216ThimmapuraEdlapaduGunturDist,62221435780,"SBH, Kothapet
+Guntur",GUNTUR,SBHY0020346,263276
+73,LakhsmiSravaniIndustriesSyNo:897/29B2GunturRoadPiduguralla&GunturDist,31158394244,STATE BANK OF INDIA,PIDUGURALLA,SBIN0002783,70048
+74,SivaSankaraSaiGrantiesSNo:274MurikipudiChilakaluripetGunturDist,1.23E+13,"IOB, Brodipet Branch
+Guntur",GUNTUR,IOBA0000123,81024
+75,ArunaPolymersD.No41/2KantheruTadikondaGunturDist,9.65E+13,ANDHRA BANK,KAZA,ANDB0000965,106988
+76,GayatriCottonMillsSNo:434/BPulladiguntaVatticherukuGunturDist,1.50E+13,ANDHRA BANK,GUNTUR,ANDB0000150,950240
+77,PushpavathiColdStoragePvtLtdSy.No496/A1&A2KanuparruNadendlaGunturDist.,3.27E+11,"ING VYSYA BANK
+LTD",NARASARAOPET,VYSA0003270,242630
+78,Kevy'sLabsPlotnO;31to34Phase-1IPNadikudiDachepalliGunturDist,62216536886,"STATE BANK OF HYDERABAD,",JEDIMETLA,SBHY0020400,307789
+79,RaghavendraSpinCotMillsSY.No213/DChinthapllipaduRdKurnuthalaVatticherukurGuntur,30864662072,STATE BANK OF INDIA,GUNTUR,SBIN0012681,687109
+80,"ShriSrinivasaPolymers,Pedamiram,Kallamandal",3.75E+13,"Corporation Bank, Bhimavaram",BHIMAVARAM,CORP0000375,647270
+81,BCBIndustriesSyNo:126C.RamapuramRamachandrapuramChittoorDist,32392303920,STATE BANK OF INDIA,Tirupathi,SBIN0016292,1059049
+82,BhemeswaraPolypacksSyMNo:325/1BandralapalliChinnakalikriPuthalapattuChittoorDist,1.16E+14,ANDHRA BANK,"Kongareddypalli, Chittoor",ANDB0001159,133870
+83,GanapathiGranitesSy.No374/IIImIiIj&3AThalambeduChittoorDist.,9.30E+13,Indian Overseas Bank ,Chittoor ,IOBA0000930,201050
+84,GangotriIndustriesPlotNoC-7SY.No522ErramareddipalemRenigutnaChittoorDist.,3.17E+13,Syndicate Bank (APSFC),Tirupathi,SYNB0003171,304394
+85,GiridharModularSolutionsShedNo8IndlParkGajulamandyamReniguntaChittoorDist.,5.20E+13,ANDHRA BANK,"SVM branch, Tirupathi",ANDB0000520,2180587
+86,GokulGranitesSyNo:837/5BangareddypalliDiguvamsapalliChittoorDist,CA989157898,INDIAN BANK,Kongareddypalli,IDIB000C065,216268
+87,GulshanGranitesSy.No260-4BDasarapalliYadamarChittoorDist.,32380511093,STATE BANK OF INDIA,Chittoor ,SBIN0000825,"99,230"
+88,LeonFoodsPrivateLimitedSy.No90/8-10AParameswaramangalamPutturChittoorDist.,34740328005,STATE BANK OF INDIA,Tirupathi,SBIN0016292,2214003
+89,OmSaiAquaSy.No956-ASanthavelloreVaradaiahpalemChittoorDist.,TL-SSI62225188178,"STATE BANK OF HYDERABAD,",VMC Nellore,HBSY0020553,981907
+90,SSGranitesDiguvamasapalliChittoor,6173586515,INDIAN BANK,Chittoor,IDIB000G034,129375
+91,S.VGranitesSy.No56/11SakamurKandrigaRamachandrapuramChittoorDist.,34371528582,STATE BANK OF INDIA,Tirupathi,SBIN0010106,161588
+92,SamruddhiIndustriesLtdPlotnO;39&42APIICIPValasapalliMadanapalliChittoor,7.30E+15,KARNATAKA BANK LTD,Sangli Branch,KARB0000729,10354973
+93,SabhithaGranitesSy.No114-2ChelpalliPeddakalvalaGDNelloreChittoorDist.,9.30E+13,Indian Overseas Bank ,Chittoor,IOBA0000930,395064
+94,SaiSrinivasaGranitesSy.No837/6B6CDiguvamspalliTiruthaniRoadChittoorDist.,8.67E+14,Bank of india , Chittoor,BKID0008670,364276
+95,SreeEswariGranitesSy.No191-1A&3PedakaluvaChittoorDist.+,3.17E+13,Syndicate Bank (APSFC),Tirupathi,SYNB0003171,391576
+96,SriJyothiGrantiesLBPuramNarikapalliChittoorDdist,8.52E+11,Canara Bank , Chittoor,CNRB0000852,105410
+97,SriLakshmiGranitesThambuganipalliBangarupalemChitoorDist.,7.60E+15,KARNATAKA BANK LTD,Tadipatri,KARB0000760,217187
+98,SriVaishnaviGranitesSy.No1047-3KalavaguntaPenumurChittoorDist.,32136174679,STATE BANK OF INDIA,Chittoor,SBIN0000825,202300
+99,SriVijayalakshmiGranitesIndutriesMapakshiChittoor,5.52E+13,ANDHRA BANK,Tadipatri,ANDB0000552,138938
+100,SriVyshnaviDairySpeciatiedPvtLimitedVayalpaduRoadTarigindaGurramkondaChittoorDist,4.25E+11,"ING VYSYA BANK
+LTD",CHENNAI,VYSA0004250,102104
+101,SSBRocksDiguvasapalliChittoorChittoorDist,3.17E+13,Syndicate Bank (APSFC),"APSFC, Tirupathi",SYNB0003171,156841
+102,UshodayaPSCCPolesCentreSyNo:297Peddakalava&GDNellore,34611765953,STATE BANK OF INDIA,Chittoor,SBIN0000825,21727
+103,UshodayaPsccPolesCentreSy.No397PeddakalvaGDNelloreDist.,34611765953,STATE BANK OF INDIA, Chittoor,SBIN0000825,151619
+104,YakshaGranitesSy.No398MadrasCrossRoadGudipalaChittoor,3.23E+13,Bank of Baroda ,CHITTOOR,BARBOCHITAP,969858
+105,"NamruthIndustries,
+PlotNo.282C&283,A
+GrowthCentre,Bobbili",4.17E+13,"Bank of Baroda,
+Bobbili Branch",BOBBILI,BARB0BOBBIL,343078
+106,"SriSaiRamIndustries,R.S.No.112/2&113/2,Kaikaram,UnguturuMandal",31383827749,STATE BANK OF INDIA,KAIKARAM,SBIN0002735,116970
+107,"LakshmiSamanvithaIce&ColdStorage,R.S.No.40/1B(2),Chebrolu,UnguturuMandal",3146403231,"Central Bank of India, Chinanindrakolanu",CHINANIDRAKOLANU,CBIN0283812,296100
+108,"LakshmiSamanvithaIce&ColdStorage,R.S.No.40/1B(2),Chebrolu,UnguturuMandal",3146403231,"Central Bank of India, Chinanindrakolanu",CHINANIDRAKOLANU,CBIN0283812,255130
+109,"ViratPolymers,R.S.No.259/2&259/3,Buvvanapalli,NidamarruMandal",7.77E+11,"Canara Bank, Bhimavram",BHIMAVARAM,CNRB0000777,554440
+110,"GodavariIceFactory,R.S.No.64/1,Chebrolu,UnguturuMandal",1.09E+14,"Indian Overseas Bank, Bhimavaram",BHIMAVARAM,IOBA0001091,438740
+111,"ArnavPolymersPrivateLimited,R.S.No.643,NeeladripuramRoad,Unguturu",1.91E+14,"Indian Overseas Bank, Tadepalligudem",TADEPALLIGUDEM,IOBA0001911,541070
+112,"VaralakshmiPolymers,R.S.No.811,VatluruVillage,PedapaduMandal",1.44E+15,"Karur Vysya Bank Ltd, Eluru",ELURU,KVBL0001438,399375
+113,"VaralakshmiPolymers,VatluruVillage,PedapaduMandal",1.44E+15,"Karur Vysya Bank Ltd, Eluru",ELURU,KVBL0001438,171480
+114,"ArnavFisheriesPvt.Ltd.,R.S.No.643,SingarajapalemRoad,Unguturu",1.91E+14,"Indian Overseas Bank, Tadepalligudem",TADEPALLIGUDEM,IOBA0001911,129650
+115,"ArnavFisheriesPvt.Ltd.,R.S.No.643,SingarajapalemRoad,Unguturu",1.91E+14,"Indian Overseas Bank, Tadepalligudem",TADEPALLIGUDEM,IOBA0001911,311980
+116,"M/.VijayalakshmiEnterprises,Pedamiram,KallaMandal",1.22E+13,"Indian Overseas Bank, Eluru",ELURU,IOBA0000122,332241
+117,"M/.VijayalakshmiEnterprises,Pedamiram,KallaMandal",1.22E+13,"Indian Overseas Bank, Eluru",ELURU,IOBA0000122,276960
+118,"S.K.Industry,R.S.No.313/2,GanapavaramRoad,Narayanapuram,UnguturuMandal",1.24E+14,"Tamilnadu Mercantile Bank Ltd, Tadepalligudem",TADEPALLIGUDEM,TMBL0000124,208450
+119,"SuryaIceFactory,R.S.No.213/1,AkiveeduRoad,Madiwada,AkiveeduMandal",31254842051,STATE BANK OF INDIA,AKIVEEDU,SBIN0001440,197891
+120,"SuryaIceFactory,R.S.No.213/1,AkiveeduRoad,Madiwada,AkiveeduMandal",31254842051,STATE BANK OF INDIA,AKIVEEDU,SBIN0001440,183630
+121,"SuryaIceFactory,R.S.No.213/1,AkiveeduRoad,Madiwada,AkiveeduMandal",31254842051,STATE BANK OF INDIA,AKIVEEDU,SBIN0001440,183630
+122,"A.R.Feeds,Vandrum,UndiMandal",5.80E+13,"ANDHRA BANK
+",UNDI,ANDB0000580,156275
+123,"A.R.Feeds,Vandrum,UndiMandal",5.80E+13,"ANDHRA BANK
+",UNDI,ANDB0000580,92550
+124,"RoyalFeeds,R.S.No.255/5,DirusumarruRoad,Yanamadurru,BhimavaramMandal",4.61E+12,"ANDHRA BANK
+",UNDI,ANDB0000046,195457
+125,"SrinivasaIceFactory,Madiwada,AkiveeduMandal",30989331853,STATE BANK OF INDIA,AKIVEEDU,SBIN0001440,58663
+126,"UdayaBhaskaraIceFactory,R.S.No.12/1,K.G.Road,Akiveedu",30550935262,STATE BANK OF INDIA,AKIVEEDU,SBIN0001440,87160
+127,"SriGaminiIceFactory,R.S.No.124/2,UndiRoad,Pedamiram,KallaMandal",30953918321,STATE BANK OF INDIA,BHIMAVARAM,SBIN0006556,57960
+128,"SwastikIceFactory,R.S.No.224/2,3,4,JuvvalapalemRoad,Seesali,KallaMandal",62109352697,"STATE BANK OF HYDERABAD,",BHIMAVARAM,SBHY0020410,66650
+129,"TheBalajiIceandColdStorage,Pedamiram,KallaMandal",3.75E+13,"Corporation Bank, Bhimavaram",BHIMAVARAM,CORP0000375,251250
+130,"TheBalajiIceandColdStorage,Pedamiram,KallaMandal",3.75E+13,"Corporation Bank, Bhimavaram",BHIMAVARAM,CORP0000375,149890
+131,"SriSivaSaiIceFactory,R.S.No.213/1,AkiveeduRoad,Madiwada,AkiveeduMandal",32296147437,STATE BANK OF INDIA,AKIVEEDU,SBIN0001440,365500
+132,"SriSivaSaiIceFactory,R.S.No.213/1,AkiveeduRoad,Madiwada,AkiveeduMandal",32296147437,STATE BANK OF INDIA,AKIVEEDU,SBIN0001440,365500
+133,"SriSivaSaiIceFactory,R.S.No.213/1,AkiveeduRoad,Madiwada,AkiveeduMandal",32296147437,STATE BANK OF INDIA,AKIVEEDU,SBIN0001440,272390
+134,"SriDhanaLakshmiIce&ColdStorage,R.S.No.48/1A,DubacherlaRoad,Chebrolu,UnguturuMandal",1.22E+13,"Indian Overseas Bank, Eluru",ELURU,IOBA0000122,367710
+135,"AryanIceFactory,R.S.No.80/1,ChebroluKandrika,UnguturuMandal",2.60E+12,"Indian Overseas Bank, Governorpet Branch, Vijayawada",VIJAYAWADA,IOBA0000026,138040
+136,"MileEnergyTechnologiesPvt.Ltd.,R.S.No.70/1A&70/1B,Nyayampalli,PedavegiMandal",33409891567,STATE BANK OF INDIA,ELURU,,897830
+137,"D.R.K.IceIndustries,R.S.No.800&935,Pedapulleru,UndiMandal",6136004939,INDIAN BANK,BHIMAVARAM,IDIB000B021,399840
+138,"SiriIceLinks,R.S.No.87,ChinaMamidipalli,NarasapuramMandal",3.66E+14,"IDBI Bank, Bhimavaram",BHIMAVARAM,IBKL0000366,191787
+139,"SiriIceLinks,R.S.No.87,ChinaMamidipalli,NarasapuramMandal",3.66E+14,"IDBI Bank, Bhimavaram",BHIMAVARAM,IBKL0000366,126390
+140,"SriVaniFeedIndustiries,PlotNo.50,IndustrialEstate,Bhimavaram",1.34E+14,"IDBI Bank, Bhimavaram Branch",BHIMAVARAM,IBKL0000366,196729
+141,"KauveryIceProducts,R.S.No.64/1,ThimmayyapalemRoad,Chebrolu,UnguturuMandal",3222203677,"Central Bank of India, Tadepalligudem",TADEPALLIGUDEM,CBIN0280827,800810
+142,"LakshmiFuralsPvt.Ltd.,R.S.No.752/1,Avapadu,NallajerlaMandal",5.50E+13,ANDHRA BANK,TADEPALLIGUDEM,ANDB0000550,948300
+143,"SuryaKones,ShedNo.3,Tetali,TanukuMandal",5.54E+13,ANDHRA BANK,TANUKU,,21360
+144,"M/.VijayFeeds,R.S.No.334/1,Anakoderu,BhimavaramMandal",1.02E+13,ANDHRA BANK,BHIMAVARAM,ANDB0000102,411128
+145,"SiriAgroVet,R.S.No.209/1,Vallampatla,T.NarasapuramMandal",1.55E+14,"Indian Overseas Bank, Eluru",ELURU,IOBA0001547,53430
+146,"TariniIndustries,R.S.No.179/1,Annadevarapeta,TallapudiMandal",30786,"IDBI Bank, Rajahmundry Branch",RAJAHMUDRY,IBKL0000094,303280
+147,"EswarPrintNPackPvt.Ltd.,R.S.No.515/1,Yerramalla,Nachugunta,UnguturuMandal",5.50E+13,ANDHRA BANK,TADEPALLIGUDEM,ANDB0000550,805860
+148,"SwastikIceFactory,R.S.No.224/2,3,4,JuvvalapalemRoad,Seesali,KallaMandal",62109352697,"STATE BANK OF HYDERABAD,",BHIMAVARAM,SBHY0020410,83160
+149,"UdayaBhaskaraIceFactory,R.S.No.12/1,K.G.Road,Akiveedu",30550935262,STATE BANK OF INDIA,AKIVEEDU,SBIN0001440,87160
+150,"SriDhanaLakshmiIce&ColdStorage,R.S.No.48/1A,DubacherlaRoad,Chebrolu,UnguturuMandal",1.22E+13,"Indian Overseas Bank, Eluru",ELURU,IOBA0000122,367710
+151,"SaliaIce&ColdStorage,R.S.No.55/3a&55/4,N.R.P.Agraharam,UndiMandal",783882014,INDIAN BANK,BHIMAVARAM,IDIB000B021,314196
+152,"SaliaIce&ColdStorage,R.S.No.55/3a&55/4,N.R.P.Agraharam,UndiMandal",783882014,INDIAN BANK,BHIMAVARAM,IDIB000B021,259553
+153,"AkitonsHealthcarePvt.Ltd.,PlotNo.80D,JNPC,Parawada",62292509181,"STATE BANK OF HYDERABAD,",HYDERABAD,SBHY0020400,3412075
+154,"AkitonsHealthcarePvt.Ltd.,PlotNo.80D,JNPC,Parawada",62292509181,"STATE BANK OF HYDERABAD,",HYDERABAD,SBHY0020400,3579254
+155,"BhadraCorrugatedEnterprizes,Sy.No.289/2,Venkatapuram,Tanam,Parawada",62227032875,"STATE BANK OF HYDERABAD,",ANAKAPALLI,SBHY0020332,566257
+156,"KRSPharmaceuticalsPvt.Ltd.,PlotNo.26,Sy.No.2&5,JNPC,Parawada",3098413411,STATE BANK OF INDIA,HYDERABAD,SBIN0006854,6606227
+157,"LeePharmaLtd.,PlotNo.5,Phase-II,VSEZ,Duvvada,Visakhapatnam",30122802913,STATE BANK OF INDIA,HYDERABAD,SBIN0006854,1187069
+158,"SioncPharmaPvt.Ltd.,PlotNo.34A,JNPC,Parawada",3.51E+13,ANDHRA BANK,VISAKHAPATNAM,ANDB0000351,2061910
+159,"CostalPackings,Sy.No.230/5&230/6,Vellanki,Anandapuram(M)",2.45E+13,ANDHRA BANK,PITAPURAM,ANDB0000245,1088726
+160,"ApexT.M.TSteelCastingPvt.Ltd.,Sy.No.42,Indl.Estate,Narisingaraopeta,Anakapalli",30367276683,STATE BANK OF INDIA,ANAKAPALLI,SBIN0000805,74223
+161,"KondapalliEnterprises,PlotNo.25,Indl.Park,Parawada,Visakhapatnam",30535432269,STATE BANK OF INDIA,VISAKHAPATNAM,SBIN0002716,10368
+162,"EswarMinerals,Sy.No151,155/1,159,Govindampalle,ObulavaripalleMandal,KadapaDistrict",1.10E+14,ANDHRA BANK,KODURU,ANDB0001099,135000
+163,"R.RMinerals,Sy.No.155/2,Govindampalle,ObulavaripalleMandal,KadapaDist",1.10E+14,ANDHRA BANK,KODURU,ANDB0001099,255864
+164,"LakshmiNarasimhaMinerals,Sy.No107/4,109/5,GovindampalleVillage,ObulavaripalleMandal,KadapaDistrict",1.26E+14,"Indian Over Seas bank, Kadapa",KADAPA,IOBA0001256,440280
+165,"SunilMinerals,Sy.No108/1,108/2,Govindampalle,ObulavaripalleMandal,KadapaDistrict",1.26E+14,"Indian Over Seas bank, Kadapa",KADAPA,IOBA0001256,482100
+166,"PathipatiMinerals,Sy.No82/1,89,90/1,GovindampalleVg,ObulavaripalleMandal,KadpaDist",1.26E+14,"Indian Over Seas bank, Kadapa",KADAPA,IOBA0001256,64140
+167,"KishanPulveriser,Sy.No..347,Govindampalli,Obulavaripalli,",3.19E+13,"Syndicate Bank, Kadapa",KADAPA,SYNB0003190,265870
+168,"NeoSunIndustriesLtd.,SyNo.164/A,164/B,and164/C,Epuru1-B,Pantapalem,MuthukurMandal,SPSRNellore",3.50E+13,"Syndicate Bank, ", Nellore ,SYNB0003505,1277278
+169,"EcoTermoPolymersPlotNo83&84IPVenkatachalam,Nellore",1.05E+13,UCO Bank,"Brindavanam, Nellore",UCBA0001045,633732
+170,"EcoTermoPolymersPlotNo83&84IPVenkatachalam,Nellore",1.05E+13,UCO Bank,"Brindavanam,  Nellore",UCBA0001045,491588
+171,KamalIceIndustriesBesideRelianeOutletNearRamannapalemGateGNTRoadKovuruSPSRNelloreDistrict,31636737316,STATE BANK OF INDIA,"Main Branch, Nellore",SBIN0000887,137515
+172,KamalIceIndustriesBesideRelianeOutletNearRamannapalemGateGNTRoadKovuruSPSRNelloreDistrict,31636737316,STATE BANK OF INDIA,"Main Branch, Nellore",SBIN0000887,102173
+173,KamalIceIndustriesBesideRelianeOutletNearRamannapalemGateGNTRoadKovuruSPSRNelloreDistrict,31636737316,STATE BANK OF INDIA,"Main Branch, Nellore",SBIN0000887,96770
+174,SimhapuriCarbonicGasCompanySyNo:236DNo:2-9-71GntRoadPothireddypalemKovvurNelloreDist,3.20E+13,ANDHRA BANK,"Main Branch, Kurnool",ANDB0000320,1598394
+175,NutriBioPharmaSy.No.100/1&101/3ThippaRoadPothireddypalemKovurSPSRNelloreDistrict,31702786608,STATE BANK OF INDIA,"Main Branch, Nellore",SBIN0000887,1608548
+176,Hi-TechVetPharmaNo.4-4-1PothireddypalemKovurSPSRNelloreDistrict,3.84E+13,ANDHRA BANK,"Brindavanam, Nellore",ANDB0000384,325126
+177,SriVenkateswaraAutomobilesSy.NO.32-2PlotNo.82WoodComplexNelloreTownSPSRNelloreDistrict,32950483884,STATE BANK OF INDIA,"Main Branch, Nellore",SBIN0000887,130993
+178,"MayuriPVCIndustry,Sy.No..123-B,Chinnakudala,Lingala,YSRDistrict",3.19E+13,"Syndicate Bank, Main Branch, Kadapa",KADAPA,SYNB0003190,177990
+179,"MayuriPVCIndustry,Sy.No..123-B,Chinnakudala,Lingala,YSRDistrict",3.19E+13,"Syndicate Bank, Main Branch, Kadapa",KADAPA,SYNB0003190,159990
+180,"SafetyColdStorage,Sy.No964/2,PeddasettipalleVg,ProddaturMandal",5.24E+14,Axis Bank Ltd,PRODDATUR,UTIB0000524,346590
+181,"SafetyColdStorage,Sy.No964/2,PeddasettipalleVg,ProddaturMandal",5.24E+14,Axis Bank Ltd,PRODDATUR,UTIB0000524,300040
+182,"SriManjunathaBriquettes,Sy.No.27&28,IDPExpansion,Proddatur,YSRDistrict",32778267882,STATE BANK OF INDIA,PRODDATUR,SBIN0000901,344160
+183,"SriManjunathaBriquettes,Sy.No.27&28,IDPExpansion,Proddatur,YSRDistrict",32778267882,STATE BANK OF INDIA,PRODDATUR,SBIN0000901,311760
+184,"PVSChemicals,PlotNo.99&100,IDA.,Kadapa,YSRDistrict",1.26E+14,"Indian Overses Bank, Kadapa",KADAPA,IOBA0001256,1999230
+185,"RajRiddhiPolyPacks,PlotNo.158,IDA,Kadapa,YsrDistrict",3.19E+13,"Syndicate Bank, 7 Roads,  Kadapa",KADAPA,SYND0003190,357330
+186,"DiamondNaNoMicronsPrivateLimited,PlotNo.119&120,IDAKadapa,YsrDistrict",1.26E+14,"Indian Overseas Bank, Jayanagar Colony, Kadapa",KADAPA,IOBA0001256,774160
+187,"SaiManiRubberIndustries,PlotNo.51,IDA,Kadapa",3.19E+13,"Syndicate Bank, Main Branch, Kadapa",KADAPA,SYNB0003190,225000
+188,"ShiriMaheswaraColdStoragePrivateLimited,Sy.No..327/A,DommaraNandyala(V),Karamalavaripalli(Po),Mylavaram(M),YSRDistrict",31902097203,STATE BANK OF INDIA,JAMMALAMADUGU,SBIN0000977,1040020
+189,"ShiriMaheswaraColdStoragePrivateLimited,Sy.No..327/A,DommaraNandyala(V),Karamalavaripalli(Po),Mylavaram(M),YSRDistrict",31902097203,"State Bank of India, Jammalamadugu",JAMMALAMADUGU,SBIN0000977,1749820
+190,"UniversalPackaging,PlotNo:197,IDA,Kadapa",3.19E+13,"Syndicate Bank, 7 Roads,  Kadapa",KADAPA,SYNB0003190,526590
+191,"SriPavaniIndustries,E-14,IndustrialEstate,Proddatur,YSRDistrict",",574205040000112",Union Bank of India,PRODDATUR,UBIN0557421,233320
+192,ParamountBuildingSolutionsPVtLtdRsNo:42/1B1&1B3KonkanchiPenuganchiproluKrishnaDist,62060891493,"STATE BANK OF HYDERABAD,","SHAPURNAGAR, HYDERABAD",SBHY0020400,2753489
+193,MadhuriCottonMillsPvtLtdRSNo:53/253/4TorragudipaduNandigamaKrishnaDist,62277825505,"STATE BANK OF HYDERABAD,",PATAMATALANKA BR  VIJAYAWADA,SBHY0020542,3397035
+194,SpoorthiSriColdStoragePvtLtdRsNo.136/1KeesaraKanchikacherlaMandalKrishnaDistrict,1.03E+14,ANDHRA BANK,"IBRAHIMPATNAM BR, KRISHNA DT",ANDB0001027,1299100
+195,VasuColdStorageRsNo.171/1MunagacherlaNandigamaMandalKrishnaDistrict,62105697591,STATE BANK OF HYDERABAD,JAGGAIAHPET BR,SBHY0020170,628330
+196,SriLakshmiSrinivasaAgriProcessingPvtLimitedRsNo.163/1AnumanchipalliJaggayyapetaMandalKrishnaDistrict,2.57E+13,ANDHRA BANK,JAGGAIAHPET BR,ANDB0000257,1034550
+197,LakshmiPlasticsPlotNo226/B4thRoadIDAKondapalliIbrahimpatnamKrishnaDist.,30756283280,STATE BANK OF INDIA,GOLLAPUDI BRVIJAYAWADA,SBIN0005653,"52,710"
+198,SriLakshmiSrinivasaAgriProcessingRSNo.163/1AnumanchipalliJaggayyapetaMandalKrishnaDistrict,2.57E+13,ANDHRA BANK,JAGGAIAHPET BR,ANDB0000257,793120
+199,SreeSaiHimajaColdStorageRs.No392/3VatsaviVatsaviKrishnaDistrict.,31533480569,STATE BANK OF INDIA,CHILLAKALLU BR,SBIN0011096,1113750
+200,EnvironentAirStytemsPlotNo:138A&BIDAKoandapalliIbrahimpatnamKrishnaDist,3.34E+13,SYNDICATE BANK ,KONDAPALLI ,SYNB0003344,238173
+201,ParamountBuildingSolutionsPvtLtdRs.No42/1B1/&1B3KonkanchiPenuganchhiproluKrishnaDistrict.,62060891493,STATE BANK OF HYDERABAD,"SHAPURNAGAR, HYDERABAD",SBHY0020400,479700
+202,SriSakthiRubberIndustriesRsNo118/3MuppalaNandigamaKrishnaDistrict,1.33E+14,CORPORATION BANK,NANDIGAMA,CORP0001326,1733570
+203,SriSaiAcetyleneCompanyRsNo79/1PinapakaG.KonduruKrishnaDistrict,1.03E+14,ANDHRA BANK,"IBRAHIMPATNAM BR, KRISHNA DT",ANDB0001027,344150
+204,OrchLaboratoriesIndiaPvtLtdPlotNo.51/A&IDAKrishnaDistrict,32227103784,STATE BANK OF INDIA,"ONE TOWN, VIJAYAWADA",SBIN0000948,1671020
+205,AmbaCoachBuildersPvtLtdRs.No264/2MuppalaChandarlapaduKrishnaDist.,3.21E+12,ANDHRA BANK,"BAKARAM BR, HYDERABAD",ANDB0000032,2699869
+206,EnvironmentAirSystemsPlotNo:138A&BIDAKondapalliKrishnaDist,3.34E+13,SYNDICATE BANK ,KONDAPALLI ,SYNB0003344,17150
+207,BuddiColdStorageRSno.167/2&3ANH-9PenuganchiproluMandalKrishnaDistrict,30822205842,STATE BANK OF INDIA,VIJAYAWADA,SBIN0000948,1063820
+208,SpoorthisriColdStoragePvtLtdRSNo.136/1KeesaraKanchikacherlaMandalKrishnaDistrict,1.03E+14,ANDHRA BANK,"IBRAHIMPATNAM BR, KRISHNA DT",ANDB0001027,502230
+209,SreeSaiHimajaColdStirageRSNo.392/3VatsavaiKrishnaDistrict,31533480569,STATE BANK OF INDIA,CHILLAKALLU BR,SBIN0011096,985610
+210,SriVenkateswaraPolymersPlotNo119IndustrialParkTirumalagiriJaggiahpetKrishna,3.94E+13,ANDHRA BANK,NANDIGAMA BR,ANDB0000394,"83,310"
+211,YelamanchiColdStoragePvtLtdRs.No116/3KeesaraKanchikacherlaKrishnaDist.,8.64E+14,BANK OF INDIA,"GANDHI NAGAR BR, VIJAYAWADA",BKID0008644,1124980
+212,SrijaIndustriesD.No.124/2MekavaripalemChallapalliMandalKrishnaDistrict,7.41E+12,ANDHRA BANK,Challapalli Branch,ANDB0000074,74590
+213,"ContinentalAquaFeeds,Rs.No.177,3A&3B,MainRoad,Peyyeru(V),Mudinepalli(M),KrishnaDistrict",1.28E+14,"Indian Overseas Bank,Gudivada Branch","Indian Overseas Bank,Gudivada Branch",IOBA0001282,96380
+214,"D.N.RIce&ColdStorage,RSNo.96/11&2,MainRoad,Atapaka(V),Kaikaluru(M),KrishnaDistrict",9.09E+14,Axis Bank Ltd,"Axis Bank Ltd,Gudivada",UTIB0000474,475650
+215,"D.N.RIce&ColdStorage,RSNo.96/11&2,MainRoad,Atapaka(V),Kaikaluru(M),KrishnaDistrict",9.09E+14,Axis Bank Ltd,"Axis Bank Ltd,Gudivada",UTIB0000474,386070
+216,CarrisPipesAndTubesPvtLtdR.S.No72/1-APlotNo.15PedavutapalliUnguturuKrishnaDistrict,2.01E+15,KARNATAKA BANK LTD,ERANAKULAM BRANCH,KARB0000201,221370
+217,CarrisPipesAndTubesPvtLtdR.S.No72/1-APlotNo.15PedavutapalliUnguturuKrishnaDistrict,2.01E+15,KARNATAKA BANK LTD,ERANAKULAM BRANCH,KARB0000201,221370
+218,HarshaLinersPrivateLimitedRsNo219TelaropluUnguturuKrishnaDist.,32434515227,STATE BANK OF INDIA,"PATAMATA ,VIJAYAWADA",SBIN0000578,1059526
+219,VedaPolyProductsPvtLtdRsNo182/1ANearJrdTataIndlEstasteKunuruPenamaluruKrishnaDist.,62268593979,STATE BANK OF HYDERABAD,"MSME , VIJAYAWADA",SBHY0021148,915230
+220,VaralakhsmiPolymersShedNo12P.P.RGodownsGollapudiVijayawadaRiralKrishnaDist.,3.91E+12,ANDHRA BANK,"BAZAR BR,VIJAYAWADA",ANDB0000039,412610
+221,SaiRamIndustriesPlotno.15ALEAPIndl.EstateSurampalliGannavaramMandalKrishnaDistrict,62165601672,"STATE BANK OF HYDERABAD,","SIB BRANCH,VIJAYAWADA",SBHY0020752,355220
+222,VijayaDurgaFrozenFoods&LogisticsPlotNo6NewMangoMarketNunnaVijayawadaRuralKrishnaDistrict.,3.34E+13,SYNDICATE BANK,VIJAYAWADA,SYNB0003343,523380
+223,VaralakshmiPolymersShedNo.12P.P.R.GodownsGollapudiVijayawadaRuralMandalKrishnaDistrict,3.91E+12,ANDHRA BANK,"BAZAR BR,VIJAYAWADA",ANDB0000039,378120
+224,SwarnalathaAgritechPvtLtdRSno.1/4SerinarsannapalemBapulap[aduMandalKrishnaDistrict,31628945021,STATE BANK OF INDIA,Patamata Branch,SBIN0000578,1170190
+225,SriSaiBhanuCastingsRSNo.410/1OPP:KabelaIndustrialAreaGollapudiVijayawadaRuralMandalKrishnaDistrict,7.91E+15,KARNATAKA BANK LTD,"MAIN BR,VIJAYAWADA",KARB0000791,311110
+226,N.PFoodsPlotNo18RsNo192/2192/8B2JrdTataIndlEstateKanuruPenamaluruKrishnaDistrict,7.06E+13,CORORATION BANK,BENZ CIRCLE BRANCH,CORP0000706,383880
+227,VeekesySlippersIndiaPvtLimitedRsNo269/2NunnaVijayawadaRuralMandalKrishnaDistrict,67208611699,STATE BANK OF TRIVANCORE,"CALICUT MAIN BRANCH, KERALA STATE",SBTR0000188,575270
+228,SriBalajiWeldMeshIndustriesRsNo602/1BodapaduMainRoadNunnaVijayawadaRuralMandalKrishnaDistrict.,1.70E+14,INDIAN OVERSEAS BANK,"KRISHNANAGAR BRANCH,VIJAYAWADA",IOBA0001703,431770
+229,MetaprimeAlloycastingsR.S.NO143/3SurampalliGannavaramKrishnaDistrict.,31907843974,STATE BANK OF INDIA,RAMAVARAPPADU BRANCH,SBIN0011100,325720
+230,MulpuriBlockIcePlantRSNo.458/1AurugalanuBapulapaduMandalKrishnaDistrict,1.07E+14,INDIAN OVERSEAS BANK,"RING ROAD, VIJAYAWADA",IOBA0001067,377250
+231,HarshaLinersPrivateLimitedRs.No219TelapropluUnguturuKrishnaDist.,32434515227,STATE BANK OF INDIA,"PATAMATA ,VIJAYAWADA",SBIN0000578,1260520
+232,MulpuriIcePlantRs.No456/3&4AruglonuBapulapaduKrishnaDist.,1.07E+14,INDIAN OVERSEAS BANK,"RING ROAD, VIJAYAWADA",IOBA0001067,526410
+233,MuipuriTubularIcePalntRSNo.456/2ArugalmuBapulapaduMandalKrishnaDistrict,1.07E+14,INDIAN OVERSEAS BANK,"RING ROAD, VIJAYAWADA",IOBA0001067,536100
+234,SupremeCastingsPlotNo81B-05AutonagarKanuruPenamaluruKrishnaDist.,1.70E+14,INDIAN OVERSEAS BANK,"KRISHNANAGAR BRANCH, VIJAYAWADA",IOBA0001703,657460
+235,SeaPearlsIndustriesPlotNo87AleapIdlEsateSurampalliGannavaramKrishnaDist.,3.34E+13,SYNDICATE BANK,BUKINGHUMPET BRANCH,SYNB0003341,2223250
+236,CarrisPipesandTubesPvtLtdRs.No72/1-APlotNo15PedavutapalliUnguturKrishna,2.01E+15,KARNATAKA BANK LTD,ERANAKULAM BRANCH,KARB0000201,124620
+237,AndhraMediPharmaIndiaLtdRs.No263/1VeeravalliBapulapaduKrishnaDist.,913938790,INDIAN BANK,"GOVERNORPET,VJA",IDIB000G015,1022060
+238,RadicalRecyclersPvtLtdRs.no261/2TatakuntlaVisannapetKrishnaDist.,6019126667,INDIAN BANK, Vissannapeta,IDIB000V053,563110
+239,"SaiRamIndustries,PlotNo16,AleapEstate,Surampalli(V),Gannavaram(M),KrishnaDist.",62165601672,"STATE BANK OF HYDERABAD,","SIB BRANCH,VIJAYAWADA",SBHY0020752,107720
+240,LakshmiSareeManufacturersSyNo196-1LepakshiAnantapuram,3.27E+15,KARNATAKA BANK LTD,HINDUPUR,KARB0000327,639367
+241,L.S.VCreationsSyNo196-1LepakshiAnantapuram,3.27E+15,KARNATAKA BANK LTD,HINDUPUR,KARB0000327,1393393
+242,SreeUdayShankarGranitesSy.No7-C/3ChukkalurRoadGannevaripalliTadipatriAnantapurDistrict-,31564851915,STATE BANK OF INDIA,Tadipatri,SBIN0000923,107420
+243,SreeChandraVadanaGranitesSy.No3-BChukkaluruRoadGannevaripalliTadipatriAnantapurDistrict-,31871725458,STATE BANK OF INDIA,Tadipatri,SBIN0000923,114660
+244,EmeraldGranitesSy.No4IndustrialEstateBellaryRoadAnantapur,2.52E+14,KARNATAKA BANK LTD,ANANTAPURAMU,KARB0000025,172870
+245,JayaKrishnaGranitesSy.No1248-C2VenkatareddyPlliChukkaluruRoadTadipatriAnantapurDistrict-,3.12E+13,"Syndicate Bank, Tadipatri",Tadipatri,SYNB0003121,124680
+246,PrasanthiGranitesSy.No25GannevaripalliTadipatriAnantapurDistrict-,3.16E+13,"Syndicate Bank, Ananthapuramu",,SYNB0003164,86610
+247,SriGouriSankarGranitesSy.No202-A2202-B201VenkatareddyPalliTadipatriAnantapurDistrict-,3.12E+13,"Syndicate Bank, Tadipatri",Tadipatri,SYNB0003121,168620
+248,SreePraveenGranitesSy.No4ChukkalurRoadChinnapolamadaTadipatriAnantapurDistrict,32159352206,STATE BANK OF INDIA,Tadipatri,SBIN0004189,109840
+249,SreeVenkataGaneshGranitesSy.No279&280ChukkaluruTadipatriAnantapurDistrict-,3.12E+13,"Syndicate Bank, Tadipatri",Tadipatri,SYNB0003121,132570
+250,SriMaruthiGraniteIndustriesSy.No3-CChinnapolamadaTadipatriAnantapurDistrict,7.61E+15,KARNATAKA BANK LTD,Tadipatri,KARB0000760,186540
+251,SivaSaiGranitesSy.No3-B/2GanneevaripalliTadipatriAnathapuramDistrict,7.60E+15,KARNATAKA BANK LTD,Tadipatri,KARB0000760,181760
+252,SriLakshmiNarasimhaGranitesSy.No748&749NandyalRoadVenkaatareddyPalliGp)TadipatriAnantapurDistrict,3.12E+13,"Syndicate Bank, Tadipatri",Tadipatri,SYNB0003121,182780
+253,SreeSreeSreeVenkatasaiGranitesSy.No.3-CChukkalurRoadChinnapolamadaTadipatriAnantapurDistrict-,3.12E+13,"Syndicate Bank, Tadipatri",Tadipatri,SYNB0003121,211140
+254,SreeGuruDattaGranitesSy.No1258-AB3A3&BaVenkatareddyPalliTadipatriAnantapurDistrict-,3.12E+13,"Syndicate Bank, Tadipatri",Tadipatri,SYNB0003121,146250
+255,SriOmkarSilkCottageHandloomsSy.No398KesavaNagarDharmavaramAnantapurDist.,33418714576,STATE BANK OF INDIA,DHARMAVARAM,SBIN0000250,281647
+256,VaraPradaGranitesSy.No1250ChukkalurRoadVenkatareddyPalliTadipatriAnantapurDist.,3.12E+13,"Syndicate Bank, Tadipatri",Tadipatri,SYNB0003121,125590
+257,SivaNandiGranitesSy.No748-1NandyalRoadVenkatareddyPalliTadipatri42-2&195-1CilamathruAnanthapurDist.,7.60E+15,KARNATAKA BANK LTD,Tadipatri,KARB0000760,"70,950"
+258,SriOmkarSilkCottageHandloomsSy.No398KesavaNagarDharmavaramAnantapurDist.,33418714576,STATE BANK OF INDIA,DHARMAVARAM,SBIN0000250,122530
+259,SriOmkarSilkCottageHandloomsSy.No396KesavaNagarDharmavaramAnantapurDist.,33418714576,STATE BANK OF INDIA,DHARMAVARAM,SBIN0000250,162320
+260,GarudaGranitesSy.No1250VenkatareddyapalliTadipatriAnantapurDist.,3.12E+13,"Syndicate Bank, Tadipatri",Tadipatri,SYNB0003121,151250
+261,SriPothulaishSwamySilkHandloomCottageSy.No604-4RegaipalliRoadPothukuntaDharmavaramAnanthapurDist.,8.51E+11,"Canra Bank, Dharmavaram",DHARMAVARAM,CNRB0000851,"52,270"
+262,StarGranitesSy.No24/1ChukkalurRoadChinnapolamadaTadipatriAnantapurDist.,3.12E+13,"Syndicate Bank, Tadipatri",Tadipatri,SYNB0003121,344330
+263,SriMamathaGranitesSy.No9-a3m9-311-AGannevaripalliTadipatriAnanthapurDist.,7.60E+15,KARNATAKA BANK LTD,Tadipatri,KARB0000760,112570
+264,SuryaRocksSy.No375/1-A2B2ANearSubramanyaSwamyTempleParigiAnantapurDistrict,1.93E+14,"Indian Overseas Bank, Hindupur",HINDUPUR,IOBA0001933,255160
+265,SaiShaktiKraftPapersPrivateLimitedPlotNo26IndlParkGollapuramHindupurAnantapurDist.,62220402266,"STATE BANK OF HYDERABAD,",PATANCHERU,SBHY0020106,1596580
+266,SreeLakshmiVenkateswaraGraintesSy.No194-2&195-1ChilamathurAnantapurDist.,3.16E+13,"Syndicate Bank, Old Town, Ananthapuramu",ANANTAPURAMU,SYNB0003164,468660
+267,HemaTextilesSy.No3PlotNo17&18PapampetANaryanaapuramAnanthapurRuralAnantapurDist.,3.17E+13,"Syndicat Bank, SME, Ananthapuram",ANANTAPURAMU,SYNB0003167,253982
+268,ArevaIndustriesSy.No11-1ARajivColonyAnanthapuramAnanthapurDist.,3.16E+13,"Syndicate Bank, Ananthapuramu",ANANTAPURAMU,SYNB0003164,"73,660"
+269,ShanmukhaGranitesSy.No281-3ChukkalurTadipatriAnantapurDist.,3.12E+13,"Syndicate Bank, Tadipatri",Tadipatri,SYNB0003121,114840
+270,SaiMahithaGranitesSy.No3-3123-C3-DChukkalurRoadGannevariPalliTadipatriAnanthapurDist.,7.60E+15,KARNATAKA BANK LTD,Tadipatri,KARB0000760,326710
+271,ChaudharyEdiblesPvtLtdSy.No201PydenParigiAnantapurDist.,4.52E+14,"Punjab National Bank, Tohana, Haryana",TOHANA,PUNB0045200,3050450
+272,SaiRajaRamGranitesSy.No20-DGannevaripalliTadipatriAnanthapurDist.,7.60E+15,KARNATAKA BANK LTD,Tadipatri,KARB0000760,101500
+273,SriVigneswaraGranitesSy.No458459-A489-EChukkalurTadipatriAnanthapurDist.,32977183825,STATE BANK OF INDIA,Tadipatri,SBIN0000923,190460
+274,SreekarGranitesSy.No1249-AVenkatareddyapalliTadipatriAnanthapurDist.,1.16E+15,IDBITadipatri,Tadipatri,IBKL0001163,121950
+275,BabaGranitesSy.No6-CGannevariPalliTadipatriAnantapurDist.,1.16E+15,IDBITadipatri,Tadipatri,IBKL0001163,119970
+276,LakshmiSareeManufacturesSy.No196-1LepakshiAnantapurDist.,3.27E+15,KARNATAKA BANK LTD,HINDUPUR,KARB0000327,437057
+277,AkshyaBharathiGranitesSy.No446-B447448450451-B452ChukkalurTadipatriAnantapurDistrict,5.52E+13,ANDHRA BANK,Tadipatri,ANDB0000552,149500
+278,L.S.VCreationsSy.No196-1LeepakshiAnanthapurDist.,3.27E+15,KARNATAKA BANK LTD,HINDUPUR,KARB0000327,589770
+279,SriVenkatewaraPowerloomIndustrySy.No49/4WeaversColonyKirikeraHindupurAnanthapurDist.,3.27E+15,KARNATAKA BANK LTD,HINDUPUR,KARB0000327,818734
+280,JanardhanArtSilkSareesManufacturesSy.No196-1LepakshiAnanthapurDist.,3.27E+15,KARNATAKA BANK LTD,HINDUPUR,KARB0000327,381420
+281,HarshaGranitesSyNo.704-1KoduruChilamathurMandalAnanatapurDistrict,5.52E+13,ANDHRA BANK,Tadipatri,ANDB0000552,303410
+282,ManasviPharmaPlotNo.219&220IDAThumukuntaHindupurAnantapurDistrict,32023233023,STATE BANK OF INDIA,HINDUPUR,SBIN0000845,1189546
+283,PeramGranitesSyNo.18/AChukkalurRoad777NandyalRoadSajjaladinneTadipathriMandalAnantapurDistrict,31885087756,STATE BANK OF INDIA,Tadipatri,SBIN0000923,182850
+284,RithvikGranitesSyNo.72-ATherennapalliTadipathriMandalAnantapurDistrict,3.12E+13,"Syndicate Bank, Tadipatri",Tadipatri,SYNB0003121,247500
+285,SriLakshmiVenkateswaraSilkCottageHandloomsSy.No67-28SaradaNagarDharmavaramAnanthapurDistrict.,1.40E+15,"Karur Vysya Bank, Dharmavaram",DHARMAVARAM,KVBL0001402,64030
+286,JanakiHandloomsSy.No67-28SaradaNagarDharmavaramAnantapurDistrict.,1.40E+15,"Karur Vysya Bank, Dharmavaram",DHARMAVARAM,KVBL0001402,64370
+287,AbhinavGranitesSyNo.3-AChukkalurRoadChinnapadamalaTadipathriMandalAnantapurDistrict,3.12E+13,"Syndicate Bank, Tadipatri",Tadipatri,SYNB0003121,94758
+288,TadipatriColdStoragePrivateLimitedSy.No1031AutonagarTadipatriAnantapurDistrict.,3.34E+12,"Canara Bank, Tadipatri",Tadipatri,CNRB0003341,358990
+289,GhananathGranitesSy.No3-CChinnapolamadaTadipatriAnantapurDistrict.,32599208103,STATE BANK OF INDIA,Tadipatri,SBIN0000923,415350
+290,SreeHariGranitesSy.No24GanneevaripalliTadipatriAnanatapuramDistrict.,33165785065,STATE BANK OF INDIA,ANANTAPURAMU,SBIN0000923,179370
+291,PearlTextilesSy.No25ByrapuramLepakshmiAnantapurDistrict,91000135633,Andhra Pragathi Grameena Bank,ANANTAPURAMU,APGB0001076,148500
+292,M.SRocksSy.No.46-BGanneevaripalliTadipatriAnanatapuramDistrict.,7.60E+15,KARNATAKA BANK LTD,Tadipatri,KARB0000760,237000
+293,JairamGranitesSy.No22/6ChinnapolamadaTadipatriAnantapurDistrict.,32272457301,STATE BANK OF INDIA,Tadipatri,SBIN0000923,423770
+294,SreemukhaGranitesSy.No266BlockNo.3ChukkalurTadipatriAnanthapurDistrict.,32822300286,STATE BANK OF INDIA,Tadipatri,SBIN0000923,401190
+295,ChavvaGranitesSy.No1254-C1VenkatareddyPalliTadipatriAnantapurDistrict.,7.61E+15,KARNATAKA BANK LTD,Tadipatri,KARB0000760,445498
+296,AnanthaBio-Technologies&AlliedIndustriesPrivateLimitedSy.No78ANarayanapuramAnantapurRuralMandalAnantapurDistrict,1.28E+14,"Indian Overseas Bank, Ananthapuram",ANANTAPURAMU,IOBA0001281,1140260
+297,SujathaGranitesSy.No3-C/2ChinnapolamadaTadipatriAnanthapurDist.,32274237735,STATE BANK OF INDIA,Tadipatri,SBIN0000923,555651
+298,LaxmiRolling&StripsPrivateLimitedPloyNo31IndustrialEstateGollapuramHindupurAnantapurDistrict-,3.16E+13,"Syndicate Bank, Old Town, Ananthapuramu",ANANTAPURAMU,SYNB0003164,1249700
+299,DadaGranitesSy.No.11-BChukkalurRoadGannevaripaliTadipatriAnantapurDistrict,3.12E+13,"Syndicate Bank, Tadipatri",Tadipatri,SYNB0003121,127969
+300,SreeVishnuGranitesSy.No23-1&24-1ChukkalurRoadChinnapolamadaTadipatriAnantapuramuDistrict,7.61E+15,KARNATAKA BANK LTD,Tadipatri,KARB0000760,"75,680"
+301,SreeLakshmiCharanGranitesSy.No.20-CGannevaripalliTadipatriAnantapurDistrict,5.52E+13,ANDHRA BANK,Tadipatri,ANDB0000552,178500
+302,SreeLakshmiDeepthiGranitesSy.No.3/AChinnapolamadaTadipatriAnantapurDistrict,5.52E+13,ANDHRA BANK,Tadipatri,ANDB0000552,498600
+303,SreeSaiKesavaGranitesSy.No.281-1ChukkalurTadipatriAnantapurDistrict,3.12E+13,"Syndicate Bank, Tadipatri",Tadipatri,SYNB0003121,332170
+304,SriVayuputraGranitesSy.No704-1KoduruChilamathurAnantapurDistrict,5.52E+13,ANDHRA BANK,Tadipatri,ANDB0000552,241485
+305,JayaKrishnaGranitesSy.No1248-C2VenkatareddyPlliChukkaluruRoadTadipatriAnantapurDistrict-,3.12E+13,"Syndicate Bank, Tadipatri",Tadipatri,SYNB0003121,108930
+306,JouharGranitesSy.No294ChukkalurTadipatriAnanthapurDist.,7.60E+15,KARNATAKA BANK LTD,Tadipatri,KARB0000760,268608
+307,SiddarthaGranitesSy.No247-BChukkalurRoadSajjaladinneTadipatriAnantapurDistrict,7.60E+15,KARNATAKA BANK LTD,Tadipatri,KARB0000760,208978
+308,RajaGranitesSy.No264&265ChukkalurTadipatriAnantapurDistrict,32637881556,STATE BANK OF INDIA,Tadipatri,SBIN0000923,275720
+309,AmanGranitesSY.No23-1&24-1ChinnapolamadaTadipatriAnanthapurDist.,5.52E+13,ANDHRA BANK,Tadipatri,ANDB0000552,562614
+310,SriSaiSiddarthaGranitesSy.No263ChukkalurTadipatriAnanthapurDist.,7.60E+15,KARNATAKA BANK LTD,Tadipatri,KARB0000760,332240
+311,S.RGranitesSy.NoChukkalurTadipatriAnanthapurDist.,32929150502,STATE BANK OF INDIA,Tadipatri,SBIN0000923,130740
+312,MNGranitesSy.No747&748NandyalRoadVenkatareddypalliTadipatriAnanthapuramDist.,33785239417,STATE BANK OF INDIA,Tadipatri,SBIN0000923,143127
+313,ChaudharyEdiblesPvtLtdSy.No201PydenParigiAnantapurDist.,4.52E+14,"Punjab National Bank, Tohana, Haryana",TOHANA,PUNB0045200,864916
+314,NirmanFertilizersPrivateLimitedSy.No.470/2B3B&470/4MuntimaduguGarladinneAnantapurDistrict,7.05E+12,"HDFC Bank, Ananthapuramu",ANANTAPURAMU,HDFC0000705,490770
+315,V.KRefractoriesSyNo.34/134/2GollapuramHindupurAnantapuramuDistrict,3.16E+13,"Syndicate Bank, Ananthapuramu",ANANTAPURAMU,SYNB0003164,979127
+316,"SankarPlasticsIndustriesSy.No.275/11,UdumulapaduVillage,Dhone",1.11E+13,ANDHRA BANK,DHONE,ANDB0000111,244546
+317,"PriyankaSlabs,Sy.No.100,DamagatlaVillage,NandikotkurMandal",3.40E+13,"Syndicae bank, SME branch, Kurnool",KURNOOL,SYNB0003397,25640
+318,"DGRJuteMillsPrivateLimited,Lolugu(v),PonduruMandal,
+SriakulamDistrict
+
+
+
+
+",3.56E+13,Syndicate Bank Srikakulam  ,SRIKAKULAM,SYNB0003560,3666060
+319,"TVKGranites,JammuJunction,Gottipalli(v),Narasannapeta(m),SrikakulamDistrict
+
+",3.80E+13,ANDHRA BANK,NARASANNAPET,ANDB0000380,250692
+320,VictoryGranitesRaghunadhpuramMelyaputtiRoadTekkaliSrikakulamDist.,62268964888,"SBH, Tekkali, Srikakulam District ",SRIKAKULAM,SBHY0021254,279183
+321,VeerHanumanGranitesSy.No283/1NarasingupalliN.H.5NimmadaJunctionKotaboomaliSrikakulamDist.,3.56E+13,SYNDICATE BANK,SRIKAKULAM,SYNB0003560,172467
+322,SriManikantaGranitesAndExportsSy.No128/15&129/16TilaruKothamobaliSrikakulamDist.,5.13E+13,ANDHRA BANK,SRIKAKULAM,ANDB0000513,363050
+323,"VedamathaCashews,IndustrialPark,Ananthapuram,Palasa,Srikakulamdistrict
+
+
+",30733256650,STATE BANK OF INDIA,PALASA,SBIN0001006,413467
+324,SaiVardhanJuteLtdGangavaramRoadKothabommidiSrikakulamDist.,31073598979,STATE BANK OF INDIA,SRIKAKULAM,SBIN0000919,493772
+325,SriJahnaviGranitesStNo:10/p8/97/6and7/PChinabommaliSrikakulamdDist,3.56E+13,SYNDICATE BANK,SRIKAKULAM,SYNB0003560,365095
+326,SSTGasesSy.No518PlotNo1to12leKurnoolDist.,4.29E+15,KARNATAKA BANK LTD,KURNOOL,KARB0000428,1139640
+327,SaiSlokaGranitesSy.No459/2UKothapalliDhoneKurnoolDist.,1.11E+13,ANDHRA BANK,DHONE,ANDB0000111,169277
+328,SreeMurariGinningAndPressingFactSy.No253&254MantralayamRoadMugathiNandavaramKurnoolDist.,3.37E+13,"Syndicate Bank, Bhudawar Peta Branch, Kurnool",KURNOOL,SYNB0003372,2166724
+329,LalithaGranitesSy.No529530NearLEKurnoolDist.,4.28E+15,KARNATAKA BANK LTD,KURNOOL,KARB0000428,864155
+330,VenkateswaraGranitesSy.No.61/B&60/BPandipadukallurKurnooldistrict,3.40E+13,"Syndicate Bank, SM E Branch ,Kurnool",KURNOOL,SYNB0003397,"51,176"
+331,GeliveChemicalsSy.No.1399/1A1399/3BPanyamKurnoolDistrict,33518978614,STATE BANK OF INDIA,NANDYAL,SBIN0000883,201070
+332,R.R.CementIndustriesSy.No.239/12&3ChetlamallapuramKallurKurnoolDistrict,33000884697,STATE BANK OF INDIA,KURNOOL,SBIN0000866,142062
+333,KiranIndustrialGasesSy.NO.105DinnedevarapaduKurnoolKurnoolDistrict,4.29E+15,KARNATAKA BANK LTD,KURNOOL,KARB0000428,112625
+334,AdityaColdStorageSyNo:189/8912&b13VellaturPonnaluirPrakasamDist,1.02E+14,"Corporation Bank, Kandukuru",KANDUKURU,CORP00001024,2934247
+335,AkshayaGrantiesSyNo:239&240BudawadaChimakurtyPrakasamDist,2.40E+14,"Indian Overseas Bank, Samatha Nagar Branch, Ongole",ONGOLE,IOBA0002401,132369
+336,AsianCelluloseLtdSyNo:259GundlapalliMaddipaduPrakasamDist,3.64E+13,Syndicate Bank,ONGOLE,SYNB0003640,1028347
+337,KanthikaExportsSyNo:172/2aOthersRLPuramChimakurtyPraksamDist,5.09E+14,"Lakshmi Vilas Bank ltd, ONOGLE",ONGOLE,LAVB0000508,493849
+338,NanoPolymersIndiaLtdPlot424IGCGundlapallyMaddipaduPrakasamDist,62198111179,"STATE BANK OF HYDERABAD,",HYDERABAD,SBHY0021495,322365
+339,SaiVijayaGranitesSyNo:495/A1RajupalemMarturPrakasamDist,5.18E+12,"BANK OF BARODA,PEDANANDHI PADU",PEDANANDIPADU,BARB0PEDANA,334000
+340,SravaniColdStorageSyNo:150/2EdugurudlapaduPrakasamDist,6087233180,INDIAN BANK,GUNTUR,IDIB000G023,1393080
+341,SriKVRExportsSyNo:1032ChimakurtyPrakasamDist,2.75E+13,Corporation Bank ONOGLE,ONGOLE,CORP0000275,483616
+342,SrinidiColdStorageSyNo:603/3BInkolluRoadRarchurPrakasamDist,32651592077,STATE BANK OF INDIA,INKOLLU,SBIN0007432,1087700
+343,VijayaSaiGranitesSyNo:152/2CBudawadaChimakurtyPrakasamDist,3.64E+13,"Syndicate Bank, SME Branch,Ongole",ONGOLE,#REF!,108750
+344,AppleExportsSy.No573575/1KurnoolRdChimakurthyPrakasamDist.,5.09E+14,"Lakshmi Vilas Bank ltd, ONOGLE",ONGOLE,LAVB0000508,511240
+345,AsianCelluloseLtdPlotNo160&161lgcGundlapalliPrakasamDist.,3.64E+13,Syndicate Bank,ONGOLE,SYNB0003640,1022304
+346,AsianCellulosePrivateLimitedPltNo160&161IGCGundlalliPrakasamDist.,3.64E+13,Syndicate Bank,ONGOLE,SYNB0003640,1028347
+347,B.RExportsSy.No249NSPColonyChimakurthyPrakasamDist.,5.08E+14,"Lakshmi Vilas Bank ltd, ONOGLE",ONGOLE,LAVB0000508,100370
+348,BhargaviExportsSy.No255/7CDarsiMarturPrakasamDist.,62125392733,"STATE BANK OF HYDERABAD,",INKOLLU,SBHY0020367,375941
+349,CherukuriColdStorageSY.No439/6UppagundurN.G.PaduPrakasamDist.,62233035798,"SBH,Inkollu",INKOLLU,SBHY0020367,1599980
+350,DhanalaxmiIndustriesSy.No1043/6-91048/1-31043/1-5ChimakurthyPrakasamDist.,7.81E+12,ANDHRA BANK,CHIMAKURTY,ANDB0000078,521318
+351,GlocellChemicalIndustriesPrivateLimitedPlotNo541IndGrowthCentreGundlapalliMaddipaduPrakasamDist.,2.12E+13,ANDHRA BANK,HYDERABAD,ANDB0000212,2676300
+352,GlocellChemicalIndustriesPvtLtdPltNo541IndlGrowthCentreGundlapalliMaddipaduPrakasamDist.,2.12E+13,ANDHRA BANK,HYDERABAD,ANDB0000212,1235841
+353,IndusElectrodesPlotNo220lgcGundlapalliMaddipaduPrakasamDist.,2.48E+13,"Bank of Baroda, Ongole",ONGOLE,BARB0ONGOLE[BARBZEROONGOLE],314366
+354,JaiHanumanGranitesSy.No240MarrichetlaPalemBhudawadaChimakurtyPrakasamDist.,3.60E+13,"Indian Overseas Bank, GNT Road, Ongole",ONGOLE,IOBA0000360,215070
+355,KomaliColdStoragePrivateLimitedSy.No638/A1InkolluPrakasamDist.,3.67E+13,"Syndicate Bank, Idupulapadu",IDUPULAPADU,SYNB0003668,3368340
+356,KskProfiles373IndustrialGrowthCentreGundlapallyPrakasamDist.,"68012601[APSFC A/CNO36403070001829],SYB, ONGOLE",SYNDICATE BANK,ONGOLE,SYNB0003640,83208
+357,LotusAbrasiveTechIndiaPvtLimitedPlotNo628LGCGundlapalliMaddipaduPrakasamDist.,5.09E+14,"Lakshmi Vilas Bank, Ongole",ONGOLE,LAVB0000508,161411
+358,MahalakshmiGranitesSy.No504/B504/CYaddanapudiPrakasamDist.,7.47E+13,"Tamilnad Mercantile Bank Ltd, Guntur",GUNTUR,TMBL0000074,690960
+359,NanoPolymersIndiaLimitedPlotNo424IGCGundlapallyMaddipaduPrakasamDist.,62198111179,"STATE BANK OF HYDERABAD,",HYDERABAD,SBHY0021495,322365
+360,S.VSupraEngineersPrivateLimitedPlotNo543544&545ApiiclgcGundlapalliMaddipaduPrakasamDist.,1.25E+14,"ANDHRA BANK
+",HYDERABAD,ANDB0001249,757530
+361,SreeVyshnaviPolymersI.G.CGundlapalliMaddipaduPrakasamDistrict,31101042470,"State Bank of India, SME,Ongole",ONGOLE,SBIN0004246,484810
+362,SriColdStoragePlotNo168/169&182LGCGundlapalliMaddipaduPrakasamDist.,3.72E+14,Union Bank of India,RAVINUTHALA,UBIN0537195,502018
+363,SriDattaColdStoragePrivateLimitedSy.No8/1N.GPaduPrakasamDist.,4.00E+13,ANDHRA BANK,ONGOLE,ANDB0000400,2980550
+364,SriK.V.RExportsSy.No1032ChimakurthyPrakasamDist.,2.75E+13,Corporation Bank ONOGLE,ONGOLE,CORP0000275,1038181
+365,SriLakhsmiPrasannaGranitesSy.No164/2ABudawadaChimakurtyPrakasamDist.,2.34E+14,"Indian Overseas Bank, Chimakurthy Branch",CHIJMAKURTY,IOBA0002339,109869
+366,SriLakshmiSrinivasaGranitesSy.No411RajupalemDonkaRajupalemMarturPrakasamDist.,3.30E+14,Union Bank of India,PASUMARRU,"UBIN
+0533033",44453
+367,SriSaiEswarGranitesSy.No238BudawadaChimakurthyPr3akasamDist.,2.40E+14,"Indian Overseas bank, Ongole",ONGOLE,IOBA0002401,592841
+368,SriSaiLakshmiColdStorageSy.No337/1KesinenipalliThripuranthakamPrakasamDist.,4.90E+13,"ANDHRA BANK
+",RAJBHAVAN ROAD,ANDB0000490,705250
+369,SriSaiVigneswaraGranitesSY.No711/4MarturPrakasamDist.,872392153,INDIAN BANK,GUNTUR,IDIB000G021,506083
+370,SriSivaSaiExportsSy.No10/2BJannathaliMarturPrakasamDist.,32439675162,STATE BANK OF INDIA,GUNTUR,SBIN0000844,80775
+371,SriVengamambaGraniteExportsSy.No519/A3A4A6&519/BRajupalamdonkaMarturPrakasamDist.,1.39E+14,"ANDHRA BANK
+",GUNTUR,ANDB0000983,528344
+372,SriVenkateswaraGranitesSy.No240BudawadaMarrichetipaleamChimakurthyPrakasamDist.,9.83E+13,"ANDHRA BANK
+",TANGUTUR,ANDB0000983,335035
+373,SriVenkateswaraGranitesSy.No240BudawadaMarrichetlapalemChimakurtyPrakasamDist.,9.83E+13,"ANDHRA BANK
+",TANGUTUR,ANDB0000983,340714
+374,SrinivasaIndustriesPlotNo624I.G.CGundlapalliMaddipaduPrakasamDist.,1.17E+15,I D B I  HYDERABAD,HYDERABAD,IBKL0001169,337544
+375,SriramMilkDairySy.No354MundalamuruPrakasamDist.,31422787189,STATE BANK OF INDIA,ONGOLE,SBIN0004246,543923
+376,UmaGranitesSy.No100NearIndustrialEstatePernamittaS.NPaduPrakasamDist.,3.60E+13,"Indian Overseas Bank, GNT Road, Ongole",ONGOLE,IOBA0000360,72417
+377,VenkateswaraEnterprisesFlt.No97&98IndlParkS.KondaPrakasamDist.,5.09E+13,ANDHRA BANK,SINGARAYAKONDA,ANDB0000509,721958
+378,MahalakshmiGranitesSy.No504/B504/CYaddanapudiPrakasamDistrict,7.47E+13,"Tamilnad Mercantile Bank Ltd, Guntur",GUNTUR,TMBL0000074,738190
+379,SriNidhiColdStorageSy.No603/3BInkolluRoadParchurPrakasamDistrict,32651592077,STATE BANK OF INDIA,INKOLLU,SBIN0007432,1169640
+380,SreeVyshnaviPolymersPlotnO;459&460IGCGundlapalliMaddipaduPrakasamDist,31101042470,STATE BANK OF INDIA,ONGOLE,SBIN0004246,418867

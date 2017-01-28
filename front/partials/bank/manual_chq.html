@@ -1,0 +1,310 @@
+<div class="content_heading">Issue Cheque</div>
+<div class="fullwrap">
+	<!--<div class="wrap_indi ex_cls_chq_bk_typ" style="width:635px;">
+		<div class="each_text">Transaction Type</div>
+		<input type="radio" name="party_radio" class="each_radio" ng-model='party_type' value='single'>
+			<span class="radio_text">Single Party</span>
+		 <input type="radio" name="party_radio" class="each_radio" ng-model='party_type' value='multiple'>
+			<span class="radio_text">Multiple Parties</span>
+		<input type="radio" name="party_radio" class="each_radio" ng-model='party_type' value='pdtopd'>
+			<span class="radio_text">PD Account to PD Account</span> 
+	</div>-->
+	<div class="wrap_indi" ng-show="isShown('pdtopd')">
+		<p class="pdtopd_sample_txt"><span class="stardiv">*</span> Donwload the sample upload file, fill in the details of the PD Accounts you want to transfer the funds to accordingly and upload the same file to proceed</p>
+	</div>
+
+	<div class="wrap_indi" ng-show="isShown('single')">
+		<div class="each_text">Enter Issue User  ID<span class='stardiv'> *</span></div>
+		<input type="text" class="each_box" placeholder="Enter issue user" autocomplete="off" ng-model='party.issueuser' ng-blur='get_hoa()'>
+	</div>
+	<div class="wrap_indi" ng-show="isShown('single')">
+		<div class="each_text">Enter Party Account No<span class='stardiv'> *</span></div>
+		<input type="password" class="each_box" placeholder="Enter A/c No" autocomplete="off" ng-model='party.acno'>
+	</div>
+	<div class="wrap_indi" ng-show="isShown('single')">
+		<div class="each_text">Confirm Party Account No<span class='stardiv'> *</span></div>
+		<input type="text" class="each_box" placeholder="Confirm A/c No" autocomplete="off" ng-model='party.cacno' ng-blur="partychange()">
+	</div>
+	<div class="wrap_indi" ng-show="isShown('single')">
+		<div class="each_text">Enter Party Name<span class='stardiv'> *</span></div>
+		<input type="text" class="each_box" placeholder="Enter Party Name Here" ng-model='party.name'>
+	</div>
+	<div class="bank_ifsc_dv" ng-show="isShown('single')">
+		<p class="entr_ifsc_txt"><span class="stardiv">*</span>
+			Please Enter your IFSC Code and click on search to find that bank
+		</p>
+		<div class="wrap_indi"  style="width:580px;" ng-show="isShown('single')">
+			<div class="each_text" style="width:180px;">Enter Bank IFSC Code<span class='stardiv'> *</span></div>
+			<input type="text" placeholder="Enter IFSC Code here" class="each_box ifsc_bx" ng-model='party.ifsc'>
+			<button class="ifsc_search_btn" ng-click='ifsc_search()'>Search</button>
+		</div>
+		<div class="wrap_indi" style="width:585px;">
+			<div class="each_text" style="width:180px;">Bank Name</div>
+			<div class="bnk_ifsc_ans"><span>{{show_bankname()}}</span></div>
+		</div>
+		<div class="wrap_indi" style="width:585px;">
+			<div class="each_text" style="width:180px;">Bank Branch</div>
+			<div class="bnk_ifsc_ans"><span>{{show_bankbranch()}}</span></div>
+		</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Select Head of Account<span class='stardiv'> *</span></div>
+		<select class="each_select" style="width:382px;" ng-model="hoa">
+			<option value="select">SELECT</option>
+			<option value="{{account.hoa}}" ng-repeat="account in allaccounts">{{account.scheme.schemename+'    ( '+account.hoa+' )'}}</option>
+		</select>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Balance <span class="small_txt">(in Rs.)</span></div>
+		<div class="each_data">{{hoa_balance()}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">LOC <span class="small_txt">(in Rs.)</span></div>
+		<div class="each_data">{{hoa_loc()}}</div>
+	</div>
+	<div class="wrap_indi lap_dv" ng-show="lapcheck()">
+		<p class="lap_txt"><span class="stardiv">*</span>This is a Lapsable Head of Account, you need to select a receipt to which this transaction should be mapped to. Please select a month to show the receipts in that month! </p>
+		<div class="each_text">
+			<span>Select Month</span>
+		</div>
+		<div class="each_data">
+			<select class="each_select" ng-model="lapmonth" ng-change="get_receipts()">
+				<option value="select">SELECT</option>
+				<option value="01">January</option>
+				<option value="02">February</option>
+				<option value="03">March</option>
+				<option value="04">April</option>
+				<option value="05">May</option>
+				<option value="06">June</option>
+				<option value="07">July</option>
+				<option value="08">August</option>
+				<option value="09">September</option>
+				<option value="10">October</option>
+				<option value="11">November</option>
+				<option value="12">December</option>
+			</select>
+		</div>
+		<div class="wrap_indi mar_tp">
+			<div class="each_text">
+				<span>Select Year</span>
+			</div>
+			<div class="each_data">
+				<select class="each_select" ng-model="lapyear" ng-change="get_receipts()">
+					<option value="select">SELECT</option>
+					<option value="2013">2013</option>
+					<option value="2014">2014</option>
+					<option value="2015">2015</option>
+				</select>
+			</div>
+		</div>
+		<div style="float:left;" ng-show="lapyear!='select' && lapmonth!='select' && allrec.length>0">
+			<div class="wrap_indi mar_tp">
+				<div class="each_text">
+					<span>Select Receipt(in Rs.)</span>
+				</div>
+				<div class="each_data">
+					<select class="each_select" ng-model="laprec" ng-options = "x.partyamount for x in allrec">
+						<option value="">SELECT</option>
+					</select>					
+				</div>
+			</div>
+			<div class="wrap_indi mar_tp">
+				<div class="each_text">
+					<span>Date of Receipt</span>
+				</div>
+				<div class="each_data">
+					<span ng-show="laprec">{{Dates.getDate(laprec.transdate)}}</span>
+					<span ng-show="!laprec">--Please select a receipt to display relavant data--</span>
+				</div>
+			</div>
+			<div class="wrap_indi">
+				<div class="each_text">
+					<span>Valid till</span>
+				</div>
+				<div class="each_data">
+					<span>{{valid_till()}}</span>
+				</div>
+			</div>
+			<div class="wrap_indi">
+				<div class="each_text">
+					<span>Total Expenditure(in Rs.)</span>
+				</div>
+				<div class="each_data">
+					<span ng-show="laprec">{{getcommas(laprec.lapexp)}}</span>
+					<span ng-show="!laprec">--Please select a receipt to display relavant data--</span>
+				</div>
+			</div>
+			<div class="wrap_indi">
+				<div class="each_text">
+					<span>Balance left(in Rs.)</span>
+				</div>
+				<div class="each_data">
+					<span ng-show="laprec">{{getcommas(laprec.partyamount - laprec.lapexp)}}</span>
+					<span ng-show="!laprec">--Please select a receipt to display relavant data--</span>
+				</div>
+			</div>
+			<table class='each_table' ng-show="laprec.laptrans.length>0">
+				<tr class='heading_row'>
+					<th>Sno</th>
+					<th>Issue Date</th>
+					<th>Cheque No</th>
+					<th>Party Name</th>
+					<th>Purpose</th>
+					<th>Amount(Rs.)</th>
+				</tr>
+				<tr ng-repeat = 'y in laprec.laptrans'>
+					<td>{{$index+1}}</td>
+					<td>{{Dates.getDate(y.transdate)}}</td>
+					<td>{{y.chequeno}}</td>
+					
+					<td ng-if="y.multiflag==2">
+						<a download href="{{requesturl+'/uploads/'+y.partyfile}}">Download</a>
+					</td>
+					<td ng-if="y.multiflag==1">
+						{{y.partyname}}
+					</td>
+
+					<td>{{y.purpose}}</td>
+					<td>{{getcommas(y.partyamount)}}</td>
+				</tr>
+			</table>
+	</div>
+	<div style="float:left;" ng-show = "maindate>valdate">
+		<p class="lap_txt red_clr_dv"><span class="stardiv">*</span>
+			You have crossed the valid Date to use these funds, please enter the reason/remarks to proceed
+		</p>
+		<div class="wrap_indi">
+			<div class="each_text">Enter Remarks<span class='stardiv'> *</span></div>
+			<textarea class="each_box textarea" ng-model="lapremarks" placeholder="Enter remarks here"></textarea>
+		</div>
+	</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Enter Purpose<span class='stardiv'> *</span></div>
+		<textarea class="each_box textarea" placeholder="Enter Purpose here" ng-model='party.purpose'></textarea>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Cheque No</div>
+		<input type="text" class="each_box amount_box" style='font-weight:bold;' placeholder="Enter cheque number" ng-model='party.cheque'>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Enter Party Amount <span class="small_txt">(in Rs.)</span><span class='stardiv'> *</span></div>
+		<input type="text" placeholder="Enter party amount here" class="each_box amount_box"  ng-model='party.amount'>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Party Amount in words
+			<span class="small_txt">(in Rs.)</span><span class='stardiv'> *</span>
+		</div>
+		<div class="in_wrds_prty_amt">
+			<span>{{amount_words()}}</span>
+		</div>
+	</div>
+	<div class="wrap_indi" ng-show="isShown('multiple')">
+		<div class="each_text">Upload Party Details</div>
+		<input type="file" class="each_box" file-change="upload">
+	</div>
+	<div class="wrap_indi" ng-show="isShown('pdtopd')">
+		<div class="each_text">Upload Party Details</div>
+		<input type="file" class="each_box" file-change="uploadpdtopd">
+	</div>
+	<div class="wrap_indi" ng-show="isShown('multiple')">
+		<table class='each_table' ng-show='allplist.length>0'>
+			<tr class='heading_row'>
+				<th>Sno</th>
+				<th>Party Name</th>
+				<th>Account No</th>
+				<th>Bank Name</th>
+				<th>Branch</th>
+				<th>IFSC Code</th>
+				<th>Amount<br><span class='rs'>(in Rs)</span></th>
+			</tr>
+			<tr ng-repeat="trans in allplist">
+				<td>{{$index+1}}</td>
+				<td>{{trans[0]}}</td>
+				<td>{{trans[1]}}</td>
+				<td>{{trans[2]}}</td>
+				<td>{{trans[3]}}</td>
+				<td>{{trans[4]}}</td>
+				<td>{{trans[5]}}</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><b>Total</b></td>
+				<td><b>{{tamount}}</b></td>
+			</tr>
+		</table>
+	</div>
+
+	<div class="wrap_indi" ng-show="isShown('pdtopd')">
+		<table class='each_table' ng-show='allpdtopdlist.length>0'>
+			<tr class='heading_row'>
+				<th>Sno</th>
+				<th>Account Name</th>
+				<th>DDO Code</th>
+				<th>HOA</th>
+				<th>Amount<span class='rs'>(in Rs)</span></th>
+			</tr>
+			<tr ng-repeat="trans in allpdtopdlist">
+				<td>{{$index+1}}</td>
+				<td>{{trans[0]}}</td>
+				<td>{{trans[1]}}</td>
+				<td>{{trans[2]}}</td>
+				<td>{{trans[3]}}</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><b>Total</b></td>
+				<td><b>{{pdtamount}}</b></td>
+			</tr>
+		</table>
+	</div>
+
+	<div class="wrap_indi" ng-show="isShown('multiple')">
+		<div class="instruction">Note:</div>
+		<div class="full_text">* The uploaded file must be in csv format</div>
+		<div class="full_text">* Do not change the order of the columns of the file</div>
+		<div class="full_text">* Download sample file format <a download href='images/sample_file.csv'>here</a></div>
+	</div>
+	<div class="wrap_indi" ng-show="isShown('pdtopd')">
+		<div class="instruction">Note:</div>
+		<div class="full_text">* The uploaded file must be in csv format</div>
+		<div class="full_text">* Do not change the order of the columns of the file</div>
+		<div class="full_text">* Download sample file format <a download href='images/sample_file_pdtopd.csv'>here</a></div>
+	</div>
+	<div class="wrap_indi nxt_btn_snglpar_cls">
+		<div class="main_button" ng-click="chq_submit()">Next>></div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>
+<div class="loader_wrap"  ng-if='confchq'  style='z-index:49'>
+	
+</div>
+
+<div class="chq_wrap" ng-if='confchq' style='z-index:50'>
+	<div class="chq_img_dv">
+		<div class="chq">
+			<div class="chq_branch">kachiguda, hyderabad</div>
+			<div class="chq_ifsc">SBIN0002202</div>
+			<div class="chq_desg">{{username}}</div>
+			<div class="chq_hoa">{{hoa}}</div>
+			<div class="chq_ddo">{{allaccounts[0]['ddocode']}}</div>
+			<div class="chq_name"ng-if="isShown('single')">{{party.name}}</div>
+			<div class="chq_name"ng-if="isShown('multiple')">Pay Your Self</div>
+			<div class="chq_name"ng-if="isShown('pdtopd')">Pay Your Self</div>
+			<div class="chq_rs">{{words(party.amount)}}</div>
+			<div class="chq_box">{{party.amount}} / -</div>
+			<div class="chq_date">{{maindate}}</div>
+			<div class="chq_area">{{allaccounts[0]['ddocode'].substr(0,4)}}</div>
+			<div class="chq_no">|' {{party.cheque}} |'</div>
+			<div class="main_button" ng-click="chq_issue()" style='position:absolute;top:377px;left:145px;'>Issue</div>
+			<div class="main_button" ng-click="chq_cancel()" style='position:absolute;top:377px;left:415px;'>Cancel</div>
+		</div>
+	</div>
+</div>
+

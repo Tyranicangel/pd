@@ -1,0 +1,59 @@
+<div class="content_heading">Cheque Book Requests</div>
+<div class="fullwrap">
+	<table class='each_table' ng-show="allrequests.length>0">
+		<tr class='heading_row'>
+			<th>Sno</th>
+			<th>Request User</th>
+			<th>DDO Code</th>
+			<th>Request Date</th>
+			<th>No of Leaves Requested</th>
+			<th>Book No</th>
+			<th>No of Leaves Granted</th>
+			<th>First Cheque No</th>
+			<th>Last Cheque No</th>
+			<th>Remarks</th>
+			<th>SA Recommendation</th>
+			<th>
+				<input type="checkbox" ng-click="checkall()" ng-checked="allchecked()">All
+			</th>
+		</tr>
+		<tr ng-repeat="request in allrequests">
+			<td>{{request.sno}}</td>
+			<td>{{request.requser.userdesc}}</td>
+			<td>{{request.requestuser}}</td>
+			<td>{{Dates.getDate(request.requestdate)}}</td>
+			<td>{{request.leaves}}</td>
+			<td>{{request.bookdata.bookno}}</td>
+			<td>{{get_grant_leafs(request.bookdata.chequeend,request.bookdata.chequestart)}}</td>
+			<td>{{request.bookdata.chequestart}}</td>
+			<td>{{request.bookdata.chequeend}}</td>
+			<td>
+				<b>SA:</b>{{request.remarks}} <br><br>
+				<span>
+					<b>STO:</b>{{request.storemarks}}
+				</span>
+			</td>
+			<td>{{request.rec}}</td>
+			<td>
+				<input type='checkbox' ng-model='request.check'>
+			</td>
+		</tr>
+	</table>
+	<div class="wrap_indi" ng-show='allrequests.length>0'>
+		<div class="each_text" style="width:100px;">Remarks</div>
+		<textarea class='textarea' placeholder="Enter remarks here.." ng-model='remarks'></textarea>
+	</div>
+	<div class="wrap_indi" style="padding-left:20px;" ng-show='allrequests.length>0'>
+		<div class="main_button yes_btn" style="margin-right:20px;" ng-click="chq_confirm()" ng-hide="bookauthuser==1">Forward</div>
+		<div class="main_button" ng-click="chq_approve()" style="margin-right:20px;background:#a40004;border:1px solid #003544;" ng-show="bookauthuser==1">Approve</div>
+		<div class="main_button" ng-click="chq_reject()" ng-show="bookauthuser==1">Reject</div>
+		<div class="main_button" ng-click="chq_returntosa()" ng-show="bookauthuser==1">Return to SA</div>
+	</div>
+	<div class="wrap_indi" ng-show="allrequests.length==0">
+		<div class="each_desc">
+			* You do not have any pending cheque book requests
+		</div>
+	</div>
+</div>
+
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

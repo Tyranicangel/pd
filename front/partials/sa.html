@@ -1,0 +1,49 @@
+<div class="menu">
+	<div class="container">
+		<div class="menu_indi">
+			<a ui-sref="sa.main"><div class="menu_item">HOME</div></a>
+		</div>
+		<div class="menu_indi">
+			<div class="menu_item">MASTERS</div>
+			<div class="sub_menu">
+				<a ui-sref="sa.create"><div class="menu_subitem">Create Account</div></a>
+				<!-- <a ui-sref="sa.activate"><div class="menu_subitem">Confirm Accounts</div></a>
+				<a ui-sref="sa.adjust"><div class="menu_subitem">Make Adjustment</div></a> -->
+			</div>
+		</div>
+		<div class="menu_indi">
+			<div class="menu_item">TRANSACTIONS</div>
+			<div class="sub_menu">
+				<a ui-sref="sa.request"><div class="menu_subitem">Cheque Book Requests</div></a>
+				<a ui-sref="sa.loclist"><div class="menu_subitem">LOC Requests</div></a> 
+				<a ui-sref="sa.trans"><div class="menu_subitem">Cheques List</div></a>
+			</div>
+		</div>
+		<div class="menu_indi">
+			<div class="menu_item">REPORTS</div>
+			<div class="sub_menu">
+				<!-- <a ui-sref="sa.ledger"><div class="menu_subitem">My Ledgers</div></a> -->
+				<a ui-sref="sa.statement"><div class="menu_subitem">Account Statement</div></a>
+				<a ui-sref="sa.locrpt"><div class="menu_subitem">LOC Report</div></a>
+				<a ui-sref="sa.reqrpt"><div class="menu_subitem">Cheque Book Report</div></a>
+				<a ui-sref="sa.chqrpt"><div class="menu_subitem">Cheques Issued Report</div></a>
+				
+			</div>
+		</div>
+		<div class="menu_indi">
+			<div class="menu_item">GENERAL</div>
+			<div class="sub_menu">
+				<a ui-sref="sa.query"><div class="menu_subitem">Online Query System(OQS)</div></a>
+				<a href="images/accountant.pdf" target="_blank"><div class="menu_subitem">User Manual</div></a>
+				<a ui-sref="sa.password"><div class="menu_subitem">Change Password</div></a>
+				<div class="menu_subitem" ng-click='logout()'>Logout</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="content">
+	<div class="container">
+		<div class="welcome">Welcome {{username}}</div>
+		<div ui-view="content"></div>
+	</div>
+</div>

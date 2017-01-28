@@ -1,0 +1,234 @@
+Sno,"Party Name","Party Account no","Party Bank Name","Party Bank Branch","Party Bank Ifsc Code","Party Amount"
+1,"K Penchalamma",31601312350,"State Bank of India",Somasila,SBIN0005815,9275
+2,"T Ramanamma",31601033046,"State Bank of India",Somasila,SBIN0005815,7630
+3,"A Savitramma",11496687234,"State Bank of India",Atmakuru,SBIN0004828,8023
+4,"P Vengamma",31571301075,"State Bank of India",Atmakuru,SBIN0004828,3626
+5,"Sk Sulthanbi",31578886782,"State Bank of India",Atmakuru,SBIN0004828,8428
+6,"N Lakshmamma",11496642011,"State Bank of India",Atmakuru,SBIN0004828,3492
+7,"D Penchalamma",31574218505,"State Bank of India",Atmakuru,SBIN0004828,11705
+8,"S Narayanamma",11496663686,"State Bank of India",Atmakuru,SBIN0004828,7355
+9,"K Nagamma",11496687314,"State Bank of India",Atmakuru,SBIN0004828,10876
+10,"Y Narayanamma",31364568004,"State Bank of India",Atmakuru,SBIN0004828,7355
+11,"A Krishnaiah",31171801302,"State Bank of India",Atmakuru,SBIN0004828,12105
+12,"Md Bee Begam",32088412915,"State Bank of India",Atmakuru,SBIN0004828,7355
+13,"N  Ramanaiah",31910614246,"State Bank of India",Atmakuru,SBIN0004828,12452
+14,"Sk Gousunnisa",31274605403,"State Bank of India",Atmakuru,SBIN0004828,7355
+15,"G  Bujjamma",32443913645,"State Bank of India",Chejerla,SBIN0015447,7065
+16,"G  Bujjamma",32443913645,"State Bank of India",Chejerla,SBIN0015447,3492
+17,"G  Sreenivasulu",11496636709,"State Bank of India",Chejerla,SBIN0015447,14258
+18,"E  Chenchamma",31673181183,"State Bank of India",Kovur,SBIN0000798,8428
+19,"R  Ramanamma",11326948477,"State Bank of India",Kovur,SBIN0000798,3492
+20,"M  Ramanamma",11326983998,"State Bank of India",Kovur,SBIN0000798,7834
+21,"K  Rathnamma",11326929442,"State Bank of India",Kovur,SBIN0000798,3492
+22,"T  Venkatarathnam",31579426417,"State Bank of India",Kodavaluru,SBIN0008836,10346
+23,"K  Subbamma",31592592841,"State Bank of India",Kodavaluru,SBIN0008836,7355
+24,"Ch Ramachandraiah",31555468353,"State Bank of India",Kovuru,SBIN0000798,11835
+25,"D Atchamma",11496632308,"State Bank of India",Atmakuru,SBIN0004828,7834
+26,"B Kamamma",31562215701,"State Bank of India",Buchireddypallem,SBIN0011119,9115
+27,"K Audi Lakshamma",31572860420,"State Bank of India",Buchireddypallem,SBIN0011119,10504
+28,"T Lakshamma",31570021543,"State Bank of India",Buchireddypallem,SBIN0011119,7630
+29,"E Chenchamma",31568928997,"State Bank of India",Buchireddypallem,SBIN0011119,7355
+30,"P Subba Ramaiah",31582219789,"State Bank of India",Buchireddypallem,SBIN0011119,12449
+31,"B Venkamma",31584110586,"State Bank of India",Buchireddypallem,SBIN0011119,7355
+32,"P Kamalamma",32476945126,"State Bank of India",Buchireddypallem,SBIN0011119,8228
+33,"R Narasamma",31584239215,"State Bank of India",Buchireddypallem,SBIN0011119,7644
+34,"G Polamma",31568831382,"State Bank of India",Buchireddypallem,SBIN0011119,7644
+35,"S Lakshamamma",31570820320,"State Bank of India",Buchireddypallem,SBIN0011119,8228
+36,"Ch Bujjamma",30817531260,"State Bank of India",Buchireddypallem,SBIN0011119,7454
+37,"Y Subbamma",31810924589,"State Bank of India",Buchireddypallem,SBIN0011119,7355
+38,"T Lakshmaiah",32023210175,"State Bank of India",Buchireddypallem,SBIN0011119,11462
+39,"E Venkatesu",32034097529,"State Bank of India",Buchireddypallem,SBIN0011119,11462
+40,"Ch  Pedda Ramanamma",31568738576,"State Bank of India",Buchireddypallem,SBIN0011119,7644
+41,"P Jaibunnisa Begum",31550970628,"State Bank of India",Bogole,SBIN0017407,3664
+42,"D Venkamma",31608237500,"State Bank of India",Nellore,SBIN0000887,7355
+43,"SK Khader Bee",31539154119,"State Bank of India",Kavali,SBIN0000858,7355
+44,"T Chandramma",31251620201,"State Bank of India",Kavali,SBIN0000859,11140
+45,"I Ramanamma",31584971691,"State Bank of India",Bogole,SBIN0017407,7355
+46,"Y Ranemma",30604455564,"State Bank of India",Kovur,SBIN0000798,8930
+47,"Ch Lakshamamma",31612263013,"State Bank of India",Podalakuru,SBIN0006052,9335
+48,"M  Penchalamma",11506825891,"State Bank of India",Podalakuru,SBIN0006052,7199
+49,"A Ramanamma",30319015684,"State Bank of India",Vidhyanagar,SBIN0002811,3664
+50,"B Sankaraiah",10889606866,"State Bank of India",Gudur,SBIN0000843,13749
+51,"B Krishnaiah",10889606855,"State Bank of India",Gudur,SBIN0000843,12798
+52,"K Venkateswarlu",11326929475,"State Bank of India",Kovur,SBIN0000798,13749
+53,"Sk  Kalebee",30619273065,"State Bank of India",Kovur,SBIN0000798,3664
+54,"D Guravaiah",31555333721,"State Bank of India",Duthaluru,SBIN0017408,8744
+55,"P Vijaya Lakshmi",30126774117,"State Bank of India",Gudur,SBIN0000843,9345
+56,"M Devadanamma",30244265966,"State Bank of India",Gudur,SBIN0000843,7355
+57,"R Kanaka Rathnamma",30263738580,"State Bank of India",Gudur,SBIN0000843,8228
+58,"M  Subbaramaraju",10889606822,"State Bank of India",Gudur,SBIN0000843,13886
+59,"D  Venkataramanamma",31937035133,"State Bank of India",Venkatagiri,SBIN0000969,11367
+60,"Y  Varamma",30243900976,"State Bank of India",Gudur,SBIN0000843,8636
+61,"T  Lakshmidevamma",11249680173,"State Bank of India",Vidhyanagar,SBIN0002811,7980
+62,"K  Manorama",32919304908,"State Bank of India",Chennuru,SBIN0012687,3982
+63,"I Penchalamma",11519172108,"State Bank of India",Indukurupet,SBIN0003353,7355
+64,"E Subbamma",31548226538,"State Bank of India",Indukurupet,SBIN0003353,10940
+65,"V Subbamma",10604409355,"State Bank of India",Indukurupet,SBIN0003353,8640
+66,"T Subba Rayudu",30946324110,"State Bank of India",Indukurupet,SBIN0003353,12754
+67,"N Lalithamma",11519278820,"State Bank of India",Mypadu,SBIN0003921,11674
+68,"P Kondamma",11613983618,"State Bank of India",Karedu,"Prakasam Dt ",SBIN0007537,8744
+69,"P Vasumathi",31579442791,"State Bank of India",Kavali,SBIN0000858,7355
+70,"N Vara Lakshamma",31582680219,"State Bank of India",Kavali,SBIN0000858,7355
+71,"N Mariyamma",31554291769,"State Bank of India",Kavali,SBIN0000858,7355
+72,"G Venkata Subbarathnam",30449422442,"State Bank of India",Kavali,SBIN0000858,7355
+73,"B Venkatamma",30913205363,"State Bank of India",Kavali,SBIN0000858,7355
+74,"U Venkateswarlu",10905813696,"State Bank of India",Kavali,SBIN0000858,12798
+75,"V Kotaiah",10905812252,"State Bank of India",Kavali,SBIN0000858,13515
+76,"Sk Mahaboobi",32349255446,"State Bank of India",Kavali,SBIN0000858,9309
+77,"G  Ramanamma",32846207268,"State Bank of India",Kavali,SBIN0000858,8865
+78,"B  Audilakshmamma",10905809340,"State Bank of India",Kavali,SBIN0000858,14594
+79,"O  Audiseshamma",10905858399,"State Bank of India",Kavali,SBIN0000858,8885
+80,"Ch  Koteswaramma",30684128622,"State Bank of India",Kavali,SBIN0000858,8988
+81,"D  Chinakondaiah",10905801216,"State Bank of India",Kavali,SBIN0000858,14258
+82,"N Krishnam Raju",11542519529,"State Bank of India",Kaluvoya,SBIN0003238,7002
+83,"P Audemma",31576930031,"State Bank of India",Somasila,SBIN0005815,3492
+84,"B Venkata Subbamma",11548632902,"State Bank of India",Kodavaluru,SBIN0008836,7355
+85,"K Suseelamma",31552464714,"State Bank of India",Kodavaluru,SBIN0008836,9611
+86,"K Kameswaramma",31540952261,"State Bank of India",Kodavaluru,SBIN0008836,7355
+87,"M Narasaiah",31554688960,"State Bank of India",Kodavaluru,SBIN0008836,10439
+88,"Y Polamma",31575213708,"State Bank of India",Nellore,SBIN0000887,7630
+89,"B Seshamma",31593279155,"State Bank of India",Kovur,SBIN0000798,8428
+90,"B Ramanamma",31571322074,"State Bank of India",Kovur,SBIN0000798,7630
+91,"M Subhashini",11326956908,"State Bank of India",Kovur,SBIN0000798,7355
+92,"G Seshamma",31590443255,"State Bank of India",Kovur,SBIN0000798,7355
+93,"T Ramanamma",30463910974,"State Bank of India",Kovur,SBIN0000798,7355
+94,"Y Chenchamma",30301312642,"State Bank of India",Kovur,SBIN0000798,7644
+95,"K Vijayamma",11326987198,"State Bank of India",Kovur,SBIN0000798,7355
+96,"N Ankaiah",30297771673,"State Bank of India",Kovur,SBIN0000798,11272
+97,"A Ramanaiah",11326921454,"State Bank of India",Kovur,SBIN0000798,12798
+98,"E Chinnamma",30353229582,"State Bank of India",Kovur,SBIN0000798,7355
+99,"M Muthyalamma",31524287840,"State Bank of India",Kovur,SBIN0000798,8428
+100,"E Subbaramaiah",31022624480,"State Bank of India",Kovur,SBIN0000798,11462
+101,"K Venkatamma",31596321399,"State Bank of India",Kovur,SBIN0000798,7644
+102,"Y Lingaiah",31215599351,"State Bank of India",Kovur,SBIN0000798,11462
+103,"Y Ramanaiah",31215596361,"State Bank of India",Kovur,SBIN0000798,9924
+104,"M Yasodamma",11326932772,"State Bank of India",Kovur,SBIN0000798,8337
+105,"Y Ramalakshmamma",32188889133,"State Bank of India",Kovur,SBIN0000798,8025
+106,"P Narasamma",11326988590,"State Bank of India",Kovur,SBIN0000798,7065
+107,"B  Venkatamma",33846995114,"State Bank of India",Indukurupet,SBIN0003353,17668
+108,"Ch Venkatamma",31734001385,"State Bank of India",Kovur,SBIN0000798,3492
+109,"K Subbamma",11249712968,"State Bank of India",Vidhyanagar,SBIN0002811,8744
+110,"N Kanthamma",31549492714,"State Bank of India",Vidhyanagar,SBIN0002811,7355
+111,"M Bala Ramaiah",11249680162,"State Bank of India",Vidhyanagar,SBIN0002811,12798
+112,"P Audi Narayana",31545269133,"State Bank of India",Vidhyanagar,SBIN0002811,7065
+113,"T Rajamma",31491626356,"State Bank of India",Vidhyanagar,SBIN0002811,9199
+114,"V Ramanaiah",31524775100,"State Bank of India",Vidhyanagar,SBIN0002811,13145
+115,"E Vijayammma",31532448549,"State Bank of India",Vidhyanagar,SBIN0002811,3492
+116,"T V Ramanamma",11326971132,"State Bank of India",Kavali,SBIN0000858,11802
+117,"P Peddaiah",11502270657,"State Bank of India",Kaligiri,SBIN0003742,8509
+118,"M Kondaiah",30279540955,"State Bank of India",Muthkur,SBIN0003719,13416
+119,"G Ankamma",31561060685,"State Bank of India",Muthkur,SBIN0003719,7355
+120,"T Veeraiah",31568868062,"State Bank of India",Muthkur,SBIN0003719,8785
+121,"Sk Hasan Khan",11521833133,"State Bank of India",Muthkur,SBIN0003719,11518
+122,"P Pullaiah",10604269043,"State Bank of India",Nellore,SBIN0000887,12449
+123,"Sk Masthan",10604269076,"State Bank of India",Muthkur,SBIN0003719,12697
+124,"A Gopalaiah",10604269098,"State Bank of India",Nellore,SBIN0000887,12798
+125,"V Prabhavathi",30713927908,"State Bank of India",Muthkur,SBIN0003719,14594
+126,"B Chenchamma",11499264191,"State Bank of India",Manubolu,SBIN0006112,11405
+127,"T  Bujjamma",31552692854,"State Bank of India",Manubolu,SBIN0006112,3492
+128,"G  Subbaiah",32982536092,"State Bank of India",Gudur,SBIN0000843,13515
+129,"K Premavathi",11123167551,"State Bank of India",Puttur," Chittore Dt ",SBIN0000580,3626
+130,"P Ankamma",31555836431,"State Bank of India",Naidupet,SBIN0005917,3626
+131,"M Ramulamma",31581139246,"State Bank of India",Naidupet,SBIN0005917,7355
+132,"M Lakshmi",11336188014,"State Bank of India",Naidupet,SBIN0005917,3492
+133,"T Chengamma",11336152496,"State Bank of India",Naidupet,SBIN0005917,7355
+134,"M Kotamma",11336188003,"State Bank of India",Naidupet,SBIN0005917,10708
+135,"M Lakshmi",11336188014,"State Bank of India",Naidupet,SBIN0005917,11360
+136,"T Polaiah",31597841318,"State Bank of India",Naidupet,SBIN0005917,11594
+137,"G Ankamma",11336193261,"State Bank of India",Naidupet,SBIN0005917,7355
+138,"A Lakshmamma",11336226391,"State Bank of India",Naidupet,SBIN0005917,11272
+139,"Sk Kalebee",11336132854,"State Bank of India",Naidupet,SBIN0005917,11553
+140,"A Naga Rathnamma",31559634168,"State Bank of India",Naidupet,SBIN0005917,8428
+141,"G Venkatamma",11336114405,"State Bank of India",Naidupet,SBIN0005917,13928
+142,"K Kanthamma",11336157381,"State Bank of India",Naidupet,SBIN0005917,7457
+143,"D Subbaramaiah",31947075708,"State Bank of India",Naidupet,SBIN0005917,8953
+144,"M  Thirupalamma",31583437933,"State Bank of India",Naidupet,SBIN0005917,7355
+145,"D Subbamma",31569615611,"State Bank of India",Nellore,SBIN0000887,7630
+146,"Ch Venkamma",31590318654,"State Bank of India",Nellore,SBIN0000887,9094
+147,"Ch Bujjamma",31596251411,"State Bank of India",Nellore,SBIN0000887,7630
+148,"B Hajarathamma",31975696075,"State Bank of India",Nellore,SBIN0000887,3492
+149,"D Seshamma",31590305021,"State Bank of India",Nellore,SBIN0000887,11095
+150,"D Sulochanamma",31619416882,"State Bank of India",Nellore,SBIN0000887,8818
+151,"M Ramanamma",31574567191,"State Bank of India",Nellore,SBIN0000887,7355
+152,"K Deva kamma",10241740956,"State Bank of India",Nellore,SBIN0000887,7355
+153,"K Prameela",31569217280,"State Bank of India",Nellore,SBIN0000887,7968
+154,"A Jayamma",10672971814,"State Bank of India",Nellore,SBIN0000887,12140
+155,"O Seshamma",30093013734,"State Bank of India",Nellore,SBIN0000887,7355
+156,"P Ramanamma",31590319078,"State Bank of India",Nellore,SBIN0000887,7355
+157,"P Jaibunnisa  ",31550970628,"State Bank of India",Nellore,SBIN0000887,7355
+158,"K Audi Narayanachari",10672963359,"State Bank of India",Nellore,SBIN0000887,9202
+159,"K Lakshmi",30369284660,"State Bank of India",Nellore,SBIN0000887,3492
+160,"G Narasamma",30612238164,"State Bank of India",Kovur,SBIN0000798,10907
+161,"K Subbaramaiah",10604268573,"State Bank of India",Nellore,SBIN0000887,13515
+162,"P Subba Ramaiah",10604269021,"State Bank of India",Nellore,SBIN0000887,13515
+163,"T  Penchalaiah",10604268528,"State Bank of India",Nellore,SBIN0000887,13515
+164,"Sk  Khadar Bhasha",11506811505,"State Bank of India",Podalakuru,SBIN0006052,13145
+165,"M  Seshaiah",10604268551,"State Bank of India",Nellore,SBIN0000887,10782
+166,"T  Kanthamma",32685982557,"State Bank of India",Nellore,SBIN0000887,17668
+167,"V Kameswaramma",31574642387,"State Bank of India",Nellore,SBIN0000887,12031
+168,"B Venkataswamy",10604196367,"State Bank of India",Nellore,SBIN0000887,14661
+169,"Marri Ankamma",31591538793,"State Bank of India",Podalakuru,SBIN0006052,7207
+170,"V Subbamma",31587050702,"State Bank of India",Podalakuru,SBIN0006052,11039
+171,"P Ankaiah",31587052700,"State Bank of India",Podalakuru,SBIN0006052,10040
+172,"G Lakshamma",11506804326,"State Bank of India",Podalakuru,SBIN0006052,9928
+173,"K Thiripamma",31596826367,"State Bank of India",Podalakuru,SBIN0006052,7355
+174,"K  Audaiah",11506806549,"State Bank of India",Podalakuru,SBIN0006052,13515
+175,"G Subbamma",30826478339,"State Bank of India",Sullurupet,SBIN0000773,10548
+176,"K Ramanamma",30802177554,"State Bank of India",Sullurupet,SBIN0000773,8428
+177,"N China Gangaiah",30999342127,"State Bank of India",Sullurupet,SBIN0000773,9402
+178,"T Rama Lakshamma",11069814294,"State Bank of India",Sullurupet,SBIN0000773,7355
+179,"T Lakshmamma",11069842903,"State Bank of India",Sullurupet,SBIN0000773,12754
+180,"B Venkatesu",11069731815,"State Bank of India",Sullurupet,SBIN0000773,12798
+181,"P Kanakamma",11069860591,"State Bank of India",Sullurupet,SBIN0000773,8578
+182,"P Venkatasubbamma",11069815049,"State Bank of India",Sullurupet,SBIN0000773,8297
+183,"Sk Beebee",30608668657,"State Bank of India",Udayagiri,SBIN0011118,3492
+184,"Ch Penchalamma",31608554121,"State Bank of India",Kalichedu,SBIN0005327,3492
+185,"B  Ankamma",30496304760,"State Bank of India",Chennuru,SBIN0012687,13515
+186,"P V Subbamma",31553460672,"State Bank of India",Atmakuru,SBIN0004828,10504
+187,"S Seshamma",31537210247,"State Bank of India","T P Gudur",SBIN0003722,12105
+188,"Ch Vajramma",11521945916,"State Bank of India","T P Gudur",SBIN0003722,7355
+189,"B Ramaswamy",31589087152,"State Bank of India","T P Gudur",SBIN0003722,11140
+190,"T Subbamma",11351477517,"State Bank of India",Allipuram,SBIN0001912,12105
+191,"O  Sridevamma",30608781297,"State Bank of India",Allipuram,SBIN0001912,8988
+192,"V  Neelamma",30615973718,"State Bank of India","T P Gudur",SBIN0003722,13886
+193,"Sk Mamula",11069779675,"State Bank of India",Tada,SBIN0012949,3492
+194,"T Venkata Rao",11069782656,"State Bank of India",Tada,SBIN0012949,11148
+195,"G Subbamma",30814732878,"State Bank of India",Udayagiri,SBIN0011118,7834
+196,"K  Venkataiah",30222197434,"State Bank of India",Udayagiri,SBIN0011118,14258
+197,"N  Venkatasubbaiah",30223529947,"State Bank of India",Udayagiri,SBIN0011118,15065
+198,"S China Venkatamma",30325626356,"State Bank of India",Venkatagiri,SBIN0000969,3664
+199,"S Bujjamma",11280011497,"State Bank of India",Venkatagiri,SBIN0000970,3626
+200,"A Kamalamma",31559840284,"State Bank of India",Venkatagiri,SBIN0000971,10708
+201,"K Pitchaiah",11280001568,"State Bank of India",Venkatagiri,SBIN0000972,8083
+202,"S Audi Lakshamma",30263709105,"State Bank of India",Venkatagiri,SBIN0000973,3492
+203,"K Polamma",31561728178,"State Bank of India",Venkatagiri,SBIN0000974,7355
+204,"N Varammma",30464745806,"State Bank of India",Venkatagiri,SBIN0000975,8863
+205,"P Venkamma",30421540025,"State Bank of India",Venkatagiri,SBIN0000976,11092
+206,"A Audemma",31559840217,"State Bank of India",Venkatagiri,SBIN0000977,8851
+207,"K Lakshamma",11367975184,"State Bank of India",Vinjumur,SBIN0003177,3626
+208,"G Ramanamma",31542696351,"State Bank of India",Vinjumur,SBIN0003177,7355
+209,"G  Vengamma",31865252818,"State Bank of India",Vinjumur,SBIN0003177,15424
+210,"K Ramanamma",31574788892,"State Bank of India",Kodavaluru,SBIN0008836,3492
+211,"Ch Audi Lakshmamma",31574787297,"State Bank of India",Kodavaluru,SBIN0008836,7355
+212,"P  Ramanamma",32387360067,"State Bank of India",Kovur,SBIN0000798,14993
+213,"A  Annamma",33580698053,"State Bank of India",Kodavaluru,SBIN0008836,12452
+214,"M  Subbamma",32730721865,"State Bank of India",Kovur,SBIN0000798,7114
+215,"P Masthan bi",31580872093,"State Bank of India",Venkatachalam,SBIN0013391,10640
+216,"P Kanthamma",31576003969,"State Bank of India",Venkatachalam,SBIN0013391,10504
+217,"T Venkamma",31573732113,"State Bank of India",Venkatachalam,SBIN0013391,10129
+218,"V Ramanamma",31555865032,"State Bank of India",Vidhyanagar,SBIN0002811,8428
+219,"P Kanthamma",31555865441,"State Bank of India",Vidhyanagar,SBIN0002811,7355
+220,"A Seshamma",31576281756,"State Bank of India",Vidhyanagar,SBIN0002811,7630
+221,"G Audemma",31560460594,"State Bank of India",Udayagiri,SBIN0011118,12236
+222,"Ch Venkata Subbamma",31538206353,"State Bank of India",Kavali,SBIN0000858,7622
+223,"V Ragaiah",10905865918,"State Bank of India",Kavali,SBIN0000858,12413
+224,"B Subba Ramaiah",10905812296,"State Bank of India",Kavali,SBIN0000858,12413
+225,"B Rangaiah",31581493173,"State Bank of India",Kavali,SBIN0000858,12413
+226,"Y  Narasaiah",10905858887,"State Bank of India",Kavali,SBIN0000858,11056
+227,"A  Lakshminarasamma",30637195378,"State Bank of India",Kavali,SBIN0000858,8836
+228,"M Ramaiah",31542286312,"State Bank of India",Rapur,SBIN0012686,9551
+229,"P Srinivasulu",32157090385,"State Bank of India",Rapur,SBIN0012686,7114
+230,"K Penchalamma",31601312350,"State Bank of India",Somasila,SBIN0005815,18550
+231,"G  Sreenivasulu",11496636709,"State Bank of India",Atmakuru,SBIN0004828,28515
+232,"P Audemma",31576930031,"State Bank of India",Somasila,SBIN0005815,6984
+233,"M  Subbamma",32730721865,"State Bank of India",Kovur,SBIN0000798,14228

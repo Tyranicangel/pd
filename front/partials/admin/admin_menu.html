@@ -1,0 +1,60 @@
+<div class="menu">
+	<div class="container">
+		<div class="menu_indi smaller">
+			<a ui-sref="backadmin.adminhome"><div class="menu_item">HOME</div></a>
+		</div>
+		<div class="menu_indi smaller">
+			<div class="menu_item">ADD/DELETE CHEQUES</div>
+			<div class="sub_menu">
+				<a ui-sref="backadmin.singlechq"><div class="menu_subitem">Add/delete single cheque</div></a>
+				<a ui-sref="backadmin.multiplechq"><div class="menu_subitem">Add/delete multiple cheque</div></a>
+				<a ui-sref="backadmin.multiplebook"><div class="menu_subitem">Add/delete cheque inventory</div></a>
+			</div>
+		</div>
+		<div class="menu_indi smaller">
+			<div class="menu_item">REPORTS</div>
+			<div class="sub_menu">
+				<a ui-sref="backadmin.accstmt"><div class="menu_subitem">Account statement</div></a>
+				<a ui-sref="backadmin.chqrpt"><div class="menu_subitem">Cheque Report</div></a>
+				<a ui-sref="backadmin.locrpt"><div class="menu_subitem">LOC Report</div></a>
+				<a ui-sref="backadmin.allacslist"><div class="menu_subitem">Account wise Balances & LOCs</div></a>
+				<a ui-sref="backadmin.alltrans"><div class="menu_subitem">Transactions List</div></a>
+				<a ui-sref="backadmin.allfaultyacnts"><div class="menu_subitem">Faulty PD Accounts</div></a>
+				<a ui-sref="backadmin.accrpt"><div class="menu_subitem">PD Accounts Status Report</div></a>
+			</div>
+		</div>
+		<div class="menu_indi smaller">
+			<div class="menu_item">AUTHORIZE</div>
+			<div class="sub_menu">
+				<a ui-sref="backadmin.sapendingloc"><div class="menu_subitem">LOC</div></a>
+				<a ui-sref="backadmin.pendingchqs"><div class="menu_subitem">Cheques</div></a>
+			</div>
+		</div>
+		<div class="menu_indi smaller">
+			<div class="menu_item">OTHERS</div>
+			<div class="sub_menu">
+				<a ui-sref="backadmin.adminquery"><div class="menu_subitem">QUERY SYSTEM</div></a>
+				<a ui-sref="backadmin.resetpass"><div class="menu_subitem">RESET PASSWORD</div></a>
+				<a ui-sref="backadmin.addbank"><div class="menu_subitem">ADD IFSC CODE</div></a>
+				<a ui-sref="backadmin.confaclist"><div class="menu_subitem">Rejected Accounts</div></a>
+				<a ui-sref="backadmin.locactivity"><div class="menu_subitem">LOC Activity</div></a>
+				<a ui-sref="backadmin.chqactivity"><div class="menu_subitem">Cheque Activity</div></a>
+				<a ui-sref="backadmin.currentacnochange"><div class="menu_subitem">Change current a/c number</div></a>
+			</div>
+		</div>
+		<div class="menu_indi smaller">
+			<div class="menu_item">GENERAL</div>
+			<div class="sub_menu">
+				<a href="partials/admin/getquery.php" target="_blank"><div class="menu_subitem">DB Query</div></a>
+				<a ui-sref="backadmin.password"><div class="menu_subitem">Change Password</div></a>
+				<div class="menu_subitem" ng-click='logout()'>Logout</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="content">
+	<div class="container">
+		<div class="welcome">Welcome {{username}}</div>
+		<div ui-view="content"></div>
+	</div>
+</div>

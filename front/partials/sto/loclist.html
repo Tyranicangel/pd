@@ -1,0 +1,55 @@
+<div class="content_heading">LOC Requests</div>
+<div class="fullwrap">
+	<table class='each_table' ng-show="allrequests.length>0">
+		<tr class='heading_row'>
+			<th>Sno</th>
+			<th>Request User</th>
+			<th>DDO Code</th>
+			<th>Head of Account</th>
+			<th>Balance <span class="small_txt">(in Rs.)</span></th>
+			<th>Existing Loc Balance <span class="small_txt">(in Rs.)</span></th>
+			<th>Requested Amount <span class="small_txt">(in Rs.)</span></th>
+			<th>Request Date</th>
+			<th>Amount Granted <span class="small_txt">(in Rs.)</span></th>
+			<th>Reference No</th>
+			<th>Remarks</th>
+			<th>Recommendations</th>
+			<th>
+				<input type="checkbox" ng-click="checkall()" ng-checked="allchecked()" style="display:none;">
+				Select
+			</th>
+		</tr>
+		<tr ng-repeat="request in allrequests">
+			<td>{{request.sno}}</td>
+			<td>{{request.requser.userdesc}}</td>
+			<td>{{request.requestuser}}</td>
+			<td>{{request.schemes.schemename+' ( '+request.hoa+' ) '}}</td>
+			<td>{{getcommas(request.balance)}}</td>
+			<td>{{getcommas(request.exloc)}}</td>
+			<td>{{request.reqamount}}</td>
+			<td>{{Dates.getDate(request.requestdate)}}</td>
+			<td>{{request.grantamount}}</td>
+			<td ng-if="request.refno!=''">{{request.refno}}</td>
+			<td ng-if="request.refno==''">-</td>
+			<td><b>SA:</b>{{request.remarks}}</td>
+			<td><b>SA:</b>{{request.rec}}</td>
+			<td>
+				<input type='checkbox' ng-model='request.check'>
+			</td>
+		</tr>
+	</table>
+	<div class="wrap_indi" ng-show='allrequests.length>0'>
+		<div class="each_text" style="width:95px;">Remarks</div>
+		<textarea class='textarea' style="padding:5px;" placeholder="Enter remarks here.." ng-model='remarks'></textarea>
+	</div>
+	<div class="wrap_indi" style="padding-left:20px;" ng-show='allrequests.length>0'>
+		<div class="main_button yes_btn" style="margin-right:20px;" ng-click="chq_confirm()">Forward</div>
+		<!-- <div class="main_button" style="margin-left:0px;background:#003544;border:1px solid #003544;" ng-click="chq_return()">Return To SA</div> -->
+	</div>
+	<div class="wrap_indi" ng-show="allrequests.length==0">
+		<div class="each_desc">
+			* You do not have any pending LOC requests
+		</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

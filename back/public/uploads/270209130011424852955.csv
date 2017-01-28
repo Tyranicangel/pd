@@ -1,0 +1,21 @@
+Sno,Party Name,Party Account no,Party Bank Name,Party Bank Branch,Party Bank Ifsc Code,Party Amount
+1,"Suptd., KG Hospl, Vizag",10849854158,"State Bank of India, ","Maharanipeta, Visakhapatnam",SBIN0000754,5000000
+2,"Suptd., Govt TB & Chest Hospl, Vizag",10039371761,"SBI, ","Waltair Br.,Visakhapatnam",SBIN0010641,600000
+3,"Suptd.,Dr. RSPR Govt.R.E.Hospital, Vizag.",107310011003656,"Andhra Bank, ","Dr. L. Bullaiah College Br., Visakhapatnama-13",ANDB0001073,100000
+4,"Suptd.,Victoria Hospital, Vizag",103010100024548,"Andhra Bank, ","KGH Br., Maharanipeta, Visakhapatnam-530002.",ANDB0001030,900000
+5,"Suptd.,Govt. E.N.T. Hospital, Vizag",30816231698,"SBI, ","Waltair Br.,Visakhapatnam",SBIN0010641,600000
+6,"Suptd., Metal Care Hopital, Vizag",133210011000242,"Andhra Bank, ","East Point Colony, VSP",ANDB0001332,600000
+7,"Suptd., R.C.D.Hospital, Vizag.",10025547279,"SBI, ","MVP Colony Br., Vizag ",SBIN0004158,300000
+8,"Suptd., GGH, Kakinada",480201011001580,"Vijaya Bank, ","GGH compound, Kakinada",VIJB0004802,4200000
+9,"Suptd., GGH, Guntur",31807904862,"SBI, ","GGH Br, Guntur",SBIN0010278,4300000
+10,"Suptd.,Fever Hospital, Guntur",69610011003385,"Andhra Bank, ","Gorantla, Guntur",ANDB0000696,300000
+11,"Suptd.,Govt. General Hospital ,Vijayawada.",62021579138,"State Bank of Hyderabad, ","Gayathri Nagar Br., Vijayawada.",SBHY0021050,3700000
+12,"Suptd.,Govt. General Hospital ,Kurnool",137910100004377,"Andhra Bank, ","Kurnool Medical College Br., Kurnool",ANDB0001379,4200000
+13,"Suptd.,Regional Eye Hospital, Kurnool",10289703215,"SBI, ","Budhwarpet, Kurnool",SBIN0003185,100000
+14,"Suptd.,Govt. General Hospital , Ananthpur",38510011038004,Andhra Bank ,"New Town, Ananthapur",ANDB0000385,3000000
+15,"Suptd., SVRR Hospl., Tirupathi",52010100024858,"Andhra Bank, ","Medical College Br., Tirupathi",ANDB0000520,2500000
+16,"Suptd., Govt. Meternity Hospital, Tirupathi",52011011000064,"Andhra Bank, ","S.V.Medical College Br.,Tirupathi",ANDB0000520,900000
+17,"Director,Govt. Genl. RIMS, Kadapa",30800641974,"SBI, ","RIMS, Kadapa",SBIN0010107,2500000
+18,"Director,R.I.M.S. Genl. Hospital, Ongole.",175610100006481,"Andhra Bank, ","RIMS, Ongole",ANDB0001756,1500000
+19,"Director, RIMS, Srikakulam",30394471444,"SBI, ","ADB Br., Srikakulam",SBIN0001586,1440000
+20,"Suptd., ACSR Hospital, Nellore",111410100077221,"Andhra Bank, ","AK Nagar, Nellore",ANDB0001114,1000000

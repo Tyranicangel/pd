@@ -1,0 +1,38 @@
+<div class="content_heading">Cheques Pending for Govt Authorization</div>
+<div class="fullwrap" ng-show='allpendingchqs.length>0'>
+	<div class="wrap_indi" style='font-size:14px;'>Total Amount of all cheques is <b>Rs {{tot}}</b></div>
+</div>
+<div class="fullwrap" ng-show='allpendingchqs.length==0'>
+	<div class="wrap_indi" style='font-size:14px;'>There are no pending cheques.</b></div>
+</div>
+<div class="fullwrap" ng-show='allpendingchqs.length>0'>
+	<div class="wrap_indi">
+		<table class='each_table' style="margin-top:20px;">
+			<tr class='heading_row clr_wg'>
+				<td>Sno</td>
+				<td>DDO Code</td>
+				<td>HOA</td>
+				<td>Purpose</td>
+				<td>Issued Date</td>
+				<td>Amount <span class="shwng_dt_txt">(in Rs.)</span></td>
+				<td>Balance <span class="shwng_dt_txt">(in Rs.)</span></td>
+				<td>Approve</td>
+				<td>Remarks</td>
+				<td>Reject</td>
+			</tr>
+			<tr ng-repeat="x in allpendingchqs">
+				<td>{{$index+1}}</td>
+				<td>{{x.issueuser}}</td>
+				<td>{{x.hoa}}</td>
+				<td>{{x.purpose}}</td>
+				<td>{{Dates.getDate(x.transdate)}}</td>	
+				<td>{{x.partyamount}}</td>
+				<td>{{x.balance}}</td>
+				<td><button ng-click="approvechq(x)">Approve</button></td>
+				<td><input type="text" ng-model="x.thisremarkchq" style="width:100px;"/></td>
+				<td><button ng-click="rejectchq(x)">Reject</button></td>
+			</tr> 
+		</table>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

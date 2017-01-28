@@ -1,0 +1,156 @@
+Sno,Party Name,Party Account no,Party Bank Name,Party Bank Branch,Party Bank Ifsc Code,Party Amount
+1,Shaik Wahida,8.84E+13,Andhra Bank,Narsingaraopet ,ANDB0000884,50000
+2,Gundu Shashavali,1.95E+14,Andhra Bank,Pattikonda,ANDB0001949,40000
+3,Tanveer Haseena,1.24E+14,Andhra Bank,Nandyal Road,ANDB0001243,50000
+4,S.Chan Basha,3.90E+13,Andhra Bank,Nandikotkur,ANDB0000390,100000
+5,S.Moulali,3.90E+13,Andhra Bank,Nandikotkur,ANDB0000390,100000
+6,Shaik Hasina,3.90E+13,Andhra Bank,Nandikotkur,ANDB0000390,30000
+7,Gaja Guduri Bibi,2.01E+12,Andhra Bank,Allagadda,ANDB0000020,50000
+8,Shek Dastagiri,9.13E+13,Andhra Bank,Perusomula,ANDB0000913,50000
+9,Avuku Pedda Husen Bhasha,9.13E+13,Andhra Bank,Perusomula,ANDB0000913,50000
+10,Sowdagar Nabi Sab,5.91E+12,Andhra Bank,Banaganapalli,ANDB0000059,30000
+11,K Mahaboob Basha,8.05E+13,Andhra Bank,Koilkuntla,ANDB0000805,50000
+12,Shaik Noor Masammad,8.05E+13,Andhra Bank,Koilkuntla,ANDB0000805,50000
+13,Feroza Banu,2.10E+11,Andhra Bank,Adoni,ANDB0000002,50000
+14,Baildar Khatoon Bee,2.10E+11,Andhra Bank,Adoni,ANDB0000002,50000
+15,S Nazeer Basha,2.93E+13,Andhra Bank,Ashoknagar,ANDB0000293,50000
+16,Gaddam Jakirhusen,3.90E+13,Andhra Bank,Nandikotkur,ANDB0000390,100000
+17,G Jalilahammad,3.90E+13,Andhra Bank,Nandikotkur,ANDB0000390,100000
+18,S. Shajahan,3.20E+13,Andhra Bank,Kurnool,ANDB0000320,50000
+19,Katika Ramija Bi,3.20E+13,Andhra Bank,Kurnool,ANDB0000320,50000
+20,Shaik Mohammad Hussain,5.91E+12,Andhra Bank,Banaganapalli,ANDB0000059,25000
+21,S.Gousia,3.20E+13,Andhra Bank,Kurnool,ANDB0000320,100000
+22,Shaik Tasleem,8.84E+13,Andhra Bank,Narsingaraopet ,ANDB0000884,30000
+23,Shaik Aktharunnisa,3.90E+13,Andhra Bank,Nandikotkur,ANDB0000390,50000
+24,Pinjari Basha,3.90E+13,Andhra Bank,Nandikotkur,ANDB0000390,50000
+25,Patan Abbas Khan,3.90E+13,Andhra Bank,Nandikotkur,ANDB0000390,40000
+26,Shaik Abidhabee,8.84E+13,Andhra Bank,Narsingaraopet ,ANDB0000884,50000
+27,Shanu,1.95E+14,Andhra Bank,Palghat,ANDB00001949,30000
+28,Molagavalli Firdose,1.95E+14,Andhra Bank,Palghat,ANDB00001949,50000
+29,S Mahaboob Bhasha,1.95E+14,Andhra Bank,Palghat,ANDB00001949,30000
+30,Belagal Ikbal,1.95E+14,Andhra Bank,Palghat,ANDB00001949,30000
+31,Gutal Valibhasha,1.95E+14,Andhra Bank,Palghat,ANDB00001949,30000
+32,Shaik Jilan,1.95E+14,Andhra Bank,Palghat,ANDB00001949,30000
+33,Bandi Vannur Vali,1.95E+14,Andhra Bank,Palghat,ANDB00001949,30000
+34,Shaik Mastanvali,1.95E+14,Andhra Bank,Palghat,ANDB00001949,50000
+35,S Shabana Begam,1.95E+14,Andhra Bank,Palghat,ANDB00001949,50000
+36,Shaik Chand Basha,2.93E+13,Andhra Bank,Ashoknagar,ANDB0000293,50000
+37,Shaik Naseeb Basha,3.90E+13,Andhra Bank,Nandikotkur,ANDB0000390,30000
+38,Shaik Mansoor Basha,3.90E+13,Andhra Bank,Nandikotkur,ANDB0000390,50000
+39,Angudaru Jakeer,1.95E+14,Andhra Bank,Palghat,ANDB00001949,30000
+40,Belagal Hjarath Ali,1.95E+14,Andhra Bank,Pattikonda,ANDB0001949,30000
+41,Neerugattu Sheikshavali,1.95E+14,Andhra Bank,Pattikonda,ANDB0001949,40000
+42,Kattubadi Asiabegam,1.95E+14,Andhra Bank,Palghat,ANDB00001949,30000
+43,Shaik Dasthagiri,2.01E+12,Andhra Bank,Allagadda,ANDB0000020,25000
+44,Sheak Mahaboob Bhasha,9.13E+13,Andhra Bank,Perusomula,ANDB0000913,50000
+45,Shek Husen Bi,9.13E+13,Andhra Bank,Perusomula,ANDB0000913,50000
+46,Chilukaluri Mahaboob Usaini,2.01E+12,Andhra Bank,Allagadda,ANDB0000020,50000
+47,Achukatla Mabusahebu,9.13E+13,Andhra Bank,Perusomula,ANDB0000913,50000
+48,Shaik Basha,2.01E+12,Andhra Bank,Allagadda,ANDB0000020,50000
+49,Bandeal Valli,9.13E+13,Andhra Bank,Perusomula,ANDB0000913,50000
+50,Sayad Hussain Basha,2.01E+12,Andhra Bank,Allagadda,ANDB0000020,50000
+51,Pathan Shairkhan,1.52E+14,Andhra Bank,G Pullareddy Engg College EC,ANDB0001521,50000
+52,Shaik S Mohammad Abdul Khader Jeelani,2.93E+13,Andhra Bank,Ashoknagar,ANDB0000293,100000
+53,Aouku Kulaie Babu,9.13E+13,Andhra Bank,Perusomula,ANDB0000913,50000
+54,Kolimi Mahammad Yaqub Hussain,9.13E+13,Andhra Bank,Perusomula,ANDB0000913,50000
+55,S Ajmeer,9.13E+13,Andhra Bank,Perusomula,ANDB0000913,50000
+56,Thota Abdhul Khaleel,9.13E+13,Andhra Bank,Perusomula,ANDB0000913,50000
+57,Levajal Mabasha,9.13E+13,Andhra Bank,Perusomula,ANDB0000913,50000
+58,Botka Hussain Bhasha,9.13E+13,Andhra Bank,Perusomula,ANDB0000913,50000
+59,Botuka Vussen Vali,9.13E+13,Andhra Bank,Perusomula,ANDB0000913,50000
+60,Bantela Mubarak Bi,9.13E+13,Andhra Bank,Perusomula,ANDB0000913,50000
+61,Sheik Jilan Bhasha,8.05E+13,Andhra Bank,Koilkuntla,ANDB0000805,50000
+62,Shaik Hasina Begam,6.52E+13,Andhra Bank,Yemmiganur,ANDB0000652,50000
+63,Aavuku Hushen Bi,9.13E+13,Andhra Bank,Perusomula,ANDB0000913,50000
+64,Sheik Mahaboob Basha,3.90E+13,Andhra Bank,Nandikotkur,ANDB0000390,100000
+65,Shaik Mammadusa,9.13E+13,Andhra Bank,Perusomula,ANDB0000913,50000
+66,Owku Bhasha,9.13E+13,Andhra Bank,Perusomula,ANDB0000913,50000
+67,Katika Munthaj Begum,6.52E+13,Andhra Bank,Yemmiganur,ANDB0000652,50000
+68,Sayad Jaafaar Alli,8.05E+13,Andhra Bank,Koilkuntla,ANDB0000805,50000
+69,Attar Nadeem Nowshad,8.05E+13,Andhra Bank,Koilkuntla,ANDB0000805,50000
+70,Dudekula Shakira,6.52E+13,Andhra Bank,Yemmiganur,ANDB0000652,50000
+71,Mohmmed Mumtaz,5.31E+12,Andhra Bank,Budhawarpet,ANDB0000053,30000
+72,Syed Reshma,5.31E+12,Andhra Bank,Budhawarpet,ANDB0000053,30000
+73,N Chand Basha,9.13E+13,Andhra Bank,Perusomula,ANDB0000913,50000
+74,Shaik Mohammed Rafi,5.91E+12,Andhra Bank,Banaganapalli,ANDB0000059,25000
+75,Patan Munthaj Khatu,3.90E+13,Andhra Bank,Nandikotkur,ANDB0000390,50000
+76,Karim Khan,5.91E+12,Andhra Bank,Banaganapalli,ANDB0000059,30000
+77,Bandi Usensaa,1.95E+14,Andhra Bank,Palghat,ANDB00001949,50000
+78,Shaik Mohammed Shafi,1.11E+13,Andhra Bank,Dhone,ANDB0000111,50000
+79,Shaik Shannu Banu,6.52E+13,Andhra Bank,Yemmiganur,ANDB0000652,50000
+80,Shaik Badurun,5.91E+12,Andhra Bank,Banaganapalli,ANDB0000059,30000
+81,M Abdul Salam Hussain,4.07E+12,Andhra Bank,Palkur,ANDB0000407,50000
+82,Shaik Mallikabanu,3.90E+13,Andhra Bank,Nandikotkur,ANDB0000390,100000
+83,Sheak Jamila,8.42E+13,Andhra Bank,Konidela,ANDB0000842,30000
+84,Gouli Harun Bhasha,1.95E+14,Andhra Bank,Pattikonda,ANDB0001949,40000
+85,Achukatla Vali Basha,1.95E+14,Andhra Bank,Pattikonda,ANDB0001949,30000
+86,Sadik,8.05E+13,Andhra Bank,Koilkuntla,ANDB0000805,100000
+87,Sheik Raham Tulla,1.95E+14,Andhra Bank,Pattikonda,ANDB0001949,40000
+88,Choudry Zubair Ahmed,3.20E+13,Andhra Bank,Kurnool,ANDB0000320,100000
+89,B. Rihana Khatoan,8.84E+13,Andhra Bank,Narsingaraopet ,ANDB0000884,30000
+90,Shaik Azeez Rahman,8.84E+13,Andhra Bank,Narsingaraopet ,ANDB0000884,100000
+91,Shaik Ssakun,8.84E+13,Andhra Bank,Narsingaraopet ,ANDB0000884,50000
+92,Potula Salima Bee,1.95E+14,Andhra Bank,Palghat,ANDB00001949,30000
+93,Katike Janath Banu,6.52E+13,Andhra Bank,Yemmiganur,ANDB0000652,50000
+94,Pothulu Hussain Bee,1.95E+14,Andhra Bank,Pattikonda,ANDB0001949,40000
+95,Shaik Moulali,91034915354,Andhra Pragathi Grameena Bank,Krishna Nagar Kurnool,APGB0003136,30000
+96,S.Ismail,91026607247,Andhra Pragathi Grameena Bank,Nanoor,APGB0003011,30000
+97,Mulla Abdul Sattar,5.72E+14,Bank Of India,Pandurangapura,BKID0005715,30000
+98,M Osman,5.72E+14,Bank Of India,Pandurangapura,BKID0005715,30000
+99,Mulla Mahammad Hussain,5.72E+14,Bank Of India,Pandurangapura,BKID0005715,30000
+100,Pinjari Mohammed Gouse,6.61E+11,Canara Bank,Kurnool,CNRB0000661,30000
+101,Pattan Shakir Ahamed,6.61E+11,Canara Bank,Kurnool,CNRB0000661,30000
+102,Shaik Zenathunnisa,6.61E+11,Canara Bank,Kurnool,CNRB0000661,30000
+103,Chowdary Zakir Basha,6.61E+11,Canara Bank,Kurnool,CNRB0000661,50000
+104,Arcati Gulab Basha,6.61E+11,Canara Bank,Kurnool,CNRB0000661,50000
+105,Noor Jahan Bee,6.61E+11,Canara Bank,Kurnool,CNRB0000661,30000
+106,Shaik Ameerun,6.61E+11,Canara Bank,Kurnool,CNRB0000661,50000
+107,Pagidala Amanulla,6.61E+11,Canara Bank,Kurnool,CNRB0000661,50000
+108,Shaik Khamrunissa,6.61E+11,Canara Bank,Kurnool,CNRB0000661,30000
+109,Shaik Muneer,1.32E+12,Canara Bank,Nandyal,CNRB0001319,100000
+110,Shaik Imran,6.61E+11,Canara Bank,Kurnool,CNRB0000661,30000
+111,Shaik Muneera Banu,2.06E+13,Corporation Bank,Kurnool,CORP0000206,30000
+112,Shaik Iliyaz,2.06E+13,Corporation Bank,Kurnool,CORP0000206,50000
+113,Nur Jaha,2.06E+13,Corporation Bank,Kurnool,CORP0000206,30000
+114,S.Kauser,2.06E+13,Corporation Bank,Kurnool,CORP0000206,30000
+115,Mahammed Doulath Khan,2.06E+13,Corporation Bank,Kurnool,CORP0000206,30000
+116,Khan Younus Khan,2.06E+13,Corporation Bank,Kurnool,CORP0000206,30000
+117,Mulla Rafiq Ahamed,2.06E+13,Corporation Bank,Kurnool,CORP0000206,100000
+118,Syed Khadar Vali,2.06E+13,Corporation Bank,Kurnool,CORP0000206,100000
+119,Zia Ur Rahaman,2.06E+13,Corporation Bank,Kurnool,CORP0000206,50000
+120,S.Abdulla,2.06E+13,Corporation Bank,Kurnool,CORP0000206,50000
+121,S.Tahimeen,2.06E+13,Corporation Bank,Kurnool,CORP0000206,30000
+122,B Khairunnisa,2.06E+13,Corporation Bank,Kurnool,CORP0000206,30000
+123,Shaik Karimulla,7.18E+13,Indian Overseas Bank,Nandyal,IOBA0000718,100000
+124,Shaik Mahaboob Bee,7.18E+13,Indian Overseas Bank,Nandyal,IOBA0000718,30000
+125,Mulla Mahabubbasha,1.31E+14,Kdcc Bank,Kodumur,APBL0013009,25000
+126,Sheik Kathunbi,1.31E+14,Kdcc Bank,Kodumur,APBL0013009,25000
+127,Muslim Sujathali,1.31E+14,Kdcc Bank,Kodumur,APBL0013009,25000
+128,Sunar Mab Bi,1.31E+14,Kdcc Bank,Kodumur,APBL0013009,25000
+129,Shaik Rahiman,1.31E+14,Kdcc Bank,Kodumur,APBL0013009,25000
+130,A Amjad,1.31E+14,Kdcc Bank,Kodumur,APBL0013009,25000
+131,Abdul Sadik,1.31E+14,Kdcc Bank,Kodumur,APBL0013009,25000
+132,Ekthar Malika Begam,1.31E+14,Kdcc Bank,Kodumur,APBL0013009,25000
+133,Kamanchi Chandbasha,1.31E+14,Kdcc Bank,Kodumur,APBL0013009,25000
+134,A. Zaheer,1.31E+14,Kdcc Bank,Kodumur,APBL0013009,25000
+135,Kalegari Jakir Hussain,1.31E+14,Kdcc Bank,Kodumur,APBL0013009,25000
+136,Achchukatlu Khaja Bhasha,1.31E+14,Kdcc Bank,Kodumur,APBL0013009,25000
+137,Asupathri Abdul Hajeej,1.31E+14,Kdcc Bank,Kodumur,APBL0013009,25000
+138,Shaik Rabiya Banu,1.31E+14,Kdcc Bank,Kodumur,APBL0013009,25000
+139,Hilali Mastan,1.31E+14,Kdcc Bank,Kodumur,APBL0013009,25000
+140,Sayed Kadhar Basha,1.31E+14,Kdcc Bank,Kodumur,APBL0013009,25000
+141,Sekulu Kadharvali,1.31E+14,Kdcc Bank,Kodumur,APBL0013009,25000
+142,Sek Mahabubbi,1.31E+14,Kdcc Bank,Kodumur,APBL0013009,25000
+143,Shaik Jaleel,1.31E+14,Kdcc Bank,Kodumur,APBL0013009,25000
+144,Achuglatlu Achugatla Shajithali,1.31E+14,Kdcc Bank,Kodumur,APBL0013009,25000
+145,Shaik Shamim Bee,1.31E+14,Kdcc Bank,Kodumur,APBL0013009,25000
+146,Sek Khadhar,1.31E+14,Kdcc Bank,Kodumur,APBL0013009,25000
+147,Shaik Shamshadbegum,1.31E+14,Kdcc Bank,Kodumur,APBL0013009,25000
+148,Shaik Chand Bhasha,3.39E+14,Syndicate Bank,Orvakal,SYNB0003386,30000
+149,Mulla Shaikshavali,3.39E+13,Syndicate Bank,Kurnool St. Mary s High School,SYNB0003394,50000
+150,Shak Peddamurthujava,3.39E+13,Syndicate Bank,Pagidala,SYNB0003388,30000
+151,Mahammad Gouse,3.39E+13,Syndicate Bank,Orvakal,SYNB0003386,30000
+152,Abdul Shukur Lal Bee,3.38E+13,Syndicate Bank,Banaganapalli,SYNB0003375,25000
+153,Syed Basheer Ahammed,6.25E+14,Union Bank Of India,Nandyal,UBIN0562530,76000
+154,Shaik Dadabhasha,4.06E+13,Vijaya Bank,Ulindakonda,VIJB0004060,25000
+155,B.Ibrahim,11582700360,State Bank Of India,Gonegandla,SBIN0003733,100000

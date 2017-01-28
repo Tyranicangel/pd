@@ -1,0 +1,76 @@
+<div class="content_heading">My Ledger Book</div>
+<div class="fullwrap">
+	<div class="wrap_indi">
+		<div class="each_text">PD Administrator</div>
+		<div class="each_data highlight">{{accountinfo.ddocode}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Head of Account</div>
+		<div class="each_data highlight">{{accountinfo.scheme.schemename+'    ( '+accountinfo.hoa+' ) '}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Balance in Rs</div>
+		<div class="each_data highlight">{{accountinfo.balance}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="book_transition" ng-if='pagehide'>
+			<div class="book_page">
+				<a ng-if='first' ui-sref="sa.book({account:acdat,page:'1'})">
+					<<
+				</a>
+			</div>
+			<div class="book_page">
+				<a ng-if='second' ui-sref="sa.book({account:acdat,page:page-1})">
+					<
+				</a>
+			</div>
+			<div class="book_page" style='width:60px;'>Page {{page}}</div>
+			<div class="book_page">
+				<a ng-if='endbut' ui-sref="sa.book({account:acdat,page:page+1})">
+					>
+				</a>
+			</div>
+			<div class="book_page">
+				<a ng-if='end' ui-sref="sa.book({account:acdat,page:'last'})">
+					>>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="wrap_indi">
+		<table class='book_table'>
+			<tr>
+				<th>Date</th>
+				<th>Particulars</th>
+				<th>Cheque/Recipt/Challan No</th>
+				<th>Withdrawls<br><span class='rs'>(in Rs)</span></th>
+				<th>Deposits<br><span class='rs'>(in Rs)</span></th>
+				<th>Balance<br><span class='rs'>(in Rs)</span></th>
+			</tr>
+			<tr ng-repeat='t in maintrans'>
+				<td>{{Dates.getDate(t.confirmdate)}}</td>
+				<td ng-if="t.multiflag==2">
+					Party Details : <a download href="{{requesturl+'/uploads/'+t.partyfile}}">Download</a>  Purpose : {{t.purpose}}
+				</td>
+				<td ng-if="t.multiflag==1">
+					Party Name : {{t.partyname}}  | Purpose : {{t.purpose}}
+				</td>
+				<td>{{t.chequeno}}</td>
+				<td ng-if="t.transtype==1">
+					{{t.partyamount}}
+				</td>
+				<td ng-if="t.transtype==2">
+					-
+				</td>
+				<td ng-if="t.transtype==2">
+					{{t.partyamount}}
+				</td>
+				<td ng-if="t.transtype==1">
+					-
+				</td>
+				<td>{{t.balance}}</td>
+			</tr>
+		</table>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

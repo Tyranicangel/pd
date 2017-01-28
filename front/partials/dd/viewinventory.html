@@ -1,0 +1,79 @@
+<div class="content_heading">View Inventory</div>
+<div class="fullwrap">
+	<div class="chq_inv_ttl_dv">
+		<p class="leav_des">25 Leaves</p>
+		<p class="ttl_bk">Total No. of Books left: <span>{{get_bookno(25)}}</span></p>
+		<table class="chq_inv_tab" ng-show="show_tab(25)">
+			<tr class="chq_inv_tab_hd_tr">
+				<td colspan="5">List of books left - 25 leaves</td>
+			</tr>
+			<tr class="chq_inv_tab_hd_tr">
+				<td>Sno.</td>
+				<td>Book No.</td>
+				<td>First Chq No.</td>
+				<td>Last Chq No.</td>
+				<td>Used</td>
+			</tr>
+			<tr ng-repeat="r in allr | filter:{size:25}">
+				<td>{{$index+1}}</td>
+				<td>{{r.bookno}}</td>
+				<td>{{r.cstart}}</td>
+				<td>{{r.cend}}</td>
+				<td ng-if="r.used=='0'">Available</td>
+				<td ng-if="r.used=='1'">Used</td>
+			</tr>
+		</table>
+		<p class="no_bks_typ" ng-show="!show_tab(25)"><span class="stardiv">*</span><span>There are no books of this type</span></p>
+	</div>
+	<div class="chq_inv_ttl_dv">
+		<p class="leav_des">50 Leaves</p>
+		<p class="ttl_bk">Total No. of Books left: <span>{{get_bookno(50)}}</span></p>
+		<table class="chq_inv_tab" ng-show="show_tab(50)">
+			<tr class="chq_inv_tab_hd_tr">
+				<td colspan="5">List of books left - 50 leaves</td>
+			</tr>
+			<tr class="chq_inv_tab_hd_tr">
+				<td>Sno.</td>
+				<td>Book No.</td>
+				<td>First Chq No.</td>
+				<td>Last Chq No.</td>
+				<td>Used</td>
+			</tr>
+			<tr ng-repeat="r in allr | filter:{size:50}">
+				<td>{{$index+1}}</td>
+				<td>{{r.bookno}}</td>
+				<td>{{r.cstart}}</td>
+				<td>{{r.cend}}</td>
+				<td ng-if="r.used=='0'">Available</td>
+				<td ng-if="r.used=='1'">Used</td>
+			</tr>
+		</table>
+		<p class="no_bks_typ" ng-show="!show_tab(50)"><span class="stardiv">*</span><span>There are no books of this type</span></p>
+	</div>
+	<div class="chq_inv_ttl_dv">
+		<p class="leav_des">100 Leaves</p>
+		<p class="ttl_bk">Total No. of Books left: <span>{{get_bookno(100)}}</span></p>
+		<table class="chq_inv_tab" ng-show="show_tab(100)">
+			<tr class="chq_inv_tab_hd_tr">
+				<td colspan="5">List of books left - 100 leaves</td>
+			</tr>
+			<tr class="chq_inv_tab_hd_tr">
+				<td>Sno.</td>
+				<td>Book No.</td>
+				<td>First Chq No.</td>
+				<td>Last Chq No.</td>
+				<td>Used</td>
+			</tr>
+			<tr ng-repeat="r in allr | filter:{size:100}">
+				<td>{{$index+1}}</td>
+				<td>{{r.bookno}}</td>
+				<td>{{r.cstart}}</td>
+				<td>{{r.cend}}</td>
+				<td ng-if="r.used=='0'">Available</td>
+				<td ng-if="r.used=='1'">Used</td>
+			</tr>
+		</table>
+		<p class="no_bks_typ" ng-show="!show_tab(100)"><span class="stardiv">*</span><span>There are no books of this type</span></p>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

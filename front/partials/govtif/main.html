@@ -1,0 +1,29 @@
+<div class="content_heading">Home</div>
+<p class="ttl_out_txt" style="clear:both;">Total Outstanding Balance and LOC <i>(as of today)</i> of all the PD Accounts</p>
+<p class="shwng_dt_txt"><span class="stardiv">*</span> Showing data of accounts under (STOCODE:2702) region only</p>
+<div class="fullwrap">
+	<div class="wrap_indi tot_dv">
+		<div class="each_text fnt_sz">TOTAL Cumulative Balance (in Rs.)</div>
+		<div class="each_data" style="width:500px;">{{allaclist.totbal}}</div>
+		<div class="each_text fnt_sz" style="clear:both;">TOTAL Cumulative Balance (in words)</div>
+		<div class="each_data" style="font-size:12px;width:500px;">{{allaclist.totbalwords}}</div>
+	</div>
+	<div class="wrap_indi tot_dv">
+		<div class="each_text fnt_sz">TOTAL Cumulative LOC</div>
+		<div class="each_data" style="width:500px;">{{allaclist.totloc}}</div>
+		<div class="each_text fnt_sz" style="clear:both;">TOTAL Cumulative LOC (in words)</div>
+		<div class="each_data" style="font-size:12px;width:500px;">{{allaclist.totlocwords}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text fnt_sz" style="width:300px;">TOTAL No of PD Accounts <span class="std_txt">(in STOCODE:2702 Region)</span></div>
+		<div class="each_data" style="width:500px;">{{allaclist.noofaccounts}}</div>
+	</div>
+	<div class="fullwrap">
+		<div class="wrap_indi">
+			<div class="each_desc">
+				<span>You have <a ui-sref="govtif.cheques" class='desc_link'>{{transno}}</a> cheques for confirmation.</span>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

@@ -1,0 +1,60 @@
+
+<div class="chqinput_cnt">
+
+	<h3>Delete Inventory </h3>
+
+	<div class="inputbox">
+		Treasury: <input type="text" ng-model="pduser" />
+	</div>
+	<div class="inputbox">
+		From ID: <input type="text" ng-model="chqnofrm" />
+	</div>
+	<div class="inputbox">
+		To ID: <input type="text" ng-model="chqnoto" />
+	</div>
+	<div class="inputbox" style="margin-top:18px;">
+		<button ng-click="usebooks(pduser,chqnofrm,chqnoto)">USED</button>
+	</div>
+	<div class="inputbox" style="margin-top:18px;">
+		<button ng-click="deletemultiplechq(pduser,chqnofrm,chqnoto)">DELETE CHEQUES</button>
+	</div>
+	
+</div>
+
+<div class="clear" style="height:20px;"></div>
+<hr>
+<h3 class="h3_your_up_cls">
+	<span>Users cheque inventory</span>
+	
+</h3>
+<div class="inputbox">
+		Treasury: <input type="text" ng-model="userchq" />
+</div>
+<div class="inputbox" style="margin-top: 18px;">
+	<button ng-click="getchqlist(userchq)">Get inventory</button>
+</div>
+<table border="1" cellpadding="5" class="tbl_my_upl_main_cls" ng-show="chqlist">
+	<tr class="tbl_my_up_trh">
+		<th>S.No</th>
+		<th>ID</th>
+		<th>User</th>
+		<th>Cheque Book</th>
+		<th>Size</th>
+		<th>Start</th>
+		<th>End</th>
+		<th>Used flag</th>
+	</tr>
+<tr ng-repeat="chq in chqlist">
+	<td>{{$index+1}}</td>
+	<td>{{chq.id}}</td>
+	<td>{{chq.userid}}</td>
+	<td>{{chq.bookno}}</td>
+	<td>{{chq.size}}</td>
+	<td>{{chq.cstart}}</td>
+	<td>{{chq.cend}}</td>
+	<td>{{chq.used}}</td>
+</tr>
+
+</table>
+
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

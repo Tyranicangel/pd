@@ -1,0 +1,49 @@
+<div class="content_heading">Cheques Report</div>
+<div class='fullwrap'>
+	<div class="wrap_indi">
+                <div class="each_text">Select Pd Administrator</div>
+                <select class='each_select' ng-model='pdadmin' ng-change="admin_change()">
+                        <option value="select">SELECT</option>
+                        <option value="{{ddo.ddocode}}" ng-repeat="ddo in ddolist">{{ddo.usernames.userdesc+'    ( '+ddo.ddocode+' )'}}</option>
+                </select>
+        </div>
+</div>
+<div class="fullwrap">
+	<table class='each_table' ng-show='alltrans.length>0'>
+		<tr class='heading_row'>
+			<th>Sno</th>
+			<th>Cheque No</th>
+			<th>Pd Admin</th>
+			<th>Head of Account</th>
+			<th>Issue Date</th>
+			<th>Amount<br><span class='rs'>(in Rs)</span></th>
+			<th>Purpose</th>
+			<th>Party Name</th>
+			<th>Status</th>
+			<th>Remarks</th>
+		</tr>
+		<tr ng-repeat="trans in alltrans">
+			<td>{{trans.sno}}</td>
+			<td>{{trans.chequeno}}</td>
+			<td>{{trans.issueuser}}</td>
+			<td>{{trans.hoa}}</td>
+			<td>{{Dates.getDate(trans.transdate)}}</td>
+			<td>{{getcommas(trans.partyamount)}}</td>
+			<td>{{trans.purpose}}</td>
+			<td ng-if="trans.multiflag==2">
+				<a download href="{{requesturl+'/uploads/'+trans.partyfile}}">Download</a>
+			</td>
+			<td ng-if="trans.multiflag==1">
+				{{trans.partyname}}
+			</td>
+			<td>{{trans.rems}}</td>
+			<td>{{trans.rejects}}</td>
+		</tr>
+	</table>
+	<div class="wrap_indi" ng-show="alltrans.length==0">
+		<div class="each_desc">
+			* You did not confirm any cheques yet!
+		</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

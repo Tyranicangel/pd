@@ -1,0 +1,32 @@
+
+<div class="wrap_indi" style="margin:0px;">
+	<p class="lst_ex_acs">List of Mapped SAs</p>
+</div>
+<div class="wrap_indi" ng-show="sausers.length==0">
+	<p class="noactnt_p othe_cls_p"><span class="stardiv">*</span>There are no SA accounts created please create them and then proceed to mapping, To create a SA account go to MASTERS>>Create user Account</p>
+</div>
+<div class="wrap_indi" ng-show="sausers.length!=0">
+	<p class="noactnt_p"><span class="stardiv">*</span>Select the concerned ATO/STO/DD you want the SAs to be mapped to, the transactions(LOC requests/Cheques/Cheque Book Requests etc..) forwarded from these SAs will be directly sent to the mapped STO/ATO/DD that you map the SA to!</p>
+</div>
+<table class='each_table'  ng-show="sausers.length>0">
+	<tr class='heading_row fnt_wht_bld'>
+		<td>Sno</td>
+		<td>SA</td>
+		<td>Mapped to (STO/ATO/DD username)</td>
+	</tr>
+	<tr ng-repeat="x in sausers">
+		<td>{{$index+1}}</td>
+		<td>{{x.userdesc}}</td>
+		<td>
+			<select class="each_select" ng-model="x.mapuser" ng-options = "y.username as y.userdesc for y in othusers">
+			</select>	
+		</td>
+	</tr>
+</table>
+
+<div style="margin:auto;width:331px;">
+	<div class="main_button crt_usr_cls" style="margin-top:20px;" ng-click="save_map()"  ng-show="sausers.length>0">Save Changes</div>
+</div>
+
+
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

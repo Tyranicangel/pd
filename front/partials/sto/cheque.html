@@ -1,0 +1,38 @@
+<div class="content_heading">Issue Cheque Book</div>
+<div class="fullwrap">
+	<div class="wrap_indi">
+		<div class="each_text">Request User</div>
+		<div class="each_data">{{requestdata.requser.userdesc}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">DDO Code</div>
+		<div class="each_data">{{requestdata.requestuser}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Request Date</div>
+		<div class="each_data">{{Dates.getDate(requestdata.requestdate)}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">No of Leaves Left</div>
+		<div class="each_data">{{requestdata.leaves.length}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Enter First Cheque No<span class='stardiv'> *</span></div>
+		<input type="text" class="each_box" autocomplete="off" ng-model='cheques.first'>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Enter Last Cheque No<span class='stardiv'> *</span></div>
+		<input type="text" class="each_box" autocomplete="off" ng-model='cheques.last'>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Enter Book No<span class='stardiv'> *</span></div>
+		<input type="text" class="each_box" autocomplete="off" ng-model="cheques.number">
+	</div>
+	<div class="wrap_indi">
+		<div class="each_desc"><br><br><br>Sir,<br><br>As per your request,I am hereby issuing a cheque book.<br><br><br>Regards<br><br>{{username}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="main_button" ng-click="req_accept()">Issue</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

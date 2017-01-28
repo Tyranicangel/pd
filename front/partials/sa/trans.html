@@ -1,0 +1,56 @@
+<div class="content_heading">Cheques List</div>
+<div class="fullwrap">
+	<table class='each_table' ng-show='alltrans.length>0'>
+		<tr class='heading_row'>
+			<th>Sno</th>
+			<th>Cheque No</th>
+			<th>Issue Authority</th>
+			<th>DDO Code</th>
+			<th>Head of Account</th>
+			<th>Date</th>
+			<th>Amount<br><span class='rs'>(in Rs)</span></th>
+			<th>Purpose</th>
+			<th>Party Name</th>
+			<th>Status</th>
+			<!-- <th>
+				<input type="checkbox" ng-click="checkall()" ng-checked="allchecked()">All
+			</th> -->
+		</tr>
+		<tr ng-repeat="trans in alltrans">
+			<td>{{trans.sno}}</td>
+			<td>{{trans.chequeno}}</td>
+			<td>{{trans.requser.userdesc}}</td>
+			<td>{{trans.issueuser}}</td>
+			<td>{{trans.hoa}}</td>
+			<td>{{Dates.getDate(trans.transdate)}}</td>
+			<td>{{trans.partyamount}}</td>
+			<td>{{trans.purpose}}</td>
+			<td ng-if="trans.multiflag==2">
+				<a download href="{{requesturl+'/uploads/'+trans.partyfile}}">Download</a>
+			</td>
+			<td ng-if="trans.multiflag==1">
+				{{trans.partyname}}
+			</td>
+			<td>
+				<a ui-sref="sa.confirm({transaction:trans.chequeno})"><div class="table_button">View</div></a>
+			</td>
+			<!-- <td>
+				<input type='checkbox' ng-model='trans.check'>
+			</td> -->
+		</tr>
+	</table>
+	<!-- <div class="wrap_indi" ng-show='alltrans.length>0'>
+		<div class="each_text">Remarks</div>
+		<textarea class='each_area' ng-model='remarks'></textarea>
+	</div>
+	<div class="wrap_indi" ng-show='alltrans.length>0'>
+		<div class="main_button" ng-click="chq_confirm()">Pass</div>
+		<div class="main_button" ng-click="chq_reject()">Reject</div>
+	</div> -->
+	<div class="wrap_indi" ng-show="alltrans.length==0">
+		<div class="each_desc">
+			* You do not have any pending cheques to be authorized.
+		</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

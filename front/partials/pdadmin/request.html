@@ -1,0 +1,62 @@
+<div class="content_heading">Request for Cheque Book</div>
+<div class="fullwrap" ng-show="reqs.length==0">
+	<div class="wrap_indi ex_cls_chq_bk_typ" ng-show="showchqs()">
+		<p style="margin-top:0px;">Select the Cheque book type:</p>
+		<input type="radio" name="ctype" value="25" ng-model='leaf'> 25 Cheque Leaves
+		<input type="radio" name="ctype" value="50" ng-model='leaf'> 50 Cheque Leaves
+		<input type="radio" name="ctype" value="100" ng-model='leaf'> 100 Cheque Leaves
+	</div>
+	<div class="wrap_indi ex_cls_chq_bk_typ" ng-show="showchqs()">
+                <p style="margin-top:0px;">Select the type of your Organisation:</p>
+                <input type="radio" name="rtype" value="y" ng-model='otype'>Government Body
+                <input type="radio" name="rtype" value="n" ng-model='otype'>Other than Goverment Body
+		<div class="wrap_indi" ng-show="otype=='n'" style='margin-top:20px;width:500px;'>
+	                <div class="each_text">Enter Challan No<span class='stardiv'> *</span></div>
+                	<input type="text" class="each_box" placeholder="Enter Challan No" autocomplete="off" ng-model='challan' style='width:200px;'>
+        	</div>
+	        <div class="wrap_indi" ng-show="otype=='n'" style='width:500px;'>
+                	<div class="each_text">Enter Remitted Amount<span class='stardiv'> *</span></div>
+        	        <input type="text" class="each_box" placeholder="Enter Remitted Amount" autocomplete="off" ng-model='rmtamt' style='width:200px;'>
+	        </div>
+	</div>
+	<div class="wrap_indi" ng-show="showchqs()">
+		<div class="each_desc ex_cls_chq_bk_req">
+			<p>
+				<span>
+					<b>From,</b>
+				</span><br>
+				<span style="font-weight:normal;font-size:12px;">The {{username}} </span>
+
+				<span style="float:right;font-weight:normal;font-size:12px;">
+					Date: {{maindate}}
+				</span>
+			</p>
+			<span><b>To,</b></span> <br>
+			<span style="font-weight:normal;font-size:12px;">The Treasury Officer</span>
+
+			<p>Dear Sir/Madam,</p>
+			<p style="font-weight:normal;font-size:12px;">I request you to grant me a new cheque book which has {{leaf}} <br>
+			cheque leaves of the above mentioned quantity since I have only {{chequeno}} cheque leaves left.</p>
+			<br>
+			<span style="color:#767676;">
+				<b>Regards,</b><br><i>{{username}}</i>
+			</span>
+		</div>
+	</div>
+	<div class="wrap_indi send_req_cls_chq_req" ng-show="showchqs()">
+		<div class="main_button" ng-click="request()">Send Request</div>
+	</div>
+	<div class="wrap_indi" ng-show="!showchqs()">
+		<div class="each_desc">
+			* You still have {{chequeno}} cheques leaves left, you can place a request only when you have less than 10 leaves left.
+		</div>
+	</div>
+</div>
+<div class="fullwrap" ng-show="reqs.length>0">
+	<div class="wrap_indi">
+		<div class="each_desc">
+			* You already have a pending request for a cheque book.You cannot place a new request until it is cleared.
+		</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

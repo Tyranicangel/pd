@@ -1,0 +1,23 @@
+<div class="content_heading">Add Inventory</div>
+<div class="fullwrap">
+	<div class="wrap_indi">
+		<div class="each_text">Book No</div>
+		<input type="text" class="each_box" placeholder="Enter book number" autocomplete="off" ng-model="number">
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Enter First Cheque No.</div>
+		<input type="text" class="each_box" placeholder="Enter first cheque number" autocomplete="off" ng-model='first'>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Enter Last Cheque No.</div>
+		<input type="text" class="each_box" placeholder="Enter last cheque number" autocomplete="off" ng-model='last'>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Number of Cheque Leaves</div>
+		<div class="no_of_chq_l"><span>{{no_leaves()}}</span></div>
+	</div>
+	<div class="wrap_indi send_req_cls">
+		<div class="main_button" ng-click="add_book()">Add</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

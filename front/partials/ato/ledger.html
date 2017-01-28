@@ -1,0 +1,20 @@
+<div class="content_heading">My Ledgers</div>
+<div class="fullwrap">
+	<div class="wrap_indi">
+		<div class="each_text">Select Pd Administrator</div>
+		<select class='each_select' ng-model='pdadmin' ng-options="ddo.usernames.userdesc+'    ( '+ddo.ddocode+' )' for ddo in ddolist" style='width:500px;' ng-change="admin_change()">
+		</select>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Select Head of Account</div>
+		<select class='each_select' ng-model='hoa' ng-options="hoa.scheme.schemename+'    ( '+hoa.scheme.hoa+' ) ' for hoa in hoalist" style='width:500px;' ng-change='hoa_change()'>
+		</select>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Balance in Rs</div>
+		<div class="each_data highlight">{{hoa.balance}}</div>
+	</div>
+	<div class="wrap_indi">
+		<a ng-if="hoa" ui-sref="dto.book({account:hoa.accountno,page:'last'})"><div class="main_button">Submit</div></a>
+	</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

@@ -1,0 +1,53 @@
+<div class="content_heading">Account Statement</div>
+<div class="fullwrap">
+	<div class="wrap_indi">
+		<div class="each_text">Select Pd Administrator</div>
+		<select class='each_select' ng-model='pdadmin' ng-change="admin_change()">
+			<option value="select">SELECT</option>
+			<option value="{{ddo.ddocode}}" ng-repeat="ddo in ddolist">{{ddo.usernames.userdesc+'    ( '+ddo.ddocode+' )'}}</option>
+		</select>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Select Head of Account</div>
+		<select class="each_select" ng-model="hoa">
+			<option value="select">SELECT</option>
+			<option value="{{hoa.hoa}}" ng-repeat="hoa in hoalist">{{hoa.scheme.schemename+'    ( '+hoa.scheme.hoa+' ) '}}</option>
+		</select>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Balance in Rs</div>
+		<div class="each_data highlight">{{get_c(hoa.balance)}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Select Month</div>
+		<select ng-model='month' class='each_select' style="width:100px;">
+			<option value="select">SELECT</option>
+			<option value="01">Jan</option>
+			<option value="02">Feb</option>
+			<option value="03">Mar</option>
+			<option value="04">Apr</option>
+			<option value="05">May</option>
+			<option value="06">Jun</option>
+			<option value="07">Jul</option>
+			<option value="08">Aug</option>
+			<option value="09">Sep</option>
+			<option value="10">Oct</option>
+			<option value="11">Nov</option>
+			<option value="12">Dec</option>
+		</select>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Select Year</div>
+		<select ng-model='year' class='each_select' style="width:100px;">
+			<option value="select">SELECT</option>
+			<option value="2014">2014</option>
+			<option value="2015">2015</option>
+		</select>
+	</div>
+	<div class="wrap_indi send_req_cls_chq_req">
+		<div class="main_button"  style="width:200px;" ng-click="submit()">Generate Account Statement</div>
+	</div>
+	<div class="wrap_indi send_req_cls_chq_req" ng-if="fname">
+		<a download href="{{fname}}">{{fname}}</a>
+	</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

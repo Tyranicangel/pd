@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" ng-app="PdApp" ng-controller="MainController">
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="scripts/angular.js"></script>
+	<script type="text/javascript" src="scripts/route.js"></script>
+	<script type="text/javascript" src="scripts/jquery.js"></script>
+	<script type="text/javascript" src="scripts/jquery_ui.js"></script>
+	<script type="text/javascript" src="scripts/app.js"></script>
+	<script type="text/javascript" src="scripts/controller.js"></script>
+	<script type="text/javascript" src="scripts/saController.js"></script>
+	<script type="text/javascript" src="scripts/dsaController.js"></script>
+	<script type="text/javascript" src="scripts/dtoController.js"></script>
+	<script type="text/javascript" src="scripts/stoController.js"></script>
+	<script type="text/javascript" src="scripts/atoController.js"></script>
+	<script type="text/javascript" src="scripts/ddController.js"></script>
+	<script type="text/javascript" src="scripts/pdadminController.js"></script>
+	<script type="text/javascript" src="scripts/adminController.js"></script>
+	<script type="text/javascript" src="scripts/bankController.js"></script>
+	<script type="text/javascript" src="scripts/agController.js"></script>
+	<script type="text/javascript" src="scripts/govtController.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/style_common.css">
+	<link rel="stylesheet" type="text/css" href="styles/calender.css">
+	<link rel="stylesheet" type="text/css" href="styles/admin.css">
+	<script type="text/javascript" src='scripts/cal.js'></script>
+	<title>{{title}}</title>
+</head>
+<body>
+	<div class="main">
+		<div class="header">
+			<div class="container">
+				<div class="header_main"></div>
+			</div>
+		</div>
+		<div ui-view="main">
+		</div>
+		<div class="footer">
+			<div class="container">
+				<div class="copyright">
+					&copy; Copyright Finance Dept.,Govt of A.P, Powered By 
+					<a href="http://www.pixelvide.com">Pixelvide</a> <br>
+					<span>
+						Technology: Angularjs and Laravel Framework.Best Viewed In All Latest Browsers.
+					</span><br>
+					<span>
+						IF IE: supported only in IE8 and above
+					</span>
+				</div>
+				<div class="footer_info">
+					<div class="logo_dv">
+						<div class="pix_logo_img_dv">
+							<a href="http://www.pixelvide.com">
+								<img src="images/pixelvide_logo.png" alt="pixelvide logo" style="width:105px;">
+							</a>
+						</div>
+						<p class="eff_web_txt">
+							Efficient Web.Secure Web
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

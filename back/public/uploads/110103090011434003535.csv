@@ -1,0 +1,152 @@
+Sno,"Party Name","Party Account no","Party Bank Name","Party Bank Branch","Party Bank Ifsc Code","Party Amount"
+1,"P. Rama",30343703602,"SBI Chittoor",Chittoor,SBIN0000825,67080
+2,"R.Vasantha kumari",11372044726,"SBI Chittoor",Chittoor,SBIN0007083,51594
+3,C.Durgaprasad,31034588515,"SBI Chittoor",Chittoor,SBIN0015100,18258
+4,"P. Viswaprasad",33988432375,"SBI Pileru",Pileru,SBIN0001491,13585
+5,D.Janardhan,10859981297,"SBI Chittoor",Chittoor,SBIN0000825,50564
+6,C.Subramanyam,32870379703,"SBI Pakala",Pakala,SBIN0002773,48432
+7,G.Bharathamuni,10859930194,"SBI Chittoor",Chittoor,SBIN0000825,45559
+8,"R. Sulthana Banu",33739555176,"SBI Chittoor",Chittoor,SBIN0007083,15164
+9,"P. Govindarajulu",32878355414,"SBI Chittoor",Chittoor,SBIN0007083,12392
+10,"Librarian Childrens Library Chittoor",30248286121,"SBI Chittoor",Chittoor,SBIN0007083,48133
+11,C.K.Rajashekar,10859985178,"SBI Chittoor",Chittoor,SBIN0000825,18445
+12,"Attender  Ramasamudram",32818117389,"SBI Chittoor",Chittoor,SBIN0000825,5716
+13,"R. Lalitha",33749143727,"SBI Chittoor",Chittoor,SBIN0007083,43097
+14,"Librarian Branch Library Yadamari",30248296854,"SBI Chittoor",Chittoor,SBIN0007083,10528
+15,G.Vijayakumar,10859979797,"SBI Chittoor",Chittoor,SBIN0000825,38320
+16,"Librarian Branch Library Thavanampalli",30248435834,"SBI Chittoor",Chittoor,SBIN0007083,10797
+17,Y.Madhubabu,10859979708,"SBI Chittoor",Chittoor,SBIN0000825,39010
+18,"Librarian Branch Library Gudipala",30248478506,"SBI Chittoor",Chittoor,SBIN0007083,6425
+19,"Librarian Branch Library Pakala",11496887186,"SBI pakala",Pakala,SBIN0002773,52759
+20,"Librarian Branch Library Puthalapattu",32845018374,"SBI Puthalapattu",Puthalapattu,SBIN0006514,39841
+21,"B. Ramesh",33105310318,"SBI Tirupathi",Tirupathi,SBIN0000933,46158
+22,"Librarian B L  Irala",30250611114,"SBI Greamspet",Greamspet,SBIN0007083,9102
+23,"Librarian B L Damalcheruvu",30501376437,"SBI Pakala",Pakala,SBIN0002773,46235
+24,"Librarian B L Chandragiri",30243928982,"SBI Chandragiri",Chandragiri,SBIN0000785,51720
+25,"Librarian B L Tirumala",30288927067,"SBI Tirumala",Tirumala,SBIN0002800,90839
+26,"M. Venkatarathnam",10859985190,"SBI Nagari",Nagari,SBIN0002762,33654
+27,"Librarian B.L. Narayanavanam",11123042098,"SBI Puttur",Puttur,SBIN0000580,3169
+28,"N. Sankar Babu",10859996622,"SBI Chittoor",Chittoor,SBIN0000825,42785
+29,"Librarian B.L. Karvetinagaram",30249305473,"SBI Puttur",Puttur,SBIN0000580,13781
+30,"G. Prasad",10859985350,"SBI Chittoor",Chittoor,SBIN0000825,17023
+31,"Attender B.L. Nagalapuram",30407673653,"SBI Nagalapuram",Nagalapuram,SBIN0004724,3324
+32,"Attender B.L. Pichatur",30886355054,"SBI Nagalapuram",Nagalapuram,SBIN0004724,16628
+33,"K. Nagaraja",11271786728,"SBI Nagari",Nagari,SBIN0002762,48646
+34,"Librarian B.L. Puttur",31420663856,"SBI Puttur",Puttur,SBIN0012726,6227
+35,"M. Dhananjayalu",20077300198,"SBI Tirupathi",Tiupathi,SBIN0003187,38108
+36,"Librarian B.L Sathyavedu",32085819354,"SBI Sathyavedu",Sathyavedu,SBIN0002793,3532
+37,"Librarian C.L. Tirupati",10625867811,"SBI Tirupathi",Tirupathi,SBIN0000933,20761
+38,"L. Mohanrami Reddy",30990157198,"SBI Renigunta",Renigunta,SBIN0006677,18815
+39,"G. Ravi Kumar",33140972787,"SBI Tirupathi",Tirupathi,SBIN0003187,72517
+40,"Librarian B.L. Tirupathi ",31005923069,"SBI Tirupathi",Tirupathi,SBIN0003187,53306
+41,"A. Sreemukhi",30521265156,"SBI Tirupathi",Tirupathi,SBIN0003187,50471
+42,"Librarian B.L. Renigunta",30268113121,"SBI Tirupathi",Tirupathi,SBIN0003187,26252
+43,"Librarian B.L. Vadamalapeta",30282534980,"SBI Tirupathi",Tirupathi,SBIN0003187,17084
+44,V.Muniraja,33242918577,"SBI Tirupathi",Tirupathi,SBIN0013400,46626
+45,"Librarian B.L. Pachikapalam",10625867855,"SBI Tirupathi",Tirupathi,SBIN0000933,51078
+46,"Librarian B.L. Srikalahasthi",30251404061,"SBI Srikalahasthi",Srikalahasthi,SBIN0000851,93209
+47,"Librarian B.L. K.V. Palli",30250777634,"SBI Piler",Pileru,SBIN0001491,62471
+48,"V.Raveendra Reddy",32943858856,"SBI Chittoor",Chittoor,SBIN0000825,39669
+49,"Librarian B.L. Piler",30256952557,"SBI Piler",Pileru,SBIN0001491,26995
+50,"T. Raveendra Babu  ",34426512345,"SBI Tirupathi",Tirupathi,SBIN0000933,30551
+51,"T. Raju kalakada",30731990661,"SBI Tirupathi",Tirupathi,SBIN0003187,18572
+52,"Librarian B.L. Madanapalli",30245727455,"SBI Manapalle",Madanapalle,SBIN0000868,55175
+53,"M. Thulasi Naik",33564483231,"SBI Thamballapalle",Thamballapalle,SBIN0016498,19651
+54,"Attender B.L. Nimmanapalle",30243894305,"SBI Madanapalle",Madanapalle,SBIN0000868,26268
+55,"Librarian B.L.Palamner",30257966400,"SBI Palamaner",Palamaneru,SBIN0000266,32834
+56,"Attender B.L. V.Kota",30257940903,"SBI Palamaner",Palamaneru,SBIN0016429,19910
+57,"Librarian B.L.Ramakuppam",30830418781,"SBI Chittoor",Chittoor,SBIN0000825,39454
+58,"Librarian BL B.Kothakota",30248962962,"SBI Madanapalle",Madanapalle,SBIN0000868,24865
+59,"Attender B.L.Sadum",30963233255,"SBI Piler",Pileru,SBIN0001491,25561
+60,"Record Assistant B.L. Kurabalakota",30436455938,"SBI Madanapalle",Madanapalle,SBIN0000868,20750
+61,"V. Sathyavani",31788879265,"SBI V.Kota",V.Kota,SBIN0012595,5657
+62,"Librarian B.L. Punganur",32995844365,"SBI Punganur",Punganuru,SBIN0005406,27246
+63,"B Nagarani",33688978958,"SBI Tirupathi",Tirupathi,SBIN0006107,23561
+64,K.V.Thulasikumar,30531518185,"SBI Chittoor",Chittoor,SBIN0000825,4338
+65,"E. Gurumurthy ",30443131414,"SBI Nagari",Nagari,SBIN0002762,6739
+66,"A.Harikrishna ",30562245846,"SBI Kovanur",Kovanuru,SBIN0008832,18894
+67,U.Somasekaraiah,30528165541,"SBI Punganur",Punganuru,SBIN0005406,2430
+68,"E. Amarnatha",30224037943,"SBI Madanapalle",Madanapalle,SBIN0000868,2109
+69,"B. Srikanth Reddy",30467823656,"SBI Palamner",Palamaneru,SBIN0000266,5737
+70,"Attender B L Rompicherla",31730786808,"SBI Pakala",Pakala,SBIN0002773,2642
+71,"G. Guruprasad BL kammapalli",32102394923,"SBI Tirupathi",Tirupathi,SBIN0000933,5370
+72,"M. Sireesha ",31861330290,"SBI Chittoor",Chittoor,SBIN0002773,8662
+73,"Subhashini Devi (Santhipuram)",34017868921,"SBI Arimuthanapalli",Arimuthanapalle,SBIN0016365,3158
+74,G.Chenchaiah,10494273016,"SBI Chittoor",Chittoor,SBIN0007083,29128
+75,"K.Jagannadha Chetty",11280015594,"SBI Venkatagiri",Venkatagiri,SBIN0000969,21671
+76,"K. Jaganadha Reddy",10625924316,"SBI Tirupathi",Tirupathi,SBIN0000933,19699
+77,"M. Samba Siva Reddy",10289738680,"SBI Chittoor",Chittoor,SBIN0000933,22461
+78,"S.Lalithamercy Bai",30251265377,"SBI Chittoor",Chittoor,SBIN0007083,20992
+79,"K. Thyagarajulu",11534643965,"SBI Sathyavedu",Sathyavedu,SBIN0002793,23004
+80,"A. Jayachandra Reddy",31181567562,"SBI Tirupathi",Tirupathi,SBIN0003187,24275
+81,"J. Lakshmipathi",10567894157,"SBI Chandragiri",Chandragiri,SBIN0000785,15915
+82,"P. Raja Reddy",11250015293,"SBI Vayalpad",Vayalpadu,SBIN0000781,16877
+83,M.Shashidharan,10567900070,"SBI Chandragiri",Chandragiri,SBIN0000785,18206
+84,A.Subbarayalu,30192395787,"SBI Tirupathi",Tirupathi,SBIN0000933,21809
+85,M.Munikrishnaiah,30244356434,"SBI Srikalahasti",Srikalahasthi,SBIN0000851,20097
+86,I.Reddappa,11025966167,"SBI Piler",Pileru,SBIN0001491,18837
+87,P.Venkatachalam,30248950730,"SBI Palamaner",Palamaneru,SBIN0000266,18092
+88,"R. Suguna        ",30068334624,"SBI Tirupathi",Tirupathi,SBIN0003187,12925
+89,"V. Munikrishna Reddy",30099854057,"ADB Chandragiri",Chandragiri,SBIN0005867,14004
+90,"R. Mohan Reddy",10626004829,"SBI Tirupathi",Tirupathi,SBIN0000933,13766
+91,G.Purushotham,10476149081,"SBI SriKalahasthi",Srikalahasthi,SBIN0000851,21307
+92,A.G.Chittemma,20076059219,"SBI Tirupathi",Tirupathi,SBIN0010106,21307
+93,Jayalakshmma,11137560397,"SBI Chittoor",Chittoor,SBIN0000825,16395
+94,"T.Neelakanta Reddy",30115321057,"SBI Tirupathi",Tirupathi,SBIN0013401,15960
+95,"R. Nirmala",11137607349,"SBI Palamner",Palamaneru,SBIN0000266,15960
+96,"J. Madhusudana Reddy",32151079902,"SBI Tirupathi",Tirupathi,SBIN000933,17374
+97,"R. Vasanthika",10859985815,"SBI Chittoor",Chittoor,SBIN0000825,17374
+98,"B. Chenchu Reddy",10476056117,"SBI Kalahasthi",Srikalahasthi,SBIN0000851,18135
+99,C.Krishnaiah,10859786127,"SBI Chittoor",Chittoor,SBIN0000825,17648
+100,M.Narasimhamoorthy,30247604703,"SBI Chittoor",Chittoor,SBIN0007083,9695
+101,V.Verabadraiah,10860000552,"SBI Chittoor",Chittoor,SBIN0000825,15209
+102,"M.Mahaboob Baig",11008136817,"SBI Madanapalle",Madanapalle,SBIN0000868,17200
+103,P.Govindaswamy,30245303729,"SBI Chittoor",Chittoor,SBIN0000825,12365
+104,V.Narayanaswamy,30248832569,"SBI Chittoor",Chittoor,SBIN0007083,14822
+105,"M. Nagaraja",30131926675,"SBI Srikalahsthi",Srikalahasthi,SBIN0000851,12709
+106,R.Keshavaiah,30249290817,"SBI Chittoor",Chittoor,SBIN0000825,13172
+107,"T. Srinivasulu",11534656157,"SBI Sathyavedu",Sathyavedu,SBIN0002793,13926
+108,P.Lakshmipathi,11271811746,"SBI Nagari",Nagari,SBIN0002762,19697
+109,"P.Venkatakrishnaiah ",30244677979,"SBI Srikalahasti",Srikalahasthi,SBIN0000851,14836
+110,M.Ramachandra,11008226474,"SBI Madanapalle",Madanapalle,SBIN0000868,14482
+111,"B. Renukamma ",31843234826,"SBI Polakala",Polakala,SBIN0006515,12252
+112,"J. Sathyanadham",31777753223,"SBI Pileru",Pileru,SBIN0016427,13515
+113,"K.S.Vasantha Kumar",10859979662,"SBI Chittoor",Chittoor,SBIN0000825,7065
+114,"B. Malleeswaraiah",10859979695,"SBI Chittoor",Chittoor,SBIN0007083,9928
+115,"P. Gnanamma",31220789898,"SBI Tirupathi",Tirupathi,SBIN0003187,8930
+116,"K. Srinivasulu",32886543441,"SBI Vadamalapeta",Vadamalapeta,SBIN0002803,13886
+117,C.Meera,30535954671,"SBI Chittoor",Chittoor,SBIN0000825,9567
+118,Y.Krishnamma,33073939462,"SBI Chittoor",Chittoor,SBIN0007083,10514
+119,P.Radhamma,30246601339,"SBI Chittoor",Chittoor,SBIN0000825,8543
+120,"S. Lakshmi ",30290470854,"SBI Chittoor",Chittoor,SBIN0007083,7355
+121,"G. Kuppamma",11515383248,"SBI Nagalapuram",Nagalapuram,SBIN0004724,7355
+122,K.Ramalakshmamma,11123167368,"SBI Puttur",Puttur,SBIN0000580,7710
+123,K.Kanthamma,10624645776,"SBI Tirupathi",Tirupathi,SBIN0003187,15532
+124,M.Gowramma,11372048302,"SBI Punganur",Punganuru,SBIN0005406,7710
+125,K.Ambika,11137627106,"SBI Palamaner",Palamaneru,SBIN0000266,7355
+126,"P.Santhamma ",11495954665,"SBI Bangarupalyam",Bangarupalem,SBIN0001616,10864
+127,"T. Lalithamma",11496963179,"SBI Pakala",Pakala,SBIN0002773,6051
+128,M.Siddamma,30847476857,"SBI Tirupathi",Tirupathi,SBIN0010677,7355
+129,"C. Kamala",30936365591,"SBI Chittoor",Chittoor,SBIN0007083,30115
+130,"M. Prabhavathi",10626021540,"SBI Tirupathi",Tirupathi,SBIN0000933,7355
+131,"M. Pavanakumari",31105933653,"SBI Chittoor",Chittoor,SBIN0013176,7355
+132,"J. Pushpa Latha",31830779488,"SBI Tirupathi",Tirupathi,SBIN0013401,10556
+133,"K. Saraswathamma",32631041454,"SBI Punganur",Punganuru,SBIN0005426,4065
+134,"E. Vanajakshamma",32791868296,"SBI Hyderabad",Hyderabad,SBIN0008995,7065
+135,S.K.Vaheeda,32659696272,"SBI Tirupathi",Tirupathi,SBIN0003189,21970
+136,K.Saraswathi,33468334380,"SBI ARIMUTHANAPALLI",ARIMUTHANAPALLI,SBIN0016365,7355
+137,"K. Jyothmma",20235930519,"SBI Chittoor",Chittoor,SBIN0000825,9551
+138,C.Vijayakumari,30085650504,"SBI Chittoor",Chittoor,SBIN0000825,10712
+139,"V. Parvathamma",30053539139,"SBI Tirupathi",Tirupathi,SBIN0003187,9627
+140,D.Syamalamma,30258744487,"SBI Madanapalle",Madanapalle,SBIN0000868,7388
+141,"M. Erragamma ",11026034280,"SBI Piler",Pileu,SBIN0001491,4255
+142,D.Uma,31857063487,"SBI Puttur",Puttur,SBIN0012726,11960
+143,"R.Vasantha kumari",11372044726,"SBI Chittoor",Chittoor,SBIN0007083,4455
+144,S.MumtazBegum,11137627093,"SBI Palamaner",Palamaneru,SBIN0000266,5104
+145,"B. Renukamma ",31843234826,"SBI Polakala",Polakala,SBIN0006515,4855
+146,"S. Subharaghavan",30674603293,"SBI Madanapalle",Madanapalle,SBIN0000868,11449
+147,"P. Vasanthamma",30252239505,"SBI Tirupathi",Tirupathi,SBIN0000933,4455
+148,"P. Prameela",11008134945,"SBI Madanapalle",Madanapalle,SBIN0000868,4855
+149,D.Manasa,32448605692,"SBI Renigunta",Renigunta,SBIN0014168,4255
+150,"P. Govindarajulu",31946560751,"SBI Sathyavedu",Sathyavedu,SBIN0002793,7741
+151,A.Reddamma,32264568781,"SBI Chittoor",Chittoor,SBIN0015100,4435

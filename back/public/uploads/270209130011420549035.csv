@@ -1,0 +1,56 @@
+Sno,Party Name,Party Account no,Party Bank Name,Party Bank Branch,Party Bank Ifsc Code,Party Amount
+1,"Suptd.,Govt. Genl. Hospital , Guntur.",31807904862,"State Bank of India, ","GGH Br., Guntur",SBIN0010278,2258564
+2,"Suptd.,Fever Hospital, Guntur",069610011003385,"Andhra Bank, ","Gorantla, Guntur",ANDB0000696,502466
+3,"Suptd.,Govt. General Hospital , Kakinada",480201011001580,"Vijaya Bank, ","GGH compound, Kakinada",VIJB0004802,3516052
+4," Suptd.,King George Hopital, Vizag. ",10849854158,"State Bank of India, ","Maharanipeta, Visakhapatnam",SBIN0000754,3577096
+5,"Suptd., Govt.Hospital for Chest &CD , Vizag.",10039371761,"SBI, Waltair Br.,",VIZAG,SBIN0010641,234814
+6,"Suptd.,Dr. RSPR Govt.R.E.Hospital, Vizag.",107310011003656,"Andhra Bank, ","Dr. L. Bullaiah College Br., Visakhapatnama-13",ANDB0001073,284672
+7,"Suptd.,Victoria Hospital, Vizag",103010100024548,"Andhra Bank, ","KGH Br., Maharanipeta, Visakhapatnam-530002.",ANDB0001030,655578
+8,"Suptd.,Govt. E.N.T. Hospital, Vizag",30816231698,"SBI, ","Waltair Br.,",SBIN0010641,103400
+9,"Suptd., Metal Care Hopital, Vizag",133210011000242,"Andhra Bank, ","East Point Colony, VSP",ANDB0001332,352093
+10,"Suptd.,Govt. General Hospital ,Vijayawada.",62021579138,"State Bank of Hyderabad, ","Gayathri Nagar Br., Vijayawada.",SBHY0021050,1184138
+11,"Suptd.,Mangalagiri Hospital, Mangalagiri.",10766418751,"State Bank of India, ",Mangalagiri.,SBIN0001011,239519
+12,"Medical Officer, YVC Oncology wing, Chinakakani",30054784512,"SBI, ","Grand Trunk Road, Mangalagiri",SBIN0001011,180340
+13,"Director,R.I.M.S. Genl. Hospital, Ongole.",175610100006481,"Andhra Bank, ","RIMS, Ongole",ANDB0001756,1358103
+14,"Suptd.,Govt. General Hospital ,Kurnool",137910100004377,"Andhra Bank, ","Kurnool Medical College Br., Kurnool",ANDB0001379,3568806
+15,"Suptd.,Regional Eye Hospital, Kurnool",10289703215,"SBI, ","Budhwarpet, Kurnool",SBIN0003185,266955
+16,"Suptd.,Govt. General Hospital , Ananthpur",038510011038004,Andhra Bank ,"New Town, Ananthapur",ANDB0000385,2405682
+17,"Director,Govt. Genl. RIMS, Kadapa",30800641974,"SBI, ","RIMS, Kadapa",SBIN0010107,2298290
+18,"Suptd.,Govt. D.C. & Hospital , Vijayawada",33662010001785,"Syndicate Bank, ","Siddartha Medical College, Vijayawada",SYNB0003366,1308475
+19,"Suptd., Govt. D.C. & Hospital, Kadapa",32032273087,"SBI, ","RIMS, Kadapa",SBIN0010107,1368114
+20,"Supdt., SVRR, Tirupathi",052010100024858,"Andhra Bank, ","Medical College Br., Tirupathi",ANDB0000520,2195272
+21,"Director, RIMS, Srikakulam",30394471444,"SBI, ","ADB Br., Srikakulam",SBIN0001586,1481317
+22,"Suptd., Govt. Meternity Hospital, Tirupathi",052011011000064,"Andhra Bank, ","S.V.Medical College Br.,Tirupathi",ANDB0000520,739833
+23,"Principal, Govt.Medical College, Ananthpur",19024520897,"Andhra Pradesh Grammena Bank Ltd., ",Ananthapur,APGB0001084,100000
+24,"Principal, Andhra Medical College, Vizag",103010011011331,"Andhra Bank, ","K.G.Hopital Br., Visakhapatnam",ANDB0001030,50000
+25,"Principal, Kurnool Medical College, Kurnool",137910011000739,"Andhra Bank, ","KMC Br., Development Society, Kurnool",ANDB0001379,50000
+26,"Principal, Guntur Medical College, Guntur",100710100010217,"Andhra Bank, ","GMC Branch., Guntur",ANDB0001007,50000
+27,"Principal, Rangaraya Medical College, Kakinada",10357893617,"State Bank of India,  ",Kakinada,SBIN0008028,50000
+28,"Prinicpal, S.V.Medical College, Tirupathi",0520100110010244,"Andhra Bank, ","S.V.Medical College Branch., Tirupthai",ANDB0000520,50000
+29,"DM & HO, Srikakulam",11152303498,SBI ,"Main Branch, Srikakulam",SBIN0000919,1111111
+30,"DM & HO,Vizianagaram",10576582873,"SBI, ","Cantonment Branch, Vizianagaram",SBIN0006647,805556
+31,"DM & HO,Vishakapatnam",107310011005178,"Andhra Bank,","LB College Branch, Vizag",ANDB0001073,1166667
+32,"DM & HO,East Godavari",46910011234217,"Andhra Bank, ","Ramaraopeta, Kakinada,E.G.",ANDB0469,1722222
+33,"DM & HO, West Godavari",704831210,"Indian Bank, ","Narsimharaopeta, Eluru,W.G.",IDIB000N063,1027778
+34,"DM & HO, Krishna",10873071712,SBI ,"Main Branch, Machilipatnam, Krishna",SBIN0000874,1055556
+35,"DM & HO, Guntur",100710011301797,"Andhra Bank, ",Govt.Guntur Medl. College Branch,ANDB0001007,1138889
+36,"DM & HO, Prakasam",027500101006299,"Corporation Bank, ","Main Br., Prakasam",CORP0000275,1027778
+37,"DM & HO, Nellore",09800100006881,"Bank of Baroda, ","Nellor Br.,",BARB0NELLOR,972222
+38,"DM & HO, Chittoor",10494222175,"SBI, ","Greamspet, Chittoor",SBIN0007083,1583333
+39,"DM & HO, Anantapur",10437900794,"SBI, ","Gandhinagar, Ananthapur",SBIN0001925,1138888
+40,"DM & HO, Kadapa",1962101008278,"Canara Bank, ","Main Bazar, Kadapa",CNRB0001962,1027778
+41,"DM & HO, Kurnool",405001010010254,"Vijaya Bank, ","Bangarupeta, Kurnool",VIJB0004050,1111111
+42,"DCHS,Srikakulam",051310011018871,"Andhra Bank, ",Srikakulam,ANDB0000513,395222
+43,"DCHS,Vizianagaram",133410011000073,"Andhra Bank, ","Contonment, Viziangaram",ANDB0001334,438510
+44,"DCHS,Visakhapatnam",001210011012727,"Andhra Bank, ",Anakapalli,ANDB0000012,432625
+45,"DCHS,E.G.Dt",010010011016850,"Andhra Bank, ","Danvaipet Branch., Rajahmundry",ANDB0000100,508432
+46,"DCHS,W.G.Dt",046810011322404,"Andhra Bank, ","Ramachandra Rao Branch ., Eluru",ANDB0000468,620612
+47,"DCHS,Krishna",034210011006359,"Andhra Bank, ","Lic Branch, Machilipatnam",ANDB0000342,488559
+48,"DCHS,Tenali",055510100017034,"Andhra Bank, ","Main Branch., Tenali",ANDB0000555,444605
+49,"DCHS,Ongole",040010011022079,"Andhra Bank, ",Ongole,ANDB0000400,339051
+50,"DCHS,Nellore",111410011000032,"Andhra Bank, ","Andhra Kesari Nagar, Nellore",ANDB0001114,437194
+51,"DCHS,Chittor",008110011012869,"Andhra Bank, ","Main Branch., Chittoor",ANDB0000081,1015189
+52,"DCHS,Hindupur",020210011904115,"Andhra Bank, ",Hindupur,ANDB0000202,772077
+53,"DCHS,Kadapa",008610011020214,"Andhra Bank, ","Main Branch., Kadapa",ANDB0000086,364710
+54,"DCHS,Nandyal",037910011021843,"Andhra Bank, ",Nandyal,ANDB0000379,393430
+55,"Commissioner ,APVVP, Hyderabad",020511100002704,"Andhra Bank, ",Hyderabad,ANDB0000205,8456400

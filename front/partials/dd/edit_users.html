@@ -1,0 +1,26 @@
+<div class="content_heading">Edit Users</div>
+<div class='fullwrap'>
+    <div class="wrap_indi"  ng-show="alluserlist.length==0">
+        <p class="noactnt_p"><span class="stardiv">*</span>You did not create any users yet.</p>
+    </div>
+    <table class='each_table'  ng-show="alluserlist.length!=0">
+        <tr class='heading_row fnt_wht_bld'>
+            <td>Sno</td>
+            <td>User ID</td>
+            <td>Name</td>
+        </tr>
+        <tr ng-repeat="x in alluserlist">
+            <td>{{$index+1}}</td>
+            <td>{{x.username}}</td>
+            <td>
+                <input type="text" ng-model='x.userdesc' class="each_box">
+            </td>
+        </tr>
+    </table>
+    <div style="margin:auto;width:331px;">
+        <div class="main_button crt_usr_cls" style="margin-top:20px;" ng-click="saveusers()">Save Changes</div>
+    </div>
+</div>
+
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

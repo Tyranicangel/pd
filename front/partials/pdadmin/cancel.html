@@ -1,0 +1,17 @@
+<div class="content_heading">Cancel Cheque</div>
+<div class="fullwrap">
+	<p class="cancl_info_p">
+		<span class="stardiv">* </span>You can cancel a cheque number in this screen, to cancel a cheque number please <br>enter the reason for cancelling the cheque and click on cancel this cheque button below.</p>
+	<div class="wrap_indi">
+		<div class="each_text">Cheque No</div>
+		<input type="text" class="each_box amount_box" readonly style='background:#fcf0c9;font-weight:bold;' ng-model='cheque'>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Reason</div>
+		<textarea class="each_box textarea" placeholder="Enter reason here.." ng-model='reason'></textarea>
+	</div>
+	<div class="wrap_indi send_req_cls">
+		<div class="main_button" style="width:180px;" ng-click="cancel()">Cancel this Cheque</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

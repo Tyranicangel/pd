@@ -1,0 +1,38 @@
+<div class="content_heading">Cheque Book Request Report</div>
+<div class="fullwrap">
+	<table class='each_table' ng-show='allrequests.length>0'>
+		<tr class='heading_row'>
+			<th>Sno</th>
+			<th>Request User</th>
+			<th>Request Date</th>
+			<th>No of Leaves Requested</th>
+			<th>Status</th>
+			<th>Issue Date</th>
+			<th>Book No</th>
+			<th>Starting No</th>
+			<th>Ending No</th>
+			<th>No of Leaves Granted</th>
+			<th>Remarks</th>
+		</tr>
+		<tr ng-repeat="trans in allrequests">
+			<td>{{trans.sno}}</td>
+			<td>{{trans.requser.userdesc+'('+trans.requestuser+')'}}</td>
+			<td>{{Dates.getDate(trans.requestdate)}}</td>
+			<td>{{trans.leaves}}</td>
+			<td>{{trans.rems}}</td>
+			<td>{{trans.issuedate}}</td>
+			<td>{{trans.bookno}}</td>
+			<td>{{trans.cstart}}</td>
+			<td>{{trans.cend}}</td>
+			<td>{{trans.gleaf}}</td>
+			<td>{{trans.remarks}}</td>
+		</tr>
+	</table>
+	<div class="wrap_indi" ng-show="allrequests.length==0">
+		<div class="each_desc">
+			* You did not issue any Cheque Books as of now
+		</div>
+	</div>
+</div>
+
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

@@ -1,0 +1,76 @@
+<div class="content">
+	<div class="container">
+		<div class="content_heading">Welcome to the Personal Deposit Account Portal</div>
+		
+		<div style="clear:both;"></div>
+
+			<div class="contactdetailbox" ng-show="contactthis">
+				<div class="wrap_indi lap_dv">
+					<p class="lap_txt" style="line-height:18px;"><span class="stardiv">*</span> Please give your phone number and Email-ID. Please be very careful while you enter all details because you will be contact through these details for any important notification.</p>
+					
+				</div>
+				<div style="clear:both;"></div>
+				<h3 style="margin-top:25px;">CONTACT DETAILS</h3>
+				<div class="wrap_indi">
+				<div class="each_text">Phone Number <span class="stardiv">*</span></div>
+				<input type="text" class="each_box" placeholder="Enter your phone number" ng-model='phonenumber'>
+				</div>
+				<div class="wrap_indi">
+				<div class="each_text">Email ID <span class="stardiv">*</span></div>
+				<input type="text" class="each_box" placeholder="Enter your email id" ng-model='emailid'>
+				</div>
+
+				<div class="wrap_indi send_req_cls">
+					<div class="main_button" style="width:180px;" ng-click='update_details(phonenumber,emailid)'>NEXT</div>
+				</div>
+				</div>
+			</div>
+
+			<div class="padaccountbox" ng-show="pdacnos" style="width:900px;margin:0 auto;">
+
+				<div class="wrap_indi lap_dv">
+					<p class="lap_txt"><span class="stardiv">*</span> Please enter your bank account number for each of your PD Account. Verify with your chequebook and enter. Please be careful while entering the account numbers because this account number will be used for e-payments. </p>
+				</div>
+					
+					<table class='each_table'>
+						<tr class='heading_row fnt_wht_bld'>
+							<td>Sno</td>
+							<td>HOA</td>
+							<td>Account number</td>
+							<td>Confirm account number</td>
+						</tr>
+						<tr class="" ng-repeat="x in userpdacinfo">
+							<td>{{$index+1}}</td>
+							<td>{{x.hoa}}</td>
+							<td><input type="password" class="each_box" ng-model="x.acno" placeholder="Enter PD Account number"></td>
+							<td><input type="text" class="each_box" ng-model="x.acnoconf" placeholder="Confirm PD Account number"></td>
+						</tr>
+					</table>
+
+					<div class="wrap_indi send_req_cls" style="padding-left:300px;">
+						<div class="main_button" ng-click="update_pdacno()">NEXT</div>
+					</div>
+			</div>
+
+			<div class="changepassbox" ng-show="passthis" style="width:900px;margin:0 auto;">
+				<h3>CHANGE PASSWORD</h3>
+				<p>Seems like you didnot change your default password. Please change it to continue</p>
+				<div class="wrap_indi">
+					<div class="each_text">New Password <span class="stardiv">*</span></div>
+					<input type="password" class="each_box" placeholder="Enter your new password" ng-model='newpassword'>
+				</div>
+				<div class="wrap_indi">
+					<div class="each_text">Confirm New Password <span class="stardiv">*</span></div>
+					<input type="password" class="each_box" placeholder="confirm your new password" ng-model='newpasswordconf'>
+				</div>
+
+				<div class="wrap_indi send_req_cls">
+					<div class="main_button" style="width:180px;" ng-click='update_pass(newpassword, newpasswordconf)'>NEXT</div>
+				</div>
+				</div>
+			</div>
+				
+
+</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

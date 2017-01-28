@@ -1,0 +1,36 @@
+<div class="menu">
+	<div class="container">
+		<div class="menu_indi">
+			<a ui-sref="govtif.main"><div class="menu_item">HOME</div></a>
+		</div>		
+		<div class="menu_indi">
+			<div class="menu_item">REPORTS</div>
+			<div class="sub_menu">
+				<a ui-sref="govtif.chqconflist"><div class="menu_subitem">Confirmed Cheques list</div></a>
+				<a ui-sref="govtif.allacslist"><div class="menu_subitem">Account wise Balances & LOCs</div></a>
+				<a ui-sref="govtif.alltrans"><div class="menu_subitem">Transactions List</div></a>
+				<a ui-sref="govtif.chqrpt"><div class="menu_subitem">Cheque Report</div></a>
+				<a ui-sref="govtif.locrpt"><div class="menu_subitem">LOC Report</div></a>
+			</div>
+		</div>
+		<div class="menu_indi">
+			<div class="menu_item">TRANSACTIONS</div>
+			<div class="sub_menu">
+				<a ui-sref="govtif.cheques"><div class="menu_subitem">Cheques List</div></a>
+			</div>
+		</div>
+		<div class="menu_indi">
+			<div class="menu_item">GENERAL</div>
+			<div class="sub_menu">
+				<a ui-sref="govtif.password"><div class="menu_subitem">Change Password</div></a>
+				<div class="menu_subitem" ng-click='logout()'>Logout</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="content">
+	<div class="container">
+		<div class="welcome">Welcome {{username}}</div>
+		<div ui-view="content"></div>
+	</div>
+</div>

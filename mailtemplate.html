@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+</head>
+<body>
+<style type="text/css">
+	
+	body{
+	width:100%;
+	height:100%;
+	margin:0px;
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Open Sans Light'), local('OpenSans-Light'), url(http://www.money-line.in/pd/front/images/open_sans.woff) format('woff');
+}
+@font-face {
+	font-family: 'Iceland';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Iceland'), local('Iceland-Regular'), url(http://www.money-line.in/pd/front/images/Iceland.woff) format('woff');
+}
+</style>
+	<div style="float: left;width: 100%;font-family: Arial;">
+		<div style="float: left;width: 100%;">
+			<div style="width: 900px;margin: auto;">
+				<div style="float:left;height: 150px;width:900px;border-left:1px solid #f4f4f4;"><img src="http://www.money-line.in/pd/front/images/header_image.png" /></div>
+				<div style="float:left;width:898px;padding-top:20px;font-size:13px;border: 1px solid #bababa;border-top: 0px;border-bottom: 0px;">
+				<!-- {{maincontent}} -->
+					<div style="float: left;width: 878px;padding: 10px;">
+						<div style="float: left;width: 50%;height: 25px;line-height: 25px;">Sir/Madam </div>
+						<div style="float: left;width: 50%;height: 25px;line-height: 25px;"></div>
+						<div style="float: left;width: 100%;height: 25px;line-height: 25px;">A cheque has been {{transtype}} {{byname}} with the following details on {{chequedate}}:</div>
+						<div style="float: left;width: 50%;height: 25px;line-height: 25px;"><b>Cheque No</b> : {{chequeno}}</div>
+						<div style="float: left;width: 50%;height: 25px;line-height: 25px;"><b>Date</b> : {{chequedate}}</div>
+						<div style="float: left;width: 50%;height: 25px;line-height: 25px;"><b>DDO Code</b> : {{ddocode}}</div>
+						<div style="float: left;width: 50%;height: 25px;line-height: 25px;"><b>HOA</b> : {{hoa}}</div>
+						<div style="float: left;width: 50%;height: 25px;line-height: 25px;"><b>Amount</b> : Rs {{amount}}</div>
+						<div style="float: left;width: 50%;height: 25px;line-height: 25px;"><b>Purpose</b> : General</div>
+						<div style="float: left;width: 100%;margin-top: 20px;">
+							<b>Party Details</b>:
+							<table style="width:100%;border-collapse: collapse;float:left;margin-bottom:20px;margin-top:10px;">
+								{{tableheader}}
+								{{partydetails}}
+							</table>
+						</div>
+						<div style="float: left;width: 100%;height: 25px;line-height: 25px;">Your PD account has been {{dedtype}} for the above amount.</div>
+						<div style="float: left;width: 100%;height: 25px;line-height: 25px;"><b>Available Balance</b>: Rs {{pdbalance}}</div>
+						<div style="float: left;width: 100%;height: 25px;line-height: 25px;"><b>Available LOC</b>: Rs {{locbalance}}</div>
+						<div style="float: left;width: 50%;height: 25px;line-height: 25px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div style="float:left;width:900px;background:#f4f4f4;box-sizing:border-box;">
+			<div style="width:860px;padding:20px;">
+				<div style="float:left;font-size:12px;color:#474646;line-height:16px;"><b>IMPORTANT</b>:Please do not reply to this email as this is an automated mail service.For any queries you can submit a request from your login through PD Account Portal.</div>
+				<div class="copyright" style="margin-top:20px;float:left;text-align:left;font-size:10px;color:#777777;line-height:13px;">
+					<p><span style="float:left;font-weight:bold;color:#474646">&copy; Copyright Finance Dept.,Govt of A.P, Powered By 
+					<a href="http://www.pixelvide.com">Pixelvide</a></span>	<br>
+<b>DISCLAIMER</b>:This communication is confidential and privileged and is directed to and for the use of the addressee only. The recipient if not the addressee should not use this message if erroneously received, and access and use of this e-mail in any manner by anyone other than the addressee is unauthorized. If you are not the intended recipient, please notify the sender by return email and immediately destroy all copies of this message and any attachments and delete it from your computer system permanently. The recipient acknowledges that the sender may be unable to exercise control or ensure or guarantee the integrity of the text of the email message and the text is not warranted as to completeness and accuracy. Before opening and accessing the attachment, if any, please check and scan for virus.</p>
+				</div>
+				<div style="float:right;padding-right:55px;">
+					<div style="float: left;width: 150px;background: #f4f4f4;border:1px dashed #bababa;">
+						<div style="float: left;width: 150px;text-align: center;">
+							<a href="http://www.pixelvide.com">
+								<img src="http://125.21.84.129/pd/front/images/pixelvide_logo.png" alt="pixelvide logo" style="width:105px;">
+							</a>
+						</div>
+						<p style="margin:0px;padding: 0px;text-align: center;font-size:10px;font-family:arial;border-top:1px dashed #bababa;padding:5px 0px;float: left;width: 150px;" style="font-size:11px;">
+							Efficient Web.Secure Web
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

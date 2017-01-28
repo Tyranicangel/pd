@@ -1,0 +1,49 @@
+<div class="content_heading">LOC Report</div>
+<div class="fullwrap">
+	<div class="left_dv_cls">
+		<p class="gen_p"><span class="stardiv">*</span><span>Please select a Head of Account in the below list to view the loc report for that particular account.</span></p>
+		<div class="wrap_indi">
+			<div class="each_text">Select Head of Account<span class='stardiv'> *</span></div>
+			<select class="each_select" ng-model='hoa' ng-change="show_loc_rpt()">
+				<option value="select">SELECT</option>
+				<option value="{{hoas.scheme.hoa}}" ng-repeat="hoas in schemelist">{{hoas.scheme.schemename+'    ( '+hoas.scheme.hoa+' ) '}}</option>
+			</select>
+		</div>
+		<div class="wrap_indi">
+			<div class="each_text">Balance <span class="small_txt">(in Rs.)</span></div>
+			<div class="each_data">{{hoa_balance()}}</div>
+		</div>
+		<div class="wrap_indi">
+			<div class="each_text">Existing LOC <span class="small_txt">(in Rs.)</span></div>
+			<div class="each_data">{{hoa_loc()}}</div>
+		</div>
+	</div>
+	<table class='each_table' ng-show='loclist.length>0'>
+		<tr class='heading_row'>
+			<th>Sno</th>
+			<th>Requested Amount</th>
+			<th>Granted Amount</th>
+			<th>Request Date</th>
+			<th>Reference No</th>
+			<th>Status</th>
+			<th>Remarks</th>
+		</tr>
+		<tr ng-repeat="trans in loclist">
+			<td>{{trans.sno}}</td>
+			<td>{{trans.reqamount}}</td>
+			<td>{{trans.grantamount}}</td>
+			<td>{{Dates.getDate(trans.requestdate)}}</td>
+			<td ng-if="trans.refno!=''">{{trans.refno}}</td>
+			<td ng-if="trans.refno==''">-</td>
+			<td>{{trans.rems}}</td>
+			<td>{{trans.remarks}}</td>
+		</tr>
+	</table>
+	<div class="wrap_indi" ng-show="loclist.length==0">
+		<div class="each_desc" ng-if="hoa!='select'">
+			* You did not request for any LOC as of now
+		</div>
+	</div>
+</div>
+
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

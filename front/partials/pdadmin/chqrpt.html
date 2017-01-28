@@ -1,0 +1,58 @@
+<div class="content_heading">Cheques Issued Report</div>
+<div class="fullwrap">
+<div class="tot_dv totamounttext" style="width:97.5%;display:inline-block;">
+<h4 style="margin:10px 0;">Report Summary</h4>
+	<div class="report_sum_indi">
+	Total cheques: {{chqlistall}}
+	</div>
+	<div style="clear:both;height:10px;"></div>
+	<div class="report_sum_indi">
+	Total amount(Rs.): <span class="totamount"></span> 
+	</div>
+	<div class="report_sum_indi">
+	Total paid amount(Rs.): <span class="totdoneamount"></span> 
+	</div>
+	<div style="clear:both;height:10px;"></div>
+	<div class="report_sum_indi">
+	Total pending amount(Rs.): <span class="totpenamount"></span> 
+	</div>
+	<div class="report_sum_indi">
+	Total rejected amount(Rs.): <span class="totrejamount"></span>
+	</div>
+</div>
+	<table class='each_table' ng-show='alltrans.length>0'>
+		<tr class='heading_row'>
+			<th>Sno</th>
+			<th>Cheque No</th>
+			<th>Head of Account</th>
+			<th>Issue Date</th>
+			<th>Amount<br><span class='rs'>(in Rs)</span></th>
+			<th>Purpose</th>
+			<th>Party Name</th>
+			<th>Status</th>
+			<th>Remarks</th>
+		</tr>
+		<tr ng-repeat="trans in alltrans">
+			<td>{{trans.sno}}</td>
+			<td>{{trans.chequeno}}</td>
+			<td>{{trans.hoa}}</td>
+			<td>{{Dates.getDate(trans.transdate)}}</td>
+			<td>{{getcommas(trans.partyamount)}}</td>
+			<td>{{trans.purpose}}</td>
+			<td ng-if="trans.multiflag==2">
+				<a download href="{{requesturl+'/uploads/'+trans.partyfile}}">Download</a>
+			</td>
+			<td ng-if="trans.multiflag==1">
+				{{trans.partyname}}
+			</td>
+			<td>{{trans.rems}}</td>
+			<td>{{trans.rejects}}</td>
+		</tr>
+	</table>
+	<div class="wrap_indi" ng-show="alltrans.length==0">
+		<div class="each_desc">
+			* You did not issue any cheques yet!
+		</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

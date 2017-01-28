@@ -1,0 +1,56 @@
+<div class="content_heading">Online Query System(OQS)</div>
+<div class="fullwrap">
+	<p class="oqs_txt"><span class="stardiv">*</span>Welcome to the Online Query System, If you have any queries/problems that you want to report to the admin team you can send it by filling the below form</p>
+	<div class="wrap_indi">
+		<div class="each_text">Enter your Name:</div>
+		<input type="text" class="each_box" placeholder="Enter name here" ng-model='query.name'>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Enter your phone Number</div>
+		<input type="text" class="each_box" placeholder="Enter phone number here" ng-model='query.phone'>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Subject</div>
+		<input type="text" class="each_box" placeholder="Enter subject here" ng-model='query.subject'>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Query</div>
+		<textarea class='each_box textarea' style="width:250px;" placeholder="Enter query here" ng-model='query.qy'></textarea>
+	</div>
+	<div class="wrap_indi send_req_cls ex_cls_oqs">
+		<div class="main_button" ng-click='query_submit()'>Submit</div>
+	</div>
+	<div class="sub_qtxt">
+		<p class="content_heading"><b>Submitted Queries</b></p>
+	</div>
+	<div class="fullwrap">
+	<table class='each_table' ng-show='querylist.length>0'>
+		<tr class='heading_row'>
+			<th>Sno</th>
+			<th>Query Id</th>
+			<th>Query Date</th>
+			<th>Subject</th>
+			<th>Query</th>
+			<th>Status</th>
+			<th>Resolved Date</th>
+			<th>Remarks</th>
+		</tr>
+		<tr ng-repeat="trans in querylist">
+			<td>{{trans.sno}}</td>
+			<td>{{trans.id}}</td>
+			<td>{{Dates.getDate(trans.query_date)}}</td>
+			<td>{{trans.subject}}</td>
+			<td>{{trans.query}}</td>
+			<td>{{trans.rems}}</td>
+			<td>{{trans.resolve_date}}</td>
+			<td>{{trans.remarks}}</td>
+		</tr>
+	</table>
+	<div class="wrap_indi" ng-show="querylist.length==0">
+		<div class="each_desc">
+			* You did not submit any queries yet!
+		</div>
+	</div>
+</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

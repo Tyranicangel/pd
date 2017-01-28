@@ -1,0 +1,58 @@
+Sno,Party Name,Party Account no,Party Bank Name,Party Bank Branch,Party Bank Ifsc Code,Party Amount
+1,"District Co-Ordinator of  Hospital Services,Krishna",34210011006359,"Andhra Bank,","Lic Branch, Machilipatnam",ANDB0000342,278808
+2,"District Co-Ordinator of  Hospital Services,Kadapa",008610011020214,"Andhra Bank,","Main Branch, Kadapa",ANDB0000086,501387
+3,"District Co-Ordinator of  Hospital Services,Srikakulam",051310011018871,"Andhra Bank,",Srikakulam,ANDB0000513,96573
+4,"District Co-Ordinator of  Hospital Services,Ongole",040010011022079,"Andhra Bank,",Ongole,ANDB0000400,253861
+5,"District Co-Ordinator of  Hospital Services,Vizianagaram",133410011000073,"Andhra Bank,","Contonment, Viziangaram",ANDB0001334,478518
+6,"District Co-Ordinator of  Hospital Services, W.G.Dt",046810011322404,"Andhra Bank,","Ramachandra Rao Branch, Eluru",ANDB0000468,346855
+7,"District Co-Ordinator of  Hospital Services,Nellore",111410011000032,"Andhra Bank,","Andhra Kesari Nagar, Nellore",ANDB0001114,879694
+8,"District Co-Ordinator of  Hospital Services,Visakhapatnam",001210011012727,"Andhra Bank,",Anakapalli,ANDB0000012,80391
+9,"District Co-Ordinator of  Hospital Services,E.G.Dt",010010011016850,"Andhra Bank,","Danvaipet Branch, Rajahmundry",ANDB0000100,247681
+10,"District Co-Ordinator of  Hospital Services,Tenali",055510100017034,"Andhra Bank,","Main Branch., Tenali",ANDB0000555,320032
+11,"District Co-Ordinator of  Hospital Services,Chittor",008110011012869,"Andhra Bank,","Main Branch., Chittoor",ANDB0000081,797628
+12,"District Co-Ordinator of  Hospital Services,Nandyal",037910011021843,"Andhra Bank,",Nandyal,ANDB0000379,126177
+13,"District Co-Ordinator of  Hospital Services,Hindupur",020210011904115,"Andhra Bank,",Hindupur,ANDB0000202,133002
+14,"MD, APMSIDC, Hyderabad ",142410011000314,"Andhra Bank,","Kendriya sadan Branch., 
+Hyderabad",ANDB0001424,317844
+15,"Area Hospital, Kadiri, Ananthapur",030110011006880,"Andhra Bank,",Kadiri ,ANDB0000301,1457748
+16,"Area Hospital, Hindupur, Ananthapur",020210011005716,"Andhra Bank,",Hindupur,ANDB0000202,2007311
+17,"Area Hospital, Guntakal, Ananthapur",014910011011924,"Andhra Bank,",Guntakal,ANDB0000149,1161505
+18,"District Hospital,Nandyal, Kurnool",037910011015220,"Andhra Bank,","Byrmal street, Nandyal.",ANDB0000379,2854590
+19,"Area Hospital, Adoni, Kurnool",000210011007383,"Andhra Bank,",Adoni.,ANDB0000002,1356064
+20,"Area Hospital, Palakonda, Srikakulam",043910011006646,"Andhra Bank,",Palakonda,ANDB0000439,1238560
+21,"Area Hospital, Tekkali, Srikakulam",056210011006245,"Andhra Bank,",Tekkali,ANDB0000562,1522385
+22,"Area Hospital, Rajam, Srikakulam",046610011010065,"Andhra Bank,","Rajam, Srikakulam",ANDB0000466,1107089
+23,"Area Hospital, Narsipatnam, Visakhapatnam",038310100062724,"Andhra Bank,",Narsipatnam,ANDB0000383,1413120
+24,"Area Hospital, Anakapalli, Visakhapatnam",001210011010413,"Andhra Bank,","Main Branch,Anakapalli.",ANDB0000012,1585256
+25,"District Hospital, Vizianagaram.",133410011000043,"Andhra Bank,","Main Branch,Vizianagaram",ANDB0001334,1049805
+26,"Area Hospital, Parvathipuram, Vizianagaram",4010011006769,"Andhra Bank,","Belagam Branch,Parvathiuram.",ANDB0000040,425205
+27,"District Hospital, Rajahmundry, East Godavari",010010011016858,"Andhra Bank,","Danavaipeta, Rajahmundry",ANDB0000100,4044040
+28,"Area Hospital, Amalapuram, East Godavari",036510011008044,"Andhra Bank,","Area Hospital, Amalapuram.",ANDB0000365,1492540
+29,"Area Hospital, Ramachandrapuram, East Godavari",046710011012412,"Andhra Bank,",  Area Hospital Ramchandrapuram,ANDB0000467,1112072
+30,"Area Hospital, Tuni, East Godavari",056110011016236,"Andhra Bank,",Tuni,ANDB0000561,1947782
+31,"Area Hospital, Rampachodavaram, East Godavari",040910011052890,"Andhra Bank,"," Rampachodavaram, East Godavari",ANDB0000409,1117072
+32,"District Hospital, Eluru, West Godavari",046810011320178,"Andhra Bank,",Eluru,ANDB0000468,1909590
+33,"Area Hospital,Tanuku, West Godavari",055410011015945,"Andhra Bank,",Tanuku,ANDB0000554,625922
+34,"Area Hospital, Tadepalligudem, West Godavari",055010011040445,"Andhra Bank,",Tadepalligudem,ANDB0000550,572878
+35,"Area Hospital, Jangareddygudem, West Godavari",025910011024799,"Andhra Bank,","Jangareddygudem, WG",ANDB0000259,636525
+36,"District Hospital, Machilipatnam, Krishna",034210011005482,"Andhra Bank,","  LIC branch, Machilipatnam",ANDB0000342,1393132
+37,"Area Hospital, Nuziveedu, Krishna",038810011014123,"Andhra Bank,",Nuziveedu,ANDB0000388,552980
+38,"Area Hospital, Gudivada, Krishna",014610011019582,"Andhra Bank,",Gudivada,ANDB0000146,698205
+39,"District Hospital, Tenali, Guntur",055510011021235,"Andhra Bank,",Tenali,ANDB0000555,1342776
+40,"Area Hospital, Bapatla, Guntur",003710011079001,"Andhra Bank,",Bapatla,ANDB0000037,649518
+41,"Area Hospital, Narsaraopet, Guntur",038111011002306,"Andhra Bank,",Narsaraopet,ANDB0000381,554537
+42,"Area Hospital,Chirala, Prakasam",8010011021494,"Andhra Bank,",Chirala,ANDB0000080,582767
+43,"Area Hospital, Markapur, Prakasam",106710011504905,"Andhra Bank,",Kandukur,ANDB0001067,569768
+44,"Area Hospital, Kandukur, Prakasam",030410011097160,"Andhra Bank,",Kandukur,ANDB0000304,309046
+45,"Area Hospital, Gudur, Nellore",014710011010767,"Andhra Bank,",Gudur,ANDB0000147,535763
+46,"Area Hospital, Kavali, Nellore",30910100043525,"Andhra Bank,",Gudur,ANDB0000309,483790
+47,"District Hospital, Chittoo, Chittoor",008110011011176,"Andhra Bank,","Main Branch,District Hospital, Chittoor",ANDB0000081,1908129
+48,"Area Hospital, Kuppam, Chittoor",059810011000919,"Andhra Bank,",Kuppam,ANDB0000598,1066148
+49,"Area Hospital, Madanapalli, Chittoor",037010011007292,"Andhra Bank,",Madanapalli,ANDB0000370,909522
+50,"Area Hospital, Srikalahasti, Chittoor",051410011006278,"Andhra Bank,",Srikalahasti,ANDB0000514,1156761
+51,"Area Hospital, Chandragiri, Chittoor",102610011003729,"Andhra Bank,",Chandragiri,ANDB 0001026,1045943
+52,"Area Hospital, Palamaner, Chittoor",11137525251,State Bank of India,Palamaner,SBIN00000266,895557
+53,"Area Hospital, Pulivendula, Kadapa",045210011010781,"Andhra Bank,",Pulivendula,ANDB0000452,335629
+54,"District Hospital, Proddatur, Kadapa",043710011009014,"Andhra Bank,",Proddatur,ANDB0000437,766940
+55,"MD, APMSIDC, Hyderabad ",142410011000314,"Andhra Bank,","Kendriya sadan Branch, 
+Hyderabad",ANDB0001424,3247579

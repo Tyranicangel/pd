@@ -1,0 +1,40 @@
+<div class="content_heading">Total Report</div>
+
+<p style="font-famliy:arial;font-size:12px;clear:both;"><span class="stardiv">*</span>Please select the dates and click on search to show the total report in between those dates</p>
+<br>
+<span class="frm_to_chq">From</span>
+<input type="text" class="dt_slct" id="fdate"><br><br>
+<span class="frm_to_chq">To</span>
+<input type="text" class="dt_slct" id="tdate"><br>
+<div style="clear:both;height:10px;"></div>
+<div class="wrap_indi">
+	<div class="each_text" style="width:150px;">Select STOCODE</div>
+	<select class='each_select' ng-model='stocode' ng-change="onloadactn()" style="width:150px;">
+		<option value="select">SELECT STOCODE</option>
+		<option value="2702" >2702</option>
+		<option value="2213" >2213</option>
+		<option value="2201" >2201</option>
+	</select>
+</div>
+<button class="scrh_chqs_conf_btn" ng-click="get_tot_rpt()">Search</button><br>
+
+<table class='each_table' style="margin-top:20px;" ng-show='totalreport.length>0'>
+	<tr class='heading_row clr_wg'>
+		<td>Sno</td>
+		<td>Total number of recipts</td>
+		<td>Total LOCs requested</td>
+		<td>Total LOCs granted</td>
+		<td>Total Expenditure</td>
+		
+	</tr>
+	<tr ng-repeat="x in totalreport">
+		<td>{{$index+1}}</td>
+		<td>{{x.locgranted}}</td>
+		<td>{{x.locpending}}</td>
+		<td>{{x.totalrcpt}}</td>
+		<td>{{x.totalrcpt}}</td>
+		
+	</tr>
+</table>
+
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

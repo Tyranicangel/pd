@@ -1,0 +1,63 @@
+<div class="menu">
+	<div class="container">
+		<div class="menu_indi smaller">
+			<a ui-sref="panchayathq.main"><div class="menu_item smaller">HOME</div></a>
+		</div>
+<!-- 		
+		<div class="menu_indi smaller">
+			<div class="menu_item smaller">MASTERS</div>
+			<div class="sub_menu smaller">
+				<a ui-sref="dto.create"><div class="menu_subitem ex_cls_menu_subtiem">Confirm Accounts</div></a>
+				<a ui-sref="dto.editddo"><div class="menu_subitem ex_cls_menu_subtiem">Change DDO Name</div></a>
+				<a ui-sref="dto.createuac"><div class="menu_subitem ex_cls_menu_subtiem">Create User Account</div></a>
+			</div>
+		</div>
+		<div class="menu_indi smaller">
+			<div class="menu_item smaller">TRANSACTIONS</div>
+			<div class="sub_menu smaller">
+				<a ui-sref="dto.request"><div class="menu_subitem ex_cls_menu_subtiem">Cheque Book Requests</div></a>
+				<a ui-sref="dto.loclist"><div class="menu_subitem ex_cls_menu_subtiem">LOC Requests</div></a> 
+				<a ui-sref="dto.trans"><div class="menu_subitem ex_cls_menu_subtiem">Cheques to be Authorized</div></a>
+			</div>
+		</div>
+ -->
+		<div class="menu_indi smaller">
+			<div class="menu_item smaller">REPORTS</div>
+			<div class="sub_menu smaller">
+				<!-- <a ui-sref="dto.ledger"><div class="menu_subitem ex_cls_menu_subtiem">My Ledgers</div></a> -->
+				<a ui-sref="panchayathq.statement"><div class="menu_subitem ex_cls_menu_subtiem">Account Statement</div></a>
+				<a ui-sref="panchayathq.locrpt"><div class="menu_subitem ex_cls_menu_subtiem">LOC Report</div></a>
+				<!-- <a ui-sref="panchayat.reqrpt"><div class="menu_subitem ex_cls_menu_subtiem">Cheque Book Report</div></a> -->
+				<a ui-sref="panchayathq.chqrpt"><div class="menu_subitem ex_cls_menu_subtiem">Cheque Report</div></a>
+				<a ui-sref="panchayathq.allacslist"><div class="menu_subitem">Account wise Balances & LOCs</div></a>
+				<a ui-sref="panchayathq.absacc"><div class="menu_subitem">Abstract Account Report</div></a>
+				<a ui-sref="panchayathq.absloc"><div class="menu_subitem">Abstract LOC Report</div></a>
+				<a ui-sref="panchayathq.abschq"><div class="menu_subitem">Abstract Cheque Report</div></a>
+			</div>
+		</div>
+<!-- 		
+		<div class="menu_indi smaller">
+			<div class="menu_item smaller">INVENTORY</div>
+			<div class="sub_menu smaller">
+				<a ui-sref="dto.addinventory"><div class="menu_subitem ex_cls_menu_subtiem">Add Inventory</div></a>
+				<a ui-sref="dto.viewinventory"><div class="menu_subitem ex_cls_menu_subtiem">View Inventory</div></a>
+			</div>
+		</div>
+		<div class="menu_indi smaller">
+			<div class="menu_item smaller">GENERAL</div>
+			<div class="sub_menu smaller">
+				<a ui-sref="dto.query"><div class="menu_subitem ex_cls_menu_subtiem">Online Query System</div></a>
+				<a href="../front/images/officer.pdf" target="_blank"><div class="menu_subitem ex_cls_menu_subtiem">User Manual</div></a>
+				<a ui-sref="dto.password"><div class="menu_subitem ex_cls_menu_subtiem">Change Password</div></a>
+				<div class="menu_subitem ex_cls_menu_subtiem" ng-click='logout()'>Logout</div>
+			</div>
+		</div>
+ -->
+ 	</div>
+</div>
+<div class="content">
+	<div class="container">
+		<div class="welcome">Welcome {{username}}</div>
+		<div ui-view="content"></div>
+	</div>
+</div>

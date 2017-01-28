@@ -1,0 +1,33 @@
+
+<div class="wrap_indi" style="margin:0px;">
+	<p class="lst_ex_acs">List of HAOs mapped to SAs</p>
+</div>
+<div class="wrap_indi" ng-show="sausers.length==0">
+	<p class="noactnt_p othe_cls_p"><span class="stardiv">*</span>There are no SA accounts created under you! please go to MASTERS>>Create User Account and create accounts for SAs under you and then procees for SA-HOA mapping!</p>
+</div>
+<div class="wrap_indi"  ng-show="sausers.length>0">
+	<p class="noactnt_p"><span class="stardiv">*</span>Select the correct SA Name you want these following HOAs to map to and click on the map button, all the cheques issued under these HOAs will be first forwarded to the mapped SA to start the audit</p>
+</div>
+<table class='each_table'  ng-show="sausers.length>0">
+	<tr class='heading_row fnt_wht_bld'>
+		<td>Sno</td>
+		<td>HOA</td>
+		<td>Mapped to (SA username)</td>
+	</tr>
+	<tr ng-repeat="x in hoalist">
+		<td>{{$index+1}}</td>
+		<td>{{x.hoa}} <br>{{x.schemename}}</td>
+		<td>
+			<select class="each_select" ng-model="x.sauser" ng-options = "y.username as y.userdesc for y in sausers">
+				
+			</select>	
+		</td>
+	</tr>
+</table>
+
+<div style="margin:auto;width:331px;">
+	<div class="main_button crt_usr_cls" style="margin-top:20px;" ng-click="save()" ng-show="sausers.length>0">Save Changes</div>
+</div>
+
+
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

@@ -1,0 +1,96 @@
+<style type="text/css">
+	
+	.each_table td {
+
+		max-width:initial;
+	}
+	
+	.main_btn {
+		padding:10px;
+		float:left;
+		color:#000;
+		background: #ccc;
+		width:120px;
+		text-align:center;
+		cursor: pointer;
+		font-size: 13px;
+		border-top:1px solid #000;
+		border-bottom:1px solid #000;
+	}
+	.main_btn:nth-child(even) {
+
+		border-left: 1px solid #000;
+		border-right:1px solid #000;
+	}
+	.main_btn:hover {
+
+		background:#474646;
+		color:#FFF;
+	}
+	.active {
+		background:#474646;
+		color:#FFF;
+	}
+</style>
+<div class="main_btn active" ui-sref="dd.validateuser">Pending</div>
+<div class="main_btn" ui-sref="dd.validateuserapproved">Approved</div>
+<div class="main_btn" ui-sref="dd.validateuserrejected">Rejected</div>
+
+<div class="fullwrap">
+
+<div style="clear:both;"></div>
+<div class="content_heading" >List of PD accounts pending for validation</div>
+
+	<table class='each_table' ng-show='hoalist.length>0'>
+		<tr class='heading_row'>
+			<th>SNO</th>
+			<th>DDOCODE</th>
+			<th>HOA</th>
+			<th>MAIN BALANCE<span class='rs'>(in Rs)</span></th>
+			<th>OPENING BALANCE<span class='rs'>(in Rs)</span></th>
+			<th>LOC BALANCE<br><span class='rs'>(in Rs)</span></th>
+			<th>ACCOUNT TYPE</th>
+			<th>STATUS</th>
+			<th>REMARKS</th>
+			<th>UPDATE</th>
+		</tr>
+		<tr ng-repeat="hoa in hoalist">
+			<td>{{$index+1}}</td>
+			<td>{{hoa.ddocode}}</td>
+			<td>{{hoa.hoa}}</td>
+			<td>{{hoa.balance}}</td>
+			<td>{{hoa.obalance}}</td>
+			<td ng-show="hoa.account_type==2">{{hoa.loc}}</td>
+			<td ng-show="hoa.account_type==1">Not applicable</td>
+			<td ng-show="hoa.account_type==2">LOC</td>
+			<td ng-show="hoa.account_type==1">NON-LOC</td>
+			<td>
+			<select ng-model="hoa.status">
+				<option value="0">Pending</option>
+				<option value="1">Approve</option>
+				<option value="2">Reject</option>
+			</select>
+			</td>
+			<td><textarea ng-model="hoa.remarks"></textarea></td>
+			<td><button style="cursor:pointer;" ng-click="submitstatus(hoa)">UPDATE</button></td>
+		</tr>
+	</table>
+	<table class='each_table' ng-show='hoalist.length==0'>
+		<tr class='heading_row'>
+			<th>SNO</th>
+			<th>DDOCODE</th>
+			<th>HOA</th>
+			<th>MAIN BALANCE<span class='rs'>(in Rs)</span></th>
+			<th>OPENING BALANCE<span class='rs'>(in Rs)</span></th>
+			<th>LOC BALANCE<br><span class='rs'>(in Rs)</span></th>
+			<th>ACTION</th>
+			<th>Remarks</th>
+		</tr>
+		<tr>
+			<td colspan="8">No accounts pending for validation!</td>
+			
+		</tr>
+	</table>
+	
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

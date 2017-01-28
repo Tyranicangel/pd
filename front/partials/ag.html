@@ -1,0 +1,33 @@
+<div class="menu">
+	<div class="container">
+		<div class="menu_indi">
+			<a ui-sref="ag.main"><div class="menu_item">HOME</div></a>
+		</div>
+		<!-- <div class="menu_indi">
+			<div class="menu_item">MASTERS</div>
+		</div>
+		<div class="menu_indi">
+			<div class="menu_item">TRANSACTIONS</div>
+		</div> -->
+		<div class="menu_indi">
+			<div class="menu_item">REPORTS</div>
+			<div class="sub_menu">
+				<a ui-sref="ag.hoa"><div class="menu_subitem">HOA Wise List</div></a>
+				<a ui-sref="ag.ddo"><div class="menu_subitem">PD Admin Wise List</div></a>
+			</div>
+		</div>
+		<div class="menu_indi">
+			<div class="menu_item">GENERAL</div>
+			<div class="sub_menu">
+				<a ui-sref="ag.password"><div class="menu_subitem">Change Password</div></a>
+				<div class="menu_subitem" ng-click='logout()'>Logout</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="content">
+	<div class="container">
+		<div class="welcome">Welcome {{username}}</div>
+		<div ui-view="content"></div>
+	</div>
+</div>

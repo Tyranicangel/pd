@@ -1,0 +1,104 @@
+<div class="content_heading">Panchayat Raj HQ - Cheque Reports</div>
+<div class='fullwrap'>
+	<div class="wrap_indi">
+		<div class="each_text">Select Area</div>
+		<select class='each_select' ng-model='areamain' ng-change="area_change()">
+			<option value="select">SELECT</option>
+			<option value="{{area.areacode}}" ng-repeat="area in arealist">{{area.areaname}}</option>
+		</select>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Select STO/DTO</div>
+		<select class='each_select' ng-model='stomain' ng-change="sto_change()">
+			<option value="select">SELECT</option>
+			<option value="{{sto.username}}" ng-repeat="sto in stolist">{{sto.userdesc+'( '+sto.username+' )'}}</option>
+		</select>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Select PD Administrator</div>
+		<select class='each_select' ng-model='ddomain' ng-change="ddomainchange()">
+			<option value="select">SELECT</option>
+			<option value="all">ALL</option>
+			<option value="{{ddo.username}}" ng-repeat="ddo in ddolist">{{ddo.userdesc+'( '+ddo.username+' )'}}</option>
+		</select>
+	</div>
+	<div class="wrap_indi">
+		<p style="font-famliy:arial;font-size:12px;clear:both;"><span class="stardiv">*</span>Please select the dates and click on search to show the cheque report in between those dates</p>
+		<div style="width:150px;float:left;">
+			<span class="frm_to_chq">From</span>
+			<input type="text" class="dt_slct" id="fdate">
+		</div>
+		<div style="width:150px;float:left;">
+			<span class="frm_to_chq">To</span>
+			<input type="text" class="dt_slct" id="tdate">
+		</div>
+		<div style="width:150px;float:left;">
+			<button class="scrh_chqs_conf_btn" ng-click="get_chq_rpt('1')" style="margin-top:26px;">Search</button>
+		</div>
+	</div>
+</div>
+<div class="fullwrap">
+<div class="tot_dv totamounttext" style="display:none;width:97.5%;">
+<h4 style="margin:10px 0;">Report Summary</h4>
+	<div class="report_sum_indi">
+	Total cheques: {{chqlistall}}
+	</div>
+	<div style="clear:both;height:10px;"></div>
+	<div class="report_sum_indi">
+	Total amount(Rs.): <span class="totamount"></span> 
+	</div>
+	<div class="report_sum_indi">
+	Total paid amount(Rs.): <span class="totdoneamount"></span> 
+	</div>
+	<div style="clear:both;height:10px;"></div>
+	<div class="report_sum_indi">
+	Total pending amount(Rs.): <span class="totpenamount"></span> 
+	</div>
+	<div class="report_sum_indi">
+	Total rejected amount(Rs.): <span class="totrejamount"></span>
+	</div>
+</div>
+	<table class='each_table' ng-show='chqlist.length>0'>
+		<tr class='heading_row'>
+			<th>Sno</th>
+			<th>Cheque No</th>
+			<th>Pd Admin</th>
+			<th>Head of Account</th>
+			<th>Issue Date</th>
+			<th>Confirm/Reject Date</th>
+			<th>Amount<br><span class='rs'>(in Rs)</span></th>
+			<th>Purpose</th>
+			<th>Party Name</th>
+			<th>Status</th>
+			<th>Remarks</th>
+		</tr>
+		<tr ng-repeat="trans in chqlist" ng-show="$index+1<=30">
+			<td>{{trans.pagenumber}}</td>
+			<td>{{trans.chequeno}}</td>
+			<td>{{trans.issueuser}}</td>
+			<td>{{trans.hoa}}</td>
+			<td>{{Dates.getDate(trans.transdate)}}</td>
+			<td>{{Dates.getDate(trans.confirmdate)}}</td>
+			<td>{{trans.partyamount}}</td>
+			<td>{{trans.purpose}}</td>
+			<td ng-if="trans.multiflag==2">
+				<a download href="{{requesturl+'/uploads/'+trans.partyfile}}">Download</a>
+			</td>
+			<td ng-if="trans.multiflag==1">
+				{{trans.partyname}}
+			</td>
+			<td>{{trans.rems}}</td>
+			<td>{{trans.rejects}}</td>
+		</tr>
+	</table>
+	<div class="wrap_indi" ng-show="chqlist.length==0 && ddomain!='select'">
+		<div class="each_desc">
+			* No cheques found.
+		</div>
+	</div>
+
+	<div class="paginationwrap" ng-show="chqlistall>30">
+		<div class="indipageno" thispageno="{{page}}" ng-click="get_chq_rpt(page)" ng-repeat="page in pagination" ng-show="$index+1>1">{{page}}</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

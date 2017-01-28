@@ -1,0 +1,43 @@
+<div class="content_heading">Map passing authority</div>
+<div class="fullwrap">
+	<div class="wrap_indi" ng-show="sauser.length>0">
+		<p class="noactnt_p"><span class="stardiv">*</span>
+			Please select the passing authority to whom all the cheque requests should be directed.
+		</p>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Select Cheque passing authority</div>
+		<select class="each_select" ng-model="chqauthuser">
+			<option value="2">Self</option>
+			<option value="1">ATO</option>
+				
+		</select>	
+	</div>
+
+	<div class="wrap_indi">
+		<div class="each_text">Select LOC passing authority</div>
+		<select class="each_select" ng-model="locauthuser">
+			<option value="2">Self</option>
+			<option value="1">ATO</option>
+				
+		</select>	
+	</div>
+
+	<div class="wrap_indi">
+		<div class="each_text">Select Cheque Book issue authority</div>
+		<select class="each_select" ng-model="bookauthuser">
+			<option value="2">Self</option>
+			<option value="1">ATO</option>
+				
+		</select>	
+	</div>
+
+	<div style="margin:auto;width:331px;">
+		<div class="main_button crt_usr_cls" style="margin-top:20px;" ng-click="save_chq_loc_map()">Save Changes</div>
+	</div>
+
+</div>
+
+
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>
+

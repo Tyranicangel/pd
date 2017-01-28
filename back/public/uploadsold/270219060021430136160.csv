@@ -1,0 +1,8 @@
+Sno,"Party Name","Party Account no","Party Bank Name","Party Bank Branch","Party Bank Ifsc Code","Party Amount"
+1,"Test 1",01239725,Bank1,Branch1,Sbin0000901,20
+2,Test2,3198103500850000,Bank2,Branch2,sbi0000027895,15
+3,"Test 3",319845728365080,Bank3,Branch3,HDFC050087,111
+4,"Test 4",2879456230147000,Bank4,Branch4,sbin0002724,1234
+5,"Test 5",00005004040350,Bank5,Branch5,sbin0002727,139874
+6,"Test 6",5897456123504050,Bank6,Brnach6,sbin00008787,12397456
+7,"Test 7",4812573695036400,Bank7,Brnach7,sbin00009797,1254578

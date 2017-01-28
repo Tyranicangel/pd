@@ -1,0 +1,141 @@
+<style type="text/css">
+
+table {
+
+	font-size:12px;
+}
+	
+</style>
+<div class="query_console">
+
+	<a class="console_links" ng-click="pendingquery()">Pending queries</a>
+	<a class="console_links" ng-click="resolvedquery()">Resolved queries</a>
+	<a class="console_links" ng-click="forwardedquery()">Forwarded queries</a>
+</div>
+<div class="clear"></div>
+<div class="query_container">
+
+	<div ng-show="pendingqueries">
+
+		<h3>Pending queries</h3>
+
+		<table class="query_tbl" border="1" cellpadding="5">
+
+			<tr class="query_tbl_head">
+				<th>S.No</th>
+				<th>User ID</th>
+				<th>User Name</th>
+				<th>Subject</th>
+				<th>phone number</th>
+				<th>Query</th>
+				<th>Date</th>
+				<th>Remarks</th>
+				<th>Status</th>
+				<th>Update</th>
+			</tr>
+
+			<tr ng-repeat="pending in pendingqueries">
+				<td>{{$index+1}}</td>
+				<td>{{pending.userid}}</td>
+				<td>{{pending.name}}</td>
+				<td>{{pending.subject}}</td>
+				<td>{{pending.phoneno}}</td>
+				<td class="querytd">{{pending.query}}</td>
+				<td>{{pending.query_date}}</td>
+				<td><textarea ng-model="pending.remarks">{{pending.remarks}}</textarea></td>
+				<td>
+					<select ng-model="status">
+						<option value="Pending">Pending</option>
+						<option value="Resolved">Resolved</option>
+						<option value="Forward">Forward</option>
+					</select>
+				</td>
+				<td><button ng-click="updatequery(pending, status)" ng-show="pending.updateflag != '1'">UPDATE</button><span ng-show="pending.updateflag=='1'">UPDATED</span></td>
+
+			</tr>
+		</table>
+	</div>
+
+	<div ng-show="resolvedqueries" >
+
+		<h3>Resolved queries</h3>
+
+		<table class="query_tbl" border="1" cellpadding="5">
+
+			<tr class="query_tbl_head">
+				<th>S.No</th>
+				<th>User ID</th>
+				<th>User Name</th>
+				<th>Subject</th>
+				<th>phone number</th>
+				<th>Query</th>
+				<th>Date</th>
+				<th>Remarks</th>
+				<th>Status</th>
+				<th>Update</th>
+			</tr>
+
+			<tr ng-repeat="pending in resolvedqueries">
+				<td>{{$index+1}}</td>
+				<td>{{pending.userid}}</td>
+				<td>{{pending.name}}</td>
+				<td>{{pending.subject}}</td>
+				<td>{{pending.phoneno}}</td>
+				<td class="querytd">{{pending.query}}</td>
+				<td>{{pending.query_date}}</td>
+				<td><textarea ng-model="pending.remarks">{{pending.remarks}}</textarea></td>
+				<td>
+					<select ng-model="status">
+						<option value="Resolved">Resolved</option>
+						<option value="Pending">Pending</option>
+						<option value="Forward">Forward</option>
+					</select>
+				</td>
+				<td><button ng-click="updatequery(pending, status)" ng-show="pending.updateflag != '1'">UPDATE</button><span ng-show="pending.updateflag=='1'">UPDATED</span></td>
+
+			</tr>
+		</table>
+	</div>
+
+	<div ng-show="forwardedqueries" >
+
+		<h3>Forwarded queries</h3>
+		<table class="query_tbl" border="1" cellpadding="5">
+
+			<tr class="query_tbl_head">
+				<th>S.No</th>
+				<th>User ID</th>
+				<th>User Name</th>
+				<th>Subject</th>
+				<th>phone number</th>
+				<th>Query</th>
+				<th>Date</th>
+				<th>Remarks</th>
+				<th>Status</th>
+				<th>Update</th>
+			</tr>
+
+			<tr ng-repeat="pending in forwardedqueries">
+				<td>{{$index+1}}</td>
+				<td>{{pending.userid}}</td>
+				<td>{{pending.name}}</td>
+				<td>{{pending.subject}}</td>
+				<td>{{pending.phoneno}}</td>
+				<td class="querytd">{{pending.query}}</td>
+				<td>{{pending.query_date}}</td>
+				<td><textarea ng-model="pending.remarks">{{pending.remarks}}</textarea></td>
+				<td>
+					<select ng-model="status">
+						<option value="Forward">Forward</option>
+						<option value="Pending">Pending</option>
+						<option value="Resolved">Resolved</option>
+					</select>
+				</td>
+				<td><button ng-click="updatequery(pending, status)" ng-show="pending.updateflag != '1'">UPDATE</button><span ng-show="pending.updateflag=='1'">UPDATED</span></td>
+
+			</tr>
+		</table>
+	</div>
+
+
+</div>

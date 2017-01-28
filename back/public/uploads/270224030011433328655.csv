@@ -1,0 +1,81 @@
+Sno,"Party Name","Party Account no","Party Bank Name","Party Bank Branch","Party Bank Ifsc Code","Party Amount"
+1,"RS B Malli",62179950854,"State Bank of Hyderabad",Palakonda,SBHY0021241,1062791
+2,"RS G Seethampeta",62212123001,"State Bank of Hyderabad",Palakonda,SBHY0021241,619644
+3,"RS B Komarada",62029178195,"State Bank of Hyderabad",Parvathipuram,SBHY0021005,514658
+4,"RS B RCVaram",62205021697,"State Bank of Hyderabad",Gokavaram,SBHY0021199,665314
+5,"RS G R C Varam",62197459003,"State Bank of Hyderabad",Gokavaram,SBHY0021199,669587
+6,"RS B Chintoor",62311837274,"State Bank of Hyderabad",Yerrampeta,SBHY0020693,351433
+7,"RS B K R Puram",62181946527,"State Bank of Hyderabad",Koyyalagudem,SBHY0021150,1173833
+8,"RS B Jeelugumilli",62181613622,"State Bank of Hyderabad",Jangareddigudem,SBHY0020769,1217647
+9,"RS G Visannapet",62035469120,"State Bank of Hyderabad",Nuzvid,SBHY0020791,888879
+10,"RS B VP South Nagarjunasagar",62333370358,"State Bank of Hyderabad","Vijayapuri south",SBHY0020621,1498791
+11,"RS G Srikalahasthi",62126549832,"State Bank of Hyderabad",Srikalahasthi,SBHY0021039,818778
+12,"RJC B Peddamadi",52101277406,"State Bank of Hyderabad",Palasa,SBHY0020809,293960
+13,"COE Visakhapatanam",62196622006,"State Bank of Hyderabad",Visakhapatnam,SBHY0020963,1003168
+14,"RJC B RC Varam",62205023388,"State Bank of Hyderabad",Gokavaram,SBHY0021199,602386
+15,"RJC G Rajavomangi",62233261092,"State Bank of Hyderabad",Yerravaram,SBHY0020521,186203
+16,"RJC B Chintoor",62287311020,"State Bank of Hyderabad",Yerrampeta,SBHY0020693,291666
+17,"RJC B KR Puram",62187397115,"State Bank of Hyderabad",Koyyalagudem,SBHY0021150,646948
+18,"RJC B Jeelugumilli",62197962948,"State Bank of Hyderabad",Jangareddigudem,SBHY0020769,772497
+19,"RJC G Buttaigudem",62203785146,"State Bank of Hyderabad",Jangareddigudem,SBHY0020769,625537
+20,"COE Srikalahasthi",62058156314,"State Bank of Hyderabad",Srikalahasthi,SBHY0021039,1001514
+21,"RS B Peddamadi",62038329485,"State Bank of Hyderabad",Palasa,SBHY0020809,580655
+22,"RS G Rajavommangi",62039007705,"State Bank of Hyderabad",Yerravaram,SBHY0020521,573475
+23,"RS G  Buttayagudem",62181946129,"State Bank of Hyderabad",Jangareddigudem,SBHY0020769,967182
+24,"COE Malli",62295038945,"State Bank of Hyderabad",Palakonda,SBHY0021241,173428
+25,"COE Vissannapeta",62296279389,"State Bank of Hyderabad",Nuzvid,SBHY0020791,377098
+26,"SOE Parvathipuram",62029114528,"State Bank of Hyderabad",Parvathipuram,SBHY0021005,1375033
+27,"RJC G RC Varam",62206970917,"State Bank of Hyderabad",Rajahmundry,SBHY0020339,145166
+28,"RJC G Mahanandi",62051855773,"State Bank of Hyderabad",Nandyal,SBHY0020677,827403
+29,"RS B Seethampeta ",31996982232,"State Bank of India",Palakonda,SBIN0011997,666865
+30,"RS B Bhadragiri  ",11627538912,"State Bank of India",Kedaripuram,SBIN0008299,494660
+31,"RS G Bhadragiri  ",11627539187,"State Bank of India",Kedaripuram,SBIN0008299,475619
+32,"URJC G Kurupam  ",31599391228,"State Bank of India",Kurupam,SBIN0002752,746734
+33,"RS B  Araku Valley ",33052488504,"State Bank of India",Arakuvalley,SBIN0002691,512389
+34,"RS G  Araku Valley ",33027185475,"State Bank of India",Arakuvalley,SBIN0002691,291559
+35,"RS B Thummanavalasa ",31952778078,"State Bank of India","S Kota",SBIN0001005,514499
+36,"RS B G Madugula  ",32447256742,"State Bank of India","Bakuru at Paderu",SBIN0009473,621017
+37,"RS B  Maredumilli  ",32314153217,"State Bank of India",Korukonda,SBIN0003173,714730
+38,"RS G Kunavaram  ",33105524909,"State Bank of India",Tekulaboru,SBIN0008795,323405
+39,"RS B Yerragondapalem ",34800778896,"State Bank of India",YerragondaPalem,SBIN0002815,2076818
+40,"RS B Kota (chittedu)",33518973911,"State Bank of India",Vijayanagar,SBIN0002811,1271655
+41,"RS B Somasila ",32318695881,"State Bank of India",Somasila,SBIN0005815,1383345
+42,"RS G Mahanandi ",32089055052,"State Bank of India",Panyam,SBIN0002777,970618
+43,"RS B Srisailam",32255048773,"State Bank of India","Srisailam Township",SBIN0000750,958906
+44,"RS G Rayachoti ",32444007561,"State Bank of India",Rayachoti,SBIN0000761,762545
+45,"RS B Sevagadh Gollaladoddi",33634471908,"State Bank of India",Gooty,SBIN0000976,711280
+46,"RS G Thanakal ",11583707751,"State Bank of India",Tanakal,SBIN0002797,637614
+47,"R S G K V Palli at Piller",33927648886,"State Bank of India","K V palli",SBIN0001491,74344
+48,"RJC G Seethampeta",30233324110,"State Bank of India",Palakonda,SBIN0011997,480716
+49,"RJC B Seethampeta",31892336681,"State Bank of India",Palakonda,SBIN0011997,579151
+50,"RJC B Bhadragiri",32060188799,"State Bank of India",Kedaripuram,SBIN0008299,287953
+51,"RJC G Bhadragiri",11627475064,"State Bank of India",Kedaripuram,SBIN0008299,300247
+52,"RJC B P Konavalasa",32086351973,"State Bank of India",Saluru,SBIN0000914,244408
+53,"RJC B Araku Valley",11599030939,"State Bank of India",Arakuvalley,SBIN0002691,181532
+54,"RJC G Araku Valley",11599030928,"State Bank of India",Arakuvalley,SBIN0002691,130909
+55,"RJC B Koyyuru",30238443440,"State Bank of India",Narsipatnam,SBIN0000886,212251
+56,"RJC G Paderu",32704577414,"State Bank of India","Bakuru at Paderu",SBIN0009473,269728
+57,"RJC B Pedabayalu",11704963096,"State Bank of India",Rudakota,SBIN0009476,234363
+58,"RJC B G Madugula",32523391457,"State Bank of India","Bakuru at Paderu",SBIN0009473,137902
+59,"RJC G Y Ramavaram",11516011904,"State Bank of India",Yeleshwaram,SBIN0005883,183892
+60,"RJC B Addateegala",32133833263,"State Bank of India",Yeleshwaram,SBIN0005883,432539
+61,"RJC B Chittedu (Kota)",32476816178,"State Bank of India",Vidyanagar,SBIN0002811,1079088
+62,"RJC B Srisailam ",32449272739,"State Bank of India","Srisailam Township",SBIN0000750,496919
+63,"RS B G K Veedhi",31863175446,"State Bank of India",Narsipatnam,SBIN0000886,155906
+64,"RS G Y Ramavaram",11516007679,"State Bank of India",Yeleshwaram,SBIN0005883,405376
+65,"RS G Dornala",31939217655,"State Bank of India",YerragondaPalem,SBIN0002815,235077
+66,"RS G Kodavaluru",34087362344,"State Bank of India","North Rajupalem",SBIN0015306,1500815
+67,"RS B P Konavalasa",32085741352,"State Bank of India",Saluru,SBIN0000914,739663
+68,"RS B Koyyuru",11254486827,"State Bank of India",Narsipatnam,SBIN0000886,351063
+69,"RS G Paderu",32126623890,"State Bank of India","Bakuru at Paderu",SBIN0009473,392621
+70,"RS B Pedabayalu",32426954694,"State Bank of India","Rudakota at Peddabayalu",SBIN0009476,464952
+71,"RS B Upper Sileru",34027803777,"State Bank of India",Narsipatnam,SBIN0000886,252284
+72,"RS B Addateegala",31906552465,"State Bank of India",Yeleshwaram,SBIN0005883,967080
+73,"RJC B Chintapally",34064169846,"State Bank of India",Narsipatnam,SBIN0000886,435872
+74,"RJC B Maredumilli",33628591597,"State Bank of India","Rajahmundry kambala cheruvu",SBIN0014572,491404
+75,"COE Thanakallu",33193472309,"State Bank of India",Thanakallu,SBIN0002797,303930
+76,"RS B EM Vizag Marikavalasa",31743415954,"State Bank of India",Madurawada,SBIN0004362,1318703
+77,"SOE Srisailam",11318896357,"State Bank of India","Srisailam Project Township",SBIN0000750,987842
+78,"RS B EM Renigunta",31849474409,"State Bank of India",Renigunda,SBIN0014168,770229
+79,"RJC G G K Veedhi",32416011516,"State Bank of India",Narsipatnam,SBIN0014372,99421
+80,"RJC G P Konavalasa",32083975133,"State Bank of India",Saluru,SBIN0000914,398518

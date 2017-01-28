@@ -1,0 +1,15 @@
+<div class="content_heading">Manage User Accounts</div>
+<div class="fullwrap">
+	<div class="wrap_indi ex_cls_chq_bk_typ" style="width:750px;">
+		<div class="each_text" >Choose the type of Mapping</div>
+		<input type="radio" name="party_radio" class="each_radio" ng-model='map_type' ng-if="ofctype!='1'" value='sto' ng-click="gotos('sto')">
+			<span class="radio_text" ng-if="ofctype!='1'">STO mapping</span>
+		<input type="radio" name="party_radio" class="each_radio" ng-model='map_type' value='sa' ng-click="gotos('samap')">
+			<span class="radio_text">SA Mapping</span>
+		<input type="radio" name="party_radio" class="each_radio" ng-model='map_type' value='hoa' ng-click="gotos('hoa')">
+			<span class="radio_text">HOAs to Senior Accountants</span>
+	</div>
+	<div ui-view="manageusers">
+
+	</div>
+</div>

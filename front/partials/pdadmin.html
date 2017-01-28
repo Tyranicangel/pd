@@ -1,0 +1,47 @@
+<div class="menu">
+	<div class="container">
+		<div class="menu_indi">
+			<a ui-sref="admin.main"><div class="menu_item">HOME</div></a>
+		</div>
+		<div class="menu_indi">
+			<div class="menu_item">MASTERS</div>
+			<div class="sub_menu">
+				<a ui-sref="admin.request"><div class="menu_subitem">Request for Cheque Book</div></a>
+				<a ui-sref="admin.loc"><div class="menu_subitem">Request for LOC</div></a>
+				<!-- <a ui-sref="admin.activate"><div class="menu_subitem">Confirm Accounts</div></a> -->
+			</div>
+		</div>
+		<div class="menu_indi">
+			<div class="menu_item">TRANSACTIONS</div>
+			<div class="sub_menu">
+				<a ui-sref="admin.cheque"><div class="menu_subitem">Issue Cheque</div></a>
+				<a ui-sref="admin.cancel"><div class="menu_subitem">Cancel Cheque</div></a>
+			</div>
+		</div>
+		<div class="menu_indi">
+			<div class="menu_item">REPORTS</div>
+			<div class="sub_menu">
+				<!-- <a ui-sref="admin.booklist"><div class="menu_subitem">My Passbooks</div></a> -->
+				<a ui-sref="admin.aclist"><div class="menu_subitem">Account Statement</div></a>
+				<a ui-sref="admin.reqrpt"><div class="menu_subitem">Cheque Book Request Report</div></a>
+				<a ui-sref="admin.locrpt"><div class="menu_subitem">LOC Report</div></a>
+				<a ui-sref="admin.chqrpt"><div class="menu_subitem">Cheques Issued Report</div></a>
+			</div>
+		</div>
+		<div class="menu_indi">
+			<div class="menu_item">GENERAL</div>
+			<div class="sub_menu">
+				<a ui-sref="admin.query"><div class="menu_subitem">Online Query System(OQS)</div></a>
+				<a target='_blank' href='images/pdadmin.pdf'><div class="menu_subitem">User Manual</div></a>
+				<a ui-sref="admin.password"><div class="menu_subitem">Change Password</div></a>
+				<div class="menu_subitem" ng-click='logout()'>Logout</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="content">
+	<div class="container">
+		<div class="welcome">Welcome {{username}}</div>
+		<div ui-view="content"></div>
+	</div>
+</div>

@@ -1,0 +1,43 @@
+<div class="content_heading">ADD BANK</div>
+<div class="fullwrap">
+	<div class="wrap_indi">
+		<div class="each_text">Bank name <span class="stardiv">*</span></div>
+		<input type="text" class="each_box" placeholder="Enter bank name" ng-model='bankname'>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">IFSC code <span class="stardiv">*</span></div>
+		<input type="text" class="each_box" placeholder="Enter bank ifsc code" ng-model='bankifsc'>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Branch <span class="stardiv">*</span></div>
+		<input type="text" class="each_box" placeholder="Enter bank branch" ng-model='bankbranch'>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">MICR code </div>
+		<input type="text" class="each_box" placeholder="Enter bank micr code" ng-model='bankmicr'>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Address </div>
+		<input type="text" class="each_box" placeholder="Enter bank address" ng-model='bankaddress'>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Contact </div>
+		<input type="text" class="each_box" placeholder="Enter bank contact" ng-model='bankcontact'>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">center </div>
+		<input type="text" class="each_box" placeholder="Enter bank center" ng-model='bankcenter'>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">District </div>
+		<input type="text" class="each_box" placeholder="Enter bank district" ng-model='bankdistrict'>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">State </div>
+		<input type="text" class="each_box" placeholder="Enter bank state" ng-model='bankstate'>
+	</div>
+	<div class="wrap_indi send_req_cls">
+		<div class="main_button" style="width:180px;" ng-click='add_bank()'>ADD</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

@@ -1,0 +1,37 @@
+<div class="wrap_indi">
+		<div class="each_text">Select STO<span class='stardiv'> *</span></div>
+		<select class="each_select" style="width:382px;" ng-model="sto">
+			<option value="select">SELECT</option>
+			<!-- <option value="{{account.hoa}}" ng-repeat="account in allaccounts">{{account.scheme.schemename+'    ( '+account.hoa+' )'}}</option> -->
+		</select>
+</div>
+<div class="wrap_indi">
+	<div class="each_text">Select ATO<span class='stardiv'> *</span></div>
+	<select class="each_select" style="width:382px;" ng-model="ato">
+		<option value="select">SELECT</option>
+		<!-- <option value="{{account.hoa}}" ng-repeat="account in allaccounts">{{account.scheme.schemename+'    ( '+account.hoa+' )'}}</option> -->
+	</select>
+</div>
+<div style="margin:auto;width:331px;">
+	<div class="main_button crt_usr_cls" style="margin-top:20px;">Map Users</div>
+</div>
+<div class="wrap_indi" style="margin:0px;">
+	<p class="lst_ex_acs">List of STOs mapped to ATOs</p>
+</div>
+<div class="wrap_indi">
+	<p class="noactnt_p"><span class="stardiv">*</span>There are no users created yet, please create STOs and ATOs</p>
+</div>
+<table class='each_table'>
+	<tr class='heading_row fnt_wht_bld'>
+		<td>Sno</td>
+		<td>STO UserId</td>
+		<td>STO Username</td>
+		<td>Mapped to (ATO username)</td>
+		<td>Delete Map</td>
+	</tr>
+	<!-- <tr ng-repeat="x in salist">
+		<td>{{$index+1}}</td>
+		<td>{{x.username}}</td>
+		<td>{{x.userdesc}}</td>
+	</tr> -->
+</table>

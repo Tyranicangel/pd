@@ -1,0 +1,60 @@
+<div class="content_heading">Confirm Cheque</div>
+<div class="fullwrap">
+	<div class="wrap_indi">
+		<div class="each_text">Cheque No</div>
+		<div class="each_data">{{dat.chequeno}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">DDO Code</div>
+		<div class="each_data">{{dat.issueuser}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Issue Authority</div>
+		<div class="each_data">{{dat.requser.userdesc}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Head of Account</div>
+		<div class="each_data">{{dat.hoa}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Party Amount</div>
+		<div class="each_data">{{dat.partyamount}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Purpose</div>
+		<div class="each_data">{{dat.purpose}}</div>
+	</div>
+	<div class="wrap_indi" ng-if="dat.multiflag==1">
+		<div class="each_text">Party Name</div>
+		<div class="each_data">{{dat.partyname}}</div>
+	</div>
+	<div class="wrap_indi" ng-if="dat.multiflag==1">
+		<div class="each_text">Party Account No</div>
+		<div class="each_data">{{dat.partyacno}}</div>
+	</div>
+	<div class="wrap_indi" ng-if="dat.multiflag==1">
+		<div class="each_text">Party Bank Name</div>
+		<div class="each_data">{{dat.partybank}}</div>
+	</div>
+	<div class="wrap_indi" ng-if="dat.multiflag==1">
+		<div class="each_text">Party Bank Branch</div>
+		<div class="each_data">{{dat.partybranch}}</div>
+	</div>
+	<div class="wrap_indi" ng-if="dat.multiflag==1">
+		<div class="each_text">Party Bank IFSC Code</div>
+		<div class="each_data">{{dat.partyifsc}}</div>
+	</div>
+	<div class="wrap_indi" ng-if="dat.multiflag==2">
+		<div class="each_text">Party File</div>
+		<div class="each_data"><a download href="{{requesturl+'/uploads/'+dat.partyfile}}">Download</a></div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Remarks</div>
+		<textarea class='each_area' ng-model='remarks'></textarea>
+	</div>
+	<div class="wrap_indi">
+		<div class="main_button" ng-click="chq_confirm()">Confirm</div>
+		<div class="main_button" ng-click="chq_reject()">Reject</div>
+	</div>	
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

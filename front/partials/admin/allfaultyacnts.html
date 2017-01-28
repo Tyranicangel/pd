@@ -1,0 +1,25 @@
+<h3>Faulty PD Accounts</h3>
+<h5>Faulty accounts can be for one of the following reasons:</h5>
+<p style="font-size:11px;">* If LOC is more than the Balance amount</p>
+<p style="font-size:11px;">* If LOC amount is negative</p>
+<p style="font-size:11px;">* If Balance amount is negative</p>
+<table class='each_table' style="margin-top:20px;">
+	<tr class='heading_row clr_wg'>
+		<td>Sno</td>
+		<td>PD Account Name</td>
+		<td>DDO Code</td>
+		<td>HOA</td>
+		<td>Account Type</td>
+		<td>Balance <span class="shwng_dt_txt">(in Rs.)</span></td>
+		<td>Existing LOC <span class="shwng_dt_txt"><i>(as of today)</i></span></td>
+	</tr>
+	<tr ng-repeat="x in allaclist">
+		<td>{{$index+1}}</td>
+		<td>{{x.usernames.userdesc}}</td>
+		<td>{{x.ddocode}}</td>
+		<td>{{x.hoa}}</td>
+		<td>{{x.actype}}</td>
+		<td>{{x.balance}}</td>
+		<td>{{x.loc}}</td>
+	</tr>
+</table>

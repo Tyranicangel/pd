@@ -1,0 +1,38 @@
+<div class="content">
+	<div class="container">
+		<div class="content_heading">Welcome to the Personal Deposit Account Portal</div>
+		<div class="wrap_indi" style='margin-top:20px;'>
+			<div class="each_data" style="line-height:16px;">
+				<span class="star_div">*</span>Please enter the details of the cheque leaves remaining with you, kindly do not enter wrong details, your transactions will be based on the details that you enter here. <br><br>In the below form, enter the:
+				<ol>
+					<li>Book no. of the cheque book that you currently have</li>
+					<li>The existing first cheque no. in your cheque book </li>
+					<li>The existing last cheque no. in your cheque book</li>
+				</ol> 
+				Your account will be activated only after you enter these details and click on continue.
+			</div>
+		</div>
+		<div class="wrap_indi">
+			<div class="each_text">Book No</div>
+			<input type="text" class="each_box" placeholder="Enter book number" autocomplete="off" ng-model="number">
+		</div>
+		<div class="wrap_indi">
+			<div class="each_text">Enter Current First Cheque No.</div>
+			<input type="text" class="each_box" placeholder="Enter first cheque number" autocomplete="off" ng-model='first'>
+		</div>
+		<div class="wrap_indi">
+			<div class="each_text">Enter Last Cheque No.</div>
+			<input type="text" class="each_box" placeholder="Enter last cheque number" autocomplete="off" ng-model='last'>
+		</div>
+		<div class="wrap_indi">
+			<div class="each_text">Number of Cheque Leaves</div>
+			<div class="no_of_chq_l"><span>{{no_leaves()}}</span></div>
+		</div>
+		
+		<div class="wrap_indi send_req_cls">
+			<div class="main_button" ng-click="add_book()">Continue</div>
+		</div>
+	</div>
+	
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

@@ -1,0 +1,60 @@
+<div class="content_heading">Request for LOC</div>
+<div class="fullwrap">
+	<div class="left_dv_cls">
+		<div class="wrap_indi">
+			<div class="each_text">Select Head of Account<span class='stardiv'> *</span></div>
+			<select class="each_select" ng-model='hoa'>
+				<option value="select">SELECT</option>
+				<option value="{{hoas.scheme.hoa}}" ng-repeat="hoas in schemelist">{{hoas.scheme.schemename+'    ( '+hoas.scheme.hoa+' ) '}}</option>
+			</select>
+		</div>
+		<div class="wrap_indi">
+			<div class="each_text">Balance <span class="small_txt">(in Rs.)</span></div>
+			<div class="each_data">{{hoa_balance()}}</div>
+		</div>
+		<div class="wrap_indi">
+			<div class="each_text">Existing LOC <span class="small_txt">(in Rs.)</span></div>
+			<div class="each_data">{{hoa_loc()}}</div>
+		</div>
+		<div class="wrap_indi">
+			<div class="each_text">
+				Enter New LOC Amount <span class="small_txt">(in Rs.)</span>
+				<span class='stardiv'> *</span>
+			</div>
+			<input type="text" class="each_box" placeholder="Enter LOC amount" style="width:125px;" ng-model='new_loc'>
+		</div>
+		<div class="wrap_indi">
+			<div class="each_text">LOC amount in words<span class="small_txt">(in Rs.)</span></div>
+			<div class="each_data">{{loc_words()}}</div>
+		</div>
+		<div class="wrap_indi">
+			<div class="each_text">
+				Enter Purpose 
+				<span class='stardiv'> *</span>
+			</div>
+			<input type="text" class="each_box" placeholder="Enter LOC purpose" style="width:300px;" ng-model='purpose'>
+		</div>
+		<div class="wrap_indi ex_cls_loc_reqdv">
+			<div class="each_desc" style='width:590px;'>
+				<p>
+					<span>
+						<b>From,</b>
+					</span><br>
+					<span style="font-weight:normal;font-size:12px;">The {{username}} </span>
+
+					<span style="float:right;font-weight:normal;font-size:12px;">
+						Date: {{maindate}}
+					</span>
+				</p>
+				<p>To,<br><span style="font-weight:normal;font-size:12px;">The Treasury Officer</span></p>
+				<p>Dear Sir,</p>
+				<p style="font-weight:normal;font-size:12px;">I request you to grant me LOC for the above mentioned amount.</p>
+			<br> <span style="color:#767676;">Regards</span>
+			<br><span style="font-weight:bold;font-style:italic;color:#767676;">{{username}}</span></div>
+		</div>
+		<div class="wrap_indi send_req_cls">
+			<div class="main_button" ng-click="request()">Send Request</div>
+		</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

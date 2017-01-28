@@ -1,0 +1,12 @@
+<div class="content_heading">Panchayat Raj HQ - Abstract Account Statement</div>
+
+
+<div style="clear:both;" ng-repeat="(hoa,areas) in accreports">
+	<div>
+		<div>{{hoa}}</div>
+		<div ng-repeat="(area,reports) in areas track by $index">
+			<span>{{arealist[area]}} - {{reports['reports'].length}}</span>
+		</div>
+		
+	</div>
+</div>

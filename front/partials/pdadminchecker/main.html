@@ -1,0 +1,19 @@
+<div class="content_heading">Home</div>
+<div class="fullwrap">
+	<div class="wrap_indi">
+		<div class="each_desc">
+			<span>You have <a ui-sref="adminchecker.request" class='desc_link'>{{reqno}}</a> requests for chequebooks to forward.</span>
+		</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_desc">
+			<span>You have <a ui-sref="adminchecker.loclist" class='desc_link'>{{locno}}</a> requests for LOC to forward.</span>
+		</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_desc">
+			<span>You have <a ui-sref="adminchecker.trans" class='desc_link'>{{transno}}</a> cheques to forward.</span>
+		</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

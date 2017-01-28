@@ -1,0 +1,37 @@
+
+<div class="content">
+	<div class="container">
+		<div class="content_heading">Welcome to the Personal Deposit Account Portal</div>
+		<div class="wrap_indi lap_dv">
+			<p class="lap_txt"><span class="stardiv">*</span> You have lapsable HOAs among your PD Accounts, below are the receipts that you received under your lapsable HOAs, you need to submit the amount of expenditure booked as of today under each of these receipts before we activate your account! </p>
+			<ul style="font-size:12px;">
+				<li>Please be very careful while you enter all the expenditures</li>
+				<li>Please verify the expenditures before you continue to activation</li>
+				<li>No changes will be made to the expenditures entered against your receipts after you activate your account</li>
+			</ul>
+			<table class='each_table'>
+				<tr class='heading_row fnt_wht_bld'>
+					<td>Sno</td>
+					<td>HOA</td>
+					<td>Receipt Amount <span style="font-weight:normal;font-size:11px;">(in Rs.)</span></td>
+					<td>Date of Receipt</td>
+					<td>Enter Total Expenditure <br><span style="font-weight:normal;font-size:11px;">(as of today in Rs. -- default set to zero)</span></td>
+					<td>Receipt Reference GO/Memo</td>
+				</tr>
+				<tr ng-repeat="x in laprecdet">
+					<td>{{$index+1}}</td>
+					<td>{{x.hoa}}</td>
+					<td>{{x.camt}}</td>
+					<td>{{x.date}}</td>
+					<td><input type="text" class="lapexp_inp lapexp_inp_exp" ng-model="x.lappexp" placeholder="Enter expenditure here"></td>
+					<td><input type="text" class="lapexp_inp" ng-model="x.lapref" placeholder="Enter reference here"></td>
+				</tr>
+			</table>
+		</div>
+		<div class="wrap_indi send_req_cls" style="padding-left:300px;">
+			<div class="main_button" ng-click="enter_lap()">Activate Account</div>
+		</div>
+	</div> 
+</div>
+
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

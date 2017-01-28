@@ -1,0 +1,34 @@
+<div class="content_heading">LOC Requests Pending with SA Report</div>
+<div class="fullwrap">
+	
+	<div class="wrap_indi">
+		<table class='each_table' style="margin-top:20px;">
+			<tr class='heading_row clr_wg'>
+				<td>Sno</td>
+				<td>PD Account Name</td>
+				<td>DDO Code</td>
+				<td>HOA</td>
+				<td>Request Date</td>
+				<td>Request Amount <span class="shwng_dt_txt">(in Rs.)</span></td>
+				<td>Purpose</td>
+				<td>Approve</td>
+				<td>Remarks</td>
+				<td>Reject</td>
+			</tr>
+			<tr ng-repeat="x in allpendinglocs" ng-hide="thisrowval==x.id">
+				<td>{{$index+1}}</td>
+				<td>{{x.requser.userdesc}}</td>
+				<td>{{x.requestuser}}</td>
+				<td>{{x.hoa}}</td>
+				<td>{{x.requestdate}}</td>
+				<td>{{x.reqamount}}</td>
+				<td>{{x.purpose}}</td>
+				<td><button ng-click="approveloc(x)">Approve</button></td>
+				<td><input type="text" ng-model="x.thisremark" style="width:100px;"/></td>
+				<td><button ng-click="rejectloc(x)">Reject</button></td>
+				
+			</tr>
+		</table>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

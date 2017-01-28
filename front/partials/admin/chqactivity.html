@@ -1,0 +1,32 @@
+<div class="content_heading">Cheque Activity</div>
+<div class="full_wrap">
+	<div class="wrap_indi">
+		<p style="font-famliy:arial;font-size:12px;clear:both;"><span class="stardiv">*</span>Please select the date and click on show to show the cheque activity on that date</p>
+		<div style="float:left;">
+			<span class="frm_to_chq">Date</span>
+			<input type="text" class="dt_slct" id="fdate">
+		</div>
+		<div style="width:150px;float:left;">
+			<button class="scrh_chqs_conf_btn" ng-click="get_rpt()" style="margin-top:0px;">Search</button>
+		</div>
+	</div>
+	<table class='each_table' ng-show='rpt.length>0'>
+		<tr class='heading_row'>
+			<th>Sno</th>
+			<th>STO/DTO</th>
+			<th>Passed</th>
+			<th>Pending in Treasury</th>
+			<th>Confirmed</th>
+			<th>Pending in Bank</th>
+		</tr>
+		<tr ng-repeat="trans in rpt">
+			<td>{{$index+1}}</td>
+			<td>{{trans[0]}}</td>
+			<td>{{trans[1]}}</td>
+			<td>{{trans[2]}}</td>
+			<td>{{trans[3]}}</td>
+			<td>{{trans[4]}}</td>
+		</tr>
+	</table>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

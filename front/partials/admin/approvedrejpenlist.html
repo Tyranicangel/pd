@@ -1,0 +1,32 @@
+<div class="content_heading">PD Accounts status List</div>
+<div class="fullwrap">
+	<table class='each_table' ng-show="alltrans.length>0">
+		<tr class='heading_row'>
+			<th>Sno</th>
+			<th>DTO/STO</th>
+			<th>Type</th>
+			<th>Areaname</th>
+			<th>Approved</th>
+			<th>Rejected</th>
+			<th>Pending</th>
+		</tr>
+		<tr ng-repeat="trans in alltrans">
+			
+			<td>{{$index+1}}</td>
+			<td>{{trans.name}}</td>
+			<td>{{trans.actype}}</td>
+			<td>{{trans.areaname}}</td>
+			<td>{{trans.app}}</td>
+			<td>{{trans.rej}}</td>
+			<td>{{trans.pen}}</td>
+
+		</tr>
+	</table>
+	
+	<div class="wrap_indi" ng-show="alltrans.length==0">
+		<div class="each_desc">
+			* You do not have any pending Cheques
+		</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

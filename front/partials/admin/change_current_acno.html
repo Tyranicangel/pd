@@ -1,0 +1,27 @@
+<div class="content_heading">Change PD Current A/c Number</div>
+<div class="fullwrap">
+	<div class="wrap_indi">
+		<div class="each_text">DDOCODE <span class="stardiv">*</span></div>
+		<input type="text" class="each_box" ng-model='ddocode'>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">HOA <span class="stardiv">*</span></div>
+		<input type="text" class="each_box" ng-model='hoa'>
+	</div>
+	
+
+	<div class="wrap_indi send_req_cls">
+		<div class="main_button" style="width:180px;" ng-click='check_pdacno()'>CHECK</div>
+	</div>
+
+	<div class="wrap_indi" ng-show="pdacno">
+		<div class="each_text">Current account number <span class="stardiv">*</span></div>
+		<input type="text" class="each_box" ng-model='pdacno'>
+	</div>
+	
+
+	<div class="wrap_indi send_req_cls" ng-show="pdacno">
+		<div class="main_button" style="width:180px;" ng-click='update_pdacno()'>UPDATE</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

@@ -1,0 +1,35 @@
+<div class="content_heading">LOC Report</div>
+<div class="fullwrap">
+	<table class='each_table' ng-show='loclist.length>0'>
+		<tr class='heading_row'>
+			<th>Sno</th>
+			<th>Request User</th>
+			<th>Hoa</th>
+			<th>Requested Amount</th>
+			<th>Granted Amount</th>
+			<th>Request Date</th>
+			<th>Grant/Reject Date</th>
+			<th>Reference No</th>
+			<th>Status</th>
+			<th>Remarks</th>
+		</tr>
+		<tr ng-repeat="trans in loclist">
+			<td>{{trans.sno}}</td>
+			<td>{{trans.requser.userdesc+'('+trans.requestuser+')'}}</td>
+			<td>{{trans.schemes.schemename+'('+trans.hoa+')'}}</td>
+			<td>{{trans.reqamount}}</td>
+			<td>{{trans.grantamount}}</td>
+			<td>{{Dates.getDate(trans.requestdate)}}</td>
+			<td>{{Dates.getDate(trans.ddtime)}}</td>
+			<td>{{trans.refno}}</td>
+			<td>{{trans.rems}}</td>
+			<td>{{trans.remarks}}</td>
+		</tr>
+	</table>
+	<div class="wrap_indi" ng-show="loclist.length==0">
+		<div class="each_desc" ng-if="hoa!='select'">
+			* You did not issue LOC as of now
+		</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

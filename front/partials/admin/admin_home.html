@@ -1,0 +1,46 @@
+<div class="content_heading">Home</div>
+<p class="ttl_out_txt" style="clear:both;">Total Outstanding Balance and LOC <i>(as of today)</i> of all the PD Accounts</p>
+<p class="shwng_dt_txt"><span class="stardiv">*</span> Showing data of accounts under (STOCODE:{{stocode}}) region only</p>
+<p class="shwng_dt_txt"><span class="stardiv">*</span>Please select the STOCODE for showing data of accounts under selected region only</p>
+<div style="clear:both;height:10px;"></div>
+<div class="wrap_indi">
+	<div class="each_text">Select STOCODE</div>
+	<select class='each_select' ng-model='stocode' ng-change="onloadactn()">
+		<option value="select">SELECT</option>
+		<option value="0101" >0101</option>
+		<option value="0201" >0201</option>
+		<option value="0301" >0301</option>
+		<option value="0401" >0401</option>
+		<option value="0501" >0501</option>
+		<option value="0601" >0601</option>
+		<option value="0701" >0701</option>
+		<option value="0801" >0801</option>
+		<option value="0901" >0901</option>
+		<option value="1001" >1001</option>
+		<option value="1101" >1101</option>
+		<option value="1201" >1201</option>
+		<option value="2201" >2201</option>
+		<option value="2213" >2213</option>
+		<option value="2702" >2702</option>
+	</select>
+</div>
+<div class="fullwrap">
+	<div class="wrap_indi tot_dv">
+		<div class="each_text fnt_sz">TOTAL Cumulative Balance (in Rs.)</div>
+		<div class="each_data" style="width:500px;">{{allaclist.totbal}}</div>
+		<div class="each_text fnt_sz" style="clear:both;">TOTAL Cumulative Balance (in words)</div>
+		<div class="each_data" style="font-size:12px;width:500px;">{{allaclist.totbalwords}}</div>
+	</div>
+	<div class="wrap_indi tot_dv">
+		<div class="each_text fnt_sz">TOTAL Cumulative LOC</div>
+		<div class="each_data" style="width:500px;">{{allaclist.totloc}}</div>
+		<div class="each_text fnt_sz" style="clear:both;">TOTAL Cumulative LOC (in words)</div>
+		<div class="each_data" style="font-size:12px;width:500px;">{{allaclist.totlocwords}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text fnt_sz" style="width:300px;">TOTAL No of PD Accounts <span class="std_txt">(in STOCODE:{{stocode}} Region)</span></div>
+		<div class="each_data" style="width:500px;">{{allaclist.noofaccounts}}</div>
+	</div>
+	
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

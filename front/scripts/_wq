@@ -1,0 +1,1622 @@
+app.controller("AdminController",function($scope,$http,$state,Uploader,Logging,Commas){
+	$scope.$emit("changeTitle",$state.current.views.content.data.title);
+	$scope.role=2;
+	$scope.showloader=false;
+	if(localStorage.token)
+	{
+		if(!$scope.token)
+		{
+			$scope.showloader=true;
+			$http({
+				method:'GET',
+				headers:{'X-CSRFToken':localStorage.token},
+				url:$scope.requesturl+'/get_user_data'
+			}).
+			success(function(result){
+				$scope.showloader=false;
+				if(result[0]=='2')
+				{
+					$scope.userdata=result;
+					$scope.username=result[1];
+					$scope.showloader=false;
+					if(result[2]=='0')
+					{
+						$state.go('opening');
+					}
+				}
+				else
+				{
+					Logging.logout();
+				}
+			});
+		}
+	}
+	else
+	{
+		Logging.logout();
+	}
+});
+
+app.controller("AdminStartController",function($scope,$http,$state,Uploader,Logging,Commas){
+	$scope.$emit("changeTitle",'Start');
+	$scope.role=2;
+	$scope.showloader=false;
+	if(localStorage.token)
+	{
+		if(!$scope.token)
+		{
+			$scope.showloader=true;
+			$http({
+				method:'GET',
+				headers:{'X-CSRFToken':localStorage.token},
+				url:$scope.requesturl+'/get_user_data'
+			}).
+			success(function(result){
+				$scope.showloader=true;
+				if(result[0]=='2')
+				{
+					$scope.userdata=result;
+					$scope.username=result[1];
+					$scope.showloader=false;
+				}
+				else
+				{
+					Logging.logout();
+				}
+			});
+		}
+	}
+	else
+	{
+		Logging.logout();
+	}
+
+	$scope.no_leaves=function(){
+		if(!$scope.first)
+		{
+			return "--Please enter first and last cheque numbers--";
+		}
+		else if($scope.first=="")
+		{
+			return "--Please enter first and last cheque numbers--";
+		}
+		else if(!$scope.last)
+		{
+			return "--Please enter first and last cheque numbers--";
+		}
+		else if($scope.last=="")
+		{
+			return "--Please enter first and last cheque numbers--";
+		}
+		else if(!$scope.regex.test($scope.last))
+		{
+			return "--Please correct first and last cheque numbers--";
+		}
+		else if(!$scope.regex.test($scope.first))
+		{
+			return "--Please correct first and last cheque numbers--";	
+		}
+		else if(parseInt($scope.last)<parseInt($scope.first))
+		{
+			return "--Please correct first and last cheque numbers--";
+		}
+		else
+		{
+			return (parseInt($scope.last)-parseInt($scope.first)+1)
+		}
+	}
+
+	$scope.add_book=function(){
+		if(!$scope.first)
+		{
+			alert("Please enter First Cheque No");
+		}
+		else if(!$scope.last)
+		{
+			alert("Please enter Last Cheque No");
+		}
+		else if(!$scope.regex.test($scope.last))
+		{
+			alert("Please enter correct Last Cheque No");
+		}
+		else if(!$scope.regex.test($scope.first))
+		{
+			alert("Please enter correct First Cheque No");
+		}
+		else if(parseInt($scope.last)<parseInt($scope.first))
+		{
+			alert("Please enter correct First and Last Cheque No");
+		}
+		else if(!$scope.number)
+		{
+			alert("Please enter Cheque Book No");
+		}
+		else
+		{
+			$scope.showloader=true;
+			$http({
+				method:'POST',
+				headers:{'X-CSRFToken':localStorage.token},
+				url:$scope.requesturl+'/start',
+				data:{book:$scope.number,first:$scope.first,last:$scope.last}
+			}).
+			success(function(result){
+				$scope.showloader=false;
+				if(result[0]=='invalid')
+				{
+					Logging.logout();
+				}
+				else
+				{
+					if(result[0]=='success')
+					{
+						alert('Thank You! Your account has been activated!Please read the user manual to understand all the features better! You can find the user manual in GENERAL>User Manual');
+						$state.go('admin.main');
+					}
+					else
+					{
+						alert(result[0]);
+					}
+				}
+			});
+		}
+	}
+});
+
+app.controller("AdminMainController",function($scope,$http,$state,$rootScope,Logging,Commas){
+	$scope.$emit("changeTitle",$state.current.views.content.data.title);
+	$scope.showloader=true;
+	$http({
+		method:'GET',
+		headers:{'X-CSRFToken':localStorage.token},
+		url:$scope.requesturl+'/admin_cheq'
+	}).success(function(result){
+		$scope.showloader=false;
+		if(result[0]=='invalid')
+		{
+			Logging.logout();
+		}
+		else
+		{
+			$scope.chequeno=result.length;
+			if($scope.chequeno<=10)
+			{
+				$scope.placerequest=true;
+			}
+			else
+			{
+				$scope.placerequest=false;
+			}
+		}
+	});
+});
+
+app.controller("AdminRequestController",function($scope,$http,$state,$rootScope,Logging,Commas){
+	$scope.$emit("changeTitle",$state.current.views.content.data.title);
+	$scope.showloader=true;
+	$scope.leaf='25';
+	$scope.otype='y';
+	$http({
+		method:'GET',
+		headers:{'X-CSRFToken':localStorage.token},
+		url:$scope.requesturl+'/admin_req'
+	}).success(function(result){
+		$scope.showloader=false;
+		if(result[0]=='invalid')
+		{
+			Logging.logout();
+		}
+		else
+		{
+			$scope.reqs=result;
+		}
+	});
+	$http({
+		method:'GET',
+		headers:{'X-CSRFToken':localStorage.token},
+		url:$scope.requesturl+'/admin_cheq'
+	}).success(function(result){
+		$scope.showloader=false;
+		if(result[0]=='invalid')
+		{
+			Logging.logout();
+		}
+		else
+		{
+			$scope.chequeno=result.length;
+			if($scope.chequeno<=10)
+			{
+				$scope.placerequest=true;
+			}
+			else
+			{
+				$scope.placerequest=false;
+			}
+		}
+	});
+
+	$scope.showchqs=function(){
+		if(parseInt($scope.chequeno)<=10)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+
+	$scope.request=function(){
+		if($scope.placerequest)
+		{
+			if($scope.otype=='y')
+			{
+				$scope.challan='exempted';
+				$scope.rmtamt='exempted';
+			}
+			$scope.showloader=true;
+			$http({
+				method:'POST',
+				headers:{'X-CSRFToken':localStorage.token},
+				url:$scope.requesturl+'/place_request',
+				data:{leaves:$scope.leaf,challan:$scope.challan,rmtamt:$scope.rmtamt}
+			}).success(function(result){
+				$scope.showloader=false;
+				if(result[0]=='success')
+				{
+					if(result[1]=='success')
+					{
+						if(result[2]=='success')
+						{
+							alert('Your request has been placed!You can view the status of your request in REPORTS > Cheque book req. report');
+							window.location.reload();
+						}
+						else
+						{
+							alert("Error while placing request.Please try later");
+						}
+					}
+					else
+					{
+						alert('You already have a pending request for a cheque book!');
+					}
+
+				}
+				else if(result[0]=='invalid')
+				{
+					Logging.logout();
+				}
+			});
+		}
+		else{
+			alert("You have enough cheques in your current cheque book");
+		}
+	}
+});
+
+app.controller("AdminLocController",function($scope,$http,$state,$rootScope,Logging,Commas){
+	$scope.$emit("changeTitle",$state.current.views.content.data.title);
+	$scope.showloader=true;
+	$http({
+		method:'GET',
+		headers:{'X-CSRFToken':localStorage.token},
+		url:$scope.requesturl+'/admin_loc_hoa'
+	}).success(function(result){
+		$scope.showloader=false;
+		if(result[0]=='invalid')
+		{
+			Logging.logout();
+		}
+		else
+		{
+			$scope.schemelist=result;
+		}
+	});
+	$scope.hoa="select";
+	$scope.loc="";
+	$scope.bal="";
+
+	$scope.loc_words=function(){
+		if(!$scope.new_loc)
+		{
+			return "---Please enter LOC amount to display relavant data---";
+		}
+		else if($scope.new_loc=='')
+		{
+			return "---Please enter LOC amount to display relavant data---";
+		}
+		else if($scope.regex.test($scope.new_loc))
+		{
+			return getwords($scope.new_loc);
+		}
+		else
+		{
+			$scope.new_loc="";
+		}
+	}
+
+	function getwords(e){var t="";if(e.length==2){}else if(e.length==1){e=0+e}else if(e.length%2===0){e=0+e}var n=e.substr(-2,2);t=t+getnum(n);if(e.length>=3){var r="0"+e.substr(-3,1);if(r=="00"){}else{t=getnum(r)+" HUNDRED"+t}}if(e.length>=5){var i=e.substr(-5,2);if(i=="00"){}else{t=getnum(i)+" THOUSAND"+t}}if(e.length>=7){var s=e.substr(-7,2);if(s=="00"){}else{t=getnum(s)+" LAKH"+t}}if(e.length>7){var o=e.substr(0,e.length-7);t=getwords(o)+" CRORE"+t}return t}function getnum(e){var t="";ones=e.substr(1,1);tens=e.substr(0,1);if(tens=="0"){switch(ones){case"0":t="";break;case"1":t=" ONE";break;case"2":t=" TWO";break;case"3":t=" THREE";break;case"4":t=" FOUR";break;case"5":t=" FIVE";break;case"6":t=" SIX";break;case"7":t=" SEVEN";break;case"8":t=" EIGHT";break;case"9":t=" NINE";break}}else if(tens=="1"){switch(ones){case"0":t=" TEN";break;case"1":t=" ELEVEN";break;case"2":t=" TWELVE";break;case"3":t=" THIRTEEN";break;case"4":t=" FOURTEEN";break;case"5":t=" FIFTEEN";break;case"6":t=" SIXTEEN";break;case"7":t=" SEVENTEEN";break;case"8":t=" EIGHTEEN";break;case"9":t="NINETEEN";break}}else{switch(tens){case"2":t=" TWENTY";break;case"3":t=" THIRTY";break;case"4":t=" FORTY";break;case"5":t=" FIFTY";break;case"6":t=" SIXTY";break;case"7":t=" SEVENTY";break;case"8":t=" EIGHTY";break;case"9":t=" NINTY";break}switch(ones){case"0":t=t+"";break;case"1":t=t+" ONE";break;case"2":t=t+" TWO";break;case"3":t=t+" THREE";break;case"4":t=t+" FOUR";break;case"5":t=t+" FIVE";break;case"6":t=t+" SIX";break;case"7":t=t+" SEVEN";break;case"8":t=t+" EIGHT";break;case"9":t=t+" NINE";break}}return t}
+
+	$scope.hoa_balance=function(){
+		if($scope.hoa=="select")
+		{
+			return "---Please select Head of Account to display relavant data---";
+		}
+		else
+		{
+			var bal;
+			angular.forEach($scope.schemelist, function(scheme){
+				if(scheme.hoa==$scope.hoa)
+				{
+					bal=scheme.balance;
+					$scope.bal=bal;
+				}
+			});
+			return Commas.getcomma(bal);
+		}
+	}
+	
+	$scope.hoa_loc=function(){
+		if($scope.hoa=="select")
+		{
+			return "---Please select Head of Account to display relavant data---";
+		}
+		else
+		{
+			var bal;
+			angular.forEach($scope.schemelist, function(scheme){
+				if(scheme.hoa==$scope.hoa)
+				{
+					bal=scheme.loc;
+					$scope.loc=bal;
+				}
+			});
+			return Commas.getcomma(bal);
+		}
+	}
+ 
+	$scope.request=function(){
+		if($scope.hoa=='select')
+		{
+			alert('Please select Head of Account');
+		}
+		else if(!$scope.new_loc)
+		{
+			alert('Please enter the LOC required');
+		}
+		else if(parseInt($scope.new_loc)>(parseInt($scope.bal)+parseInt($scope.loc)))
+		{
+			alert('You do not have sufficient balance to process this LOC!');
+		}
+		else
+		{
+			$scope.showloader=true;
+			$http({
+				method:'POST',
+				headers:{'X-CSRFToken':localStorage.token},
+				url:$scope.requesturl+'/place_loc',
+				data:{hoa:$scope.hoa,amt:$scope.new_loc}
+			}).success(function(result){
+				$scope.showloader=false;
+				if(result[0]=='success')
+				{
+					if(result[1]=='success')
+					{
+						if(result[2]=='success')
+						{
+							alert('LOC Request placed! you can view the status of your request in REPORTS>LOC Report');
+							window.location.reload();
+						}
+						else
+						{
+							alert("Error while placing request.Please try later");
+						}
+					}
+					else
+					{
+						alert('You already have a pending request for a LOC! You cannot request for another LOC before the first one is processed by the DTO/STO');
+						window.location.reload();
+					}
+
+				}
+				else if(result[0]=='invalid')
+				{
+					Logging.logout();
+				}
+			});
+		}
+	}
+});
+
+app.controller("AdminLocRptController",function($scope,$http,$state,$rootScope,Logging,Commas,Dates){
+	$scope.Dates=Dates;
+	$scope.$emit("changeTitle",$state.current.views.content.data.title);
+	$scope.showloader=true;
+	$http({
+		method:'GET',
+		headers:{'X-CSRFToken':localStorage.token},
+		url:$scope.requesturl+'/admin_loc_hoa'
+	}).success(function(result){
+		$scope.showloader=false;
+		if(result[0]=='invalid')
+		{
+			Logging.logout();
+		}
+		else
+		{
+			$scope.schemelist=result;
+			console.log(result);
+		}
+	});
+	$scope.hoa="select";
+	$scope.loc="";
+	$scope.bal="";
+
+	$scope.show_loc_rpt=function(){
+		if($scope.hoa=='select')
+		{
+			$scope.loclist={};
+		}
+		else
+		{
+			$scope.showloader=true;
+			$http({
+				method:'GET',
+				headers:{'X-CSRFToken':localStorage.token},
+				url:$scope.requesturl+'/admin_loc_report',
+				params:{hoa:$scope.hoa}
+			}).success(function(result){
+				$scope.showloader=false;
+				if(result[0]=='invalid')
+				{
+					Logging.logout();
+				}
+				else
+				{
+					$scope.loclist=result;
+					var counter=1;
+					angular.forEach($scope.loclist,function(l){
+						l.sno=counter;
+						counter++;
+						l.reqamount=Commas.getcomma(l.reqamount);
+						if(!(l.remarks))
+						{
+							l.remarks='None';
+						}
+						if(l.conf_flag=='0')
+						{
+							l.rems='Pending';
+							if(l.requestflag=='0')
+							{
+								l.grantamount='-';
+								l.refno='-';
+							}
+							else
+							{
+								l.grantamount=Commas.getcomma(l.grantamount);
+							}
+						}
+						else if(l.conf_flag=='1')
+						{
+							if(l.requestflag=='0')
+							{
+								l.rems='Pending';
+								l.grantamount='-';
+								l.refno='-';
+							}
+							else
+							{
+								l.rems='Granted';
+								l.grantamount=Commas.getcomma(l.grantamount);
+							}
+						}
+						else
+						{
+							l.rems='Rejected';
+							l.grantamount=Commas.getcomma(l.grantamount);
+						}
+					});
+				}		
+			});
+		}
+	}
+
+	$scope.hoa_balance=function(){
+		if($scope.hoa=="select")
+		{
+			return "---Please select Head of Account to display relavant data---";
+		}
+		else
+		{
+			var bal;
+			angular.forEach($scope.schemelist, function(scheme){
+				if(scheme.hoa==$scope.hoa)
+				{
+					bal=scheme.balance;
+					$scope.bal=bal;
+				}
+			});
+			return Commas.getcomma(bal);
+		}
+	}
+	
+	$scope.hoa_loc=function(){
+		if($scope.hoa=="select")
+		{
+			return "---Please select Head of Account to display relavant data---";
+		}
+		else
+		{
+			var bal;
+			angular.forEach($scope.schemelist, function(scheme){
+				if(scheme.hoa==$scope.hoa)
+				{
+					bal=scheme.loc;
+					$scope.loc=bal;
+				}
+			});
+			return Commas.getcomma(bal);
+		}
+	}
+ 
+	
+});
+
+app.controller("AdminReqRptController",function($scope,$http,$state,$rootScope,Logging,Commas,Dates){
+	$scope.Dates=Dates;
+	$scope.$emit("changeTitle",$state.current.views.content.data.title);
+	$scope.showloader=true;
+	$http({
+		method:'GET',
+		headers:{'X-CSRFToken':localStorage.token},
+		url:$scope.requesturl+'/admin_req_rpt'
+	}).success(function(result){
+		$scope.showloader=false;
+		if(result[0]=='invalid')
+		{
+			Logging.logout();
+		}
+		else
+		{
+			$scope.allrequests=result;
+			var counter=1;
+			angular.forEach($scope.allrequests,function(l){
+				l.sno=counter;
+				counter++;
+				if(!(l.remarks))
+				{
+					l.remarks='None';
+				}
+				l.issuedate='-';
+				l.bookno='-';
+				l.cstart='-';
+				l.cend='-';
+				l.gleaf='-';
+				if(l.conf_flag=='0')
+				{
+					l.rems='Pending';
+				}
+				else if(l.conf_flag=='1')
+				{
+					if(l.requestflag=='0')
+					{
+						l.rems='Pending';
+					}
+					else
+					{
+						l.rems='Granted';
+						l.issuedate=Dates.getDate(l.bookdata.issuedate);
+						l.bookno=l.bookdata.bookno;
+						l.cstart=l.bookdata.chequestart;
+						l.cend=l.bookdata.chequeend;
+						l.gleaf=(parseInt(l.bookdata.chequeend)-parseInt(l.bookdata.chequestart)+1);
+					}
+				}
+				else
+				{
+					l.rems='Rejected';
+				}
+			});
+		}
+	});
+});
+
+app.controller('AdminCancelController',function($scope,$http,$state,Logging,Commas){
+	$scope.$emit("changeTitle",$state.current.views.content.data.title);
+	$scope.showloader=true;
+	$http({
+		method:'GET',
+		headers:{'X-CSRFToken':localStorage.token},
+		url:$scope.requesturl+'/admin_cheq'
+	}).success(function(result){
+		$scope.showloader=false;
+		if(result[0]=='invalid')
+		{
+			Logging.logout();
+		}
+		else
+		{
+			$scope.chequeno=result.length;
+			if($scope.chequeno==0)
+			{
+				alert("You do not have any cheques to issue.Please place a request for a new cheque book");
+				$state.go('admin.request');
+			}
+			else
+			{
+				$scope.cheque=result[0]['chequeno'];
+			}
+		}
+	});
+
+	$scope.cancel=function(){
+		if(!$scope.reason)
+		{
+			alert('Please enter the reason for cancelling the cheque');
+		}
+		else if($scope.reason=='')
+		{
+			alert('Please enter the reason for cancelling the cheque');
+		}
+		else
+		{
+			$scope.showloader=true;
+			$http({
+				method:'POST',
+				headers:{'X-CSRFToken':localStorage.token},
+				url:$scope.requesturl+'/cancel_chq',
+				data:{chq:$scope.cheque,reason:$scope.reason}
+			}).
+			success(function(result){
+				if(result[0]=='invalid')
+				{
+					Logging.logout();
+				}
+				else
+				{
+					alert('Cheque is cancelled');
+					$scope.showloader=false;
+					window.location.reload();
+				}
+			});
+		}
+	}
+});
+
+app.controller("AdminChequeController",function($scope,$http,$state,$rootScope,Uploader,Logging,Commas){
+	$scope.$emit("changeTitle",$state.current.views.content.data.title);
+	$scope.party_type='single';
+	$scope.showloader=true;
+	$scope.confchq=false;
+	$scope.hoa='select';
+	$scope.party={};
+	$http({
+		method:'GET',
+		headers:{'X-CSRFToken':localStorage.token},
+		url:$scope.requesturl+'/admin_cheq'
+	}).success(function(result){
+		if(result[0]=='invalid')
+		{
+			Logging.logout();
+		}
+		else
+		{
+			$scope.chequeno=result.length;
+			if($scope.chequeno==0)
+			{
+				alert("You do not have any cheques to issue.Please place a request for a new cheque book");
+				$state.go('admin.request');
+			}
+			else
+			{
+				$scope.party.cheque=result[0]['chequeno'];
+				$scope.get_hoa();
+			}
+		}
+	});
+
+	$scope.ifsc_search=function(){
+		if(!$scope.party.ifsc)
+		{
+			alert('Please enter IFSC Code');
+		}
+		else if($scope.party.ifsc=='')
+		{
+			alert('Please enter IFSC Code');	
+		}
+		else if($scope.party.ifsc.length!=11)
+		{
+			alert('Wrong IFSC Code');
+		}
+		else if($scope.party.ifsc.substr(4,1)!='0')
+		{
+			alert('Wrong IFSC Code');
+		}
+		else
+		{
+			$scope.showloader=true;
+			$http({
+				method:'GET',
+				headers:{'X-CSRFToken':localStorage.token},
+				url:$scope.requesturl+'/get_ifsc',
+				params:{ifsc:$scope.party.ifsc}
+			}).success(function(result){
+				$scope.showloader=false;
+				if(result=="")
+				{
+					alert("Please check your ifsc code and place a query");
+				}
+				else
+				{
+					$scope.party.bank=result['bankname'];
+					$scope.party.branch=result['branch'];
+				}
+			});
+		}
+	}
+
+	$scope.amount_words=function(){
+		if(!$scope.party.amount)
+		{
+			return "---Please enter LOC amount to display relavant data---";
+		}
+		else if($scope.party.amount=='')
+		{
+			return "---Please enter LOC amount to display relavant data---";
+		}
+		else if($scope.regex.test($scope.party.amount))
+		{
+			return getwords($scope.party.amount);
+		}
+		else
+		{
+			$scope.party.amount="";
+		}
+	}
+	
+	$scope.words=function(dat)
+	{
+		return getwords(dat)+' ONLY';
+	}
+
+	function getwords(e){var t="";if(e.length==2){}else if(e.length==1){e=0+e}else if(e.length%2===0){e=0+e}var n=e.substr(-2,2);t=t+getnum(n);if(e.length>=3){var r="0"+e.substr(-3,1);if(r=="00"){}else{t=getnum(r)+" HUNDRED"+t}}if(e.length>=5){var i=e.substr(-5,2);if(i=="00"){}else{t=getnum(i)+" THOUSAND"+t}}if(e.length>=7){var s=e.substr(-7,2);if(s=="00"){}else{t=getnum(s)+" LAKH"+t}}if(e.length>7){var o=e.substr(0,e.length-7);t=getwords(o)+" CRORE"+t}return t}function getnum(e){var t="";ones=e.substr(1,1);tens=e.substr(0,1);if(tens=="0"){switch(ones){case"0":t="";break;case"1":t=" ONE";break;case"2":t=" TWO";break;case"3":t=" THREE";break;case"4":t=" FOUR";break;case"5":t=" FIVE";break;case"6":t=" SIX";break;case"7":t=" SEVEN";break;case"8":t=" EIGHT";break;case"9":t=" NINE";break}}else if(tens=="1"){switch(ones){case"0":t=" TEN";break;case"1":t=" ELEVEN";break;case"2":t=" TWELVE";break;case"3":t=" THIRTEEN";break;case"4":t=" FOURTEEN";break;case"5":t=" FIFTEEN";break;case"6":t=" SIXTEEN";break;case"7":t=" SEVENTEEN";break;case"8":t=" EIGHTEEN";break;case"9":t="NINETEEN";break}}else{switch(tens){case"2":t=" TWENTY";break;case"3":t=" THIRTY";break;case"4":t=" FORTY";break;case"5":t=" FIFTY";break;case"6":t=" SIXTY";break;case"7":t=" SEVENTY";break;case"8":t=" EIGHTY";break;case"9":t=" NINTY";break}switch(ones){case"0":t=t+"";break;case"1":t=t+" ONE";break;case"2":t=t+" TWO";break;case"3":t=t+" THREE";break;case"4":t=t+" FOUR";break;case"5":t=t+" FIVE";break;case"6":t=t+" SIX";break;case"7":t=t+" SEVEN";break;case"8":t=t+" EIGHT";break;case"9":t=t+" NINE";break}}return t}
+
+	$scope.show_bankname=function(){
+		if(!$scope.party.bank)
+		{
+			return "--Please enter IFSC Code and Search to show relevant data--";
+		}
+		else if($scope.party.bank=='')
+		{
+			return "--Please enter IFSC Code and Search to show relevant data--";
+		}
+		else
+		{
+			return $scope.party.bank;
+		}
+	}
+
+	$scope.show_bankbranch=function(){
+		if(!$scope.party.branch)
+		{
+			return "--Please enter IFSC Code and Search to show relevant data--";
+		}
+		else if($scope.party.branch=='')
+		{
+			return "--Please enter IFSC Code and Search to show relevant data--";
+		}
+		else
+		{
+			return $scope.party.branch;
+		}
+	}
+
+	$scope.get_hoa=function(){
+		$http({
+			method:'GET',
+			headers:{'X-CSRFToken':localStorage.token},
+			url:$scope.requesturl+'/get_hoa'
+		}).
+		success(function(dat){
+			if(dat[0]=='invalid')
+			{
+				Logging.logout();
+			}
+			else
+			{
+				$scope.allaccounts=dat;
+			}
+			$scope.showloader=false;
+		});
+	}
+	
+	$scope.hoa_balance=function(){
+		if($scope.hoa=="select")
+		{
+			return "---Please select Head of Account to display relavant data---";
+		}
+		else
+		{
+			var bal;
+			angular.forEach($scope.allaccounts, function(scheme){
+				if(scheme.hoa==$scope.hoa)
+				{
+					bal=scheme.balance;
+					$scope.bal=bal;
+					$scope.actype=scheme.account_type;
+				}
+			});
+			return Commas.getcomma(bal);
+		}
+	}
+	
+	$scope.hoa_loc=function(){
+		if($scope.hoa=="select")
+		{
+			return "---Please select Head of Account to display relavant data---";
+		}
+		else if($scope.actype=='1')
+		{
+			return 'Not Applicable';
+		}
+		else
+		{
+			var bal;
+			angular.forEach($scope.allaccounts, function(scheme){
+				if(scheme.hoa==$scope.hoa)
+				{
+					bal=scheme.loc;
+					$scope.loc=bal;
+				}
+			});
+			return Commas.getcomma(bal);
+		}
+	}
+
+	$scope.isShown=function(type){
+		return type===$scope.party_type;
+	}
+
+
+
+	$scope.partychange=function(){
+		if(!$scope.party.cacno || $scope.party.cacno=="")
+		{
+			if($scope.party.acno)
+			{
+				alert('Please enter account no')
+			}
+		}
+		else if($scope.party.acno!=$scope.party.cacno)
+		{
+			alert('Both account numbers do not match');
+		}
+		else
+		{
+			$scope.showloader=true;
+			$http({
+				method:'GET',
+				headers:{'X-CSRFToken':localStorage.token},
+				url:$scope.requesturl+'/admin_get_party',
+				params:{partyac:$scope.party.acno}
+			}).
+			success(function(result){
+				$scope.showloader=false;
+				if(result[0]=='invalid')
+				{
+					Logging.logout();
+				}
+				else
+				{
+					if(result.length!=0)
+					{
+						$scope.party.name=result[0]['partyname'];
+						$scope.party.bank=result[0]['partybank'];
+						$scope.party.branch=result[0]['partybranch'];
+						$scope.party.ifsc=result[0]['partyifsc'];
+					}
+				}
+			});
+		}
+	}
+
+	$scope.totals=0;
+
+	$scope.upload = function(files) {
+		var formdata = new FormData();
+		formdata.append('file', files[0]);
+		$scope.allplist={};
+		$scope.showloader=true;
+		$http({
+			method:'POST',
+			url:$scope.requesturl+'/uploading',
+			data:formdata,
+			headers:{'Content-Type': undefined,
+			'X-CSRFToken':localStorage.token},
+			transformRequest: function(data) {return data;}
+		}).
+		success(function(data){
+			$scope.showloader=false;
+			if(data[0]=='success')
+			{
+				if(data[1]=='success')
+				{
+					if(data[2]=='success')
+					{
+						if(data[3].length==0)
+						{
+							alert('Please enter the party details and check your file format');
+						}
+						else
+						{
+							$scope.allplist=data[3];
+							$scope.tamount=0;
+							angular.forEach($scope.allplist,function(pl){
+								$scope.tamount=$scope.tamount+parseInt(pl[5]);
+								pl[5]=Commas.getcomma(pl[5]);
+							});
+							$scope.filepath=data[4];
+						}
+					}
+					else
+					{
+						alert(data[2]);
+					}
+				}
+				else
+				{
+					alert('Please select a file');
+				}
+			}
+			else
+			{
+				Logging.logout();
+			}
+		});
+	}
+
+	$scope.chq_issue=function(){
+		if($scope.isShown('single'))
+		{
+			if(!$scope.party.acno)
+			{
+				alert('Please enter Party Account No');
+			}
+			else if($scope.party.acno!=$scope.party.cacno)
+			{
+				alert('Both account numbers do not match');
+			}
+			else if(!$scope.party.name)
+			{
+			
+				alert('Please enter Party Name');
+			}
+			else if(!$scope.party.ifsc)
+			{
+				alert("Please enter Party's Bank IFSC Code");
+			}
+			else if(!$scope.party.bank)
+			{
+				alert("Please enter valid IFSC code and search");
+			}
+			else if(!$scope.party.branch)
+			{
+				alert("Please enter valid IFSC code and search");
+			}
+			else if($scope.hoa=='select')
+			{
+				alert('Please enter Head of Account');
+			}
+			else if(!$scope.party.purpose)
+			{
+				alert('Please enter the purpose for issuing cheque');
+			}
+			else if(!$scope.party.amount)
+			{
+				alert('Please enter the Party Amount');
+			}
+			else if(parseInt($scope.party.amount)>parseInt($scope.bal))
+			{
+				alert('Insufficient funds');
+			}
+			else if($scope.actype==2&&parseInt($scope.party.amount)>parseInt($scope.loc))
+			{
+				alert('Insufficient LOC');
+			}
+			else
+			{
+				$scope.party.hoa=$scope.hoa;
+				$scope.showloader=true;
+				$http({
+					method:'POST',
+					headers:{'X-CSRFToken':localStorage.token},
+					url:$scope.requesturl+'/issue_single_party',
+					data:{partydets:$scope.party,bookno:$scope.bookno}
+				}).success(function(result){
+					console.log(result);
+					$scope.showloader=false;
+					if(result[0]=='success')
+					{
+						if(result[1]=='success')
+						{
+							if(result[2]=='success')
+							{
+									alert("Cheque Issued and has been forwarded!");
+									window.location.reload();
+							}
+							else
+							{
+								alert(result[2]);
+							}
+						}
+						else
+						{
+							alert("Please select correct HOA");
+						}
+					}
+					else
+					{
+						Logging.logout();
+					}
+				});
+			}
+		}
+		else if($scope.isShown('multiple'))
+		{
+			if($scope.hoa=='select')
+			{
+				alert('Please enter Head of Account');
+			}
+			else if($scope.actype==2&&parseInt($scope.party.amount)>parseInt($scope.loc))
+			{
+				alert('Insufficient Loc');
+			}
+			else if(!$scope.filepath)
+			{
+				alert('Please upload the file');
+			}
+			else if(!$scope.party.purpose)
+			{
+				alert('Please enter the purpose for issuing cheque');
+			}
+			else if(!$scope.party.amount)
+			{
+				alert('Please enter the Party Amount');
+			}
+			else if(parseInt($scope.party.amount)!=$scope.tamount)
+			{
+				alert('The total amount does not tally');
+			}
+			else if(parseInt($scope.party.amount)>parseInt($scope.bal))
+			{
+				alert('Insufficient funds');
+			}
+			else
+			{
+				$scope.party.hoa=$scope.hoa;
+				$scope.showloader=true;
+				$http({
+					method:'POST',
+					headers:{'X-CSRFToken':localStorage.token},
+					url:$scope.requesturl+'/issue_multiple_party',
+					data:{hoa:$scope.party.hoa,partyfile:$scope.filepath,cheque:$scope.party.cheque,amount:$scope.party.amount,purpose:$scope.party.purpose,bookno:$scope.bookno}
+				}).success(function(result){
+					$scope.showloader=false;
+					if(result[0]=='success')
+					{
+						if(result[1]=='success')
+						{
+							alert("Cheque Issued and Forwarded");
+							window.location.reload();
+						}
+						else
+						{
+							alert("Please select correct HOA");
+						}
+					}
+					else
+					{
+						Logging.logout();
+					}
+				});
+			}
+		}
+	}
+
+	$scope.chq_cancel=function(){
+		window.location.reload();
+	}
+
+	$scope.chq_submit=function(){
+		if($scope.isShown('single'))
+		{
+			if(!$scope.party.acno)
+			{
+				alert('Please enter Party Account No');
+			}
+			else if($scope.party.acno!=$scope.party.cacno)
+			{
+				alert('Both account numbers do not match');
+			}
+			else if(!$scope.party.name)
+			{
+				alert('Please enter Party Name');
+			}
+			else if(!$scope.party.bank)
+			{
+				alert("Please enter Party's Bank Name");
+			}
+			else if(!$scope.party.branch)
+			{
+				alert("Please enter Party's Bank Branch");
+			}
+			else if(!$scope.party.ifsc)
+			{
+				alert("Please enter Party's Bank IFSC Code");
+			}
+			else if($scope.hoa=='select')
+			{
+				alert('Please enter Head of Account');
+			}
+			else if(!$scope.party.purpose)
+			{
+				alert('Please enter the purpose for issuing cheque');
+			}
+			else if(!$scope.party.amount)
+			{
+				alert('Please enter the Party Amount');
+			}
+			else if(parseInt($scope.party.amount)>parseInt($scope.bal))
+			{
+				alert('Insufficient funds');
+			}
+			else if($scope.actype==2&&parseInt($scope.party.amount)>parseInt($scope.loc))
+			{
+				alert('Insufficient Loc');
+			}
+			else
+			{
+				$scope.confchq=true;
+			}
+		}
+		else if($scope.isShown('multiple'))
+		{
+			if($scope.hoa=='select')
+			{
+				alert('Please enter Head of Account');
+			}
+			else if($scope.actype==2&&parseInt($scope.party.amount)>parseInt($scope.loc))
+			{
+				alert('Insufficient Loc');
+			}
+			else if(!$scope.filepath)
+			{
+				alert('Please upload the file');
+			}else if(!$scope.party.purpose)
+			{
+				alert('Please enter the purpose for issuing cheque');
+			}
+			else if(!$scope.party.amount)
+			{
+				alert('Please enter the Party Amount');
+			}
+			else if(parseInt($scope.party.amount)!=$scope.tamount)
+			{
+				alert('The total amount does not tally');
+			}
+			else if(parseInt($scope.party.amount)>parseInt($scope.bal))
+			{
+				alert('Insufficient funds');
+			}
+			else
+			{
+				$scope.confchq=true;
+			}
+		}
+	}
+});
+
+app.controller("AdminBookController",function($scope,$http,$state,Logging,Commas){
+	$scope.$emit("changeTitle",$state.current.views.content.data.title);
+	$scope.showloader=true;
+	$http({
+		method:'GET',
+		headers:{'X-CSRFToken':localStorage.token},
+		url:$scope.requesturl+'/get_booklist'
+	}).
+	success(function(result){
+		if(result[0]=='invalid')
+		{
+			Logging.logout();
+		}
+		else
+		{
+			$scope.mybooks=result;
+		}
+		$scope.showloader=false;
+	});
+});
+
+app.controller("AdminActivateController",function($scope,$http,$state,Dates,Logging,Commas){
+	$scope.Dates=Dates;
+	$scope.$emit("changeTitle",$state.current.views.content.data.title);
+	$scope.showloader=true;
+	$http({
+		method:'GET',
+		headers:{'X-CSRFToken':localStorage.token},
+		url:$scope.requesturl+'/get_booklist'
+	}).
+	success(function(result){
+		if(result[0]=='invalid')
+		{
+			Logging.logout();
+		}
+		else
+		{
+			$scope.hoalist=result;
+		}
+		$scope.showloader=false;
+	});
+
+	$scope.hoa_change=function(){
+		$scope.showloader=true;
+		$http({
+			method:'GET',
+			headers:{'X-CSRFToken':localStorage.token},
+			url:$scope.requesturl+'/get_hoa_trans',
+			params:{hoa:$scope.hoa.hoa}
+		}).
+		success(function(result){
+			if(result[0]=='invalid')
+			{
+				Logging.logout();
+			}
+			else
+			{
+				$scope.maintrans=result;
+			}
+			$scope.showloader=false;
+		});
+	}
+
+	$scope.show_data=function(){
+		if($scope.hoa)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+
+	$scope.confirm=function()
+	{
+		if($scope.hoa.activation!='0')
+		{
+			alert('You have already confirmed this account');
+		}
+		else
+		{
+			$scope.showloader=true;
+			$http({
+				method:'GET',
+				headers:{'X-CSRFToken':localStorage.token},
+				url:$scope.requesturl+'/confirm_account',
+				params:{hoa:$scope.hoa.hoa}
+			}).
+			success(function(result){
+				$scope.showloader=false;
+				if(result[0]=='invalid')
+				{
+					Logging.logout();
+				}
+				else
+				{
+					alert('Confirmed');
+					window.location.reload();
+				}
+			});
+		}
+	}
+
+	$scope.reject=function()
+	{
+		if($scope.hoa.activation!='0')
+		{
+			alert('You have already confirmed this account');
+		}
+		else if(!$scope.reasons)
+		{
+			alert('Please enter the re  ason for rejecting');
+		}
+		else if($scope.reasons=='')
+		{
+			alert('Please enter the reason for rejecting');
+		}
+		else
+		{
+			$scope.showloader=true;
+			$http({
+				method:'GET',
+				headers:{'X-CSRFToken':localStorage.token},
+				url:$scope.requesturl+'/reject_account',
+				params:{hoa:$scope.hoa.hoa,reason:$scope.reasons}
+			}).
+			success(function(result){
+				$scope.showloader=false;
+				if(result[0]=='invalid')
+				{
+					Logging.logout();
+				}
+				else
+				{
+					alert('Rejected');
+					window.location.reload();
+				}
+			});
+		}
+	}
+});
+
+app.controller("AdminChqRptController",function($scope,$http,$state,$rootScope,Logging,Commas,Dates){
+	$scope.Dates=Dates;
+	$scope.$emit("changeTitle",$state.current.views.content.data.title);
+	$scope.showloader=true;
+	$http({
+		method:'GET',
+		headers:{'X-CSRFToken':localStorage.token},
+		url:$scope.requesturl+'/admin_chqrpt'
+	}).
+	success(function(result){
+		$scope.showloader=false;
+		if(result[0]=='invalid')
+		{
+			Logging.logout();
+		}
+		else
+		{
+			$scope.alltrans=result;
+			var counter=1;
+			angular.forEach($scope.alltrans,function(tr){
+				tr.sno=counter;
+				counter++;
+				if(!(tr.rejects))
+				{
+					tr.rejects='None';
+				}
+				if(tr.transstatus=='0')
+				{
+					tr.rems="Cheque pending with Senior Accountant";
+				}
+				else if(tr.transstatus=='1')
+				{
+					tr.rems="Cheque pending with government";
+				}
+				else if(tr.transstatus=='2')
+				{
+					tr.rems="Cheque forwarded to bank waiting for confirmation!";
+				}
+				else if(tr.transstatus=='4')
+				{
+					tr.rems="Cheque reciept confirmed by bank! waiting for payment ";
+				}
+				else if(tr.transstatus=='5')
+				{
+					tr.rems="Cheque pending with DTO/STO";
+				}
+				else if(tr.transstatus=='21')
+				{
+					tr.rems="Cheque Rejected";
+				}
+				else if(tr.transstatus=='3')
+				{
+					tr.rems="Payment Done";
+				}
+				else if(!tr.hoa)
+				{
+					tr.rems="Cheque Cancelled";
+					tr.rejects=angular.copy(tr.purpose);
+					tr.purpose="-";
+					tr.hoa='-';
+					tr.amount='-';
+					tr.multiflag=1;
+					tr.partyname='-';
+				}
+			});
+		}
+	});
+});
+
+app.controller("AdminPageController",function($scope,$http,$state,$stateParams,Dates,Logging,Commas){
+	$scope.Dates=Dates;
+	$scope.$emit("changeTitle",$state.current.views.content.data.title);
+	$scope.showloader=true;
+	$scope.acdat=$stateParams.account
+	$scope.page=$stateParams.page;
+	$scope.maintrans=[];
+	$scope.trans=[];
+	$scope.first=false;
+	$scope.second=false;
+	$scope.endbut=false;
+	$scope.end=false;
+	$http({
+		method:'GET',
+		headers:{'X-CSRFToken':localStorage.token},
+		url:$scope.requesturl+'/get_bookdata',
+		params:{account:$stateParams.account}
+	}).
+	success(function(result){
+		if(result[0]=='invalid')
+		{
+			Logging.logout();
+		}
+		else
+		{
+			$scope.accountinfo=result;
+			$http({
+				method:'GET',
+				headers:{'X-CSRFToken':localStorage.token},
+				url:$scope.requesturl+'/get_pagedata',
+				params:{hoa:$scope.accountinfo.hoa,ddo:$scope.accountinfo.ddocode,page:$scope.page}
+			}).
+			success(function(data){
+				$scope.maintrans=data;
+			});
+			$http({
+				method:'GET',
+				headers:{'X-CSRFToken':localStorage.token},
+				url:$scope.requesturl+'/get_pagelist',
+				params:{hoa:$scope.accountinfo.hoa,ddo:$scope.accountinfo.ddocode}
+			}).success(function(data){
+				$scope.showloader=false;
+				$scope.totpages=data[0];
+				if($scope.totpages==0)
+				{
+					$scope.page=0;
+					$scope.pagehide=false;	
+				}
+				else
+				{
+					$scope.pagehide=true;
+				}
+				if($scope.totpages%10==0)
+				{
+					$scope.pages=$scope.totpages/10;
+				}
+				else
+				{
+					$scope.pages=parseInt($scope.totpages/10)+1;
+				}
+				if($scope.page=='last')
+				{
+					$scope.page=$scope.pages;
+				}
+				else if($scope.page>$scope.pages)
+				{
+					$scope.page=$scope.pages;
+				}
+				else if(!parseInt($scope.page))
+				{
+					$scope.page=$scope.pages;	
+				}
+				else
+				{
+					$scope.page=parseInt($scope.page);
+				}
+				if($scope.page<$scope.pages-1)
+				{
+					$scope.end=true;
+				}
+				if($scope.page!=$scope.pages)
+				{
+					$scope.endbut=true;	
+				}
+				if($scope.page>2)
+				{
+					$scope.first=true;
+				}
+				if($scope.page!=1)
+				{
+					$scope.second=true;
+				}
+			});
+		}
+	});
+});
+
+app.controller("AdminStatementController",function($scope,$http,$state,$stateParams,Dates,Logging,Commas){
+	$scope.Dates=Dates;
+	$scope.$emit("changeTitle",$state.current.views.content.data.title);
+	$scope.showloader=true;
+	$scope.acdat=$stateParams.account;
+	$scope.month='select';
+	$scope.year='select';
+	$http({
+		method:'GET',
+		headers:{'X-CSRFToken':localStorage.token},
+		url:$scope.requesturl+'/get_bookdata',
+		params:{account:$stateParams.account}
+	}).
+	success(function(result){
+		if(result[0]=='invalid')
+		{
+			Logging.logout();
+		}
+		else
+		{
+			$scope.accountinfo=result;
+			$scope.showloader=false;
+		}
+	});
+
+	$scope.submit=function(){
+		var yy=parseInt($scope.maindate.substr(6,4));
+		var mm=parseInt($scope.maindate.substr(3,2));
+		var flg=0;
+		if($scope.month=='select')
+		{
+			alert('Please select month');
+			flg=1;
+		}
+		else if($scope.year=='select')
+		{
+			alert('Please select year');
+			flg=1;
+		}
+		else if(parseInt($scope.year)>yy)
+		{
+			alert('Sorry this data is not available');
+			flg=1;
+		}
+		else if(parseInt($scope.year)==yy)
+		{
+			if($scope.year=='2014')
+			{
+				if(parseInt($scope.month)<5)
+				{
+					alert('Sorry this data is not available');
+					flg=1;
+				}
+			}
+			if(parseInt($scope.month)>mm)
+			{
+				alert('Sorry this data is not available');
+				flg=1;
+			}
+		}
+		else
+		{
+			if($scope.year=='2014')
+			{
+				if(parseInt($scope.month)<5)
+				{
+					alert('Sorry this data is not available');
+					flg=1;
+				}
+			}
+		}
+		if(flg==0)
+		{
+			$scope.showloader=true;
+				$http({
+                                        method:'GET',
+                                        headers:{'X-CSRFToken':localStorage.token},
+                                        url:'getstatement.php',
+                                        params:{y:$scope.year,m:$scope.month,hoa:$scope.accountinfo.hoa,ddo:$scope.accountinfo.ddocode}
+                                }).
+                                success(function(result){
+                                        if(result[0]=='invalid')
+                                        {
+                                                Logging.logout();
+                                        }
+                                        else
+                                        {
+                                                $scope.fname=$scope.requesturl+'/'+result;
+                                                $scope.showloader=false;
+                                        }
+                                });
+		}
+	}
+});
+

@@ -1,0 +1,63 @@
+Sno,"Party Name","Party Account no","Party Bank Name","Party Bank Branch","Party Bank Ifsc Code","Party Amount"
+1,"Librarian Branch Library Garividi",31861249876,SBI,Garvadi,SBIN0004827,51098
+2,"Librarian Branch Library Merakamudidam",11615584168,SBI,Cheepurupalli,SBIN0000767,50625
+3,"Librarian Branch Library Gurla",11614561345,SBI,Gurla,SBIN0002758,39548
+4,"Librarian Branch Library Denkada",30661757409,SBI,Bhogapuram,SBIN0002698,27958
+5,"Librarian Branch Library Gajapatinagaram",30663115404,SBI,Gajapathinagaram,SBIN0001458,53874
+6,"Librarian Branch Library Dattirajeru",32358007988,SBI,Gajapathinagaram,SBIN0001458,38467
+7,"Librarian Branch Library S Kota",32426065967,SBI,"S Kota",SBIN0001005,52483
+8,"Librarian Branch Library Vepada",11356720364,SBI,"S Kota",SBIN0001005,26298
+9,"Librarian Branch Library L Kota",32435685992,SBI,"S Kota",SBIN0001005,38733
+10,"Librarian Branch Library Jami",32431330226,SBI,Jami,SBIN0002732,20389
+11,"Librarian Branch Library Gajularega",32499737811,SBI,"Cantonment Vizianagaram",SBIN0006647,155198
+12,"Librarian Branch Library Seetanagaram",30814568828,SBI,Bobbli,SBIN0000820,31550
+13,"Librarian Branch Library terlam",32461845899,SBI,Terlam,SBIN0002799,30736
+14,"Librarian Branch Library Bobbli",30892807004,SBI,Bobbli,SBIN0000820,65713
+15,"Record Assistant Branch Library Bondapalli",11635834693,SBI,Gajapathinagaram,SBIN0001458,20936
+16,"Librarian Branch Library Gantyada",32462024122,SBI,Lakkidam,SBIN0008298,18593
+17,"Attender Branch Library Bhogapuram",32504975842,SBI,Bhogapuram,SBIN0002698,27808
+18,"Attender Branch Library Parvathipuram",32794791862,SBI,Parvathipuram,SBIN0000895,53929
+19,"K Kumara Raja Vizianagaram",31625486295,SBI,Nellore,SBIN0010101,51153
+20,"K Poturaju Visakhapatnam",30269839821,SBI,"M R Peta Vishakapatnam",SBIN0000754,66724
+21,"S Ch Narayana Rao vizianagaram",32301627705,SBI,"Fort Vizianagaram",SBIN0001004,39392
+22,"P Srinivasarao Vizianagaram",10540833953,SBI,"Fort Vizianagaram",SBIN0001004,23240
+23,"P Sailaja Vizianagaram",10540815436,SBI,"Fort Vizianagaram",SBIN0001004,31245
+24,"K Srinivas Vizianagaram",32305223742,SBI,"Fort Vizianagaram",SBIN0001004,19407
+25,"G Umadevi Vizianagaram",30171603782,SBI,"Fort Vizianagaram",SBIN0001004,19183
+26,"A Apparao Vizianagaram",32475058861,SBI,"Cantonment Vizianagaram",SBIN0006647,35746
+27,"K Kamala Vizianagaram",11307424909,SBI,"Cantonment Vizianagaram",SBIN0006647,19781
+28,"B Rajagopala Rao Vizianagaram",32671929995,SBI,Bobbli,SBIN0000820,12129
+29,"Librarian Branch Library Nellimarla",30676671411,SBI,Nellimarla,SBIN0002768,28376
+30,"B Rajarao Branch Librry GL Puram",34849473968,SBI,"GL Puram",SBIN0008299,17959
+31,"K Rama Murty Alamanda",11595443238,SBI,Jami,SBIN0002732,19976
+32,"B Appalanarasamma Adivivaram","   3014142405-1",SBI,"M R Peta VSKP",SBIN0000754,4435
+33,"D Jayamma S Kota",11356730010,SBI,"S Kota",SBIN0001005,10519
+34,"M Ratnamala S Kota",11356750140,SBI,"S Kota",SBIN0001005,11103
+35,"M V Ramana Rao Cheepurupalli",11615605974,SBI,Cheepurupalli,SBIN0000767,20662
+36,"P Polipalli ",10576604843,SBI,"Fort Vizianagaram",SBIN0001004,4514
+37,"Y Ramakrishna Vizianagaram",30197140336,SBI,"Dasannapeta Vizianagaram",SBIN0013274,16193
+38,"D lakshmi Pendurthi",11269146840,SBI,Pendurthi,SBIN0002780,7355
+39,"T Sakuntala Poosapatirega",11326378925,SBI,poosapatirega,SBIN0003254,4435
+40,"K Simhachalam Deevupalli",11620364994,SBI,Gajapathinagaram,SBIN0001458,7355
+41,"M V N Patrudu Moida",11614624976,SBI,Nellimarala,SBIN0002768,15211
+42,"V Seethabayamma",30200000000.00E+30200000000.00,SBI,"Fort Vizianagaram",SBIN0001004,8403
+43,"V Surinaidu Vizianagaram",30197243944,SBI,"Contonment Vizianagaram",SBIN0006647,20218
+44,"T A Narasimharaju Gajapathinagaram",11620318018,SBI,Gajapathinagaram,SBIN0001458,20744
+45,"V Lakshmipathiraju Vizianagaram",10576611045,SBI,"Contonment Vizianagaram",SBIN0006647,18187
+46,"K Parvathi Vizianagaram",10653955828,SBI,Vizianagaram,SBIN0000983,12683
+47,"G Uma Devi Vizianagaram",30171603782,SBI,"Fort Vizianagaram",SBIN0001004,6419
+48,"N Apparao Srikakulam",11152533079,SBI,Srikakulam,SBIN0000919,13420
+49,"R Ch Veerabhadra Swamy",11620311680,SBI,Jami,SBIN0002732,14462
+50,"T Bharati Parvathipuram",30912830397,SBI,Parvathipuram,SBIN0000895,7355
+51,"K Adilakshmi S Kota",11356746190,SBI,"S Kota",SBIN0001005,7628
+52,"K Subbalakshmi Saluru",31501768279,SBI,Saluru,SBIN0000914,7355
+53,"D Demudu Denkada",30943257281,SBI,Denkada,SBIN0013273,19196
+54,"S Demullu S Kota",30797698026,SBI,"S Kota",SBIN0001005,12452
+55,"R Nagamani Vizianagaram ",30684539619,SBI,"Fort Vizianagaram",SBIN0001004,7065
+56,"S Apparao Badangi",11684219716,SBI,Badangi,SBIN0014381,13515
+57,"M Indiradevi Vizianagaram",30269839832,SBI,"Fort Vizianagaram",SBIN0001004,19325
+58,"B Nagabhushana Rao Vizianagaram",32058627379,SBI,"Fort Vizianagaram",SBIN0001004,17644
+59,"A Appalanaidu ",30994797929,SBI,Jami,SBIN0002732,15120
+60,"V Apparao Bobbli",31954677216,SBI,Bobbili,SBIN0000820,14258
+61,"G Satyavathi Palasa",33015020573,SBI,Palasa,SBIN0001006,11203
+62,"P Lakshmi Parvathipuram",33833723643,SBI,Parvathipuram,SBIN0000895,13088

@@ -1,0 +1,15 @@
+<div class="content_heading">Accounts List</div>
+<div class="fullwrap">
+	<p class="gen_p"><span class="stardiv">*</span><span>Please select a PD account in the below list to generate the account statement for that particular account</span></p>
+	<div class="wrap_indi">
+		<div class="each_desc">
+			<span>You have {{mybooks.length}} Personal Deposit Account.</span>
+		</div>
+	</div>
+	<div class="wrap_indi" ng-repeat="book in mybooks">
+		<div class="each_desc">
+			<span>Account with Hoa : <a ui-sref="adminchecker.statement({account:book.id})">{{book.scheme.schemename+'    ( '+book.hoa+' ) '}}</a></span>
+		</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

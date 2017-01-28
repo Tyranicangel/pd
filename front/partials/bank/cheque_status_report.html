@@ -1,0 +1,66 @@
+<div class="content_heading">Generate Bank File</div><br>
+<p style="font-famliy:arial;font-size:12px;margin-top:20px;"><span class="stardiv">*</span>Please enter cheque number to get the report.</p>
+
+<div class='fullwrap'>
+	<div class="wrap_indi">
+            <div class="each_text">Enter cheque number</div>
+            <input type="text" class="each_data" id="chqno">
+            <button class="scrh_chqs_conf_btn each_data" ng-click="get_conf_chqs()" style="width:100px;margin-left:50px;float:left;margin-top:0px;padding:0px;">Search</button>
+        </div>
+</div>
+
+
+<table class='each_table' style="margin-top:20px;">
+		<tr class='heading_row'>
+			<th>Sno</th>
+			<th>Cheque No</th>
+			<th>Issue Authority</th>
+			<th>DDO Code</th>
+			<th>Head of Account</th>
+			<th>Cheque Issue Date</th>
+			<th>Amount<br><span class='rs'>(in Rs)</span></th>
+			<th>Amount in words</th>
+			<th>Purpose</th>
+			<th>Party Name</th>
+			<th>Status</th>
+			<th>Confirm Date</th>
+			<th>Upload response(NEFT)</th>
+			<th>Upload response(SBI)</th>
+		</tr>
+		<tr ng-repeat="x in confchqlist">
+			<td>{{$index+1}}</td>
+			<td>{{x.chequeno}}</td>
+			<td>{{x.requser.userdesc}}</td>
+			<td>{{x.issueuser}}</td>
+			<td>{{x.hoa}}</td>
+			<td>{{x.transdate}}</td>
+			<td>{{x.partyamount}}</td>
+			<td>{{x.amtwords}}</td>
+			<td>{{x.purpose}}</td>
+			<td ng-if="x.multiflag==2">
+				<a download href="{{requesturl+'/uploads/'+x.partyfile}}">Download</a>
+			</td>
+			<td ng-if="x.multiflag==1">
+				{{x.partyname}}
+			</td>
+			<td>{{x.stat}}</td>
+			<td>{{x.confirmdate}}</td>
+			<td ng-show="x.transstatus=='3'" style="width:100px"><input ng-show="!responseuploaded && neftdownloadlink" type="file" class="each_box" file-change="uploadresponseneft" style="width:88px;"></td>
+			<td ng-show="x.transstatus=='3'" style="width:100px"><input ng-show="!responseuploaded && sbidownloadlink" type="file" class="each_box" file-change="uploadresponsesbi" style="width:80px;font-size:12px;"></td>
+
+		</tr>
+		<tr >
+			<td colspan="14" ng-show="showbankfile">
+
+			<h3>Download bank file</h3>
+
+			<div class="generatebtn" style="float:none;width:initial;margin:8px;" ng-show="sbidownloadlink"><a download href="{{requesturl+'/'+sbidownloadlink}}">Download SBI file</a></div>
+			<div class="generatebtn" style="float:none;width:initial;margin:8px;" ng-show="neftdownloadlink"><a download href="{{requesturl+'/'+neftdownloadlink}}">Download NEFT file</a></div>
+			<div class="generatebtn" style="float:none;width:initial;margin:8px;" ng-show="rtgsdownloadlink"><a download href="{{requesturl+'/'+rtgsdownloadlink}}">Download RTGS file</a></div>
+			<div class="generatebtn" style="float:none;width:initial;margin:8px;" ng-show="intradownloadlink"><a download href="{{requesturl+'/'+intradownloadlink}}">Download INTRA Bank(state bank to state bank) file</a></div>
+
+			</td>
+			
+		</tr>
+</table>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

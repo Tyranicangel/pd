@@ -1,0 +1,49 @@
+<div class="content_heading">Confirm Accounts</div>
+<div class="fullwrap">
+	<table class='each_table' ng-show='allrequests.length>0'>
+		<tr class='heading_row'>
+			<th>Sno</th>
+			<th>DDO Code</th>
+			<th>DDO Designation</th>
+			<th>Head of Account</th>
+			<th>HOA Description</th>
+			<th>Date</th>
+			<th>Account Type</th>
+			<th>Account Category</th>
+			<th>Reference</th>
+			<th>Opening Balance</th>
+			<th>
+				<input type="checkbox" ng-click="checkall()" ng-checked="allchecked()">All
+			</th>
+		</tr>
+		<tr ng-repeat="trans in allrequests">
+			<td>{{trans.sno}}</td>
+			<td>{{trans.ddocode}}</td>
+			<td>{{trans.usernames.userdesc}}</td>
+			<td>{{trans.hoa}}</td>
+			<td>{{trans.scheme.schemename}}</td>
+			<td>{{Dates.getDate(trans.modify_date)}}</td>
+			<td>{{trans.act}}</td>
+			<td>{{trans.category}}</td>
+			<td>{{trans.reference}}</td>
+			<td>{{trans.balance}}</td>
+			<td>
+				<input type='checkbox' ng-model='trans.check'>
+			</td>
+		</tr>
+	</table>
+	<div class="wrap_indi" ng-show='allrequests.length>0'>
+		<div class="each_text" style="width:100px;">Remarks</div>
+		<textarea class='textarea' style="padding:5px;" placeholder="Enter remarks here.." ng-model='remarks'></textarea>
+	</div>
+	<div class="wrap_indi" style="padding-left:26px;" ng-show='allrequests.length>0'>
+		<div class="main_button" style="margin-right:20px;" ng-click="chq_confirm()">Confirm</div>
+		<div class="main_button" style="margin-left:0px;" ng-click="chq_reject()">Reject</div>
+	</div>
+	<div class="wrap_indi" ng-show="allrequests.length==0">
+		<div class="each_desc">
+			* You do not have any accounts to be confirmed.
+		</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

@@ -1,0 +1,51 @@
+<div class="content_heading">Confirmed Cheques List</div><br>
+<p style="font-famliy:arial;font-size:12px;margin-top:20px;"><span class="stardiv">*</span>Please select the dates and click on search to show cheques confirmed by you in between those dates</p>
+
+<span class="frm_to_chq">From</span>
+<input type="text" class="dt_slct" id="fdate"><br><br>
+<span class="frm_to_chq">To</span>
+<input type="text" class="dt_slct" id="tdate"><br>
+<button class="scrh_chqs_conf_btn" ng-click="get_conf_chqs()">Search</button>
+
+<table class='each_table' style="margin-top:20px;">
+		<tr class='heading_row'>
+			<th>Sno</th>
+			<th>Cheque No</th>
+			<th>Issue Authority</th>
+			<th>DDO Code</th>
+			<th>Head of Account</th>
+			<th>Cheque Issue Date</th>
+			<th>Amount<br><span class='rs'>(in Rs)</span></th>
+			<th>Amount in words</th>
+			<th>Purpose</th>
+			<th>Party Name</th>
+			<th>Status</th>
+			<th>Confirm Date</th>
+			<th>Payment Date</th>
+			
+			<th>Remarks</th>
+		</tr>
+		<tr ng-repeat="x in confchqlist">
+			<td>{{$index+1}}</td>
+			<td>{{x.chequeno}}</td>
+			<td>{{x.requser.userdesc}}</td>
+			<td>{{x.issueuser}}</td>
+			<td>{{x.hoa}}</td>
+			<td>{{Dates.getDate(x.transdate)}}</td>
+			<td>{{getcommas(x.partyamount)}}</td>
+			<td>{{x.amtwords}}</td>
+			<td>{{x.purpose}}</td>
+			<td ng-if="x.multiflag==2">
+				<a download href="{{requesturl+'/uploads/'+x.partyfile}}">Download</a>
+			</td>
+			<td ng-if="x.multiflag==1">
+				{{x.partyname}}
+			</td>
+			<td>{{x.stat}}</td>
+			<td>{{x.govtdate}}</td>
+			<td>{{x.confirmdate}}</td>
+			
+			<td>{{x.rejects}}</td>
+		</tr>
+</table>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

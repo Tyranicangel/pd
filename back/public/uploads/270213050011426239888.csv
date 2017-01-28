@@ -1,0 +1,795 @@
+Sno,Party Name,Party Account no,Party Bank Name,Party Bank Branch,Party Bank Ifsc Code,Party Amount
+1,"Sreenivasa Enterprises, D No.: 3-138/A , Krishna Dist",170303261200114,INDIAN OVERSEAS BANK,KRISHNA NAGAR,IOBA0001703,875080
+2,"Hari Oxygen, Plot No.8, Road No.2,Ida,Kondapalli, Ibrahimpatnam , Krishna District",102711100000779,ANDHRA BANK,IBRAHIMPATNAM,ANDB0001027,1064290
+3,"Venkata Ramana Granites, D No.:801/1, Chatragaddapadu , Vinukonda, , Guntur Dist",3210000414998,STATE BANK OF INDIA,vinukonda,SBIN0005882,721310
+4,"A-One Ispat PvtLtdPlot No.14, Industrial Park, Gollapuram , Hindupur , Anantapuram District",3164101000544,SYNDICATE BANK,ANANTAPURAM,SYNB0003164,2000000
+5,"Anjanadri Exports, Sy.No..115/2, Veluru , Podili , Prakasam District",233903261200017,INDIAN OVERSEAS BANK,CHIMAKURTHY,IOBA0002339,1702640
+6,"SV Exports, Sy.No..114/4, Yeluru , Podili , Prakasam District",233903261200018,Indian Overseas Bank,Chimakurthy Branch,IOBA0002339,2441460
+7,"Siva Soolini Polypack, DNo.3-172, Chollangipeta , Tallarevu , East Godavari District",003103261100013,INDIAN OVERSEAS BANK,KAKINADA,IOBA0000031,435000
+8,"Tirumala Ice Factory, Rs No.: 855/1, Unguituru  & , West Godavari",452006390091256,UNION BANK OF INDIA,CHINANINDRAKOLANU,UBIN0545201,2500000
+9,"Naveen Seeds, Chintalapudi , West Godavari Dist",62087118932,STATE BANK OF HYDERABAD,VIJAYAWADA,SBHY0020343,1500000
+10,"K A R R Ice & Cold Storge, RsNo.846/3, Neladripuram , Ungutur , West Godavari Dist",6096624446,INDIAN BANK,ELURU,IDIB000E006,2500000
+11,"Avlan Rubber Industry, Plot No.227, Phase-Iii, Autonagar, 1St Ward , Guntur Town , Guntur District",32761010000076,SYNDICATE BANK,"BRINDAVAN GARDEN,GUNTUR",SYNDB0003276,626500
+12,"Sri Souris Sai Granites, Sy.No..428, Chimakurthy , Prakasam District",22740210000922,UCO BANK,ONGOLE,UCBA0002274,1115690
+13,"Jaya Lakshmi Granites & Exports, Sy.No..311/1B, Budawada , Chimakurthy , Prakasam District", 622669224031,STATE BANK OF HYDERABAD,ONGOLE,SBHY0020488,1810330
+14,"Agm Textiles, Sy.No..272-4B, 2Nd Street, Vinayakapuram, Chintalapatteda Nagari, Chittoor District",607945150,INDIAN BANK,NAGARI,IDIB000N050,2207610
+15,"Siva Sai Granites, Sy.No..3-B/2, 3-C, 5-C, Chukkalur Road, Gannevaripalli , Tadipatri , Anantapuram District",31641010000544,SYNDICATE BANK,ANANTAPURAM,SYNB0003164,1374290
+16,"SST Gases, Sy No.: 518, Plto No.: 1 To 12, Shed No.: 4, Ie, KurNo.ol",4287000600191800,karnataka bank,kurnool,karb0000428,1594120
+17,"KSN Dairy, SRNo.64/1, Morampudi, Hukumpeta 9V), Rajahmundry Rural , East Godavari Dist",120012001093581,CITY UNION BANK LTD,RAJAHMUNDRY,CIUB0000120,2500000
+18,"Mythri Roto Plast, Sy.No..36-1 & 42-1, Plot No.2,3,4 &5, Industrial Estate, Narayanapuram, Ananthapuram District",31641010000544,SYNDICATE BANK,ANANTAPURAM,SYNB0003164,886360
+19,"Sri Narasimha Granites, Sy.No..1258-A/2B2, Chikkalur Road, Venkatareddy Palli , Tadipatri, Anantapuram District",31217910000736,SYNDICATE BANK,TADIPATRI,SYNB0003121,1556570
+20,"Abhinav Granites, Sy.No..3-A, Chukkalur Road, Chinnapolamada , Tadipatri , Anantapuram District",31217910000674,SYNDICATE BANK,TADIPATRI,SYNB0003121,1102500
+21,"Sri Venkata Sai Industries, Sy.No..250/2 B, Inamadugu , Kovur , Spsr Nellore Dist",350310100002394,SYNDICATE BANK,NELLORE,SYNB0003503,590630
+22,"Annavaram Exports, Sy.No..239, 240, Budawada , Chimakurthy , Prakasam District",16222000001341,HDFC BANK LTD,TADIPATHRI,HDFC0001622,2500000
+23,"Sri Sai Venkata Manjunadha Granites , Sy.No..72/2B, 72/2C, Budawada , Chimakurthy , Prakasam District",1422280000000313,KARUR VYSYA BANK LTD,OGOLE,KVBL0001422,401310
+24,"Sri Venkateshwara Ice Factory, Plot No.40, Industrial Park, Saroavaram , Kakinada Rural, East Godavari District",260403261200013,INDIAN OVERSEAS BANK,"SME BRANCH, KAKINADA",IOBA0002604,1338170
+25,"Venkateswara Granites, Sy.No..199/2E, 3C, 4A, Nagarajupally , Martur , Prakasam District",138713100002412,ANDHRA BANK,MARTUR,INDB0001387,2500000
+26,"Vijaya Srinivasa Granites, Sy.No..59-2A2,3, 59-2C2,3, Nagarajupalli , Martur , Prakasam District",0605261010533,CANARA BANK,GUNTUR,CNRB0000605,2000000
+27,"Jahnavi Sri Granites, Sy.No..199/2G, 199/4C, Nagarajupalli , Martur , Prakasam District",0605261010521,CANARA BANK,GUNTUR,CNRB0000605,1221050
+28,"Veeranjaneya Granites, SNo.709, Martur , Prakasam District",36403070001829,SYNDICATE BANK,ONGOLE,SYNB0003640,2380000
+29,"Gypsum N Gypsum, RSNo.332/2, Plot No.11, Ip, Dowleswaram, Rajahmundry Rural , East Godavari District",62227957154,INDIAN OVERSEAS BANK,"MAIN BRANCH, KAKINADA",SBHY0020975,1122800
+30,"Sree Sai Kesava Granites, Sy.No..281-1, Chukkaluru Road, Chukkalur , Tadipatri Mandal, Anantapur District",31217910000774,SYNDICATE BANK,TADIPATRI,SYNB0003121,1949000
+31,"Sree Pavana Putra Granites, Sy.No..299 & 310, Nandyal Road, Venatareddipalem , Tadipatri , Anantapur District",32671162733,STATE BANK OF INDIA,TADIPATHRI,SBIN0000923,2000000
+32,"Jala Bindhu Irrigiation Systems  Ltd, Sy No.: 80, Hampapuram , Raptadu , Ananthapuram Dist",001330100064403,ANDHRA BANK,"GOOTY ROAD, ANANTAPUR",ANDB0000013,2000000
+33,"Vijaya Lakshmi Seeds, RsNo.52/2A, Dharmajigudem , Lingapalem , West Godavari Dist",7.9301E+12,ANDHRA BANK,CHINTALAPUDI,ANDB0000079,2000000
+34,"Continental Aqua Feeds, Rs,No.177/3A&3B, Main Road, Peyyeru , Mudinepalli , Krishna District",128202000000459,INDIAN OVERSEAS BANK,GIDIVADA,IOBA0001282,681370
+35,"Lucky Star Granite And Marble Sy.No..21, Kappalabanda , Puttaparthi , Anantapur District",304943693367,STATE BANK OF INDIA,PUTTAPARTHI,SBIN0002786,725340
+36,"Bella Green Wood Plastic Composites PvtRSNo.242/1, 243/2, 400/2, Kapavaram , Kovuru , West Godaari Dist",62231955059,STATE BANK OF HYDERABAD,"T.NAGAR, RAJAHMUNDRY",SBHY0020339,2000000
+37,"Sri Geetha Industries, R S No.: 83/2, Nadipudi , Amalapuram , East Godavari Dist",32402819095,State Bank of India ,Amalapuram,SBIN0000803,1003610
+38,"Sri Asha Granites, Sy.No..19//4B & 4D Of Mittapalle, No.onegundlapally , Bangarapupalem , Chittoor District",105901000007400,indian oversis bank ,mahasamudram br,IOBA0001059,1642480
+39,"Radical Recyclers PvtLtd, RSNo.261/2, Tatakuntla, Vissannapet , Krishna District",6019126667,INDIAN BANK,VISSANNAPETA,IDIB000BV053,2000000
+40,"Mayuri PVC Industry, Sy.No..123-B, Chinnakudala , Lingala , YSR District",31903070002228,SYNDICATE BANK,"MAIN BRANCH, KADAPA",SYNB0003190,803420
+41,"Chowdary Edibles PvtLtdSy.No..201, Vittapalli Road, Pydeti , Parigi , Anantapuram District",0452008700008277,PUNJAB NATIONAL BANK,TADIPATRI,PUNB0045200,2000000
+42,"Sri Anjaneya Granites, Sy.No..393-1-F & 393-1-T Of Vepanjeri , GDNellore Mandal, Chittoor District",6303492360,INDIAN BANK,"G.D,NELLORE",IDIB000G031,1339360
+43,"Sri Chennakesava Pulverising Mill, Sy.No..351/2C, 35/8, Govindampalli , Obulavaripalli , YSR District",125602000001179,INDIAN OVERSEAS BANK,"MAIN BRANCH,KADAPA",IOBA0001256,1627670
+44,"Sri Vaayuputra Granites, Sy.No..704-1, Kodur , Chilamathur , Anantapur District",055230100062830,ANDHRA BANK,TADIPATRI,ANDB0000552,2415060
+45,"Jaleel Granites, Sy.No..3-A/3, Chukkalur Road, Gannavaripalli , Tadipatri , Anantapuram District",055230100065387,ANDHRA BANK,TADIPATRI,ANDB0000552,1327520
+46,"VS Granites, Sy.No..23 & 24, Chukkalur Road, Gannavaripalli , Tadipatri , Anantapuram",055230100062812,ANDHRA BANK,TADIPATRI,ANDB0000552,1571610
+47,"Sri Prasanna Lakshmi Granites, Sy.No..3-A, Chukkalur Road, Chinnapolamada , Tadipatri , Anantapuram Dist",31217910000706,SYNDICATE BANK,TADIPATRI,SYND0003121,1627480
+48,"Jouhar Granites, Sy.No..297, Chukkalur Road, Chukkalur , Tadipatri , Ananthapuram District",7607001801342201,KARNATAKA BANK LTD,TADIPATRI,KARB0000760,1707360
+49,"Lakshmi Sree Rama Granites, Sy.No..294-A, Venkatreddy Palli , Tadipatri , Ananthapuram District",31641010000544,SYNDICATE BANK,ANANTAPURAM,SYNB0003164,1354900
+50,"Surya Polymers, Plot No.32, Vatluru , Pedapadu , West Godavari Dist",09700600002578,BANK OF BARODA,ELURU,BARB0ELURUX,691170
+51,"Sri Jyothi Granites, Sy.No..281-10A, LBPuram , Narigapalle , Chittoor District",852108032118,CANARA BANK,CHITTOOR,CNRB0000852,1334250
+52,"Sri Venkateswara Granites, Sy.No..240, Budawada , Chimakurthy , Prakasam District",098330100121188,ANDHRA BANK,TANGUTUR,ANDB0000983,2500000
+53,"Sree Lakhsmi Vinayaka Granite Industries, Sy.No..1240 & 1247-A, Chikkalur Road, Sajjaladinne , Tadipatri , Anantapuram District",32671165484,STATE BANK OF INDIA,TADIPATRI,SBIN0000923,1446480
+54,"Vasantham Granites, Sy.No..408, Pappur Road, Chinnapolamada , Tadipatri , Anantapuram District",7607001801340701,KARNATAKA BANK LTD,TADIPATHRI,KARB0000760,1809520
+55,"Capital Projects, Sy.No..234/5, 244/1,2,3, & 235/1, Govindampalli , Obulavaripalli , Kadapa YSR District",233802000000170,INDIAN OVERSEAS BANK,RLY KODUR,IOBA0002338,1102500
+56,"Pathipati Mineral ,Sy.No..82/1,89,90/1, Govindampalli , Obulavaripalli , YSR Dist",12560326120021,INDIAN OVERSEAS BANK,KADAPA,IOBA0001256,1777040
+57,"Vinay Granites, Sy.No..1254-C, Chukkalur Road, Venkat Reddypalli , Tadipatri , Anantapuram District",32253421014,STATE BANK OF INDIA ,TADIPATRI,SBIN000923,1339840
+58,"Sri Neelu Granites, Sy.No..3-A, Chukkalur Road, Chinnapolamada , Tadipatri , Anantapuram District",31217910000717,SYNDICATE BANK,TADIPATRI,SYNB0003121,1231680
+59,"Sri Uma Maheswara Granites, Sy.No..194-2 & 195-1, Chilamathur , Ananthapur District",31641010000544,SYNDICATE BANK,ANANTAPURAM,SYNB0003164,1521250
+60,"Sri Parvathi Granites, Sy.No..3-A, Chukkalur Road, Chinnapolamada , Tadipatri , Anantapuram Dist",31217910000693,SYNDICATE BANK,TADIPATRI,SYND0003121,1482720
+61,"Sri Ranga Sai Granites, Sy.No..704-1, Kodur , Chilamathur , Anantapur",055230100062849,ANDHRA BANK,TADIPATRI,ANDB0000552,2139870
+62,"Sri Lakshmi Venkateswara Granites, Sy.No..194-2 & 195-1, Chilamathur , Anantapuram Dist",31641010000544,SYNDICATE BANK,"OLD TOWN, ANANTAPURAMU",SYNB0003164,1560200
+63,"Sri Pavan Raghavendra Granites, Sy.No..194-2 & 195-1, Chilamathur , Anantapuram District",31641010000544,SYNDICATE BANK,OLD TOWN ANANTAPUR,SYNB0003164,1532460
+64,"Sri Sai Lakshmi Granites, Sy.No..264, 265 & 266, Chukkalur Road, Tadipatri , Anantapuram",32561741432,STATE BANK OF INDIA,"MAIN BRANCH, TADIPATRI",SBIN0000923,1535080
+65,"Veeranjaneya Granites, Sy.No..1256-B/1, Chukkalur Road, Venkatreddipalli , Tadipatri , Ananatapur District",31217910000262,SYNDICATE BANK,TADIPATRI,SYNB0003121,1246860
+66,"Sri Sai Balaji Industries, Sy.No..79-2, Prasannaya Palli , Raptadu Mandal, Anantapur District",001330100073030,ANDHRA BANK,ANANTAPURAM,ANDB0000013,1100190
+67,"Jyothi Granites, Sy.No..61/3C, Narigapalle , Chittoor , Chittoor District",32475526751,STATE BANK OF INDIA,Main br,sbin0000825,1711740
+68,"Vigneswara Bio Briquettes, SNo.53-363-1, Komuru , Kakumanu , Guntur District",05180600018961,BANK OF BARODA,PEDANANDIPADU,BARB0PEDNNA,1951760
+69,"Usha Maize Flakes , SNo.854/2, Donepudi Road, Kolluru , Kolluru , Guntur District",31114496974,STATE BANK OF INDIA,KOLLURU,SBIN0002745,1361880
+70,"Sai Teja Granites, SNo.294/1, Murikipadi , Chilakaluripeta , Guntur District",015030100018848,Andhra Bank,Guntur ,ANDB0000150,2256980
+71,"Ganapathi Sai Agro Industries, RsNo.594/1, Villampatla , TNarasapuram , West Godavari Dist",004630100033218,ANDHRA BANK,BHIMAVARAM,ANDB0000046,1240440
+72,"Sri Vijaya Lakshmi Granites, Sy.No..238, Mapakshi , Chittoor , Chittoor District",55230100066517,ANDHRA BANK,"TADIPATRI, ANANTAPUR",ANDB0000552,1104480
+73,"Monarch Granites, Sy.No..238, Mpakshmi , Chittoor , Chittoor District",32320600000325,BANK OF BARODA,CHITTOOR,BARBOCHITAP,1326033
+74,"Vijetha Granite Exports, SNo.291/A, Murikipudi , Chilakaluripeta , Guntur District",05170600038405,Bank of baroda,Guntur ,BAEB0GUNTUR,2500000
+75,"Harsha Granites, Sy.No..704-1, Koduru , Chilamathur , Anantapuram District",055230100068728,ANDHRA BANK,TADIPATRI,ANDB0000552,2406680
+76,"Sri Teja Ice & Cold Storage, Plot No.: 52, Industrial Park, Sarpavarma , Kakinada Rural , East Godavari Dist",003103261100010,INDIAN OVERSEAS BANK,KAKINADA,IOBA0000031,1346160
+77,"SR Poly Packs, Sy.No..30/D1, Rayalacheruvu , Yadiki Mandal, Anantapur District",32448172316,STATE BANK OF INDIA,RAYALCHERVU,SBIN0011125,944920
+78,"Mulpuri Block Ice Plant, Rs No.: 458/1, Arugalone , Bapulapadu , Krishna Dist",106703261200002,INDIAN OVERSEAS BANK,VIJAYAWADA,IOBA0001067,1867530
+79,"Mulpuri Ice Plant, Rs No.: 456/3&4, , 4583&4, & 458/5,",106703261200004,INDIAN OVERSEAS BANK,VIJAYAWADA,IOBA0001067,2000000
+80,"Mulpuri Tubular Ice Plant, Rs No.: 456/2, Argalonu , Bapulapadu , Krishna Dist",106703261200003,INDIAN OVERSEAS BANK,VIJAYAWADA,IOBA0001067,2000000
+81,"Venkateswara Lova Prasad Exports, Sy No.: 417/3, 417/4, Tetagunta , Tuni , E G Dist",31852155998,STATE BANK OF INDIA,"SME BRANCH, KAKINADA",SBIN0004248,1911420
+82,"Lakshmi Saree Manufactures, Sy No.: 196-1, Lepakshi  & , Ananthapuram  Dist",3272500101819801,KARNATAKA BANK LTD,HINDUPUR,KARB0000327,2500000
+83,"LSV Creations, Sy No.: 196-1, Lepakshi & , Ananthapur Dist",3272500101819701,KARNATAKA BANK LTD,HINDUPUR,KARB0000327,2000000
+84,"Akshaya Polymer Industries, RSNo.506, Gidajam Road, Rowthulapudi (V&M), East Godavari District",31064819538,STATE BANK OF INDIA,TUNI,SBIN0000942,674760
+85,"Sandya Industries, Sy.No..193, Chetla Mallapuram (V), Kallur (M), KurNo.ol District",33972210002442,SYNDICATE BANK,"MSME BRANCH, KURNOOL",SYNB0003397,925640
+86,"Bhanuteja Industries, Sy.No..193, Chetla Mallapuram (V), Kallur (M), KurNo.ol District",032010100186495,ANDHRA BANK,"MAIN BRANCH, KURNOOL",ANDB0000320,2000000
+87,"Sri Dwarakamai Industry, RSNo.225/2C, Bandaru Lanka, Amalapuram (M), East Godavari District",32201681971,State Bank of India ,Amalapuram,SBIN0000803,1592770
+88,"Chemener Batteries Private Limited, Rs No.294/3A & 294/3C, GKonduru (V), Krishna District",106703261100012,INDIAN OVERSEAS BANK,VIJAYAWADA,IOBA0001067,2000000
+89,"VRGranites (Expansion) , Sy.No..147/1, Jonnathali (V), Martur (M), Prakasam District",138713100000663,ANDHRA BANK,MARTURU,ANDB0001387,995140
+90,"Ratna Pvc Pipes, RSNo.589, 589/4 & 589/B, Vadisaleru (V), Rangampeta (M), East Godavari District",912060014506297,AXIS BANK LTD,RAJAHMUNDRY,UTIB0000107,1653910
+91,"Sri Satya Sai Srinivasa Granites, SNo.26/2B, Budawada (V), Chimakurthy (M), Prakasam District",233903261200027,INDIAN OVERSEAS BANK,CHIMAKURTHY,IOBA0002339,1392950
+92,"Rainbow Granites & Exports, Sy.No..160/3B, Budawada (V), Chimakurthy (M), Prakasam District",233903261200025,INDIAN OVERSEAS BANK,CHIMAKURTHY,IOBA0002339,1888570
+93,"Sri Sairam Industreis, RSNo.332, Savaraplllem (V), Amalapuram (M), East Godavari District",498306110025005,UNION BANK OF INDIA,AMALAPURAM,UBIN0549835,1524940
+94,"Maheswari Exports, SNo.278/1A, 1A2, Aie, A2A, A2C, Chintalapalem (V), Narasaraopet (M), Guntur District",36987910000083,Syndicate Bank,santamaguluru ,synb0003698,2500000
+95,"Sri Sai Balaji Granites & Exports, SNo.160/3A, 3B, 4A, 4B, 4C & 303/1, Budawada (V), Chimakurthy (M), Prakasam District",233903261200026,INDIAN OVERSEAS BANK,CHIMAKURTHY,IOBA0002339,2000000
+96,"Madhav & Rahul Coir Mattresses, RSNo.128, Konda Gunturu (V), Rajanagaram (M), East Godavari District",32511010000106,SYNDICATE BANK,RAJAHMUNDRY,SYNB0003251,2500000
+97,"Hindupur Ceramics & Refractories, Sy.No..111, Penukonda Road, Manesamudram (V), Hindupur (M), Anantapuram Dist",30955548210,STATE BANK OF INDIA,HINDUPUR,SBIN0000845,2000000
+98,"Star Niochem Pvt Limited, Plot No.A1, A2, A3, B1, B2 & B3, Industrial Estate, Adoni,  KurNo.ol District",34619436545,STATE BANK OF INDIA,"SME BRANCH, HYDERABABAD",SBIN0007315,2000000
+99,"Sree Murari Ginning And Pressing Factory (Tmc), Sy.No..253/ &254,  Mantralayam Road, Mugathi (V), Andavaram (M), Kurnool  District",33723070000910,SYNDICATE BANK,"BUDHAVARPET,KURNOOL",SYNB0003372,2000000
+100,"Varalakshmi Polymers, Shed No.1&2, PPR Godowns, Gollapudi (V), Vijayawada Rural (M), Krishna District",003913100000159,ANDHRA BANK,VIJAYAWADA,ANB000039,2500000
+101,"Sri Sai Ganga Dairy Products, Sy.No..164, Putchanuthala (UI) (V), Nuzendla (M), Guntur District",233903261100031,INDIAN OVERSEAS BANK,CHIMAKURTHI,IOBA0002339,1085310
+102,"Alfa Engineering Works (Kanuru), Plot No.70, 85, 86, Block No.B-05, Kanuru Autonagar, Kanuru (V), Penamaluru (M), Krishna District",051013100000256,ANDHRA BANK,SEETHARAMPURAM,ANDB0000510,2500000
+103,"Veda Poly Products Private Limited, RS No.182/1A, Near JRD Tata Industrial Estate, Kanuru (V), Penamaluru (M), Krishna District",62268593979,STATE BANK OF HYDERABAD,VIJAYAWADA,SBHY0021148,2000000
+104,"Sri Lakshmi Narasimha Swamy New Granites, Sy.No..138/1D, Budawada (V), Chimakurthy (M), Prakasam District",233903261200028,INDIAN OVERSEAS BANK,CHIMAKURTHY,IOBA0002339,1307520
+105,"Sree Hari Granites, Sy.No..51/6, Vemavaram (V), Ballikurva (M), Prakasam District",0605773007228,CANARA BANK,GUNTUR,CNRB 0000605,2500000
+106,"Jagati Exports, Sy.No..237,  Budawada (V), Chimakurthy (M), Prakasam District",62273401726,STATE BANK OF HYDERABAD,ONGOLE,SBHY0020488,1826320
+107,"Rohini Exports, Sy.No..237,  Budawada (V), Chimakurthy (M), Prakasam District",62273401793,STATE BANK OF HYDERABAD,ONGOLE,SBHY0020488,1837690
+108,"Srikar Granites, Sy.No..237,  Budawada (V), Chimakurthy (M), Prakasam District",62275299583,STATE BANK OF HYDERABAD,ONGOLE,SBHY0020488,1899320
+109,"Sri Sai Yashasvi Granites, Sy.No..237,  Budawada (V), Chimakurthy (M), Prakasam District",62277557656,STATE BANK OF HYDERABAD,ONGOLE,SBHY0020488,1833040
+110,"Uma Exports, Sy.No..237,  Budawada (V), Chimakurthy (M), Prakasam District",62273400198,STATE BANK OF HYDERABAD,ONGOLE,SBHY0020488,1831410
+111,"Dheeraj Granites, Sy.No..237,  Budawada (V), Chimakurthy (M), Prakasam District",62274850851,STATE BANK OF HYDERABAD,ONGOLE,SBHY0020488,1917500
+112,"Sri Ranga Sai Hanuman Granites, Sy.No..237, Budawada (V), Chimakurthy (M), Prakasam District",62273401862,STATE BANK OF HYDERABAD,ONGOLE,SBHY0020488,1876100
+113,"Sree Parameswara Granite, SNo.311/1B, Budawada (V), Chimakurthy (M), Prakasam District",62276605557,STATE BANK OF HYDERABAD,ONGOLE,SBHY0020488,1353170
+114,"Nikhila Granites, Sy.No..237, Budawada (V), Chimakurthy (M), Prakasam District",62280292148,STATE BANK OF HYDERABAD,ONGOLE,SBHY0020488,1869820
+115,"Vamana Granites, Sy.No..237, Budawada (V), Chimakurthy (M), Prakasam District",62276132464,STATE BANK OF HYDERABAD,ONGOLE,SBHY0020488,1420480
+116,"AruNo.daya Granites, Sy.No..237, Budawada (V), Chimakurthy (M), Prakasam District",62275322412,STATE BANK OF HYDERABAD,ONGOLE,SBHY0020488,1865100
+117,"SSGranites, Sy.No..115/211B, Yeluru (V), Podili (M), Prakasam District",62280477945,STATE BANK OF HYDERABAD,ONGOLE,SBHY0020488,1736040
+118,"MCRNGranites, SNo.1006/2, 1007, Chimakurthy (M), Prakasam District",62276694208,STATE BANK OF HYDERABAD,ONGOLE,SBHY0020488,1800100
+119,"Sri Manjunadha Granites, Sy.No..115/2, Yeluru (V), Podili (M), Prakasam District",2536261010209,CANARA BANK,ONGOLE,CNRB0002536,1246550
+120,"Sri Vishnu Pada Granites, Sy.No..237, Budawada (V), Chimakurthy (M), Prakasam District",62276657823,STATE BANK OF HYDERABAD,ONGOLE,SBHY0020488,1827870
+121,"Balaji Bushan Plast, Sy.No..1291,1272 & 1273, IDAGajulamandyam (Po), Renigunta (M), Bommasamudram (V), Chittoor",283500100000065,saraswat bank,pune,srcb0000283,2000000
+122,"KKK Granites, Sy.No..717/5, Nagarajupally Road, Martur (V) & (M), Prakasam District",32542747470,STATE BANK OF INDIA,MARTURU,SBIN 0003176,2500000
+123,"Gowtham Exports, Sy.No..48, Yanamadala (V), Yeddanapudi (M), Prakasam District",138713100002865,ANDHRA BANK,MARTUR,ANDB0001387,2000000
+124,"Sai Balaji Granites, Sy.No..25/G2, Vinukonda To Nrt Road, Pathamaguluru (V), Santhamaguluru (M), Prakasam District",018230100046586,ANDHRA BANK,Narasaraopet,ANDB 0000182,2000000
+125,"Reshma Granites, Sy.No..57/E, Yanamadala (V), Yaddanapudi (M), Prakasam District",015013100000539,ANDHRA BANK,GUNTUR,ANDB0000539,1747880
+126,"Sri Vijaya Lakshmi Industries, Sy.No..24/2, Gurijepally (V), Santhamanguluru (M), Prakasam District",32615636338,STATE BANK OF INDIA,NARSARAOPET,SBIN0000884,1745320
+127,"Lakshmi Srinivasa Granites, Sy.No..28/Aic, Patamaguluru (V), Santhamaguluru (M), Prakasam District",018230100046780,ANDHRA BANK,Narasaraopet,ANDB 0000182,2000000
+128,"Srinivasa Industries, Plot No.624, Igc, Gundlapalli (V), Maddipadu (M), Prakasam District",36403070001829,SYNDICATE BANK,ONGOLE,SYNB0003640,1596560
+129,"Hema Sai Granites, Sy.No..219/C, Kotappakonda Road, Pothavaram (V), Chilakaluripeta (M), Guntur District",015030100017104,ANDHRA BANK,"KOTHAPETA, GUNTUR",ANDB0000150,2500000
+130,"Eshwari Granites & Exports, Sy.No..317/1K, Marturu (V) & Mandal, Prakasam District",0605261010512,CANARA BANK,GUNTUR,CNRB0000605,2000000
+131,"Tirumala Industries, Sy.No..479/16, Nh5, Martur (V) & (M), Prakasam District",138730100029534,ANDHRA BANK,MARTUR,ANDB 0001387,898280
+132,"Kishore Granites, Sy.No..144/5, Jonnathali (V), Martur (M), Prakasam District",3150232926,CENTRAL BANK OF INDIA,CHILAKULURIPET,CBIN0281220,2000000
+133,"Vijaya Pavan Sai Industries, Sy.No..727/1, Martur (V) & Mandal, Prakasam District",0605261010514,CANARA BANK,GUNTUR,CNRB0000605,1564840
+134,"Mahalakshmi Granites, Sy.No..504/B, 504/C, Yeddanapudi (Village & Mandal), Prakasam District",074700460100067,TAMILNADU MERCANTILE BANK LTD,Guntur,TMBL 0000074,2500000
+135,"Sri Ram Milk Diary, Sy.No..354, Mundlamuru (V) & Mandal, Prakasam District",31422787189,STATE BANK OF INDIA,ONGOLE,SBIN0004246,1773000
+136,"Sai Gopal Polymers, SNo.228/A2, & 224, 12Th Ward (V), Narasaraopet Town (M), Guntur District",32761010000076,Syndicate Bank,Brudavan gardens,syndb0003276,870330
+137,"VK Refractories, Sy.No..34/1, 34/2, Gollapuram (V), Hindupur (M), Anantapuram District Hindupur (V),",31641010000544,SYNDICATE BANK,ANANTAPURAM,SYNB0003164,2000000
+138,"Tarakasri Polymers, Plot No.34, Phase-Ii, AKotireddy Road, Autonagar, Vijayawada, Krishna District",62266177893,STATE BANK OF HYDERABAD,VIJAYAWADA,SBHY0020542,883500
+139,"Teja Granites, Sy.No..114/4, Yeluru (V), Podili (M), Prakasam District",36441400000363,SYNDICATE BANK,ONGOLE,SYNB0003644,1714610
+140,"Leo Granites, Sy.No..114/4, Yeluru (V), Podili (M), Prakasam District",36441400000359,SYNDICATE BANK,ONGOLE,SYNB0003644,1598600
+141,"Sree Vinayaka Granites & Rocks, Sy.No..574/3, Pernamitta (V), Sn Padu (M), Prakasam District",36403070001829,SYNDICATE BANK,ONGOLE,SYNB0003640,1510150
+142,"Seetharama Exports, Sy.No..598/1B, Pernamitta (V), Sn Padu (M), Prakasam District",027505401120005,CORPORATION BANK,ONGOLE,CORP0000275,1366310
+143,"Hema Sai Granites, Sy.No..151/2, Jonnathali (V), Martur (M), Prakasam District",273700060750014,TAMILNADU MERCANTILE BANK LTD,CHEBROLU,TMBL0000273,2500000
+144,"Venkatadri Granites, Sy.No..151/3, Jonnathali (V), Martur (M), Prakasam District",273700050900011,TAMILNADU MERCANTILE BANK LTD,CHEBROLU,TMDL0000273,2500000
+145,"Sai Ganesh Granites, Sy.No..151/3, Jonnathali (V), Martur (M), Prakasam District",273700060750015,TAMILNADU MERCANTILE BANK LTD,CHEBROLU,TMBL0000273,2500000
+146,"Chandrakanth Granites, Sy.No..199/1A, Nagarajupalli (V), Martur (M), Prakasam District",33039446939,STATE BANK OF INDIA,TADIPATRI,SBIN0000923,1636600
+147,"Sri Kruthi Granites, Sy.No..704-1, Kodur (Gp), Chilamathur (M), Anantapur District",055230100062858,ANDHRA BANK,TADIPATRI,ANDB0000552,2440650
+148,"Sri Lakshmi Ganapathi Granites, Sy.No..704-1, Koduru (V), Chilamathur (M), Anantapuram Dist",055230100063671,ANDHRA BANK,TADIPATRI,ANDB0000552,2421950
+149,"Sri Vigneswara Granites, SNo.103/C, 104/D, Maddirala (V),Chilakaluripeta (M), Guntur District",007730100082719,Andhra Bank,chilakaluripet ,andb0000077,2500000
+150,"Vinay Granites, Sy.No..413/A, 413/B, 414/A, 414/B, Rajupalem (V), Martur (M), Prakasam District",024230100078664,ANDHRA BANK,GUNTUR,ANDB0000242,2000000
+151,"Raj Rajeswari Rocks (Expansion), Plot No.50 & 51, Igc, Gundlapalli (V), Maddipadu (M), Prakasam District", 008913046002214,ANDHRA BANK,ONGOLE,ANDB0000089,1295220
+152,"Hanuman Exports, SNo.578/A3, B5, Murikipudi (V), Chilakaluripeta (M), Guntur District",32761010000076,Syndicate Bank,Brudavan gardens,syndb0003276,1892140
+153,"Kamakshi Roll Form Industries, Sy.No..Kesavaram Road, Rajavolu (V), Rajahmundry Rural (M), East Godavari District",16720600007130,Bank of Baroda, Hakumpet Rajahmundry,BARB0HUKUMP,2000000
+154,"Lakshmi Akshaya Exports, Sy.No..711/1, Nagarajupalli Donka, Martur (M), Prakasam District",36403070001829,SYNDICATE BANK,ONGOLE,SYNB0003640,2319340
+155,"Keerthi Sri Industries, Sy.No..679/C-1, Puttavaripalem (V), Santhamaguluru (M), Prakasam District",038113100011438,ANDHRA BANK,Narasaraopet,ANDB0000381,1413930
+156,"Vijayawada Alloy Castings, Rs No.183/1, Jrd Tata Industrial Estate, Kanuru (V), Penamaluru (M), Krishna District",160702000001166,INDIAN OVERSEAS BANK,VIJAYAWADA,IOBA0001067,2000000
+157,"Lakshmi Sai Granites, Sy.No..495/C1, 495/C2, Martur (V) & (M), Prakasam District",32759963201,STATE BANK OF INDIA,GANAPAVARAM,SBIN0004825,1220500
+158,"Kalyan Aqua & Marine Exports India Private Limited, Sy.No..143, 144/1,2, 144/3, Keerthipadu (V),  Maddipadu (M), Prakasam District",509101010032241,UNION BANK OF INDIA,SME BRANCH VISAKHPATNAM,UBIN0550914,2000000
+159,"Naveena Industries, Plot No.414, Igc, Gundlapalli (V), Maddipadu (M), Prakasam District",36441400000344,SYNDICATE BANK,ONGOLE,SYNB0003644,1728100
+160,"Lakshmi Balaji Powerloom Industry, Sy.No..49-4, Weavers Colony, Kirikera Panchayat, Hindupur (M), Anantapuram",1423165000000481,THE KARUR VYSYA BANK LTD,HINDUPUR,KVBL0001423,2152070
+161,"Suvarna Granites, SNo.81, 90, Maddirala (V), Chilakaluripeta (M), Guntur District",3244505876,CENTRAL BANK OF INDIA,chilakaluripet ,CBIN0281220,2500000
+162,"Sai Vijay Granites, Sy.No..495/A1, Rajupalem Donka, Martur (M), Prakasam District",05180600016690,Bank of Baroda,PEDANANDIPADU,BARB0PEDANA,1868370
+163,"Lakshmi Ganapathi Granites, SNo.578/A3, A4, Murikipudi (V), Chilakaluripet (M), Guntur District",32761010000076,SYNDICATE BANK,"BRINDAVAN GARDEN,GUNTUR",SYNDB0003276,1418990
+164,"Snr Enterprises (Expansion), Plot No.372, Igc, Gundlapalli (V), Maddipadu (M), Prakasam District",401906211000005,VIJAYA BANK,ONGOLE,VIJB 0004019,355560
+165,"Sri Ankammatalli Granites, Sy.No..1914/C74, Mahadevapuram (V), Kandukuru (Mandal), Prakasam District",030411100000557,ANDHRA BANK,KANDUKURU,ANDB0000304,2415730
+166,"Siddi Vinayaka Granites, Sy.No..156/4, RLPuram (V), Chimakurthy (M), Prakasam District",233903261200002,Indian Overseas Bank,CHIMAKURTHY,IOBA0002339,1325190
+167,"Sri Venkata Jana Sai Granites, Sy.No..364-Abcd, 365, 366-Abcd, Chukkalur (Gp), Chukkalur Road, Tadipatri (M), Anantapur",055230100073960,ANDHRA BANK,TADIPATRI,ANDB0000552,1614090
+168,"Praneeth Granites, Sy.No..3-A/3, Chukkalur Road, Gannevaripally (Gp), Tadipatri (M), Anantapuram",31641010000544,SYNDICATE BANK,"OLD TOWN, ANANTAPUR",SYNB0003164,1558400
+169,"Atmika Paper Mills Pvt LtdSy.No..72,73,74/2 & 75, Chikatmanipalli (V), Tankal (M), Anantapuram District",62267668439,STATE BANK OF HYDERABAD,"BALANAGAR BRANCH,HYDERABAD",SBHY0020085,2000000
+170,"BB Granites, Sy.No..356/A, 357, 359, 360, Chukkaluru (Gp), Chukkalur Road, Tadipatri, Anantapur",31217910000655,Syndicate Bank,Tadipatri,SYND0003121,1502930
+171,"Nikhitha Granites, Sy.No..46-B, Chukkalur Road, Gannevaripalli (Gp), Tadipatri (M), Anantapur Dist",31641010000544,SYNDICATE BANK,ANANTAPURAM,SYNB0003164,1664800
+172,"Sree Sai Venkateswara Granites, Sy.No..3-A, Chukkalur Road, Chinnapolamada (Gp), Tadipatri (M), Anantapur",32979537579,STATE BANK OF INDIA,TADIPATRI,SBIN0000923,1811780
+173,"Indrani Exports, Sy.No..23/1 & 241, Chukkalur Road, Chinnapolamada (Gp), Tadipatri (M), Anantapur",31217910000755,Syndicate Bank,Tadipatri,SYND0003121,974550
+174,"Madhuri Granites, Sy.No..544, Chukkalur Road, Chukkalur Gp, Tadipatri, Anantapur",31213070003482,SYNDICATE BANK,TADIPATRI,SYNB0003121,1370080
+175,"Sri Vigneswara Granites, Sy.No..458, 489-A, 189-D, 489-E, Chukkalur (Gp), Chukkalur Road, Tadipatri (M), Anantapur District",32977183825,STATE BANK OF INDIA ,TADIPATRI,SBIN0000923,1257220
+176,"Naushad Granites, Sy.No..11-B, Chukkalur Road, Gannevaripalli (Gp), Tadipatri (M), Anantapur",31217910000814,SYNDICATE BANK,TADIPATRI,SYNB0003121,1143290
+177,"Sri Sai Siddartha Granites, Sy.No..207,298, 299, 300/A & 300-B, Chukkalur Road, Chukkalur Gp, Tadipatri (M), Anantapuram Dist",7607001801341501,KARNATAKA BANK LTD,TADIPATRI,KARB00000760,1515380
+178,"Suryamitra Exl Pvt Ltd ( Unit-II), Rs No.: 130, Yenamaduru (V), Bhimavaram (M), West Godavari",002673200000453,IDBI BANK,HYDERABAD,IBKL0000002,2000000
+179,"Varalakshmi Ice Industries, Kommara (V), Ganapavaram (M) West Godavari Dist",3239792470,CENTRAL BANK OF INDIA,TANUKU,CBIN0280828,1672440
+180,"RCREnterprises, RsNo.986/3, 986/4A, 986/4B, Narayanapuram (V), Ungutur  (M), West Godavari Dist",32443879560,CENTRAL BANK OF INDIA,TADEPALLIGUDEM,CBIB0280827,2500000
+181,"Sri Sai Exim, Sy.No..1049, 1050, Chimakurthy (V) & Mandal, Prakasam District",233903261100018,IOB,CHIMAKURTHY,IOBA 0002339,2234990
+182,"Sri Srinivasa Granites, Sy.No..162/6D, Budawada (V), Chimakurthy (M), Prakasam District",36403070001829,SYNDICATE BANK,ONGOLE,SYNB0003640,1117060
+183,"Sri Siva Sai Ram Exports, Sy.No..237, Budawada(V), Chimakurthy Mandal, Prakasam District",62276361993,STATE BANK OF HYDERABAD,ONGOLE,SBHY0020488,1580210
+184,"Lakshmi Granites, SNo.3, Chimakurthy (M), Prakasam District",32539328578,STATE BANK OF INDIA,CHIMAKURTHY,SBIN0011116,816350
+185,"Varna Exports, SNo.74/1A3, Veluru (V), Podili (M), Prakasam District",3301414342,STATE BANK OF INDIA,ONGOLE,SBIN0004246,1277180
+186,"Chinthala Exports, Plot No.156, Igc, Gundlapalli (V), Maddipadu (M), Prakasam District",31988906555,STATE BANK OF INDIA,ONGOLE,SBIN0008999,1349070
+187,"Kamakshi Granites, Sy.No..163/2, 163/1, Jonnathali (V), Martur Mandal, Prakasam District",36403070001829,SYNDICAT E BANK,ONGOLE,SYNB0003640,2500000
+188,"Sri Kvr Exports, Chimakurthy (Village & Mandal), Prakasam District",027505401130001,CORPORATION BANK,ONGOLE,CORP0000275,2500000
+189,"Hanuman Granites, Sy.No..153/1B, Budawada (V), Chimakurthy (M),  Prakasam District",036003261200054,IOB,CHIMAKURTHY,IOBA0000360,1483500
+190,"Sri Sai Exports, Budawada (V), Chimakurthy (M), Prakasam District",036003261200036,IOB,ONGOLE,IOBA0000360,1855370
+191,"Siva Sai Ram Granites, Sy.No..237, Budawada (V), Chimakurthy (M), Prakasam District",62276436097,STATE BANK OF HYDERABAD,ONGOLE,SBHY0020488,1575750
+192,"Sri Vinayaka Granites, Sy.No..1914/C74, Mahadevapuram (V), Kandukuru (M), Prakasam District",03041110000304,ANDHRA BANK,KANDUKURU,ANDB0000304,1921700
+193,"Sri Abhayanjaneya Granites, Sy.No..3/2A-2C, Gurejapalli (V), Santhamaguluru (M), Prakasam District",32719055312,STATE BANK OF INDIA,NARSARAOPET,SBIN0000884,1533150
+194,"Manjunadha Granites, Budawada (V), Chimakurthy (M), Prakasam District",36003261200005,Indian Overseas Bank,Ongole ,IOBA0000360,1583240
+195,"Lotus Abrasive Tech India Private Limited, Plot No.628, Igc, Gundlapalli (V), Maddipadu (M), Prakasam District",0508639000000584,LAXMI VILAS BANK,ONGOLE,LAVB 0000508,1466340
+196,"Sai Priya Granites, Sy.No..500, Martur (Village) & Mandal, Prakasam District",3252259943,CENTRAL BANK OF INDIA,GUNTUR,CBIN0281988,1466800
+197,"Hari Priyaa Granites, Sy.No..239, 240, Budawada (V), Chimakurthy (M), Prakasam District",233903261300001,INDIAN OVERSEAS BANK,CHIMAKURTHY,IOBI0002339,1919660
+198,"Sri Srinivasa Granites, Sy.No..223/5,6,7,8 & 12, Budawada (V), Chimakurthy (M), Prakasam District",36403070001829,SYNDICATE BANK,ONGOLE,SYNB0003640,2000000
+199,"Sri Chaitanya Granites, Sy.No..25/A-B, Pathamaguluru (V), Santhamaguluru (M), Prakasam District",62290242151,STATE BANK OF HYDERABAD,VIJAYAWADA,SBHY0020752,1653560
+200,"Sri Lakshmi Venkateswara Granites, SNo.97/E, Kotappakonda Raod, Maddirala (V), Chilakaluripeta (M), Guntur District",3206088233,CENTRAL BANK OF INDIA,Naaz centre,cbin02808345,2500000
+201,"Vineela Granites, Plot No.201 & 257, Igc, Gundlapalli (V), Maddipadu (M), Prakasam District",2536261010210,CANARA BANK,ONGOLE,CNRB 0002536,1272030
+202,"Sri Hanuman Granites, Sy.No..150/4, Budawada (V), Chimakurthy (M), Prakasam District",2536773006297,CANARA BANK,ONGOLE,CNRB0002536,1261550
+203,"Sri Vishnu Granites, Sy.No..163/4A, Budawada (V), Chimakurthy (M), Prakasam District",32694798330,STATE BANK OF INDIA,TADIPATRI,SBIN0000923,2000000
+204,"Sai Sudha Granites, Sy.No..163/4A, Budawada (V), Chimakurthy (M), Prakasam District",32755162364,STATE BANK OF INDIA,TADIPATRI,SBIN0000923,2000000
+205,"Sai Ram Exports, SNo.1166, PGudipadu Road, Santhanuthalapadu (Post & Mandal), Prakasam District",036003261300003,INDIAN OVERSEAS BANK,ONGOLE,IOBA0000360,1033360
+206,"Ganesh Exports, Budawada (V), Chimakurthy (M), Prakasam District",0360022261300003,INDIAN OVERSEAS BANK ,ONGOLE,IOBA0000360,1964410
+207,"Sri Sai Balaji Granties, Sy No.: 144/1B, Budavada (V), Chimakurty (M), Prakasam Dist",233903261100052,Indian Overseas Bank,CHIMAKURTHY,IOBA0002339,1423250
+208,"Tadikonda Granites, SNo.383/2, Chimakurthy (V) & Mandal, Prakasam District",62280576297,STATE BANK OF HYDERABAD,ONGOLE,SBHY0020488,1139400
+209,"Sri Lakshmi Prasanna Granites, Sy.No..365-1&2, 466-1&2, Bommasamidram (V), Gudipala Mandal, Chittoor District",500101010450467,UNION BANK LTD,CHITTOOR,CIUB0000239,904600
+210,"Raja Granites, Sy.No..264 & 265, 40 Feet Road, Chukkalur Road, Chukkalur (Gp), Tadipatri (M), Anantapur",32867613561,STATE BANK OF INDIA ,TADIPATRI,SBIN0000923,1747680
+211,"Vani Granites, Sy.No..4, Chukkalur Road, Chinnapolamada (Gp), Tadipatri (M), Anantapur Dist",055230100071388,ANDHRA BANK,TADIPATRI,ANDB0000552,1568150
+212,"Akshaya Bharathi Granites, Sy.No..446-B, 447, 448, 451, 451-B, 452, Chukkalur Road, Chukkalur (Gp), Tadipatri (M), Anantapur",055230100073988,ANDHRA BANK,TADIPATRI,ANDB0000552,1592420
+213,"Sri Lakshmi Granites, Sy.No..32-3, 65, Venkatapuram, Managalapalli GPBangarualem Mandal, Chittoor",7602500103503501,KARNATAKA BANK LTD,TADIPATRI,KARB0000760,1583890
+214,"Siddartha Granites, Sy.No..1247-B, Chukkalur Road, Sajjaladinne (Gp), Tadipatri (M), Anantapuram Dist",7607001801346301,KARNATAKA BANK LTD,TADIPATRI,KARB0000760,1591450
+215,"Shakthi Ganapathi Granites, Sy.No..3-A/3, Chukkalur Road, Gannevaripalli (Gp), Tadipatri (M), Anantapur Dist",7607001801345501,KARNATAKA BANK LTD,TADIPATHRI,KARB0000760,1605980
+216,"Sree Hari Granites, Sy.No..24, Chukkalur Road, Gannevaripalli (Gp), Tadipatri (M), Anantapuram Dist",33167879870,STATE BANK OF INDIA ,TADIPATRI,SBIN0000923,1718250
+217,"Evershine Granites,(Expansion),  Sy.No..70-1A, Cherlopalli (V), Peddakaluva (Gp), GDNellore Mandal, Chittoor District",3405401120002,CORPORATION BANK,CHITTOOR,CORP0000034,960960
+218,"Sr Granites, Sy.No..263, Chukkalur Road, Chukkalur (Gp), Tadipatri (M), Anantapur Dist",32984023099,STATE BANK OF INDIA,TADIPATHRI,SBIN0000923,1643140
+219,"Rohith Granites, Sy.No..22/5, Chukkalur Road, Chinnpolamada (Gp), Tadipatri (M), Anantapur Dist",3164101000544,SYNDICATE BANK,ANANTAPURAM,SYNB0003164,1573240
+220,"Sree Dharani Exports, SNo.311/1B, Budawada (V), Chimakurthy (M), Prakasam District",2536261010216,CANARA BANK,ONGOLE,CNRB0002536,909440
+221,"Kanthika Exports, RLPuram (V), Chimakurthy (M), Prakasam District",0508785000001041,LAXMI VILAS BANK,ONGOLE    ,LAVB0000508,2000000
+222,"Sai Teja Granites, Sy.No..54/C, Pathamaguluru (V), Santhamaguluru (M), Prakasam District",36403070001829,SYNDICATE BANK  ,ONGOLE    ,SYNB0003640,1781680
+223,"Sri Sai Granites, Sy.No..1047-2 & 3, Kalavagunta (Po), Penamur (M), Chittoor District",31217910000647,syndicate bank,tadiparthi,synb0000312,1217670
+224,"SVGranites, Sy.No..56/11, Sakamuri Kandiga (V), Ramachandrapuram Mandal, Chittoor",34371528582,STATE BANK OF INDIA,"ANNAMAYYA CIRCLE, TIRUPATHI",SBIN0010106,1593100
+225,"Sri Lakshmi Venkteswara Silk Cottage Handlooms, Sy.No..67-28, Sarada Nagar, Dharmavaram (M), Anantapuram District",1402115000017436,KARUR VYSYA BANK LTD,DHARMAVARAM,KVBL0001402,609310
+226,"Janaki Handlooms, Sy.No..67-28, Sarada Nagar, Dharmavaram (M), Anantapuram",1402115000017448,KARUR VYSYA BANK LTD,DHARMAVARAM,KVBL0001402,905760
+227,"Akshaya Granites, Sy.No..267-268/B, Chukkalur Road, Chukkalur (Gp), Tadipatri (M), Anantapuram",31641010000544,Syndicate Bank,Anantapur,SYND0003164,1504430
+228,"CSRGranites, Sy.No..53, Ballikurva (V) & (M), Prakasam District",6106679329,INDIAN BANK,CHILAKULURIPET,IDIB000C021,2500000
+229,"Raja Rajeswari Granites, Sy.No..54/C, Pathamaguluru (V), Santhamaguluru (M), Prakasam District",36403070001829,SYNDICATE BANK,Ongole ,SYNB0003640,2277250
+230,"Geetha Agro Processing Industries, SNo.773/A & 773/B, Pasumarru (V), Chilakaluripeta (M), Guntur District",31514584628,STATE BANK OF INDIA,chilakaluripet ,sbin0001195,1177460
+231,"Sree Murari Granites, Sy.No..77/2, Budawada (V), Chimakurthy (M), Prakasam District",7607001801344101,KARNATAKA BANK LTD,TADIPATHRI,KARB0000760,1551530
+232,"Sri Lalitha Granites Sy. No. 911, A,D,E.F.G, 1551-M, 1553-A2, C,G2, 11 & 1554-d, Nandyal Road, Sajjaladinne (GP), Tadipatri",31641010000544,SYNDICATE BANK,"OLD TOWN, ANANTAPUR",SYNB0003164,1389840
+233,"Gelivi Briquettes, Sy. No. 156, Rythunagaram (V). Mamdual Mandal, Kurnool  District",190150050800133,tamilnadu merchantile bank ltd,nandyal,TMBL0000190,1539940
+234,"Sri Ajantha Granites, Sy.No. 134/1, R.L. Puram (V), Chimakurthy (M), Prakasam District",233903261100040,INDIAN OVERSEAS BANK,CHIMAKURTHY,IOBA00023393,1794230
+235,"Supreme Castings, Plot No.81, Block B-B5, Autonagar, Kanuru (V), Penamalru (M), Krishna District",170302000000267,INDIAN OVERSEAS BANK,VIJAYAWADA,IOBA0001703,1455420
+236,"R.R.Minerals, Sy.No.155/2, Govindampalli (V), Obulavaripalli (M), Kadapa, YSR District",109911100000751,ANDHRA BANK,RLY. KODUR,ANDB0001099,1086720
+237,"Unique Graphics, Plot No.93 & 94, Block No.22-G, 4th Cross Road, Autonagar, Vijayawada, Krishna District",170202000000380,INDIAN OVERSEAS BANK,"SITARAMPURAM, VIJAYAWADA",IOBA0001702,2000000
+238,"Navateja Micro Minerals, Plot No.45-B, IDA., Kadapa, YSR District",125603261200017,INDIAN OVERSEAS BANK,KADAPA,IOBA0001256,907500
+239,"Jaya Lakshmi Chemicals & Minerals, Plot No.78, IDA., Kadapa, YSR District",31903070002228,SYNDICATE BANK,KADAPA,SYNB0003190,708210
+240,"Eswar Minerals, Sy.No.151,155/1, 156,159, Govindampalli (V), Obulavaripalli (M), Kadapa, YSR District",109911100000681,ANDHRA BANK,RLY.KODUR,ANDB0001099,1293760
+241,"India Food Exports, R.S.No. No. 154, Tetagunta (V), Tuni (M), East Godavari District",10774419222,STATE BANK OF INDIA,TUNI,SBIN0000942,2000000
+242,"Ammaji Granites, Sy. No. 39-2, Paluru (V), G.P. Chittoor Mandal, Chittoor District",6105987584,INDIAN BANK,"MAIN BRANCH, CHITTOOR",IDIB000C026,1616440
+243,"Praveen Paper Board Industries, Plot NO.15, IDA., Kadapa, YSR District",31903070002228,SYNDICATE BANK,KADAPA,SYNB0003190,1436070
+244,"Pooja Impex, S.No. 99/1, Pernamitta (V), Ongole (Municipal), Prakasam District",32720499547,STATE BANK OF INDIA,ONGOLE,SBIN0008999,947180
+245,"Sri Manjunatha Briquettes, Sy.No.27&28, IDP Expansion, Proddatur, YSR District",32778267882,STATE BANK OF INDIA,PRODDATUR,SBIN0000901,1246200
+246,"Maha Lakshmi Roll Forming Industries, D.No.54-5-32, Plot No,155, 4th cross 5th Road, Jawahar Auto Nagar, Vijayawada, Krishna District.",26360500009962,BANK OF BARODA,VIJAYAWADA,BARB0BENVIJ,884500
+247,"Sri Veerabhadra Swamy  Granites, Sy. No. 631, Nettekal Road, Mandigiri, Adoni Mandal, Kurnool  District",0202500101763901,KARNATAKA BANK LTD,ADONI,KARB0000020,1071330
+248,"Sri Jayalakshmi Packages, R.S.No. 151,  Vemulapalli (V), Mandapeta (M), East Godavari District",007703261200004,INDIAN OVERSEAS BANK,RAJAHMUNDRY,IOBA0000077,926900
+249,"Anjali Granites, Plot No. 9, Apiic, Indl. Park, Guntakal, Anantapuram Dist",11107055754,STATE BANK OF INDIA,GUNTAKAL,SBIN0000957,1026180
+250,"Areva Industries, Sy. No. 11-1A, Rajiv Colony (GP), Anantapuram Rural Anantapuram District",31641010000544,SYNDICATE BANK,ANANTAPURAM,SYNB0003164,617060
+251,"M.S Rocks, Sy. No. 46-B, Chukalur Road, Gannevaripalli (GP), Tadipatri (M), Anantapuram District",7607001801344601,KARNATAKA BANK LTD,TADIPATHRI,KARB0000760,2297050
+252,"S.K.R Granites, Sy. No. 1254-C, Chukkalur Road, Venkat Reddy Palli (GP), Tadipatri (M), Anantapur",055230100076107,ANDHRA BANK,TADIPATRI,ANDB0000552,1595690
+253,"Sree Charitha Granites, Sy. No. 918-A & B-919, Chukkalr Road, Sajjaladinne (GP), Tadipatri (M), Ananthapuram District",31641010000544,SYNDICATE BANK,"OLD TOWN, ANANTAPUR",SYNB0003164,1410220
+254,"Sri Thirumaleswara Granites, Sy. No. 752/2, Ramanaidu Palli (V), G.D. Nellore Mandal, Chittoor Dist",852201001965,CANARA BANK,CHITTOOR,CNRB0000852,1714360
+255,"Sri Balaji Grainites, Sy. No. 1047-2,3, Kalavakunta (V), Penumuru Mandal, Chittoor District",62278794562,state bank of hyderabad,seshapiran street,sbhy0020795,1509720
+256,"Srinivasa Granites, Sy.No. 152/1, Budawada (V), Chimakurthy (M), Prakasam District",62266948257,STATE BANK OF HYDERABAD,ONGOLE,SBHY0020488,1695570
+257,"Sai Krishna Exports, Sy.No. 239, 240, Budawada (V), Chimakurthy (M), Prakasam District",36403070001829,SYNDICATE BANK,ONGOLE,SYNB0003640,2500000
+258,"Lakshmi Venkateswara Exports, Sy.No. 152/1, 163/4B, Budawada (V), Chimakurthy (M), Prakasam District",62259250998,STATE BANK OF HYDERABAD,ONGOLE,SBHY0020488,1333840
+259,"Bhashyam Publishers (Expansion), 4-14-224, BSN Godown, Amaravathi Road, 15th Ward (V), Guntur Town (M), Guntur District",080012002175649,CITY UNION BANK LTD,"PATNAM BAZAR,GUNTUR",CIUB0000080,1514700
+260,"Vishnu Granites, Sy. No. 409, Koduru (V), Chilamathur (M), Anantapuram District",7607001801344501,KARNATAKA BANK LTD,TADIPATRI,KARB0000760,2500000
+261,"Mahendra Granites, Sy. No. 409, Kodur (V), Chilamathuyr (M), Ananthapuram District",193302000000225,INDIAN OVERSEAS BANK,HINDUPUR,IOBA0001933,2000000
+262,"Shanmukha Granites, Sy. No. 281-3, Chukkaluru Road, Chukkalur (GP), Tadipatri (M), Anantapuram District",31641010000544,SYNDICATE BANK,ANANTAPURAM,SYNB0003164,1171360
+263,"Sri Vara Siddi Vinayaka Granites, Sy.No. 212/A, Murikipudi (V), Chilakaluripeta (M), Guntur District",103630100001547,Andhra Bank,sme br,andb0001036,2500000
+264,"Sree Siridi Granites, S.No. 105/B, 105/C, Rajapeta (V), Chilakaluripeta (M), Guntur District",7602000100238001,karnataka bank ltd,tadiparthi,karb0000760,1554360
+265,"Sri Vijaya Lakshmi Exports, S.No. 81, Maddirala (V), Chilakaluripeta (M), Guntur District",031430100054664,Andhra Bank,sme br,andb0000314,2500000
+266,"Sree Sudha Granites, S.No. 105/B, 105/c, Rajapeta (V), Chilakaluripeta (M), Guntur District",7607001801344700,karnataka bank ltd,tadiparthi,KARB0000760,1619050
+267,"Choudary Granite Industry, S.No. 294/1, Murikipudi (V), Chilakaluripeta (M), Guntur District",024230100072059,Andhra Bank,kannavari thota,andb0000242,2000000
+268,"Sree Sampada Laxmi Fruit Industries, RS No.102/3,4, Nekkalam Gollapudi, Adavinekkapali (P), Agiripalli (M), Krishna District",106702000008899,INDIAN OVERSEAS BANK,VIJAYAWADA,IOBA0001067,1377200
+269,"Kavya P.P. Woven Sacks, Sy. No. 517 B1, A1 & B, Dhone Post & Mandal, Kurnool  District",011110100171457,ANDHRA BANK,DHONE,ANDB0000111,798800
+270,"Sri Venkata Lakshmi Ganapathy Granites, Sy.No. 153/1B, Budawada (V), Chimakurthy (M), Prakasam District",36403070001829,SYNDICATE BANK ,ONGOLE,SYNB0003640,1708560
+271,"Sri Varasidhi Vinayaka Granites, Sy.No. 240, Budawada (V),Chimakurthy (M), Prakasam District",036003261200042,INDIAN OVERSEAS BANK,ONGOLE,IOBA0000360,1592500
+272,"Sri Lakshmi Vigneswara Granites, Sy.No. 162/C, Budawada (V), Chimakurthy (M), Prakasam District",233903261100045,INDIAN OVERSEAS BANK,CHIMAKURTHY,IOBA00023393,1011560
+273,"Apple Granites Limited, Sy.No. 55/6B, R.L. Puram (V), Chimakurthy (M), Prakasam District",0508621000000150,LAXMI VILAS BANK,ONGOLE,LAVB0000508,1580860
+274,"Sri Naga Lakshmi Minerals, Sy.No. 1006/2, Chimakurthy (P&M), Prakasam District",36403070001829,SYNDICATE BANK,ONGOLE,SYNB0003640,1082180
+275,"A.N. Granites, Sy.No. 221/14, Budawada (V), Chimakurthy (M), Prakasam District",240102000000056,INDIAN OVERSEAS BANK,ONGOLE,IOBA0002401,1085860
+276,"Uma Shankara Exports, Sy.No. 223/4, Marrichetlapalem, Budawada (V),Chimakurthy (M), Prakasam District",233903261200037,INDIAN OVERSEAS BANK,CHIMAKURTHY,IOBA0002339,1771010
+277,"Subramanyeswara Granites, Sy.No. 156/4, 156/3, R.L. Puram (V), Chimakurthy (M), Prakasam District",233903261200003,INDIAN OVERSEAS BANK,CHIMAKURTHY,IOBA0002339,1088230
+278,"Reddy & Reddy Granites, Sy. No. 778, Nandyal Road, Sajjaladinne (GP), Tadipatri (M), Anantapuram",055230100065800,ANDHRA BANK,TADIPATRI,ANDB0000552,1658000
+279,"Sreekar Granite, Sy. No. 1249-A, Chukalur Road, Venkatreddypally (GP), Tadipatri (M), Anantapur",31641010000544,SYNDICATE BANK,ANANTAPURAM,SYNB0003164,1604730
+280,"Sri Raja Ram Granites, Sy. No. 20, Nandyal Road, Gannavaripally (GP), Tadipatri, Anantapuram",7607001801344301,KARNATAKA BANK LTD,TADIPATRI,KARB0000760,1507240
+281,"S.B.M.S. Granites, Sy. No. 23/I & 23/2, Chukkalur Road, Chinnapolamada (GP), Tadipatri (M), Anantapur",055230100066809,ANDHRA BANK,TADIPATRI,ANDB0000552,2207590
+282,"Sree Maruthi Granites, Plot No. 129, APIiC Industrial Park, Gooty, Anantapur District",31672210003921,SYNDICATE BANK,SME BRANCH,SYNB0003167,970790
+283,"Baba Granites, Sy. No. 6-C, Gannevaripally (GP), Tadipatri (M), Anantapur Dist.",31641010000544,SYNDICATE BANK,ANANTAPURAM,SYNB0003164,1642180
+284,"Thrivikram Granite Exports, Sy.No. 562, Chukkalur Road, Chukkalur (GP), Tadipatri (M), Anantapuram District",33169009086,STATE BANK OF INDIA ,TADIPATRI,SBIN0000923,1682240
+285,"Sri Vasta Granites, Sy. NO. 778, Nandyal Road, Sajjaladinne (GP), Tadipatri (M), Anantapuram District",7607001801346201,KARNATAKA BANK LTD,TADIPATRI,KARB0000760,1674608
+286,"Lakshmi Charan Granites, Sy. No. 20-C, Chukkalur Road, Gannevaripally (V), Tadipatri (M), Anantapuram District",055230100067224,ANDHRA BANK,TADIPATRI,ANDB0000552,1456880
+287,"Indranath Granites, Sy. No. 25 & 26, Chukkalur Road, Gannevaripally (GP), Tadipatri (M), Anantapuram District",760700180346401,KARNATAKA BANK LTD,TADIPATRI,KARB0000760,1909730
+288,"R.K. Industries, Plot No.22, ALEAP Industrial Estate, Surampalli (V), Gannavaram (M), Krishna District",014230100027068,ANDHRA BANK,"GANDHINAGAR,VIJAYAWADA",ANDB0000142,2447510
+289,"Sri Balaji Poly Packs (Expansion), D.No. 897/16, Guntur Road, Piduguralla (V), Guntur District",32484401866,STATE BANK OF INDIA,Piduguralla,SBIN0002783,987300
+290,"Vijaya Lakshmi Multi Colour Printers, D.No. 22-11-72, Lalapet, Guntur Town (V), Guntur Mandal and District",012303261100001,INDIAN OVERSEAS BANK,"BRODIPET,GUNTUR",IOBA0000123,709090
+291,"Vasanthi Granites, S.No. 349/1B & 1C., Edavalli (V), Chilakaluripeta (M), Guntur District",0381301001310060,Andhra Bank,Narasaraopet,ANDB0000381,1236590
+292,"Dynamic Exports, Sy.No. 102, Plot No. A-11, Indl. Estate, Pernamitta (V), Ongole (M), Prakasam District",62262111008,STATE BANK OF HYDERABAD,ONGOLE    ,SBHY0020488,2150200
+293,"Sai Ganga Granites, Budawada (V), Chimakurthy (M), Prakasam District",233903261100054,INDIAN OVERSEAS BANK,CHIMAKURTHY,IOBA0002339,2055760
+294,"Sri Raja Rajeswari Granite Industry, S.No. 349/1B & IC., Edavalli (V), Chilakaluripeta (M), Guntur District",038130100131079,Andhra Bank,Narasaraopet,ANDB0000381,1236590
+295,"Revanth Exports, Sy.No. 81, Budawada (V), Chimakurthy (M), Prakasam District",32920000144,STATE BANK OF INDIA,CHIMAKURTHY,SBIN0011116,1916530
+296,"K.B.N. Granites, Sy. No. 23/1 & 23/2, Chukkalur Road, Chinnapolamada (GP), Tadipatri (B), Anantapur",055230100067473,ANDHRA BANK,TADIPATRI,ANDB0000552,1672000
+297,"Sri Paper Products, R.S.No. 301/5A, Tatali (V),  Tanuku (M), West Godavari District",3152953243,CENTRAL BANK OF INDIA,TANUKU,CBIN0280828,345160
+298,"MNS Barium Salts, Plot No.52, IDA., Kadapa, YSR District",31907710000025,SYNDICATE BANK,KADAPA,SYNB0003190,2000000
+299,"A.R.Fish Products, (Expansion-I),  No.24, 25, & 30 Vandrum (V), Undi (M), West Godavari Dist.",058030100059960,ANDHRA BANK,UNDI,ANDB0000580,2000000
+300,"Sri Sai Granites, Sy. No. 1258/A, 1258/A2, 1258/A2, B2, Venkat Reddypalli (GP), Tadipatri (M), Anantapur District",055230100062450,ANDHRA BANK,TADIPATHRI,ANDB0000552,1484700
+301,"Sree Hitha Granites, Sy. No. 26, Bhogasamudram Road, Gannevaripalli (GP), Tadipatri (M), Anantapuram District",055230100071102,ANDHRA BANK ,TADIPATHRI,ANDB0000552,1534410
+302,"Surya Rocks, Plot No. 375-1A, 375-2A, Hindupur Road, Parigi (V&M), Anantapur District",193302000000252,INDIAN OVERSEAS BANK,HINDUPUR,IOBA0001933,843320
+303,"Alif Granites, Sy. No. 284-1, Nakkanna Doddi (V), Guntakal (M), Anantapur |District",30140258128,STATE BANK OF INDIA ,GUNTAKAL,SBIN0000957,1319630
+304,"Hema Textiles, Sy. No. 3, plot No. 17 & 18, Papempet (V), Anantapuram District",31671010000462,SYNDICATE BANK,ANANTAPURAM,SYNB0003167,833040
+305,"Om Hanuman Granites, S.No. 105/B, 105/C, Maddirala (V), Chilakaluripeta (M), Guntur District",7607001801345201,karnataka bank ltd,tadiparthi,karb0000760,1595820
+306,"Sai Pujitha Granites, S.No. 354, Guravayapalem (V), Narasaraopet (M), Guntur District",401109041000061,vijaya bank,arundelpet,vijb0004011,1904610
+307,"Siva Sai Granites, S.No. 104/A,B, 105/C, Maddirala (V), Chilakaluripeta (M), Guntur District",7607001801345701,karnataka bank ltd,tadiparthi,KARB0000760,1694890
+308,"Pallava Red Granite Private Limited, Sy.No. 55/3C, R.L. Puram (V), Chimakurthy (M), Prakasam District",30375444946,STATE BANK OF INDIA,Ongole ,SBIN0000890,2000000
+309,"Venkata Sai Lakshmi Granites, S.No. 478/A4, 479/1, Kothapalem (V), Narasaraopet (M), Guntur District",018230100051728,Andhra Bank,Narasaraopet,andb0000182,1159000
+310,"Shine Mediplast Pvt Ltd., Plot No. 11-B, Industrial Park, Sarpavaram (V), Kakinada Rural (M), East Godavari District",31692321742,STATE BANK OF INDIA,"SME BRANCH, KAKINADA",SBIN0004248,2000000
+311,"Balaji Granites, Sy.No. 151/2, Jonnathali (V), Martur (M), Prakasam district",2492261010175,CANARA BANK,"CM NAGAR, GUNTUR",CRNB0002492,2500000
+312,"Vengamamba Granites, Sy.No. 151/2, 151/3, Jonnathali (V), Martur (M), Prakasam District",2492261010176,CANARA BANK,GUNTUR,CNRB0002492,2500000
+313,"Chamundeswari Granite Industries, S.No. 578/A4, Murikipudi (V), Chilakaluripeta (M), Guntur District",0005230100054734,ANDHRA BANK,"BRODIPET,GUNTUR",ANDB0000052,1204390
+314,"Sri Sai Thirumala Granites, Sy.No. 741/3, Martur (V) & (M), Prakasam District",36403070001829,SYNDICATE BANK,ONGOLE,SYNB0003640,881090
+315,"Seelam Plastics, D.No. C-14-1182-B, Krishnanagar (V), Tadepalli (M), Guntur District",1441135000002298,karur vysya bank ,vijayawada ,kvbl0001441,1360950
+316,"Jhas Agro Industries (Belated claim), Plot No. 83, Industrial Park, Gajulamandyam, Renigunta Mandal, Chittoor",31711010002530,syndicate bank,tirupathi,synb0003171,1000000
+317,"Samba Siva Ice Factory, RS.No.288/2, Cherukuwada (V), Undi (M), West Godavari Dist.",32907387480,STATE BANK OF INDIA,UNDI,SBIN0014166,1633990
+318,"Sri Vyshnavi Dairy Specialities (P) Ltd., Sy. No. 784/1, Tharigonda Vailpadu Road, Guramkonda (M), Chittoor",334044049195,ing vysya bank ltd,khammam,vysa0003340,543420
+319,"Vaishnavi Granites, Sy.No. 1914/A1, Mahadevapuram (V), Kandukuru (M), Prakasam District",030413100035456,ANDHRA BANK,KANDUKURU,ANDB0000304,1719730
+320,"Sri Srinivasa Exims, Sy.No. 162/6D, 160/3A, Budawada (V), Chimakurthy (M), Prakasam District",233903261200034,INDIAN OVERSEAS BANK,CHIMAKURTHY,IOBA0002339,1693700
+321,"Sri Satya Sai Coir Industries, Rs.No.300/4, Seethapuram (V), Pedavegi (M), West Godavari Dist.",32408685961,STATE BANK OF INDIA,ELURU,SBIN0000836,890730
+322,"D.R.K.Ice Industries,RS.No.800 & 925, Pedapulleru (V), Undi (M), West Godavari Dist.",6136361357,INDIAN BANK,BHIMAVARAM,IDIB000B021,2000000
+323,"Jai Balaji Industries, Plot No.281, Block No.B-12, New Autonagar, Kanuru (V), Penamaluru (M), Krishna District",170302000000325,INDIAN OVERSEAS BANK,VIJAYAWADA,IOBA0001703,1680000
+324,"Symbosis Animal Feeds, R.S.No. 70/A/1, Peddapuram (M), East Godavari District",62231140932,STATE BANK OF HYDERABAD,SAMALKOT,SBHY0021046,1316340
+325,"Vedha Varshitha Granites, Sy.No. 709, Martur (Village & Mandal), Prakasam District.",36403070001829,SYNDICATE BANK,ONGOLE    ,SYNB0003640,2500000
+326,"Kamakshi Granites, S.No. 356/A, 357/C, Murikipudi (V), Chilakaluripeta (M), Guntur District",14423010001542,Andhra Bank,PANDARIPURAM,ANDB0001442,2480280
+327,"Yerra Spinners Pvt.Ltd.,Rs.No.161, Muppavaram (V), Denduluru (M), West Godavari Dist.",36201010000375,SYNDICATE BANK,ELURU,SYNB0003620,2000000
+328,"Sri Buvnas Enterprises, Plot No. 8, IDA, Ph-III, Peddapuram (M), East Godavari District",32511010000106,SYNDICATE BANK,RAJAHMUNDRY,SYNB0003251,1826880
+329,"Vijaya Lakshmi Granite Industries, S.No. 120/1, Pamidimarru (V), Narasaraopet (M), Guntur District",36987910000161,Syndicate Bank,Narasaraopet,SYNB0003698,1633680
+330,"R.S. Granite Industries, Sy. No. 77, Bugganipalli(V). Bethamcherla  Mandal, Kurnool  District",1019101001213168,ANDHRA BANK,BETHAMCHERLA,ANDB0001019,1150040
+331,"V B Coir Products, Rs.No.458/7, Koppulavarigudem (M), Pedavegi (M), West Godavari Dist.",32601010000375,SYNDICATE BANK,ELURU,SYNB0003620,1238330
+332,"Sarada Granites, S.No. 747/1, Ellamanda (V), Narasaraopet (M), Guntur District",32761010000076,Syndicate Bank,Brudavan gardens,syndb0003276,2500000
+333,"Ashik Garments, Sy. No. 164-2 & 168-2, New Chandra Nagar, Narayanapuram (GP), Bellary Road, Ananthapuram",31677910000159,SYNDICATE BANK,ANANTAPURAM,SYNB0003167,1000320
+334,"Nutri Bio Pharma, Sy.No.100/A&101/3, Thippa Road, Pothireddypalem (V), Kovur (V), Nellore",34628311081,STATE BANK OF INDIA,NELLORE,SBIN0000887,1000000
+335,"Gayathri Ice Factory, RS.No.722/2, Nachugunta (V), Unguturu (M), West Godavari Dist.",452006390091258,UNION BANK OF INDIA,UNGUTURU,UBIN0545201,2500000
+336,"Sudhaprasanna Ice Factory, RS.No.31/2, Chebrolu (V), Unguturu (m), West Godavari Dist",3230135127,CENTRAL BANK OF INDIA,CHINANANDRIKOLANU,CBIN0283812,2500000
+337,"Uni Corn Oil Port Pvt Ltd., Plot No. 4B, IP, Vakalapudi (V), Kakinada Rural (M), East Godavari Distirct",913060037593567,AXIS BANK,"MAIN BRANCH, KAKINADA",UTIB0000076,1863740
+338,"Bhuvaneswari Granites, Sy. No. 201, 202-A2, 202/B & 224, Urichintala Road, Venkatreddypalli (GP), Tadipatri (M), Ananthapur",055230100062380,Andhra Bank,Tadipatri,ANDB0000552,1554540
+339,"Madeena Granites, Sy. No. 744, 745, 746 & 747, Nandyal Road, Venkata Reddy Palli (GP), Tadipatri (M), Ananthapur",31641010000544,SYNDICATE BANK,ANANTAPURAM,SYNB0003164,1368250
+340,"Mahaboob Subhani Granites, Sy. No. 294-A,B, Nandyal Road, Venkatreddypalli (GP), Tadipatri (M), Ananthapur",31641010000544,SYNDICATE BANK,ANANTAPURAM,SYNB0003164,1251490
+341,"Auro Energy, Sy.No. 189/5, 3, 1, Balabhadrapuram (V), Biccavolu (M), East Godavari District",047230100049769,ANDHRA BANK,RAYAVARAM,ANDB0000472,1606960
+342,"Sati Exports India Private Limited, Sy.No. 228, Plot No. 121, APIIC., IGC., Gundlapalli (V), Maddipadu (M), Prakasam District",32491125284,STATE BANK OF INDIA,BANGLORE,SBIN0009044,2000000
+343,"Shirdi Sai Granites, Sy.No. 221/18, Vellalacheruvu (V), Santhamaguluru (m), Prakasam District",018230100055380,ANDHRA BANK,RAMI REDDY PET,ANDB0000182,1252330
+344,"Bhoomi Industries, Sy. No. 253, Bukkarayasamudram (V&M), Anantapuram Dist.",50260174284,ALAHABAD BANK,ANANTAPUR,ALLA0212684,1275000
+345,"Yuvaraj Granites, Sy.No. 1008/4, 1031 & 1032, Chimakurthy (Village & Mandal), Prakasam District",36403070001829,SYNDICATE BANK,ONGOLE,SYNB0003640,1580270
+346,"KBR Granites, Sy.No. 71/4, Budawada (V), Chimakurthy (M), Prakasam District",5907001800000201,Karnataka Bank Ltd, Ongole,KARB0000590,1802770
+347,"Tirex Green Industries, Sy. No. 140/1A, Maroor (V), Gollapuram (GP), Rapthadu (M), Ananthapur",31641010000544,SYNDICATE BANK,ANANTAPURAM,SYNB0003164,1361990
+348,"Vijaya Lakshmi Ice & Cold Storage, Plot No.121, Co-op.Industrial Estate (V), Bheemavaram (M), West Godavari Dist.",32639924601,STATE BANK OF INDIA,"MAIN BRANCH, BHIMAVARAM",SBIN0000818,861020
+349,"Eco Thermo Polymers, Plot No.83 & 84, Industrial park, kakuturu (V), Venkatachalam (M), SPSR Nellore Dist.",10450110044346,UCO BANK,NELLORE,UCBA0001045,2000000
+350,"Sri Parvathi Industries, R.S.No. 434/1, Pidimgoyyi (V), Rajahmundry Rural (M), East Godavari District",32511010000106,SYNDICATE BANK,RAJAHMUNDRY,SYNB0003251,2000000
+351,"Siva Krishna Egg Pack, R.S.No. 472/A, Mukundavaram Road, Ragampeta (V&M), East Godavari Distirct",015305401120003,CORPORATION BANK,RAJAHMUNDRY,CORP0000153,882150
+352,"Padmaja Ice Factory, RS.No.183/5, Gopinadhapatnam (V), Unguturu (M), West Godavari Dist.",3321058581,CENTRAL BANK OF INDIA,CHINANANDRIKOLANU,CBIN0283812,2500000
+353,"UNILOIDS Biosciences Pvt.Ltd. (Unit-II), Rs.No.224, Seesali (V), Kalla (M), West  Godavari dist.",32015103184,STATE BANK OF INDIA,"BAL;ANAGAR BRANCH, HYDERABAD",SBIB0006854,2000000
+354,"Nelapati Chemicals, S.No. 519-A2, Kothaganeshunipadu (V), Machavaram (M), Guntur District",32860260723,STATE BANK OF INDIA,Piduguralla,sbin002783,2000000
+355,"Sai Ram Packaging, Plot No.2-D, Industrial Development Park, Pulivendula (M), YSR District",125603261100015,INDIAN OVERSEAS BANK,KADAPA,IOBA0001256,1527370
+356,"ANC Agro Mills, Sy. No. 182/C, 184/B, Noonepalli, Nandyal, Kurnool District",30272546943,state bank of India,nandyal,sbin0017981,883570
+357,"Mimex Pulverising Mill, Sy.No.342, Govindampalli (V), Obulavaripalli (M), kadapa, YSR District",125602000000628,INDIAN OVERSEAS BANK,KADAPA,IOBA0001256,1804040
+358,"Prasash Agro Industries, Sy. No.263 & 267, Plot No.42, Meenapuram Road, Kothapalli (GP), Proddatur, YSR District",1407165000000996,KARUR VYSYA BANK LTD,PRODDATUR,KVBL0001407,2000000
+359,"Lakshmi Narasimha Minerals, Sy. No.107/4, 109/5, Govindampalli (V), Obulavaripalli (M), YSR District",125603261200013,INDIAN OVERSEAS BANK,KADAPA,IOBA0001256,1416030
+360,"Sri Sai Ganesh Industries, Sy. No. 288/1, Balaguruvayyagaripalli (V), Punganur (M), Chittoor",93484458,SAPTAGIRI GRAMEEN BANK,PUNGANUR,IDIB0SGB001,917470
+361,"Sunil Minerals, Sy. No.108/1, 108/2, Govindampalli (V), Obulavaripalli (M), YSR District",125603261200008,INDIAN OVERSEAS BANK,KADAPA,IOBA0001256,1457790
+362,"PVS Chemicals, Plot No.99 & 100, IDA., Kadapa, YSR District",125603261200002,INDIAN OVERSEAS BANK,KADAPA,IOBA0001256,2000000
+363," N.P.Foods, Plot No.18, Rs.No.192/8,192/82, JRD Tata Indl Estate.Kanuru (V), Penamaluru (M), Krishna district",070605401110001,CORPORATION BANK,VIJAYAWADA,CORP0000706,1978910
+364,"Pure Imports & Exports, R.S.No. 2-46/4, Sakhinetip[alli Lanka (V&M), East Godavari District",32511010000106,SYNDICATE BANK,RAJAHMUNDRY,SYNB0003251,979160
+365,"Sree Siddi Vinayaka Minerals, Sy.No.215,216,217/1,2,3, Govindampalli (V), Obulavaripalli (M), kadapa, YSR District",616301010050135,UNION BANK OF INDIA,RLY.KODUR,UBIN0561631,2500000
+366,"Sairam Ice Factory, Plot No. 43, Sarpavaram (V), Kakinada Rural (M), East Godavari Distirct",32511010000106,SYNDICATE BANK,RAJAHMUNDRY,SYNB0003251,1511410
+367,"iSwarya Ice Products, R.S.No. 206/8, Chollangi (V), Tallarevu (M), East Godavari District",32597910000024,SYNDICATE BANK,"GANDHINAGAR,KAKINADA",SYNB000359,1118690
+368,"Sri Shakthi Granites, Sy. No. 232/C, Near MRO Office, Pamidi, Ananthapur",34615616678,STATE BANK OF INDIA,KALLUR,SBIN0002737,988930
+369,"Abhinav Granites, Sy. No. 3-A, Chukkalur Road, Chinnapolamada (Gp), Tadipatri (M), Ananthapuram Dist.",31217910000674,SYNDICATE BANK,TADIPATRI,SYNB0003121,488910
+370,"Nav Kiran Techno Feeds, RS.No.63/1, Komarada (V), Bheemavaram (M), West Godavari Dist.",6185418536,INDIAN BANK,BHIMAVARAM,IDIB000B021,2000000
+371,"Sri Prabha Life Sciences, Plot No. 422, Sy.No.435, 437 (part), Gundlapalli (V), Maddipadu (M), Prakasam District",040013100007417,ANDHRA BANK ,ONGOLE,ANDB0000400,2000000
+372," Rohit Graphics, D. No.28-23-25, 1st Floor, Moulana Street, Arundalpet, Vijayawada, Krishna District",0619201005145,CANARA BANK,VIJAYAWADA,CNRB0000619,1400000
+373,"Coastal Feeds, RS No.167/2, Challapalli (V) & (M), Krishna District",007411100000797,ANDHRA BANK,CHALLAPALLI,ANDB0000074,1809380
+374," Sri Lakshmi Rolling Mills, S.No. 435, Plot Nos. 398 & 399, M.G. Autonagar, Somasundarapalem (V), Tenali (M), Guntur District",34005206992,STATE BANK OF INDIA,TENALI,SBIN0012871,555920
+375,"Saptha Industries, Plot No. 37, Shed No. 11, APIiC Growth Centre, Thumkunta, Hindupur (M), Anantapur Dist",31872399523,STATE BANK OF INDIA,THUMAKUNTA,SBIN0012724,1079370
+376," Sri Siva Sai Exports, Sy.No. 10/2B, Jonnathali (V), Martur (M), Prakasam District",32439675162,STATE BANK OF INDIA,"COMMERCIAL BRANCH,ONGOLE",SBIN0000844,2478500
+377," Jahnavi Industries, S.No. 208/D2, Edavalli (V), Chilakaluripeta (M), Guntur District",0032673172783,STATE BANK OF INDIA,Guntur ,SBIN0000844,1987840
+378," Sri Sai Jayadev Granites, Sy.No. 763, Nakkabokkalapadu (V), Ballikurava (M), Prakasam District",3206387108,CENTRAL BANK OF INDIA,"KOTHAPET,GUNTUR",CBIN0280835,2489550
+379," Tulasamma Granites, Sy.No. 223/5B, 6A, 7A, 8A, Budawada (V), Chimakurthy (M), Prakasam District",36403070001829,SYNDICATE BANK,ONGOLE,SYNB0003640,2484040
+380,"N G Granites, Sy No: 516/1, Kukkalapalli (V), Yadamarri (M), Chittoor Dist",3228478499,CENTRAL BANK OF INDIA,TIRUMALA,CBIN024043,1201370
+381," Sri lakshmi Balaji Granites, S No: 311, Kondakavuru (V), narasaraopet (M) Guntur Dist",038130100138221,Andhra Bank,Narasaraopet,andb0000381,1772520
+382,"Asvini Agro Exports, Plot No: 12, Phase -III, IDA, Peddapuram (M), East Godavari Dist",325110210000106,SYNDICATE BANK,RAJAHMUNDRY,SYNB0003251,2000000
+383," Surya Industries, Sy No: 495/E, Martur (V&M) Prakasam Dist",007713100045611,ANDHRA BANK,CHILAKALURIPET,ANDB0000077,1061500
+384," Mile Energy Technologies Pvt Ltd., Rs No.70/1A & 70/1B, Nyayampalle, Pedavegi (M), West Godavari District",33409891567,STATE BANK OF INDIA,ELURU,SBIB00000836,2000000
+385,"R R Industries, Plot No: 83F, IP, Gajulamandyam, Renigunta (M), Chittoor Dist",31711010002530,syndicate bank,tirupathi,synb0003171,1362677
+386,"Chalam Heat Exchangers Private Ltd., Plot No.101 To 108, Industrial Park, Nuzividu, Krishna District",62288015213,STATE BANK OF HYDERABAD,VIJAYAWADA,SBHY0020752,2000000
+387," KKR Bio Fuels, Sy No: 527/4, Rayavaram (V), Markapur (M), Prakasam Dist",36677910000095,SYNDICATE BANK,MARKAPUR,SYNB0003667,2014260
+388,"Blue Star Pulverisers, Sy.No.350, Govindampalli, Obulavaripalli Mandal, Ysr District",2.33802E+14,INDIAN OVERSEAS BANK,RLY.KODUR,IOBA0002338,1416980
+389,"Sri Venkata Sai Minerals, Sy No.308,313 & 314, Anantharajupeta, Rly Kodur Mandal, Ysr District",125603261200011,INDIAN OVERSEAS BANK,KADAPA,IOBA0001256,2482750
+390," Sri Venkata Satya Surya Pipe Industries, S.No.565/A, Biccavole Road, Rangampeta (V&M), East Godavari District",32511010000106,SYNDICATE BANK,RAJAHMUNDRY,SYNB0003251,2253470
+391," Sri Pavithra Pack Pvt Ltd., Rs No.177/1J,3C, 5 & 11, Near Nh-65, Munagacherla, Nandigama Mandal, Krishna District",62317244223,STATE  BANK OF HYDERABAD,PANJAGUTTA,SBHY0020072,2000000
+392," Vijaya sree Granites, Sy No: 732/3, Martur (M), Prakasam Dist",103613100000876,ANDHRA BANK,GUNTUR,ANDB0001036,2500000
+393," Surya Polymers, Plot No: 1A, Block No: 43, Phase IV, Authonager, Guntur Dist",002803261300003,INDIAN OVERSEAS BANK,GUNTUR,IOBA0000028,2272930
+394," Surya Kones, Shed No: 3, Tetali, Tanuku (M) West Godavari Dist",055430100070422,ANDHRA BANK,TANUKU,ANDB0000554,447620
+395,"Ganapathi Granites, Sy No: 37/11, Im,Ij, & 3A, Thalembedu (V), Chittoor (M), Chittoor Dist",62397298014,state bank of hyderabad,chittoor,sbhy0020795,1684850
+396,"C K S Pharma Labs Pvt Ltd, Rs.No: 27, Vedadri, Jaggaiapeta (M), Krishna Dist",025711100001370,ANDHRA BANK,JAGGAIAHPET,ANDB0000257,2000000
+397," KKN Granties, Sy No: 256-1B, , Sanrathipalli (V), G.P.Bangarupalem (M), Chittoor Dist",4017001000000055,PUNJAB NATIONAL BANK ,CHITTOOR,PUNB0401700,1921560
+398,"Jai Balaji Granites, Sy No: 78-1B/a, Narigapalle (V), Chittoor (M), Chittoor Dist",990032171,INDIAN BANK,"GREAMSPET, CHITTOOR",IDIB000G034,1736170
+399,"Royal Plastic, Sy No: 3-143/2, Krishna Ramapuram (V), Nagari (M), Chittoor Dist",846522656,The south Indian Bank,Main br,sibl0000084,813200
+400,"T.T.Minerals, Plot No.86,87 & 88, IDA, Kadapa",867670410000001,BANK OF INDIA,KADAPA,BKID0008676,2000000
+401,"Aswini Pulverisers, Sy No.235/ 6&7, 237/3,4,5 & 6, Govindampalli, Obulavaripalli Mandal, YSR District",055701601000322,CORPORATION BANK,TIRUPATHI,CORP0000557,2381730
+402,"Sri Datta Polymers (Expansion), RS No.408/5, Kabela Industiral Area, Gollapudi , Vijayawada",003911011060301,ANDHRA BANK,"BAZAR BRANCH,VIJAYAWADA",ANDB0000093,648310
+403,"Haraa Granties, Sy No: 55-11, 12-13, Paluru (V), Chittoor (M), Chittoor Dist",867010110010922,BANK OF INDIA,CHITTOOR,BKID0008670,2170820
+404,"Adithya Minerals, Sy No; 515,517/1,3,4, Anantharajupet (V),  YSR District",125603261200018,INDIAN OVERSEAS BANK,KADAPA,IOBA0001256,2413240
+405,"Shine Poultry Weld mesh Industry, Plot No.A-1, Tetali, Tanuku Mandal, West Godavari District",055430100067598,ANDHRA BANK,TANUKU,ANDB0000554,1160850
+406,"Vigneswara Granites, Sy No: 489/C, D.1, Rajupalem Donka Road, Martur (V&M), Prakasam Dist",144213100000159,ANDHRA BANK,CHILAKALURIPET,ANDB0001442,2257350
+407,"Venkata Madavi Ice Factory, R S No: 33/1A, Chebrolu, Ungutur (M), West Godavari District",33883263346,STATE BANK OF INDIA,BHIMAVARAM,SBIN0000818,2351560
+408,"Sri Sai Baba Green Pyrotech Industries, Sy No: 193, Chetlamallapuram (V), Kalluru (M), Kurnool Dist",33972210003628,syndicate bank,SME br,synb0003397,1061595
+409,"Sofia Industries. Sy No: 497-a, Kothapeta (V), Goopty (M), Ananthapur District",32428955391,STATE BANK OF INDIA ,GOOTY,SBIN0000976,1286340
+410,"Vijaya Plastic Industries, Plot No: 19 & 24, IP Expansion, Kothapalli(GP), Proddatur (M), Y S R District",31903070002228,SYNDICATE BANK,KADAPA,SYNB0003190,1756990
+411,"Jai Maa Kali Ice Plant, RS No.205/1, Akiveedu, West Godavari District",000530100061585,ANDHRA BANK,AKIVIDU,ANDB000005,2500000
+412,"Glocell Chemicals, Industries  Pvt Ltd.,Plot No: 541, IGC, Gundlapalli (V), Maddipadu (M), Praksam Dist",021213100000283,ANDHRA BANK,HYDERABAD,ANDB0000212,2000000
+413,"Sri Lakshmi Venkateswara Poly Sacks, Plot No.139/A and 139B, IDA Kondapalli, Ibrahimpatnam Mandal, Krishna District",309044012570,ING VYSYA BANK LTD,VIJAYAWADA,VYSA0003090,1689000
+414,"Sri Balaji Bio Briquettes, Sy No. 246/21, Kovvuru (V), Kondukur (M), Prakasam Dist",33739316206,STATE BANK OF INDIA,ONGOLE,SBIN0000890,2026090
+415,"SMBS Granites, S No: 105, B C, Maddirala (V), Chiolakaluripet (M), Guntur Dist",5902000100003901,karnataka bank ltd,ONGOLE,KARB0000590,1828520
+416,"ARS Granites, S No: 105B,c, Maddirala (V),Chilakaluripet (M), Guntur Dist",5902000100004101,karnataka bank ltd,ONGOLE,KARB0000590,1156160
+417,"Ushodaya PSCC Poles Centre, Sy No: 297/5, Peddakaluva (V), G D Nellore (M), Chittoor Dist",34611765953,state bank of india ,chittoor,sbin0000825,1184690
+418,"Lakshmi Granites, Sy No: 76, Kavuru (V), Chilakaluripeta (M), Guntur Dist",33455078237,STATE BANK OF INDIA,chilakaluripet ,sbin0006830,2273160
+419,"United Granites, Plot No: 7,8,15,16, IP, Valasapalli (V), Madanapalli (M), Chittoor Dist",262603261300001,INDIAN OVERSEAS BANK,MADANAPALLE,IOBA0002626,2094920
+420,"Ramalingeswara Granite Industreis, Sy No: 278/8, 347 & 414, Elamanda (V), Guravayapalem (P) Narasaraopet (M), Guntur Dist",038130100154663,Andhra Bank,Narasaraopet,ANDB0000381,2052110
+421,"Gayathri Minerals, Sy No.174 and 175, Govindampalli, Obulavaripalli Mandal, Kadapa YSR District",125603261200019,INDIAN OVERSEAS BANK,KADAPA,IOBA0001256,1440760
+422,"Sai Charan Granites, Sy No: 298-2a, & 4a, Thenbanda (V), Chrlopali (GP) Chittoor Dist",978999167,STATE BANK OF HYDERABAD,"SESHAPIRAN STREET, CHITTOOR",IDIB000G034,1477930
+423,"Sri Sai Balaji Granites, Sy NO: 982, Near Talambedu Cross, Diguvamasapalli (V), Chittoor (M) Dist",359606110170548,BANK OF INDIA,CHITTOOR,UBIN0535966,968800
+424,"Shree Krishna Granites, Sy NO: 355-1, 2&336, Velkur (V), G D Nellore (M), Chittoor Dist",6304111045,Indian bank,Kongareddypalli ,idib000c065,1061600
+425,"Gowri Granties, Sy NO:201/1&2, Peddadalavari palli (V), Gudipalla (M), Chittoor Dist",32484799864,STATE BANK OF INDIA,NANGAMANGALAM BRANCH,SBIN0005690,825600
+426,"Y S R P V C Pipes, Plot No: 18& 23, IP, Expansion, Kothapalli (GP), Proddutur (M), Kadapa, Y S R District",31903070002228,SYNDICATE BANK,KADAPA,SYNB0003190,1145020
+427,"Ananda Aqua Exports Pvt. Ltd., RS NO.337/8, Dirusumarru, Bheemavaram Mandal, West Godavari District",0777773000024,CANARA BANK,BHEEMAVARAM,CNRB0000777,2000000
+428,"Continental Cortons, Rs No: 148/3f, Chinapulleru, Undi (M), Wast Godavari District",32717139793,STATE BANK OF INDIA,"OVERSEAS BRANCH, VISAKHAPATNAM",SBIN0008974,2000000
+429,"Sri Venkata Sai Granites, Sy No: 289, 290-3, Basavapalli (V), Gudipala (M), Chittoor Dist",359601010032279,UNION BANK OF INDIA,CHITTOOR,UBINO535966,2000000
+430,"Eswar Industries, Plot No.144, Industrial Development Area, Growth Center, Thumukunta, Hindupur, Anantapur District",33676795481,STATE BANK OF INDIA,HINDUPUR,SBIN0000845,1088850
+431,"Jai Guru Granites, Sy No.364-A&B, 366-A,C and 374-A/1,B/1, Chukkalur, Tadipatri  Mandal, Anantapur District",31217910000547,SYNDICATE BANK,TADIPATHRI,SYNB0003121,1366020
+432,"Vijaya Granites, Plto No: 98&14, Industrial Park, Valasapalle (V), Madanapalle (M), Chittoor Dist",262603261300002,INDIAN OVERSEAS BANK,MADANAPALLE,IOBA0002626,1372220
+433,"Sri Sai Acetylene Company, RS NO.79/1, Pinapaka, G.Konduru Mandal, Krishna District",102713100007204,ANDHRA BANK,IRAHIMPATNAM BRANCH,ANDB0001027,1632640
+434,"New Vengamamba Granites, Sy No: 212/a, Murikipudi (V), Chilakaluripeta (M), Guntur Dist",609806110000012,UNION BANK OF INDIA,NARASARAOPET,UBIN0560987,1520530
+435,"Thirumala Poly products, Sy No: 76, Appapuram Road, Kuvvuru (V), Chilakaluripet (M), Guntur",57870410000001,Bank of India,chilakaluripet ,bkld00005678,1117330
+436,"Madava Satyanrayrana Polymers, Sy NO: 181/z12, Z13, Z14 & Z15, Ikkurru (V), Narasarapet (M), Guntru Dist",8696766000003,CANARA BANK,NARASARAOPET,CNRB0008696,2028180
+437,"Sowgandhika Granites, Sy No: 332/a3a, a4a, Anathavaram (V), Yaddanapudi (M) Prakasam dist",5230100070088,ANDHRA BANK,"BRODIPET,GUNTUR",ANDB0000052,2000000
+438,"Sri Balaji Hall Marking Centre, D No: 31-9-38/5 & 31-9-38-938/8, KVR swamy Road, Rajahmundry, East Godavari",32511010000106,SYNDICATE BANK,RAJAHMUNDRY,SYNB0003251,757340
+439,"Siva Sankara Sai Granites, No: 274, Murikipudi (V), Chilakaluripet (M), Guntur Dist",12303261300002,Indian Overseas Bank,brodipet,IOBA0000123,1170900
+440,"Sai Eswar Powerloom Industries, Sy No.424-1, Bagyanagar, Mudireddipalli, Hindupur, Ananatapur District",193301000010465,INDIAN OVERSEAS BANK,HINDUPUR,IOBA0001933,878960
+441,"Sai Kiran Powerloom Industries, D.No.424-1, Bagyanagar, Mudireddipalli, Hindupur, Anantapur District",193301000010467,INDIAN OVERSEAS BANK,HINDUPUR,IOBA0001933,677420
+442,"Dhana Lakshmi Powerloom, Sy No.338-1, Subhash nagar, Mudireddipalli, Hindupur, Anantapur District",1423165000000493,THE KARUR VYSYA BANK LTD,HINDUPUR,KVBL0001423,847340
+443,"Sai Deeraj Powerloom, D.No.27-8-39/B, Lakshminagar, Mudireddipalli, Hindupru, Anantapur District",1423165000000479,THE KARUR VYSYA BANK LTD,HINDUPUR,KVBL0001423,645690
+444,"Chowdeswari Powerloom Industry, Sy No.424-1, Bhagyanagar Colony, Hindupur, Anantapur District",193301000010466,INDIAN OVERSEAS BANK,HINDUPUR,IOBA0001933,879040
+445,"Sai ruthej Powerloom, D.No.27-8-39/C, Lakshminagar, Mudireddypalli, Hindupur, anantapur District",1423165000000467,THE KARUR VYSYA BANK LTD,HINDUPUR,KVBL0001423,616360
+446,"Y.N.Krishna Murthy Powerloom Industry, Unit-4, D.No.27/8, 575-30-1C, aravindanagar, Mudireddiaplli, Anantapur District",500101010591211,CITY UNION BANK LTD,HINDUPUR,CIUB0000204,683850
+447,"Sri Ramdas Paper Boards Pvt Ltd, (Exp) Sy No.: 5-35, Jegurupadu (V), Kadiyam (M), East Godavari Dist",30999982361,STATE BANK OF INDIA,"SME BRANCH, RAJAHMUNDRY",SBIN0016314,500000
+448,"Surya Rubber Industries, RSNo.194/4, Srikrishnapatnam(V), Rajanagaram (M)  East Godavari District",1408135000002100,KARUR VYSYA BANK LTD,RAJAHMUNDRY,KVBL0001408,4910
+449,"Bharathi Consumer Care Products (P) Ltd, SNo.208,281, Pedaparimi, Thulluru Mandal, Guntur District",074700150950369,TAMILNADU MERCANTILE BANK LTD,GUNTUR,TMBL0000074,26640
+450,"CRCold Storage (P) Ltd, Edlapadu, Guntur District",002802000004949,INDIAN OVERSEAS BANK,GUNTUR,IOBA0000028,3130
+451,"Sree Ravi Sankar Industries, RSNo.417/3&4, Tetagunta (V), Tuni Mandal, East Godavari District",32157108758,STATE BANK OF INDIA,"LABBIPETA, VIJAYAWADA",SBIN0003055,9200
+452,"Sujitha Granites, Sy.No..3/c, 2, Chukkaluru Road, Chinnapolamada (GP), Tadipatri (M), Ananthapur District",32407277883,STATE BANK OF INDIA,TADIPATRI,SBIN0000923,19420
+453,"Sri Ranganayaka Granites, Sy.No..238, 239, Budawada (V), Chimakurthy (M), Prakasam District",240102000000091,INDIAN OVERSEAS BANK,ONGOLE,IOBA0002401,13875
+454,"Deepthi Granites, Sy.No..239, Budawada (V), Chimakurthy (M), Prakasam District",7602000100232601,KARNATAKA BANK LIMITED,TADIPATRI,KARB0000760,14339
+455,"Vyshnavi Granites, Sy.No..239, 240, Budawada (V), Chimakurthy (M), Prakasam District",7602000100235201,KARNATAKA BANK LIMITED,TADIPATRI,KARB0000760,14339
+456,"Sri Sai Eswar Granites, Sy.No..238, Budawada (V), Chimakurthy (M), Prakasam District",240103261200023,INDIAN OVERSEAS BANK,ONGOLE,IOBA0002401,13703
+457,"Saaketh Ginning Mills PvtLtd,RSNo.54,55 & 56, Kummariguntla (V), AKonduru (M), Krishna District",116600401110010,CORPORATION BANK,BALANAGAR ,CORP0001166,6740
+458,"Venkatadri Spinning Mills PvtLtd, RNo.644, Chikkala (V), Chagallu (M), West Godavari Dist",33431010004759,SYNDICATE BANK,VIJAYAWADA,SYNB0003343,11750
+459,"Lakshmi Furals PvtLtd, RSNo.7528/41, Avapadu (V), Nallajerla (M), West Godavari Dist",055013100010943,ANDHRA BANK,TADEPALLIGUDEM,ANDB0000550,10055
+460,"Lakshmi Samanvitha Polymers, RSNo.40/1B1, Dubacherla Road, Chebrolu (V), Unguturu (M), West Godavari Dist",00000003146403231,CENTRAL BANK OF INDIA,CHINANINDRAKOLANU,CBIN0283812,3330
+461,"Kauveri Ice Products, RSNo.64/1, Thimmayyapalem Road, Chebrolu (V), Unguturu (M), West Godavari Dist",00000003222203677,CENTRAL BANK OF INDIA,TADEPALLIGUDEM,CBIN0280827,27569
+462,"Suprasanna Ice Factory, RSNo.31/2, Chebrolu (V), Unguturu (M), West Godavari Dist",6084730515,INDIAN BANK,BHIMAVARAM,IDIB000B021,5063
+463,"Chillapalli Exports (P) Limited, S.No. 255/A, 256, Nidamarru (V), Mangalagiri (M), Guntur District",26360200007116,Bank of baroda,benz circle,BARB0BENVIJ,28500
+464,"Venkateswara Lova Prasad Exports, Sy.No. 417/3, &4, Tetagunta (V), Tuni (M), East Godavari Dsistrict",31852155998,STATE BANK OF INDIA,KAKINADA,SBIN0004248,9300
+465,"Harsha Liners Private Limited, RS No.219, Telaprolu (V), Unguturu (M), Krishna District",32434515227,STATE BANK OF INDIA,"PATAMATA, VIJAYAWADA",SBIN0000578,37820
+466,"Vijayanag Polymers Private Limited, RS No.11/2, Serinarasannapalem, Bapulapadu (M), Krishna District",25840500000085,BANK OF BARODA,GUDIVADA,BARB0GUDIVA,7570
+467,"Sri Manjunadha Granites, Sy.No. 115/2, Yeluru (V), Podili (M), Prakasam District",2536773006297,CANARA BANK,ONGOLE,CNRB0002536,4760
+468,"Sri Vishnu Pada Granites, Sy.No. 237 & 238, Budawada (V), Chimakurthy (M), Prakasam District",62280229142,STATE BANK OF HYDERABAD,ONGOLE,SBHY0020488,12000
+469,"Srikar Granites, S.No. 237, Budawada (V), Chimakurthy (M), Prakasam District",62280274865,STATE BANK OF HYDERABAD,ONGOLE,SBHY0020488,15970
+470,"India Food Exports, R.S.No. No. 154, Tetagunta (V), Tuni (M), East Godavari District",10774419222,STATE BANK OF INDIA,TUNI,SBIN0000942,16670
+471,"Sri Sairam Industries, R.S.No. 332, Savarampalem (V), Amalapuram (M), East Godavari District",498306110025005,UNION BANK OF INDIA,AMALAPURAM,UBIN0549835,4590
+472," Sree Valli Ice Factory, 670/2,d & 4, Chandole (V), Pittalavanipalem (M), Guntur District",35300101003240,union bank of india,karlapalem ,ubin0535303,2000
+473," Sai Sudha Granites, Sy.No. 163/4A, Budawada (V), Chimakurthy (M), Prakasam District",32755162364,STATE BANK OF INDIA,TADIPATRI,SBIN0000923,7370
+474," Hari Priyaa Granite, Sy.No.239, 240, Budawada (V),Chimakurthy (M), Prakasam District",233903261300001,INDIAN OVERSEAS BANK,CHIMAKURTHY,IOBA0002339,19160
+475,"Mohana Cotton Ginning (P) Ltd., S.No. 27/5,6, Garapadu (V), Vatticherukuru (M), Guntur District",32203436245,STATE BANK OF INDIA,GUNTUR,SBIN0000844,96070
+476,"Yuvaraj Granites, Sy NO: 1008/4, 1031 & 1032, Chimakurty (V&M), Prakasam Dist",36403070001829,SYNDICATE BANK,ONGOLE,SYNB0003640,29050
+477,"Ayyappa Coir Industry, Plot No.41 & 42, IE, Phase-I, Peddapuram, East Godvaari Dt",103702000000372,INDIAN OVERSEAS BANK,PENUMARTHY,IOBA0001037,264060
+478,"Sree Vari Enterprises, Plot No.116-B, IDA, Kadapa, YSR District",32191010000210,SYNDICATE BANK,KADAPA,SYNB0003219,90890
+479,"Laxmi Rolling and Strips PvtLtd, Plot No.37, APIIC, Industrial Area, Gollapuram (V), Hindupur (M), Anantapur",31641010000544,SYNDICATE BANK,ANANTAPUR,SYNB0003164,459580
+480,"Godavari Bi Products, Plot No.52, IDA, Peddapuram,  Kakinada Rural Mandal, East Godavari District",093655100000189,IDBI BANK,KAKINADA,IBKL0000093,153120
+481,"Teamec Chlorates Limited, Plot No.558 & 559, IGC, Gundlapalli (V), Maddipadu (M), Prakasam District",33483758083,STATE BANK OF INDIA,"INDUSTRIAL FINANCE BRANCH, CHENNAI",SBIN0009930,1000000
+482,"Louis Dreyfus Commodities India PvtLtdSy.No..160/1, Epuru Bit 1, Pantapalem (V), Muthukur (M), Spsr Nellore",00030340016954,HDFC BANK,NEW DELHI,HDFC0000003,500000
+483,"Sai Ganapathi Drug Intermediates (P) Limited, Plot No.2-B, Phase-Ii, Industrial Park, Nadikudi (V), Dachepally (M), Guntur District",31477876632,STATE BANK OF INDIA,Nadikudi,sbin0001923,264550
+484,"Tagoor Qua TechNo.logies Pvt Ltd, RSNo.126/2, Vadlapatlanuthanam (V), Kamavarapukota (Mm), West Godavari District",36201010000375,SYNDICATE BANK,ELURU,SYNB0003620,10793
+485,"Essar Packaging, Plot No.43, 44, 53 & 54, Ida, Ph-I, Peddapuram, East Godavari District",573105010000105,UNION BANK OF INDIA,"SRINAGAR, KAKINADA",UBIN0557315,437500
+486,"VVS Gases Logistics, 70-18-29/1, Bonda Gunta Nfcl, To Valasapakala Road, East Godavari District",261100009,INDIAN OVERSEAS BANK,"MAIN BRANCH, KAKINADA",IOBA0000031,25800
+487,"A-One Ispat Pvt. Ltd., Plot No. 14 (Part), APIiC Industrial Park, Gollpuram (V), Hindupur (M), Anantapur Dist",3164101000544,SYNDICATE BANK,ANANTAPURAM,SYNB0003164,503553
+488,"Naveena Industries, Plot No. 414, APIIC., IGC., Gundlapalli (V), Maddipadu (M), Prakasam District",36441400000344,SYNDICATE BANK,ONGOLE,SYNB0003644,122930
+489,"Girnar Packaging, Plot No.11,12 and 13,  Industrial Park, Menkur (V), Naidupet (M), SPSR Nellore Dist.",004401601000462,CORPORATION BANK,SECUNDERABAD,CORP0000044,1000000
+490,"Tirumala Ice Factory, RS.No.855/1, Unguturu (V&M), West Godavari Dist.",452001010031092,UNION BANK OF INDIA,UNGUTURU,UBIN0545201,6370
+491,"Sri Hima Bindu Ice Factory, Narayanapuram (V), Unguturu (M), West Godavari Dist.",012202000001503,INDIAN OVERSEAS BANK,ELURU,IOBA0000122,7870
+492,"K A R R Ice & Cold Storage, RS.No.846/3, Neladripuram (V), Unguturu (M), West Godavari Dist.",6096624446,INDIAN BANK,ELURU,IDIB000E006,8332
+493,"Sri Bhuvnas Enterprises, Plot No. 8, IDA, Ph-III, Peddapuram (M), East Godavari District",32511010000106,SYNDICATE BANK,RAJAHMUNDRY,SYNB0003251,1000000
+494,"Shine Mediplast Pvt Ltd., Plot No. 11-B, Industrial Park, Sarpavaram (V), Kakinada Rural (M), East Godavari District",31692321742,STATE BANK OF INDIA,KAKINADA,SBIN0004248,524910
+495,"Sri Sapthagiri Exports, Sy No: 239,240, Budawada (V), Chimakurty (M), Prakasam Dist",32801949892,STATE BANK OF INDIA,CHIMAKURTHY,SBIN0011116,12900
+496,"Bhavani Granites, Plto No: 88, Valasapalli (V), Madanapalli (M) Chittoor",1427001800057101,Karnataka Bank,Chintamani,KARB0000142,178190
+497,"Kusalava Alcast , Rs No.: 363, Surampally , Gannavarma , Krishna Dist",05712100000046,KOTAK MAHINDRA BANK LTD,VIJAYAWADA,KKBK0000571,250000
+498,"Vasavi Rathna Cold Storage PvtLtd, Tikkireddypalem, Prathipadu Mandal, Guntur District",012302000003456,Indian Overseas Bank,brodipet,ioba0000123,50000
+499,"Bharathi Consumer Care Products  Ltd, SNo.208,281, Pedaparimi, Thulluru Mandal, Guntur District",074700150950369,TAMILNADU MERCANTILE BANK LTD,GUNTUR,TMBL0000074,249000
+500,"Patchala Spintex  Ltd, Rajupalem , Guntur District",117802000000578,INDIAN OVERSEAS BANK,"CM NAGAR, GUNTUR",IOBA0001178,500000
+501,"Sai Lakshmi Milk Dairy, 443/65-1, Inavolu ), Nuzendla , Guntur District",62184818605,STATE BANK OF HYDERABAD ,gummanapadu ,sbhy0020613,83000
+502,"Bhagawati Fats & Edible Oils Pvt Ltd, Plot No.5A6, IDA, Vakalapudi (V), Near Light House, Kakinada Rural (M0, East Godavari District",020530100013117,ANDHRA BANK,"SULTHAN BAZAR, HYDERABAD",ANDB0000205,250000
+503,"Swathi Cottons Private Limited, Opp: 132 KVA Sub Station, Veluru Donka, Ganapavaram (V), Nadendla (M), Guntur District",031413046101476,ANDHRA BANK,"KORETIPADU BRANCH, GUNTUR",ANDB0000314,50000
+504,"Chillapalli Exports (P) Limited, S.No. 255/A, 256, Nidamarru (V), Mangalagiri (M), Guntur District",26360200007116,Bank of baroda,benz circle,BARB0BENVIJ,153000
+505,"Sree Venkata Sai Raghavendra Cold Storage Private Limited, D.No. 553, 554, Lal Puram (V), Guntur (M), Guntur District",3072962837,CENTRAL BANK OF INDIA,"LAXMIPURAM, GUNTUR",CBIN282364,50000
+506,"Vennar Ceramics Limited, Perkigudem (V), Mandavalli (M), Krishna District",32170200000245,BANK OF BARODA,PANJAGUTTA,BARB0PUNJAG,250000
+507,"Ravi Chandra Textiles (P) Limited, Panekallu (V), Tadikonda (M), Guntur District",01503100000450,ANDHRA BANK,"MAIN BRANCH, GUNTUR",ANDB0000150,50000
+508,"Rayani Spintex (P) Limited, S.No. 82-1B, Dhulipalla (V), Sattenapalli (M), Guntur District",02230510000571,UCO BANK,"ARANDALPET, GUNTUR",UCBA0000223,49900
+509,"Deepak Nexgen Feeds Private Limited, RS No.53/1, Koyyuru Road, Bommuluru (V), Bapulapadu (M), Krishna District",32202689243,STATE BANK OF INDIA,VIJAYAWADA,SBIN0000578,211050
+510,"Sri Sairam Industries, R.S.No. 332, Savarampalem (V), Amalapuram (M), East Godavari District",498306110025005,UNION BANK OF INDIA,AMALAPURAM,UBIN0549835,2150
+511," Srinivasa Granites, S.No. 266/3C, 267, 275/A, Pedakancherla (V), Vinukonda (M), Guntur District",060713100030433,Andhra Bank,vinukonda,ANDB0000607,32200
+512,"Sri Sai Venkata Vinayaka Sortex, S.No. 822/5, Thimmayapalem (V), Vinukonda (M), Guntur District",060711100000195,Andhra Bank,vinukonda,andb0000607,18750
+513,"Mohana Cotton Ginning (P) Ltd., S.No. 27/5,6, Garapadu (V), Vatticherukuru (M), Guntur District",32203436245,STATE BANK OF INDIA,GUNTUR,SBIN0000844,250000
+514,"Naga Sindhu Spinning & Ginning Mills Private Limited, Rs No.1079/2, Krishnaraopalem,  AKonduru , Krishna",32711250000588,SYNDICATE BANK ,GUNTUR,SYNB0003271,985532
+515,"Simhapuri Carbonic Gas Company, SNo.236, DNo.2-9-71, Gn Road, Pothireddypalem , Kovvur , Spsr Nellore District",032010100123441,ANDHRA BANK,KURNOOL,ANDB0000320,109020
+516,"Meher Oil Industries Ltd, Yeditha, Mandapeta Mandal, East Godavari District",107010300003995,AXIS BANK ,RAJAHMUNDRY,UTIB0000107,2774853
+517,"Hema Sea Foods, Plot No.100, 101, IDA ExpanRamanyyapeta, Kakinada Rural Mandal East Godavari Dsit",30035984490,STATE BANK OF INDIA,"VAKALPUDI, KAKINADA",SBIN0011107,8452
+518,"Sri Vinayaka Paper Packagings, RSNo.765/5, 1, Koppavaram Road, Anaparthi , East Godavari",31075854296,STATE BANK OF INDIA,RAJAHMUNDRY,SBIN0001980,38468
+519,"Ashita Polymers, Plot No.108, IDA Ramanayyapeta, Kakinada Rural Mandal, East Godavari District",018311100000025,ANDHRA BANK,KAKINADA,ANDB0000183,38385
+520,"RKIndustries, Rs No.145/3, Narendrapuram, Rajanagarm Mandal, East Godavari District",403506211000002,VIJAYA BANK,RAJAHMUNDRY,VIJB0005035,37010
+521,"Raghavendra Spin Cot Mills,SNo.213/D,Chintapalli Padu Road,Kurnuthala Vatticheruku, Guntur",0605261010501,canara bank ,"main br , guntur",cnrb0000605,349400
+522,"Sri Meena Bakery, RSNo.2-1/2, Main Road, Kumudavalli , West Godavari District",31828712906,STATE BANK OF INDIA,BHIMAVARAM,SBIN0000818,115715
+523,"Balajee Minerals  Private Limited, Sy.No..92-3, Pokkandala , Sydapuram , Spsr Nellore District",34973030000019,SYNDICATE BANK,UTUKUR,SYNB0003497,36618
+524,"Aditya Agro Alliedd Oils  Ltd, Denduluru , West Godavari District",788837430,INDIAN BANK,ELURU,IDIB000E006,821564
+525,"South India Krishna Oil And Fats Private Limited, Sy.No..272, 279, 280 & 281, Epuru Bit 1-B, Pantapalem , Muthkuru , Spsr Nellore",910020001072028,AXIS BANK LTD,"MUTHUKUR, SPSR NELLORE DISTRICT",UTIB0001016,37930617
+526,"Reliable Packagings, Plot No.140B, 141A, 158B & 159A, IDA, Kondapalli, Ibrahimpatnam , Krishna District",31383233370,STATE BANK OF INDIA,VIJAYAWADA,SBIN0005947,343190
+527,"Sai Mani Rubber Industries, Plot No.51, IDA, Kadapa, Ysr District",31901250000501,SYNDICATE BANK,"MAIN BRANCH, KADAPA",SYNB0003190,25770
+528,"Swastik Exports,Sy.No.. 148/1,Jonnathali,Martur, Prakasam District",30321213354,STATE BANK OF INDIA,ONGOLE,SBIN0004246,517390
+529,"Lakshmi Samanvitha Polymers, RSNo.40/1B1, Dubhacherla Road, Chebrolu , Unguturu , West Godavari District",3070294495,CENTRAL BANK OF INDIA,CHINANINDRAKOLANU,CBIN0283812,416810
+530,"Asta Lakshmi Industries, RSNo.57/6B & 57 , Bandavari Lanka, Velpuri, Tanuku , West Godavari District",055413100000469,ANDHRA BANK,TANUKU,ANDB0000554,189486
+531,"Golden Matresses Private Limited, RsNo.752, Elugubanda , East Godavari District",31450874113,STATE BANK OF INDIA,"MORAMPUDI BRANCH, RAJAHMUNDRY",SBIN001108,430654
+532,"Silica Ceramica Private Limited, Narayanapuram , Unguturu",008010300018674,AXIS BANK LIMITED,"GREEN LASNDS, HYDERABAD",UTIB0001634,27422896
+533,"Vakkal Impex Private Limited, Unit - B, Sy.No..78, Devarapalli , Hindupur , Anantapur",30208649638,STATE BANK OF INDIA,HINDUPUR,SBIN0000845,1072340
+534,"Sree Valli Ice Industry,7-426,Vellaturu Road,Karlapalem, Guntur Distict",353001010032031,union bank of india,karlapalem ,UBIN0535303,11130
+535,"Nelcast Ltd, Unit-II, Plot No.9, IndlEstate, Gudur Spsr Nellore District",10889659263,STATE BANK OF INDIA,GUDUR,SBIN0000843,7049388
+536,"Emami Biotech Ltd, Sy.No..501 To 510, Krishna Patnam Port Zone Point, Pantapalem , Muthukuru , Spsr Nellore Dist",50028938421,ALLHABAD BANK,KOLKATA,ALLA0211501,136701914
+537,"Sri Raghavendra Fried Grammill, Sy.No..184-C, Near Railway Gate, Tadipatri , Anantapur",62240372520,STATE BANK OF HYDERABAD,TADIPATRI,SBHY0021066,410270
+538,"Sree Kumar Agro Oils PvtLtd, RSNo.117, Jakkaram, Kalla , West Godavari District",765231948,INDIAN BANK,BHIMAVARAM,IDIB000B021,906185
+539,"Anjaneya Cotton Traders,DNo. 14 A, &B,Chellavari Palem,Guntur,Guntur District",640805010000101,UNION BANK OF INDIA,"KOTHAPET,GUNTUR",UBIN0564087,483410
+540,"Arani Agro Oil Industries , New Port Area, Adb, Raod, Kakinada, Easr Gidavari District",000805014363,ICICI BANK LTD,KHAIRTABAD,ICIC0000008,8923300
+541,"Siva Swathi Textiles  Limited, Opp: 132, Kva Sub Station, Veluru Donka, Ganapavaram , Nadendla , Guntur District",30036784070,STATE BANK OF INDIA,"INDUSTRIAL FINANCE BRANCH, SOMAJIGUDA, HYDERABAD",SBIN0009103,2814445
+542,"Vijaya Lakshmi Rubber Products  No.118/1, Kanavaram , Rajanagaram , East Godavari District",31147853666,STATE BANK OF INDIA,"PUSHKARGHAT BRANCH, RAJAHMUNDRY",SBIN0007954,168500
+543,"NaNo. Polymers India  Limited, Plot No.424, Industrial Growth Centre, Gundlpalli, Madipadu Mandal, Prakasam District",62198111179,STATE BANK OF HYDERABAD,"KUSHAIGUDA, HYDERABAD",SBHY0021495,9526500
+544,"Coastal Agro Industrial Ltd, Mandapaka , Undrajavaram , West Godavari Dist",52102805765,STATE BANK OF HYDERABAD,TANUKU,SBHY0020411,870734
+545,"Raghavendra Spin Cot Mills, SNo.213/D, Chinthapalli Padu Road, Kurnuthala , Vatticherukur , Guntur District",0605261010501,canara bank ,"main br , guntur",cnrb0000605,6626380
+546,"Vishnu Reclamations,  No.118/1, Kanavaram , Rajanagarm , East Godavari District",31147840589,STATE BANK OF INDIA,"PUSKHARGHAT BRANCH, RAJAHMUNDRY",SBIN0007954,40400
+547,"Lanco Industries Ltd, Rachagunneri, Srikalahasthi Mandal, Chittoor District",630905008974,ICICI BANK LTD,CHITTOOR,ICICOOO6309,21789049
+548,"South India Krishna Oil and Fats Pvt Ltd, Sy No.: 272,279,280&281, Epuru Bit-B, Panttapalem , Muthukur , SPSR Nellore",910020001072028,AXIS BANK LTD,"MUTHUKUR, SPSR NELLORE DISTRICT",UTIB0001016,121114533
+549,"Vakkal Impex Private Limited, Sy.No..78, Devarapalli , Hindupur , Anantapur District",30208649638,STATE BANK OF INDIA,HINDUPUR,SBIN0000845,1093632
+550,"Nile Limited, Plot No.38-40, Apiic, Industrial Park, Gajulamandyam, Renigunta , Chittoor",20513046006269,ANDHRA BANK,"SULTHA BAZAR, HYDERABAD",ANDB0000205,16277824
+551,"Bharathi Consumer Care Products  Limited, SNo.280 & 281, Pedaparimi , Thulluru , Guntur District",074700150950369,TAMILNADU MERCANTILE BANK LTD,GUNTUR,TMBL0000074,2607590
+552,"Kamakshi Metalnarch PvtLt, SNo.226/3A & 3B, Kesavaram Road, Rajavole , Rajahumundry Rural , East Godavari District",36540500000073,Bank of Baroda, Hakumpet Rajahmundry,BARB0HUKUMP,379169
+553,"Kamashi Roll Form Profiles, PlotNo.E-19/A, IEDowleswaram, Rajahmundry Rural , East Godavari District",36540500000074,Bank of Baroda, Hakumpet Rajahmundry,BARB0HUKUMP,243253
+554,"Anjaneya Cotton Traders, DNo.14, A&B, Chellavari Palem , Guntur , Guntur District",640805010000101,UNION BANK OF INDIA,"KOTHAPET,GUNTUR",UBIN0564087,1592350
+555,"NSL Textiles  Limited , DNo.370, 371 & 383, Edlapadu , Guntur",10949488187,STATE BANK OF INDIA,"COMMERCIALBRANCH, GUNTUR",SBIN0013483,2351550
+556,"NSL Textiles  Limited  DNo.370, 371 & 383, Edlapadu , Guntur",2636201000173,CANARA BANK,"PRIME CORPORATE BRANCH, BANGALORE",CNRB0002636,28811770
+557,"Veera Associates , Ganapavaram , Nadendla , Guntur District",1911041139,CENTRAL BANK OF INDIA,"LAXMIPURAM, GUNTUR",CBIN0282364,1327470
+558,"Siva Swathi Textiles Limited , Opp: 132 Kv Sub Station, Velluru Donka, Ganapavaram , Nadendla , Guntur District",30036784070,STATE BANK OF INDIA,"INDUSTRIAL FINANCE BRANCH, SOMAJIGUDA, HYDERABAD",SBIN0009103,3279545
+559,"Akula Boards, Mandapaka, Tanuku , West Godavari Dist",62052381539,STATE BANK OF HYDERABAD,TANUKU,SBHY0020411,2152814
+560,"Apple Polymers, Sy.No..556/5, Vavillathota Road, Muthirevula , Puthalapattu , Chittoor District",31252962539,STATE BANK OF INDIA,CHITTOOR,SBIN0000825,907055
+561,"Ruchi Soya Industries Ltd  Ampapuram , Bapulapadu , Krishna District",076010200011538,AXIS BANK LTD,VIJAYAWADA,UTIB0000069,12161310
+562,"Saaketh Ginning Mills PvtLtd,RSNo.54,55 & 56, Kummariguntla , AKonduru , Krishna District",116600401110010,CORPORATION BANK,BALANAGAR ,CORP0001166,2526831
+563,"Southern Bags, Plot No.A-138, A-139, Phase - Ii, Autonagar, Spsr Nellore Dist",35031010000367,SYNDICATE BANK,NELLORE,SYNB0003503,37314
+564,"Swastick Exports, Sy.No..148/1, Jonnathali , Martur ,  Prakasam District",30321213354,STATE BANK OF INDIA,ONGOLE,SBIN0004246,274140
+565,"Sanjay Craft Paper PvtLtd, Lakshmi Nagar, Marampalli , Dwaraka Tirumala , West Godavari Dist",62114972705,STATE BANK OF HYDERABAD,TANUKU,SBHY0020411,1300178
+566,"Louis Dreyfus Commodoties India PvtLtd, Sy.No..1601,  Epuru Bit, 1B, Pantapalem , Muthukuru , Spsr Nellore Dist",00030340016954,HDFC BANK,NEW DELHI,HDFC0000003,36484826
+567,"Sri Chakra Oils & Extractions Pvt Ltd, Peramachandrapuram, Anaparthi",001413100000016,ANDHRA BANK,ANAPARTHI,ANDB0000014,2149520
+568,"Dashrath Prasad Fertilizers Private Limited, Remalli (V), Bapulapadu (M), Krishna District",3672008700003004,PUNJAB NATIONAL BANK,JHANSI UP BRANCH,PUNB0367200,1659860
+569,"SSEngineers & Consultants, D-No.11-49, Pidimigoyyi, Rajahmundry Rural (M), East Godavari Distirct",32511010000106,SYNDICATE BANK,RAJAHMUNDRY,SYNB0003251,213110
+570,"SSEngineers & Consultants, D-No.11-49, Pidimigoyyi, Rajahmundry Rural (M), East Godavari Distirct",32511010000106,SYNDICATE BANK,RAJAHMUNDRY,SYNB0003251,147993
+571,"Bhagawati Fats & Edible Oils Pvt Ltd, Plot No.5A6, IDA, Vakalapudi (V), Near Light House, Kakinada Rural (M), East Godavari District",020530100013117,ANDHRA BANK,"SULTHAN BAZAR, HYDERABAD",ANDB0000205,77077450
+572,"SBSPaper Board Pvt Ltd, Kanavaram (M), Rajanagaram (M), East Godavari District",010013046900020,ANDHRA BANK,RAJAHMUNDRY,ANDB0000100,416616
+573,"Sairam Industries, Plot No.15, Aleap Industrial Estate, Surampalli, Gannavaram (M), Krishna District",62165601672,STATE BANK OF HYDERABAD,VIJAYAWADA,SBHY0020752,300960
+574,"Rain Commodities Limited, Boincherupalle (V), Peapully (M), KurNo.ol District",0028102000018753,IDBI BANK,"BANJARA HILLS BRANCH, HYDERABAD",IBKL0000028,48678645
+575,"Gemini Edibles and fats India Pvt Ltd, Sy No.: 1607/2, IP, Pantalalam (V), Muthukur (M), Nellore Dist",008010200081467,AXIS BANK LTD,"BEGUMPET BRANCH, HYDERABAD",UTIB0000008,146861213
+576,"Vijetha Chemical Products, Plot No.164/B, 7Th Road, Ida, Kondapalli (V), Ibrahimpatnam (M), Krishna District",30756283905,STATE BANK OF INDIA,VIJAYAWADA,SBIN0005653,198050
+577,"Swarnalatha Agritech PvtLtd, RsNo.1/4, Serinarasannapalem (V), Bapulapadu (M), Krishna District",31628945021,STATE BANK OF INDIA,"PATAMAT BRANCH, VIJAYAWADA",SBIN0000578,3205380
+578,"Lakshmi Steel Pipe & Tubes, RsNo.143/3, Surampalli (V), Gannavaram (M), Krishna District",309044007425,ING VYSYA BANK LTD,"KOTHAPET,VIJAYAWADA",VYSA0003090,4123290
+579,"Vijaya Enterprises, DNo.3-1/1, Tadigadapa (V), Penamaluru (M), Krishna District",712513414,INDIAN BANK,VIJAYAWADA,IDIB000S142,465073
+580,"Sai Mani Rubber Industries, Plot No.51, Ida, Kadapa",31901250000501,SYNDICATE BANK,"MAIN BRANCH, KADAPA",SYNB0003190,14850
+581,"Kona Steel Tubes PvtLtd, RsNo.32/3, DNo.3-105, Maddalavarigudem (V), Surampalli (P), Gannavaram (M), Krishna District",106702000001379,INDIAN OVERSEAS BANK,VIJAYAWADA,IOBA0001067,3662910
+582,"Carris Pipes And Tubes Private Limited, Rs No.72/1-A, Plot No.15, Pedavutapalli, Unguturu (M), Krishna District",2012000101323101,KARNATAKA BANK LIMITED,ERNAKULAM,KARB0000201,4426560
+583,"Dogiparthi Polymers (P) Limited, SNo.59/3, Mallepadu, Tenali (Po&M), Guntur District",30545877749,STATE BANK OF INDIA,"main br , Tenali",sbin0012871,1053850
+584,"Dogiparthy Polymers (P) Limited, Sy No.: 59/3, Mllepadu (V), Tenali (Post & Mandal), Guntur Dist",30545877749,STATE BANK OF INDIA,"main br , Tenali",sbin0012871,2396971
+585,"Vinesh Steel Pipes & Tubes, Rs No.218/1, Surampalli (V), Gannavaram (M), Krishna District",510909010003431,CITY UNION BANK LIMITED,VIJAYAWADA,CIUB0000144,930940
+586,"Sri Vishnu Shankar Mills Ltd, Gopinenipalem (V), Vatsavai (M), Krishna District",585010200001496,AXIS BANK LIMITED,JAGGAIAHPETA,UTIB0000585,348710
+587,"Sri Harini Textiles Ltd, RsNo.47,48 & 49, Tirumalagiri (V), Jaggaiahpet, Krishna District",585010200001090,AXIS BANK LIMITED,JAGGAIAHPETA,UTIB0000585,354880
+588,"Sandhya Spinning Mills Ltd, Gopinenipalem (V), Vatsavai (M), Krishna",585010200001571,AXIS BANK LIMITED,JAGGAIAHPETA,UTIB0000585,100780
+589,"Rajapalayam Mills Ltd, Gopinenipalem (V), Vatsavai (M), Krishna",585010200000471,AXIS BANK LIMITED,JAGGAIAHPETA,UTIB0000585,309345
+590,"Sudarshanam Spinning Mills, Rs No.52 & 53, Tirumalagiri, Jaggaiahpet (M), Krishna District",585010200001342,AXIS BANK LIMITED,JAGGAIAHPETA,UTIB0000585,894640
+591,"Trimex Industries PvtLtd, Sy.No..484, Govindamaplli (V), Obulavaripalli (M), Ysr District",10706919406,STATE BANK OF INDIA,PRODDATUR,SBIN0001459,11820
+592,"Sri Lakshmi Srinivasa Agri Processing Private Limited, Rs No.163-1, Near Nh-9, Anumanchipalli (V), Jaggaiahpet (M), Krishna District",025713100012598,ANDHRA BANK,JAGGAIAHPET,ANDB0000257,414560
+593,"Reliable Packagings, Plot No.140B, 141A, 158B, 159A, Ida, Kondapalli, Ibrahimpatnam (M), Krishna District",31383233370,STATE BANK OF INDIA,VIJAYAWADA,SBIN0005947,678710
+594,"Saraiwwala Agro refineries Ltd, Sy No.: 255 & 256, Etc, Epuru Bit-1, Pantapalem (V), Muthukuru (M), Nellore Dist",020513046060023,ANDHRA BANK,"SULTHA BAZAR, HYDERABAD",ANDB0000205,145819192
+595,"The Indin Hume Pipe Company Ltd, Sy.No..209/1 & 210/2, Chilamathur (V&M),  Anantapur District",30814862296,STATE BANK OF INDIA ,CHILAMATHUR,SBIN0011989,3539168
+596,"Krishnapatnam Oils and Fats PvtLtdSy.No..292 &317, Pantapalem (V), Epur Bit-I,Muthukuru (M), SPSR Nellore dist",008010200071372,AXIS BAK LTD,HYDERABAD,UTIB0000008,118244071
+597,"Surya Plastic Industries, Akuteegapadu (V), Pentapadu (M), West Godavari Dist",729044035603,ING VYSYA BANK LTD,TADEPALLIGUDEM,BYSA0007290,385870
+598,"Sree Valli Ice Industry, 7-426, Vellaturu road, Karlapalem (V) & (M), Guntur District",353001010032031,union bank of india,karlapalem ,UBIN0535303,22870
+599,"Dhara Sree Ginning And Pressing Factory (Tmc Unit),Sy.No..180/D, Basapuram Road, Adone (M), KurNo.ol District",3427208153,central bank of India,Adoni,cbin0280844,3218924
+600,"Sandeep Chemical Industry, Plot No.129, 9th Road, IDA, Kondapalli (V), Ibrahimpatnam (M), Krishna District",30756284411,STATE BANK OF INDIA,VIJAYAWADA,SBIN0005653,807700
+601,"Sri Sri Krishna Food Products, R.S.No. 196/3B, Srikrishnapatnam (V), Rajanagaram (M), East Godavari District",1408280344,KARUR VYSYA BANK LIMITED,RAJAHMUNDRY,KVBL0001408,142910
+602,"Santoshimatha Paper Products, Plot No. 34, 35, 36 & 37, IP, Sarpavaram (V), Kakinada Rural (M), East Godavari District",094102000009805,SIDBI BANK,RAJAHMUNDRY,IBKL0000094,1238316
+603,"Sree Ravisankar Industreis, R.S.No. 417/3 &4, Tetagunta (V), Tuni (M), East Godavari District",32157108758,STATE BANK OF INDIA,"LABBIPETA, VIJAYAWADA",SBIN0003055,170689
+604,"Godrej Agrovet Limited, Unit-2, Rs.No.57, Chintampalli (V), Chintalapudi (M),  West Godavari Dist.",36201010000375,SYNDICATE BANK,ELURU,SYNB0003620,9039802
+605,"Shri Srinivasa Polymers Rs.No.8/1, 10/1, 4 &5, Pedamiram (V), Kalla (M),  West Godavari Dist.",037500401110003,CORPORATION BANK,BHIMAVARAM,CORP0000375,968844
+606,"Udaya Bhaskara Ice Factory, RS.No.212-1, Akiveedu (Pt), Akiveedu (M), West Godavari Dist.",30550935262,STATE BANK OF INDIA,AKIVEEDU,SBIN0001440,107538
+607,"Wisdom Polymers, D.No. 613/3, Nallapdu (V), Guntur Mandal & District",042530100027280,Andhra Bank,pattabhipuram ,andb0000425,6520
+608,"Sri Padma Refractory Monolithics, R.S.No. 99/1, Neeladriraopeta, Gandepalli (M), East Godavari District",066911011010116,ANDHRA BANK,Z.RANGAMPETA,ANDB0000669,5258
+609,"Sri Valli National Roofing Associates, D.No. 365/1C & 2, IDA., Sattenapalli (Viilage & Mandal), Guntur District",330206110011846,UNION BANK OF INDIA,GUNTUR,UBIN0533025,3122720
+610,"Sasivardhani Industries, D.No. 6-190-1, Rajanagaram Road, Vemulapalli (V), Dwarapudi Post, Mandapeta (M), East Godavari",31438282839,STATE BANK OF INDIA,ANAPARTHY,SBIN0001409,126109
+611,"Sri Sadguru Sambasiva Ginning & Pressing Factory  (Tmc Unit), Sy. No.134/4, Parvathapuram Road, Adoni, Kurnool District",33723070000910,syndicate bank,budavarapu peta br,synb0003372,4677360
+612,"Varalakshmi Polymers, R.S.No. 811, Vatluru (V), Pedapadu (M), West Godavari District",1438223000000415,KARUR VYSYA BANK LTD,ELURU,KVBL0001438,230413
+613,"KPR Fertilizers (Pesticides Division), D.S.No. 8-256+, Tata Nagar, Balabadharapuram (V), Biccavole (M), East Godavari District",047213046001157,ANDHRA BANK,RAYAVARAM ,ANDB0000472,2180415
+614,"Siva Shakthi Soap Works (EXP), D.No. 4-23, Kovvuru Road, Jagannaikpur, Kakinada, East Godavari District",167700150950014,TAMILNADU MERCANTILE BANK LTD,KAKINADA,TMBL0000167,2448960
+615,"KPR Fertilizers Pvt Ltd, (EXP), Biccavolu (V), East Godavari District",047213046001157,ANDHRA BANK,RAYAVARAM ,ANDB0000472,4390779
+616,"Ashita Polymers, Plot No. 108, IDA, Ramanayyapeta, Kakinada Rural (M), East Godavari District",018311100000025,ANDHRA BANK,KAKINADA,ANDB0000183,18614
+617,"Regen Powertech Pvt Ltd, Sy.No. 182 to 188, APIIC, IP, Mambattu (V), Tada (M), Nellore District",02062320001296,HDFC BANK,CHENNAI,HDFC0000206,231737092
+618,"Keshav Fabrics Pvt. Ltd. Plot No. 37 to 39, Industrial Estate, Settipalli (P), Tirupathi (Rural), Chittoor District",30478933520,state bank of india ,tirupathi,sbin00006677,199062
+619,"Jagadeesh Food Pack (P) Ltd, Plto No: D1, D2, E10, Industrial Estate, Seltipalli, Tirupathi, Chittoor Dist",31068165942,STATE BANK OF INDIA,SETTIPALLI,SBIN0006677,1222331
+620,"Costal Agro Industries, K.Savaram, Undrajavaram , West Godavari Dist",52102805765,STATE BANK OF HYDERABAD,TANUKU,SBHY0020411,515150
+621,"Vijaya Lakshmi Ginning and Pressing Company, S.No. 218/D1&D2, Kurnuthala (V), Vatticherukur (M), Guntur District",031413100000140,Andhra Bank,koretipadu br,andb0000314,2442576
+622,"Bala Balaji Agro Industries, R.S.No. 26/3A, Kanuru (V), Peravali (M), West Godavari District",970880705,INDIAN BANK,TANUKU,IDIB000T006,329613
+623,"Virat Polymers, RS.No.259/2 & 3, Buvvnapalli (V), Nidamarru (M), West Godavari Dist.",0777201002103,CANARA BANK,BHIMAVARAM,CNRB0000777,510425
+624,"Sansidh Agro Industries Pvt.Ltd, Sy. No.1624 &1625, Peyyalapalem (V), Kodavalur (M), Nellore Dist.(Formerly Anjaneya Extractions Pvt.Ltd.)",32091374450,STATE BANK OF INDIA,NELLORE,SBIN0001163,873290
+625,"Sree Laminators Ltd (Ori), IDA, Peddapuram, East Godavari District",9140300508884905,AXIS BANK LTD,"MAIN ROAD, KAKINADA",UTIB0000076,525300
+626,"Sree Laminators Ltd (Exp), IDA, Peddapuram, East Godavari District",9140300508884905,AXIS BANK LTD,"MAIN ROAD, KAKINADA",UTIB0000076,521870
+627,"Golden Mattresses Pvt Ltd, R.S.No. 752, Velugubandla (V), Chakra Dwarabandham, Rajahnagaram (M), East Godavari District",31450874113,STATE BANK OF INDIA,"MORAMPUDI BRANCH, RAJAHMUNDRY",SBIN001108,2134400
+628,"Regen Powertech Pvt Ltd, Sy.No. 182 to 188, APIIC, IP, Mambattu (V), Tada (M), Nellore District",02062320001296,HDFC BANK,CHENNAI,HDFC0000206,266309849
+629,"Vijetha Chemical Products, Plot No.164/8, IDA, Kondapalli (V), Ibrahimpatnam (M), Krishna District",30756283905,STATE BANK OF INDIA,VIJAYAWADA,SBIN0005653,199870
+630,"Gangotri Industries, Plot No. C-7, Industrial Park, Erramreddipalem, Renigunta Mandal, Chittoor",31711010002530,sydicate bank apsfc,tirupathi,synb0003171,360992
+631," Sri Ramkumar Packaging Tec Industry, R.S.No. 120/2, Machavaram (V), Ambajipata (M), East Godavari District",000813100001671,ANDHRA BANK,AMALAPURAM,ANDB0000008,63885
+632,"The Balaji Ice & Cold Storage, Rs.No.21/2, Pedamiram (V), Kalla (M), West Godavari Dist.",037501601000180,CORPORATION BANK,BHIMAVARAM,CORP0000375,156739
+633," Sri Sai Ram Industries, Kaikaram (V), Unguturu (M), West Godavari Dist.",31383827749,STATE BANK OF INDIA,KAIKARAM,SBIN0002735,237391
+634,"Bhargavi Polymers Pvt.Ltd.Rs.No.677/2A, Unguturu (V&M), West Godavari Dist.",191102000050333,INDIAN OVERSEAS BANK,TADEPALLIGUDEM,IOBA0001911,89628
+635," Surya Rubber Industreis, Rajanagaram (M), East Godavari District",1408135000002103,THE KARUR VYSYA BANK ,RAJAHMUNDRY,KVBL0001408,76537
+636,"SK & JB Cotton Mills, 250/1, Thimmapuram (V), Edlapadu (M), Guntur District",62167431651,STATE BANK OF HYDERABAD ,Kothapeta,sbhy0020346,634690
+637,"Saaketh Ginning Mills Private Limited, RS.No.54,55 & 56, Kummariguntla (V), A.Konduru (M), Krishna District",116600401110010,CORPORATION BANK,BALANAGAR ,CORP0001166,1502010
+638,"Sanjay Kraft Paper Pvt.Ltd.D.No.1-115, Lakshminagar, Dwarakatirumala (M), West Godavari Dist.",62114972705,STATE BANK OF HYDERABAD,TANUKU,SBHY0020411,691808
+639,"Emami Biotech Limited, Sy.No.501 to 510 Krishnapatnam Port Zero Point, Pantapalem (V), Muthukuru (M), SPSR Nellore dist.",50028938421,ALLHABAD BANK,KOLKATA,ALLA0211501,167736594
+640," Nano Polymers India (P) Limited, Plot No. 424, IGC., Gundlapalli (V), Maddipadu (M), Prakasam District",62198111179,STATE BAK OF HYDERABAD,"KUSHAIGUDA,HYDERABAD",SBHY0021495,4306230
+641,"Lakshmi Samanvitha Ice & Cold Storage, RS.No.40/1B, Chebrolu (V),Unguturu (M), West Godavari Dist.",00000003146403231,CENTRAL BANK OF INDIA,CHINANINDRAKOLANU,CBIN0283812,75460
+642,"Ascent Industreis Pvt Ltd., D.No. 1-12/A, Gangavaram (V), K. Gangavaram (M), East Godavari Distirct",061030100002829,ANDHRA BANK,UNDRAJAVARAM,ANDB0000610,689078
+643," Sree Laminates (Exp), IDA, Peddapuram, East Godavari Distirct",9140300508884905,AXIS BANK LTD,"MAIN ROAD, KAKINADA",UTIB0000076,903718
+644,"Dhara Sree Ginning And Pressing Factory (Tmc Unit),Sy. No.180/D, Basapuram Road, Adone (M), Kurnool District",3427208153,central bank of India,Adoni,cbin0280844,6140350
+645,"Teamec Chlorates Limited, Plot No. 558 & 559, IGC., Gundlapalli (V), Maddipadu (M), Prakasam District",33483758083,STATE BANK OF INDIA,"INDUSTRIAL FINANCE BRANCH, CHENNAI",SBIN0009930,2149310
+646,"Universal Home Products, Sy.No. 191/B1, Dimmedevarapadu (V), Kurnool (M),  Kurnool District",30790544344,STATE BANK OF INDIA,kurnool,sbin0002801,1250730
+647,"Aditya Agro Allied Oils Pvt.Ltd.Denduluru (V&M), West Godavari Dist.",788837430,INDIAN BANK,ELURU,IDIB000E006,810278
+648,"Growell Bio Tech Private Limited, RS No.304/2A, Konduru (V), G. Konduru (M), Krishna District",106702000001316,INDIAN OVERSEAS BANK,"RING ROAD, VIJAYAWADA",IOBA0001067,134323
+649,"Swastic Ice Factory, Seesali, Kalla (M), West Godavari Dist.",62109352697,STATE BANK OF HYDERABAD,BHIMAVARAM,SBHY0020410,49283
+650,"Lalitha Lakshmi Venkateswara Industries, Plot No. 63, Industrial Estate (Expansion), Phase - Iii, Kallur, Kurnool District",354601010035038,union bank of india,kurnool,ubin0535460,314810
+651,"Sri Subramanyeswara Polymers, Sy. No. 205/A, Banaganapalli Road, Koilkuntla Post & Mandal, Kurnool District",037910100133411,ANDHRA BANK,"MAIN BRANCH, NANDYAL",ANDB0000379,2525096
+652,"Sri Satya SaI Krishna Ice Factory, Rs.No.977/2, Unguturu (V&M), West Godavari Dist.",30947710035,STATE BANK OF INDIA,NARAYANAPURAM,SBIN0004718,82198
+653,"Siri Ice Links, Chinamamidipalle (V), Narasapuram (M), West Godavari West Godavari Dist.",0366102000001700,IDBI BANK,BHIMAVARAM,IBKL0000366,106520
+654,"Sairam Industries, Plot No.15, ALEAP, Industrial Estate, Surampalli, Gannavaram (M), Krishna District",62165601672,STATE BANK OF HYDERABAD,VIJAYAWADA,SBHY0020752,506230
+655," Metaprime Alloy Castings, RS No.143/3, Surampalli (V), Gannavaram (M), Krishna District",31907843974,STATE BANK OF INDIA,RAMAVARAPADU,SBIN0011100,331310
+656,"NSL Textiles (Edlapadu) Limited (Existing), D.No. 370, 371 & 383, Edlapadu (M), Guntur District",10949488187,STATE BANK OF INDIA,"COMMERCIAL BRANCH, GUNTUR",SBIN0013483,583180
+657," Lohiya Edible Oils Pvt Ltd.,(Original) Plot No. 25, IDA, Vakkalapudi (V), Kakinada Rural (M), East Godavari District",347705010046091,UNION BANK OF INDIA,"RAMKOTI, HYDERABAD",UBIN0534773,16996130
+658," Lohiya Edible Oils Pvt Ltd., (Exp), Plot No. 25, IDA, Vakkalapudi (V), Kakinada Rural (M), East Godavari District",347705010046091,UNION BANK OF INDIA,"RAMKOTI, HYDERABAD",UBIN0534773,8195915
+659,"Bhargavi Polymers Pvt.Ltd.Rs.No.677/2A, Unguturu (V&M), West Godavari Dist.",191102000050333,INDIAN OVER SEAS BANK,TADEPALLIGUDEM,IOBA0001911,89628
+660," Vennar Ceramics Limited, Perikigudem (V), Mandavalli (M), Krishna District",32170200000245,BANK OF BARODA,"PANJAGUTTA, HYDERABAD",BARB0PUNJAG,1346380
+661,"Gangotri Industries, Sy. No. C-7, Industrial Park, Erramreddipalem, Renigunta Mandal, Chittoor",31711010002530,sydicate bank apsfc,tirupathi,synb0003171,589466
+662," K.S.N.Dairy, R.S.No. 64/1, Morampudi, Hukumpeta (V), Rajahmundry Rural (M), East Godavari Distirct",120012001093581,CITY UNION BANK LTD,RAJAHMUNDRY,CIUB0000120,6298
+663,Silica Ceramica PVt Ltd Narayanapuram Unguturu (M) West Godavari Dist,008010300018634,AXIS BANK LTD,"GREEN LASNDS, HYDERABAD",UTIB0001634,35476360
+664,KSP Industris Mugathi (V) Nandavaram (M) Kurnool Dist,065211100000919,ANDHRA BANK,YEMMIGANUR,ANDB0000652,1033106
+665,Nirman Fertilizers Pvt Ltd Sy No: 470/2B3B & 470/4 Muntimadugu(V) Garladinne (M) Ananthapuram Dist,07052320000272,HDFC BANK LTD,ANANTAPURAM,HDFC0000705,259465
+666,Salia Polymers Private Limited Rs No.161/2 Undi West Godavari District,913551214,INDIAN BANK,BHEEMAVARAM,IDIB000B021,1390630
+667,Madhuri Cotton Mills Pvt.  Ltd. Rs No.53/2 53/4 Torragudipadu Nandigama Mandal Krishna District,62277825505,STATE BANK OF HYDERABAD,"PATAMATA LANKA BRANCH, VIJAYAWADA",SBHY002054,6251210
+668,Godrej Agrovet Limited Unit -2 Rs No.57 Chintampalli Chintalpudi Mandal West Godavari District,321010200001458,AXIS BANK,JANGAREDDYGUDEM,UTIB0000321,26177310
+669,Sri Manjunatha Briquettes Plot No27 & 28 Industrial Park Expansion Kothaplli Proddatur Mandal YSRDistrict,32778267882,STATE BANK OF INDIA,PRODDATUR,SBIN0000901,113060
+670,Gemini Edibles And Fact India (P) Limited Sy No: 1607/2 Ip Pantapalem (V) Muthuku (M) Nellore Dist,008010200081467,AXIS BANK LTD,"BEGUMPET BRANCH, HYDERABAD",UTIB0000008,147514200
+671,Saraiwwalaa Agro Refineries Limited Bit-1 Pantapalem (V) Muthuku (M) Nellore Dist,020513046060023,ANDHRA BANK,"SULTHA BAZAR, HYDERABAD",ANDB0000205,161921400
+672,Carris Pipes And Tubes Pvt. Ltd. R.S.No. 72/1-A Plot No.15 Pedavutapalli Unguturu (M) Krishna District,2012000101323101,KARNATAKA BANK LIMITED,ERNAKULAM,KARB0000201,4830400
+673,Lakshmi Steel Pipes & Tubes Rs No.143/3 Surampalli Gannavaram Mandal Krishna District,309044007425,ING VYSYA BANK LTD,"KOTHAPET,VIJAYAWADA",VYSA0003090,3626670
+674,Udaya Bhaskara Ice Factory Rs No.212-1 Akiveedu Akiveedu Mandal West Godavari District,30550935262,STATE BANK OF INDIA,AKIVEEDU,SBIN0001440,54040
+675,Bharathi Consumers care Productes (P) Ltd S No: & 281 Pedaparimi (V) Thulluuru (M) Guntur Dist,074700150950369,TAMILNADU MERCANTILE BANK LTD,GUNTUR,TMBL0000074,9182268
+676,Raghvendra Spin Cot Mills S.No: 213/d Chinthapalli Padu Road Kurnuthala (V) Vatticherukur (M) Guntur Dist,0605261010501,canara bank ,"main br , guntur",cnrb0000605,11852020
+677,Veera Associates (Exp-1) D No: 6-76--2 NH-5 Ganpvarma (V) Nadendla (M) Guntur Dist,1911041139,CENTRAL BANK OF INDIA,"LAXMIPURAM, GUNTUR",CBIN0282364,527665
+678,"Raghunath Dye Chem (P) Ltd, Plto No; 13,14,15, and 21 and 24, IE, Kurnool",09924011000013,ORIENTAL BANK OF COMMERCE,KURNOOL,ORBC0100992,894670
+679,"Abhya Cements (P) Ltd, Plot nO: 8 Part -II, IP, Nadikudi (V), Dachepalii (M),",015013100000043,Andhra Bank,Guntur ,andb0000150,444564
+680,"Sree Murari Ginning & Pressing Factory, Sy NO; 253 & 254, Mantralayam Road, Mugathi (V), Nandavaram (M), Kurnool Dist",33723070000910,SYNDICATE BANK,"BUDHAWARPET, KURNOOL",SYNB0003372,5925390
+681,"vijaya Lakshmi Ginning and pressing Company, Sy No: 218/D1& D2, Kurnuthala (V), Vattichereukuru (M), Guntur",031413100000140,Andhra Bank,koretipadu br,andb0000314,4321240
+682,"AS Wire Industries, (VSP) (P) Ltd, Sy No: 175, Pavada (V), Parawada (M), Viskahapatnam",0787639000000194,LAKSHMI VILAS BANK,"DWARAKANGAR BRANCH, VISAKHAPATNAM",LAVB0000787,5342050
+683,"Vijayalakshmi Enterprises, RS No.332/2, Pedamiram, Kalla Mandal West Godavari District",012202000009999,INDIAN OVERSEAS BANK,ELURU,IOBA0000122,428730
+684,"Srinivasa Ice Factory, RS No.213/1, Madiwada, Akiveedu Mandal, West Godavari District",30989331853,STATE BANK OF INDIA,AKIVEEDU,SBIN0001440,172990
+685,"The Indian Hume Pipe Company Ltd., Sy No.210-2, Chilamathur, Anantapur District",30814862296,STATE BANK OF INDIA ,CHILAMATHUR,SBIN0011989,3811580
+686,"Hari hara Spin Cot, Sy NO: 166/3, 4,5,6, Kurnuthala(V), Vetticherukur (M), Guntur Dist",62295373564,STATE BANK OF HYDERABAD ,Kothapeta,SBHY0020346,861117
+687,"Premier Spincot, S No: 166/3,4,5 &6, Kurnuthala (V), Vatticherukur (M), Guntur Dist",62292227845,STATE BANK OF HYDERABAD,"KOTHAPET,GUNTUR",SBHY0020346,349400
+688,"Sri Lakshmi Srinivasa Agri Processing (P) Ltd, Rs No: 163/1, Anumanchipalli (V0, Jaggayapeta (M), Krishna District",025713100012598,ANDHRA BANK,JAGGAIAHPET,ANDB0000257,5327690
+689,"Krishna Cotton Industries, D No: 84/2345, Marripalem (V), Edlapadu (M), Guntur Dist",396044016878,Ing Vysya Bank,arundelpet,vysa0003960,966437
+690,"Meta Prime Alloy Castings, Rs No: 143/3, Surampalli (V), Channavaram (M), Krishna District",31907843974,STATE BANK OF INDIA,RAMAVARAPADU,SBIN0011100,509120
+691,"Sri Sadguru Sabasiva Ginning & Pressing Factory, Sy No: 134/4, Parvathipuram Roadm, Adoni (M), Kurnool Dist",33723070000910,SYNDICATE BANK,"BUDHAWARPET, KURNOOL",SYNB0003372,8267260
+692,"Louis Dreyfus Commodities India Pvt Ltd, Sy NO: 1601, Epuru Bit, 1B, Pantapalem (V), Muthukuru (M), SPSR Nellore Dist",00030340016954,HDFC BANK,NEW DELHI,HDFC0000003,86344840
+693,"Sri Varalakshmi Solvent Oils (P) Ltd, Narasimpuram (V), Santhabommali (M), Srikakulam Dist",05131300001130,ANDHRA BANK,"MAIN BRANCH, SRIKAKULAM",ANDB0000513,1005685
+694,"Krishnapatnam Oils and fats (P) Ltd, Sy No: 292, Bit-I (V), Muttukur (M), SPSR Nellore Dist",008010200071372,AXIS BANK LTD,HYDERABD,UTIB0000008,66786100
+695,"Swathi Cotton (TMC) (P) Ltd, Veluru (V), Chilalurupet (M) Guntur Dist",031413046101476,ANDHRA BANK,"KORETIPADU BRANCH, GUNTUR",ANDB0000314,10177940
+696,"Bella Green Wood Plastic Composites Pvt Ltd., 242/1, 243/2, 400/2, Kapavaram, Kovvur Mandal, West Godavari District",62231955059,STATE BANK OF HYDERABAD,"T.NAGAR, RAJAHMUNDRY",SBHY0020339,885600
+697,"Varalakshmi Polymers, RS No.811, Vatluru, Peddapdu Mandal, West Godavari District",1438223000000415,KARUR VYSYA BANK LTD,ELURU,KVBL0001438,578130
+698,"Srini Food Park (P) Ltd, Sy No: 11-24/2, Mogili (V)Bangamplam (M) Chittoor Dist",590401010050002,UNION BANK OF INDIA,"BANJARA HILLS BRANCH, HYDERABAD",UBIN0559041,6505954
+699,"V.R.Industries, Plot No.6-16, Iindustrial Estate, Bellary Road, Anantapuram",1434115000006113,KARUR VYSYA BANK LTD,ANANTAPURAM,KVBL0001434,150530
+700,"Foods Fats & Fertilizers Limited, Sy No: 1604, Epuru Pantapalem, Muthukur (V & M), SPSR Nellore",07601020002349,AXIS BANK LTD,KAKINADA,UTIB0000076,121334410
+701,"Siddartha Plastics, RSNo.765/5, Koppavaram Road, Anaparthi (V&M), East Godavari District",011713100000122,ANDHRA BANK,RAJAHMUNDRY,1NDB0000117,18000
+702,"Vijetha Pvc  Industries, RSNo.89/3, Madiki (V), Alamuru Mandal, East Godavari Districtq",011713100000201,ANDHRA BANK,"DEVI CHOWK, RAJAHMUNDRY",ANDB0000117,11910
+703,"Ayyappa Coir Industry, Plot No.41 & 42, Industrial Estate, Phase-I, Peddapuram, East Godvaari District",103702000000372,INDIAN OVERSEAS BANK,PENUMARTHY,IOBA0001037,104900
+704,"Suresh Cryogenic Gases, Plot No.41& 42, Atuto Nagar, Sarpavaran(V) Kakinada Rural( M), East Godavari District",64072796090,State Bank of Mysore,"Kakinada Branch, Kakinada",SBMY0040531,5500
+705,"Surya Rubber Industries, RSNo.194/4, Srikrishnapatnam(V), Rajanagaram (M)  East Godavari District",1408135000002103,THE KARUR VYSYA BANK ,RAJAHMUNDRY,KVBL0001408,24800
+706,"Sree Vari Enterprises, Plot No.116-B, IDA, Kadapa, Ysr District",32191010000210,SYNDICATE BANK,KADAPA,SYNB0003219,25400
+707,"Godavari Bi Products, Plot No.52, IDA, Peddapuram,  Kakinada Rural Mandal, East Godavari District",093655100000189,IDBI BANK,KAKINADA,IBKL0000093,55025
+708,"Vasavi Rathna Cold Storage PvtLtd, Tikkireddypalem, Prathipadu Mandal, Guntur District",012302000003456,Indian Overseas Bank,brodipet,ioba0000123,30720
+709,"Silica Ceramica (P) Ltd, DNo.97-107, Narayanapuram (V), Ungutur, West Godavari District",008010300018674,AXIS BANK LTD,"GREENLANDS, HYDERABAD",UTIB0001634,2787165
+710,"Bharathi Consumer Care Products (P) Ltd, SNo.208,281, Pedaparimi, Thulluru (M), Guntur District",074700150950369,TAMILNADU MERCANTILE BANK LTD,GUNTUR,TMBL0000074,212090
+711,"Vyjayanthi Cold Storage (P) Ltd, DNo.283/1, Lalpuram, Guntur District",1403280000001323,THE KARUR VYSYA BANK ,GUNTUR,KVBL0001403,178000
+712,"Patchala Spintex (P) Ltd, Rajupalem (V&M), Guntur District",117802000000578,INDIAN OVERSEAS BANK,"CM NAGAR, GUNTUR",IOBA0001178,118710
+713,"CRCold Storage (P) Ltd, Edlapadu, Guntur District",002802000004949,INDIAN OVERSEAS BANK,GUNTUR,IOBA0000028,10400
+714,"Alluri Casing PvtLtdRSNo.174/2, Pochavaram, Tupakulagudem (V), Thallapudi (M), West Godavari District",32484349713,STATE BANK OF INDIA,ELURU,SBIN0000836,189000
+715,"Sree Ravi Sankar Industries, RSNo.417/3&4, Tetagunta (V), Tuni Mandal, East Godavari District",32157108758,STATE BANK OF INDIA,"LABBIPETA, VIJAYAWADA",SBIN0003055,29340
+716,"Sri Sai Oxygen, Plot No.20, Autonagar,  Sarpavaram(V), Kakinada Rural Mandal, East Godavari District",157613100000104,ANDHRA BANK,"SARPAVARM BRANCH, KAKINADA",ANDB0001576,317840
+717,"Sri Vijaya Durga Ice Factory, Plot No.33, Industrial Park, Sarpavaram(V) Kakinada Rural Mandal, EGDistrict",959794208,INDIAN BANK,KAKINADA,IDIB000JO34,93150
+718,"Laxmi Rolling And Strips PvtLtd, Plot No.37, Apiic, Industrial Area, Gollapuram (V), Hindupur (M), Anantapur",31641010000544,SYNDICATE BANK,ANANTAPUR,SYNB0003164,147120
+719,"Sujitha Granites, Sy.No..3/c, 2, Chukkaluru Road, Chinnapolamada (GP), Tadipatri (M), Ananthapur District",32407277883,STATE BANK OF INDIA,TADIPATRI,SBIN0000923,23290
+720,"Kamal Ice Industries, Beside Relience Outlet, Near Ramannapalem Gate, Gnt Road, Kovuru (V&M), Nellore District",31636737316,STATE BANK OF INDIA ,NELLORE,SBIN0000887,7890
+721,"Teamec Chlorates Limited, Plot No.558 & 559, IGC, Gundlapalli (V), Maddipadu (M), Prakasam District",33483758083,STATE BANK OF INDIA,"INDUSTRIAL FINANCE BRANCH, CHENNAI",SBIN0009930,976500
+722,"Sri Ranganayaka Granites, Sy.No..238, 239, Budawada (V), Chimakurthy (M), Prakasam District",240102000000091,INDIAN OVERSEAS BANK,ONGOLE,IOBA0002401,44320
+723,"Deepthi Granites, Sy.No..239, Budawada (V), Chimakurthy (M), Prakasam District",7602000100232601,KARNATAKA BANK LIMITED,TADIPATRI,KARB0000760,45230
+724,"Vyshnavi Granites, Sy.No..239, 240, Budawada (V), Chimakurthy (M), Prakasam District",7602000100235201,KARNATAKA BANK LIMITED,TADIPATRI,KARB0000760,44720
+725,"Sri Sai Eswar Granites, Sy.No..238, Budawada (V), Chimakurthy (M), Prakasam District",240103261200023,INDIAN OVERSEAS BANK,ONGOLE,IOBA0002401,43760
+726,"Louis Dreyfus Commodities India PvtLtdSy.No..160/1, Epuru Bit 1, Pantapalem (V), Muthukur (M), Spsr Nellore",00030340016954,HDFC BANK,NEW DELHI,HDFC0000003,1401300
+727,"Emami Biotech Limited, Sy.No..51-510, Krishnapatnam Port Zero Point, Pantapalem (V), Muthukur (M), SPSR Nellore",50028938421,ALLAHABAD BANK,KOLKATA,ALLA0211501,4734630
+728,"Sai Ganapathi Drug Intermediates (P) Limited, Plot No.2-B, Phase-Ii, Industrial Park, Nadikudi (V), Dachepally (M), Guntur District",31477876632,STATE BANK OF INDIA,Nadikudi,sbin0001923,84680
+729,"Jyothi Swarupa Cold Division (P) Limited, DNo.624, Ankireddy Palem (V), Guntur Mandal & District",079254023778,DENA BANK,"PATNAM BAZAR, GUNTUR",DKDN0610792,99570
+730,"Annavaram Exports, Sy.No..239, 240, Budawada (V), Chimakurthy (M), Prakasam District",16222000001341,HDFC BANK LTD,TADIPATRI,HDFC0001622,81940
+731,"Venkatadri Spinning Mills PvtLtd, RSNo.644, Chikala (V), Chagallu (M), West Godavari Disst",33431010004759,SYNDICATE BANK,VIJAYAWADA,SYNB0003343,42250
+732,"Saaketh Ginning Mills PvtLtd,RSNo.54,55 & 56, Kummariguntla (V), AKonduru (M), Krishna District",116600401110010,CORPORATION BANK,BALANAGAR ,CORP0001166,42880
+733,"Laksshmi Furals PvtLtd,RSNo.752/41,  Avapadu (V), Nallajerla (M), West Godavari Dist",055013100010943,ANDHRA BANK,TADEPALLIGUDEM,ANDB0000550,32177
+734,"Tagoor Qua TechNo.logies Pvt Ltd, RSNo.126/2, Vadlapatlanuthanam (V), Kamavarapukota (Mm), West Godavari District",36201010000375,SYNDICATE BANK,ELURU,SYNB0003620,36607
+735,"Kauveri Ice Products, RSNo.64/1, Thimmayyapalem Road, Chebrolu (V), Unguturu (M), West Godavari Dist",00000003222203677,CENTRAL BANK OF INDIA,TADEPALLIGUDEM,CBIN0280827,57037
+736,"Eswar Coastal TechNo.links, RSNo.39/1 & 2, Tadepalligudem (V), Tadepalligudem (M), West Godavari Dist",62258346171,STATE BANK OF HYDERABAD,BHIMAVARAM,SBHY0020410,76435
+737,"Suprasanna Ice Factory, RSNo.31/2, Chebrolu (V), Unguturu (M), West Godavari Dist",6084730515,INDIAN BANK,BHIMAVARAM,IDIB000B021,18000
+738,"Hari Oxygen, Plot No.8, Road No.2, IDA, Kondapalli (V), Ibrahimpatnam (M), Krishna District",102711100000779,ANDHRA BANK,IBRAHIMPATNAM,ANDB0001027,173120
+739,"Bala Balaji Agro Industries, RSNo.26/3A, Kanuru (V), Peravali (M), West Godavari Dist",970880705,INDIAN BANK,TANUKU,IDIB000T006,95400
+740,"Suma Refinaries Pvt Ltd, RSNo.663, Velugubanda, Rajanagaram (M), East Godavari District",010011100002157,ANDHRA BANK,RAJAHMUNDRY,ANDB0000100,82282
+741,"Essar Packaging, Plot No.43, 44, 53 & 54, Ida, Ph-I, Peddapuram, East Godavari District",573105010000105,UNION BANK OF INDIA,"SRINAGAR, KAKINADA",UBIN0557315,157500
+742,"Bhagawati Fats & Edible Oils Pvt Ltd, Plot No.5A6, Ida, Vakalapudi (V), Near Light House, Kakinada Rural (M0, East Godavari District",020530100013117,ANDHRA BANK,"SULTHAN BAZAR, HYDERABAD",ANDB0000205,234100
+743,"Bharathamatha Ice Factory, Plot No.21, Industrial Park, Sarpavaram (V), Kakinada Rural M Andal, East Godavari District",3179150406,CENTRAL BANK OF INDIA,"SARPAVARAM, KAKINADA",CBIN0283363,164200
+744,"VVS Gases Logistics, 70-18-29/1, Bonda Gunta Nfcl, To Valasapakala Road, East Godavari District",261100009,INDIAN OVERSEAS BANK,"MAIN BRANCH, KAKINADA",IOBA0000031,14467
+745,"Gypsum N Gypsum, RSNo.332/2, Plot No.11, Industrial Park, Dowleswarma (V), Rajahmundry Rural (M), East Godavari District",62247810912,STATE BANK OF HYDERABAD,RAJAHMUNDRY,SBHY0020975,114960
+746,"Swathi Cottons Private Limited, Opp: 132 KVA Sub Station, Veluru Donka, Ganapavaram (V), Nadendla (M), Guntur District",031413046101476,ANDHRA BANK,"KORETIPADU BRANCH, GUNTUR",ANDB0000314,674740
+747,"Chillapalli Exports (P) Limited, S.No. 255/A, 256, Nidamarru (V), Mangalagiri (M), Guntur District",26360200007116,Bank of baroda,benz circle,BARB0BENVIJ,69159
+748,"Vighneswara Electricals & Transformers, S.No. 8-215-9, Ananthavarappadu Road, Etukuru (V), Guntur Mandal and District",015013100000061,ANDHRA BANK,GUNTUR,ANDB0000150,101360
+749,"Sree Venkata Sai Raghavendra Cold Storage Private Limited, D.No. 553, 554, Lal Puram (V), Guntur (M), Guntur District",3072962837,CENTRAL BANK OF INDIA,"LAXMIPURAM, GUNTUR",CBIN282364,147015
+750,"Vigneswara Poly Pack, Plot No. 12, Block No. 17, IDA., 1st Ward (V), Guntur Town (M), Guntur District",32761010000076,Syndicate Bank,Brudavan gardens,synb0003276,132300
+751,"Venkateswara Lova Prasad Exports, S. No. 417/3 & 4, Tetagunta (V), Tuni (M), East Godavari district",31852155998,STATE BANK OF INDIA,KAKINADA,SBIN0004248,24246
+752,"Harsha Liners Private Limited, RS No.219, Telaprolu (V), Unguturu (M), Krishna District",32434515227,STATE BANK OF INDIA,"PATAMATA, VIJAYAWADA",SBIN0000578,356010
+753,"Vijayanag Polymers Private Limited, RS No.11/2, Serinarasannapalem, Bapulapadu (M), Krishna District",25840500000085,BANK OF BARODA,GUDIVADA,BARB0GUDIVA,40400
+754,"A-One Ispat Pvt. Ltd., Plot No. 14 (Part), APIiC Industrial Park, Gollpuram (V), Hindupur (M), Anantapur Dist",3164101000544,SYNDICATE BANK,ANANTAPURAM,SYNB0003164,161018
+755,"Ravi Chandra Textiles (P) Limited, Panekallu (V), Tadikonda (M), Guntur District",01503100000450,ANDHRA BANK,"MAIN BRANCH, GUNTUR",ANDB0000150,121810
+756,"Rayani Spintex (P) Limited, S.No. 82-1B, Dhulipalla (V), Sattenapalli (M), Guntur District",02230510000571,UCO BANK,"ARANDALPET, GUNTUR",UCBA0000223,64080
+757,"Sri Manjunadha Granites, Sy.No. 115/2, Yeluru (V), Podili (M), Prakasam District",2536773006297,CANARA BANK,ONGOLE,CNRB0002536,22737
+758,"Naveena Industries, Plot No. 414, APIIC., IGC., Gundlapalli (V), Maddipadu (M), Prakasam District",36441400000344,SYNDICATE BANK,ONGOLE,SYNB0003644,34548
+759,"Sri Vishnu Pada Granites, Sy.No. 237 & 238, Budawada (V), Chimakurthy (M), Prakasam District",62280229142,STATE BANK OF HYDERABAD,ONGOLE,SBHY0020488,37800
+760,"Nikhila Granites, Sy.No. 237, Budawada (V), Chimakurthy (M), Prakasam District.",36403070001829,SYNDICATE BANK,ONGOLE,SYNB0003640,52375
+761,"R.S. Exports, Sy.No. 240, Budawada (V), Chimakurthy (M), Prakasam District",036003261200034,INDIAN OVERSEAS BANK,ONGOLE,IOBA0000360,47080
+762,"Vijayawada Alloy Castings, RS No.183/1, JRD Tata Industrial Estate, Kanuru, Penamaluru (M), Krishna District",160702000001166,INDIAN OVERSEAS BANK,VIJAYAWADA,IOBA0001067,212400
+763,"Idupulapadu Cotton Mills Private Limited, Jonnathali (V), Martur (M), Prakasam District",074700150490487,TAMILNAD MECHANTILE BANK LTD,GUNTUR,TMBL0000074,80860
+764,"Deepak Nexgen Feeds Private Limited, RS No.53/1, Koyyuru Road, Bommuluru (V), Bapulapadu (M), Krishna District",32202689243,STATE BANK OF INDIA,VIJAYAWADA,SBIN0000578,58365
+765,"India Food Exports, R.S.No. No. 154, Tetagunta (V), Tuni (M), East Godavari District",10774419222,STATE BANK OF INDIA,TUNI,SBIN0000942,89630
+766,"Shri Srinivasa Polymers, RS.No.8/1,10/1, 4&5, Pedamiram (V), Kalla (M), West Godavari Dist.",037500401110003,CORPORATION BANK,BHIMAVARAM,CORP0000375,14400
+767,"Lohiya Edibles Oils Pvt Ltd, Plot No. 25, IDA, Vakalapudi (V), Kakinada Rural (M), East Godavari District",347705010046091,UNION BANK OF INDIA,"RAMKOTI, HYDERABAD",UBIN0534773,5245000
+768,"Meher Cem Industries, S.No. 897/29/B2, Piduguralla (Po. & M), Guntur District",30787223972,state bank of india,Piduguralla,sbin0002783,86128
+769,"Samana Industries, Plot No. 2,3 & 4, Block No. 39, IDA., Autonagar (V), Guntur Town (M), Guntur District",040330100012765,Andhra Bank,old guntur br,andb0000403,164224
+770,"Sri Lucky Polymers, Plot No. 42A, Industrial Area, Nowlur (V), Mangalagiri (M), Guntur District",32761010000076,Syndicate Bank,Brudavan gardens,synb0003276,58000
+771,"Sri Sai Rama Industries, RS No: 332, Savarappalam (V), Amalapuram (M), East Godavari Dist",498306110025005,UNION BANK OF INDIA,AMALAPURAM,UBIN0549835,14700
+772,"Sree Valli Ice Factory, 670/2,d & 4, Chandole (V), Pittalavanipalem (M), Guntur District",35300101003240,union bank of india,karlapalem ,ubin0535303,6400
+773,"Tirumala Ice Factory, RS.No.855/1, Unguturu (V&M), West Godavari Dist.",452001010031092,UNION BANK OF INDIA,UNGUTURU,UBIN0545201,22560
+774,"K A R R Ice & Cold Storage, RS.No.846/3, Neladripuram (V), Unguturu (M), West Godavari Dist.",6096624446,INDIAN BANK,ELURU,IDIB000E006,29610
+775,"Sri Hima Bindu Ice Factory, Narayanapuram (V), Unguturu (M), West Godavari Dist.",012202000001503,INDIAN OVERSEAS BANK,ELURU,IOBA0000122,271090
+776,"Nithya Sri Plastics, Plot No. 39, Block No. 42, Phase-I & II, Autonagar, Guntur, Guntur District",62240275957,STATE BANK OF HYDERABAD ,Autonager,sbhy0021231,43685
+777,"Sri KVR Exports, Sy.No. 1032, Chimakurthy  (V&M), Prakasam District",027500401130002,CORPORATION BANK,ONGOLE,CORP0000275,28100
+778,"Sri Lakshmi Venkateswara Cold Storage Private Limited, Anki Reddy Palem (V), Guntur (M), Guntur District",012302000001080,INDIAN OVERSEAS BANK,"BRODIPET, GUNTUR",IOBA0000123,120050
+779,"Sri Sai Balaji Granites & Exports, Sy.No. 160, 13A, 3B, 4A, 4C & 303/1, Budawada (V), Chimakurthy (M), Prakasam District",233902000000239,INDIAN OVERSEAS BANK,CHIMAKURTHY,IOBA0002339,86520
+780,"Sai Sudha Granites, Sy.No. 163/4A, Budawada (V), Chimakurthy (M), Prakasam District",32755162364,STATE BANK OF INDIA,TADIPATRI,SBIN0000923,23300
+781,"Hari Priyaa Granite, Sy.No.239, 240, Budawada (V),Chimakurthy (M), Prakasam District",233903261300001,INDIAN OVERSEAS BANK,CHIMAKURTHY,IOBA0002339,61560
+782,"Ascent Industries Pvt Ltd., D.No. 1-120A, Gangavaram (V&M), East Godavari District",061030100002829,ANDHRA BANK,UNDRAJAVARAM,ANDB0000610,211780
+783,"Girnar Packaging, Plot No.11,12 and 13, Industrial park, Menkur (V), Naidupet (M), SPSR Nellore dist.",004401601000462,CORPORATION BANK,SECUNDERABAD,CORP0000044,592925
+784,"Sri Bhuvnas Enterprises, Plot No. 8, IDA, Ph-III, Peddapuram (M), East Godavari District",32511010000106,SYNDICATE BANK,RAJAHMUNDRY,SYNB0003251,486930
+785,"Shine Mediplast Pvt Ltd., Plot No. 11-B, Industrial Park, Sarpavaram (V), Kakinada Rural (M), East Godavari District",31692321742,STATE BANK OF INDIA,KAKINADA,SBIN0004248,188880
+786," Veeraaya Techno Plast Pvt Ltd, R.S.No. 491/1, Kolamuru (V), Rajahmundry Rural (M), East Godavari District",010013100000131,ANDHRA BANK,DANAVAIPETA,ANDB0000100,70560
+787,"Sri Sai Venkata Vinayaka Sortex, S.No. 822/5, Thimmayapalem (V), Vinukonda (M), Guntur District",060711100000195,Andhra Bank,vinukonda,andb0000607,1400
+788," Jaypee Balaji Cement Project, RS No.99, Budawada (V), Jaggaiahpet (M), Krishna District",585010200001700,AXIS BANK,JAGGAIAHPET,UTIB0000585,4323100
+789," Surya Teja Chemicals, S.No. 584/24, Pathaganesunipadu (V), Piduguralla (M), Guntur District",044711100000131,Andhra Bank,Piduguralla,andb0000447,40221
+790,"Mohana Cotton Ginning (P) Ltd., S.No. 27/5,6, Garapadu (V), Vatticherukuru (M), Guntur District",32203436245,STATE BANK OF INDIA,GUNTUR,SBIN0000844,658280
+791," K.C.P.Limited, ( K.C.P Cement unit -II), Muktyala, Jaggaipet (M), Krishna Dist",50200001183051,HDFC BANK ,JAGGAIAHPET,HDFC0002367,1539950
+792,"Sri Sapthagiri Exports, Sy No: 239,240, Budawada (V), Chimakurty (M), Prakasam Dist",32801949812,STATE BANK OF INDIA,CHIMAKURTHY,SBIN0011116,40430
+793,"Bhavani Granites, Plto No: 88, Valasapalli (V), Madanapalli (M) Chittoor.",1427001800057101,Karnataka bank,chintamani,karb0000142,57230
+794,"Yuvaraj Granites, Sy No: 1008/4, 1031 & 1032, Chimakurty (V&M), Prakasam Dist",36403070001829,SYNDICATE BANK,ONGOLE,SYNB0003640,92960

@@ -1,0 +1,96 @@
+<div class="content_heading">Confirm Cheque</div>
+<div class="fullwrap">
+	<div class="wrap_indi">
+		<div class="chq_img_dv" style="height:390px;border-bottom: 1px solid #e2e2e2;">
+			<div class="chq">
+				<div class="chq_branch">{{dat.partybranch}}</div>
+				<div class="chq_ifsc">{{dat.partyifsc}}</div>
+				<div class="chq_hoa">{{dat.hoa}}</div>
+				<div class="chq_ddo">{{dat.issueuser}}</div>
+				<div class="chq_name"ng-if="dat.multiflag==1">{{dat.partyname}}</div>
+				<div class="chq_name"ng-if="dat.multiflag==2">Pay Your Self</div>
+				<div class="chq_rs">{{words(dat.partyamount)}}</div>
+				<div class="chq_box">{{dat.commaspartyamount}} / -</div>
+				<div class="chq_date">{{Dates.getDate(dat.transdate)}}</div>
+				<div class="chq_area">{{dat.issueuser.substr(0,4)}}</div>
+				<div class="chq_no">|' {{dat.chequeno}} |'</div>
+			</div>
+			<div style='float:left;font-size:12px;font-weight:bold;margin-top:10px;'>* Online Cheque Replica</div>
+		</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Cheque No</div>
+		<div class="each_data">{{dat.chequeno}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">DDO Code</div>
+		<div class="each_data">{{dat.issueuser}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Issue Authority</div>
+		<div class="each_data">{{dat.requser.userdesc}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Head of Account</div>
+		<div class="each_data">{{dat.hoa}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Balance  <span class="small_txt">(in Rs.)</span></div>
+		<div class="each_data">{{ttlbal}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Existing LOC  <span class="small_txt">(in Rs.)</span></div>
+		<div class="each_data">{{ttlloc}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Party Amount <span class="small_txt">(in Rs.)</span></div>
+		<div class="each_data">{{dat.commaspartyamount}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Purpose</div>
+		<div class="each_data">{{dat.purpose}}</div>
+	</div>
+	<div class="prty_bnk_det_dv_cls" style="width:800px;">
+		<div class="wrap_indi" ng-if="dat.multiflag==1">
+			<div class="each_text">Party Name</div>
+			<div class="each_data">{{dat.partyname}}</div>
+		</div>
+		<div class="wrap_indi" ng-if="dat.multiflag==1">
+			<div class="each_text">Party Account No</div>
+			<div class="each_data">{{dat.partyacno}}</div>
+		</div>
+		<div class="wrap_indi" ng-if="dat.multiflag==1">
+			<div class="each_text">Party Bank Name</div>
+			<div class="each_data">{{dat.partybank}}</div>
+		</div>
+		<div class="wrap_indi" ng-if="dat.multiflag==1">
+			<div class="each_text">Party Bank Branch</div>
+			<div class="each_data">{{dat.partybranch}}</div>
+		</div>
+		<div class="wrap_indi" ng-if="dat.multiflag==1">
+			<div class="each_text">Party Bank IFSC Code</div>
+			<div class="each_data">{{dat.partyifsc}}</div>
+		</div>
+	</div>
+	<div class="wrap_indi" ng-if="dat.multiflag==2">
+		<div class="each_text">Party File</div>
+		<div class="each_data"><a download href="{{requesturl+'/uploads/'+dat.partyfile}}">Download</a></div>
+	</div>
+	<div class="prty_bnk_det_dv_cls">
+		
+		<div class="generatebtn" style="float:none;width:initial;margin:8px;" ng-show="sbidownloadlink"><a download href="{{requesturl+'/'+sbidownloadlink}}">Download SBI file</a></div>
+		<div class="generatebtn" style="float:none;width:initial;margin:8px;" ng-show="neftdownloadlink"><a download href="{{requesturl+'/'+neftdownloadlink}}">Download NEFT file</a></div>
+		<div class="generatebtn" style="float:none;width:initial;margin:8px;" ng-show="rtgsdownloadlink"><a download href="{{requesturl+'/'+rtgsdownloadlink}}">Download RTGS file</a></div>
+		<div class="generatebtn" style="float:none;width:initial;margin:8px;" ng-show="intradownloadlink"><a download href="{{requesturl+'/'+intradownloadlink}}">Download INTRA Bank(state bank to state bank) file</a></div>
+	</div>
+	
+	<div class="wrap_indi">
+		<div class="each_text" style="width:100px;">Remarks</div>
+		<textarea class='textarea ex_cl_txt' placeholder="Enter remarks here.." ng-model='remarks'></textarea>
+	</div>
+	<div class="wrap_indi" style="padding-left:25px;">
+		<div class="main_button yes_btn" style="width:200px;margin-right:20px;"ng-click="chq_confirm()">Confirm Payment</div>
+		<div class="main_button" style="margin-left:0px;" ng-click="chq_reject()">Reject</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

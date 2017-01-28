@@ -1,0 +1,56 @@
+<style>
+	.mtable td{
+		max-width: 170px;
+	}
+</style>
+<div class="content_heading">Rejected Accounts</div>
+<div class="fullwrap">
+
+	<div class="wrap_indi">
+		<div class="each_text">Select STO/DTO</div>
+		<select class='each_select' ng-model='stomain' ng-change="sto_change()">
+			<option value="select">SELECT</option>
+			<option value="{{sto.username}}" ng-repeat="sto in stolist">{{sto.userdesc+'( '+sto.username+' )'}}</option>
+		</select>
+	</div>
+	<table class='each_table mtable' ng-show='rejaccts.length>0'>
+		<tr class='heading_row'>
+			<th>Sno</th>
+			<th>DDO Code</th>
+			<th>Head of Account</th>
+			<th>Current Balance</th>
+			<th>PD Opening Balance</th>
+			<th>Impact Opening Balance</th>
+			<th>Reason</th>
+			<th>Delete</th>
+			<th>Update Balance</th>
+			<th>Update</th>
+			<th>Remarks</th>
+			<th>Send for Modification</th>
+		</tr>
+		<tr ng-repeat="acc in rejaccts" ng-show="$index+1<=50" >
+			<td>{{acc.pagenumber}}</td>
+			<td>{{acc.ddocode}}</td>
+			<td>{{acc.hoa}}</td>
+			<td>{{acc.balance}}</td>
+			<td>{{acc.obalance}}</td>
+			<td>{{acc.impact_obalance}}</td>
+			<td>{{acc.remarks}}</td>
+			<td><button ng-click='delete_acc(acc, $event)'>Delete</button></td>
+			<td><input type="text" ng-model='acc.newbal' style='float:left;width:145px;' class="thisbal"></td>
+			<td><button ng-click='update_acc(acc, $event)'>Update</button></td>
+			<td><textarea cols="18" rows="8" ng-model='acc.newrems'></textarea></td>
+			<td><button ng-click='send_acc(acc)'>Send</button></td>
+		</tr>
+	</table>
+	<div class="wrap_indi" ng-show="rejaccts.length==0">
+		<div class="each_desc">
+			* No accounts available.
+		</div>
+	</div>
+
+	<div class="paginationwrap" ng-show="chqlistall>30">
+		<div class="indipageno" thispageno="{{page}}" ng-click="sto_change(page)" ng-repeat="page in pagination" ng-show="$index+1>1">{{page}}</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

@@ -1,0 +1,56 @@
+<div class="menu">
+	<div class="container">
+		<div class="menu_indi ex_wid_menu_dto">
+			<a ui-sref="dto.main"><div class="menu_item ex_wid_menu_dto">HOME</div></a>
+		</div>
+		<div class="menu_indi ex_wid_menu_dto">
+			<div class="menu_item ex_wid_menu_dto">MASTERS</div>
+			<div class="sub_menu ex_wid_menu_dto">
+				<a ui-sref="dto.create"><div class="menu_subitem ex_cls_menu_subtiem">Confirm Accounts</div></a>
+				<a ui-sref="dto.editddo"><div class="menu_subitem ex_cls_menu_subtiem">Change DDO Name</div></a>
+				<a ui-sref="dto.createuac"><div class="menu_subitem ex_cls_menu_subtiem">Create User Account</div></a>
+				<!-- <a ui-sref="dto.manageuac.hoatosa"><div class="menu_subitem ex_cls_menu_subtiem">Manage User Accounts</div> -->
+			</div>
+		</div>
+		<div class="menu_indi ex_wid_menu_dto">
+			<div class="menu_item ex_wid_menu_dto">TRANSACTIONS</div>
+			<div class="sub_menu ex_wid_menu_dto">
+				<a ui-sref="dto.request"><div class="menu_subitem ex_cls_menu_subtiem">Cheque Book Requests</div></a>
+				<a ui-sref="dto.loclist"><div class="menu_subitem ex_cls_menu_subtiem">LOC Requests</div></a> 
+				<a ui-sref="dto.trans"><div class="menu_subitem ex_cls_menu_subtiem">Cheques to be Authorized</div></a>
+			</div>
+		</div>
+		<div class="menu_indi ex_wid_menu_dto">
+			<div class="menu_item ex_wid_menu_dto">REPORTS</div>
+			<div class="sub_menu ex_wid_menu_dto">
+				<!-- <a ui-sref="dto.ledger"><div class="menu_subitem ex_cls_menu_subtiem">My Ledgers</div></a> -->
+				<a ui-sref="dto.statement"><div class="menu_subitem ex_cls_menu_subtiem">Account Statement</div></a>
+				<a ui-sref="dto.locrpt"><div class="menu_subitem ex_cls_menu_subtiem">LOC Report</div></a>
+				<a ui-sref="dto.reqrpt"><div class="menu_subitem ex_cls_menu_subtiem">Cheque Book Report</div></a>
+				<a ui-sref="dto.chqrpt"><div class="menu_subitem ex_cls_menu_subtiem">Cheques Report</div></a>
+			</div>
+		</div>
+		<div class="menu_indi ex_wid_menu_dto">
+			<div class="menu_item ex_wid_menu_dto">INVENTORY</div>
+			<div class="sub_menu ex_wid_menu_dto">
+				<a ui-sref="dto.addinventory"><div class="menu_subitem ex_cls_menu_subtiem">Add Inventory</div></a>
+				<a ui-sref="dto.viewinventory"><div class="menu_subitem ex_cls_menu_subtiem">View Inventory</div></a>
+			</div>
+		</div>
+		<div class="menu_indi ex_wid_menu_dto">
+			<div class="menu_item ex_wid_menu_dto">GENERAL</div>
+			<div class="sub_menu ex_wid_menu_dto">
+				<a ui-sref="dto.query"><div class="menu_subitem ex_cls_menu_subtiem">Online Query System</div></a>
+				<a href="../front/images/officer.pdf" target="_blank"><div class="menu_subitem ex_cls_menu_subtiem">User Manual</div></a>
+				<a ui-sref="dto.password"><div class="menu_subitem ex_cls_menu_subtiem">Change Password</div></a>
+				<div class="menu_subitem ex_cls_menu_subtiem" ng-click='logout()'>Logout</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="content">
+	<div class="container">
+		<div class="welcome">Welcome {{username}}</div>
+		<div ui-view="content"></div>
+	</div>
+</div>

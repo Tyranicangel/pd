@@ -1,0 +1,46 @@
+<div class="content_heading">Issue LOC</div>
+<div class="fullwrap">
+	<div class="wrap_indi">
+		<div class="each_text">Request User</div>
+		<div class="each_data">{{requestdata.requser.userdesc}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">DDO Code</div>
+		<div class="each_data">{{requestdata.requestuser}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Head of Account</div>
+		<div class="each_data">{{requestdata.schemes.schemename+' ( '+requestdata.hoa+' ) '}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Current Balance <span class="small_txt">(in Rs.)</span></div>
+		<div class="each_data">{{requestdata.accounts.balance}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Existing Loc <span class="small_txt">(in Rs.)</span></div>
+		<div class="each_data">{{requestdata.accounts.loc}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Request Amount <span class="small_txt">(in Rs.)</span></div>
+		<div class="each_data">{{requestdata.reamount}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Request Date</div>
+		<div class="each_data">{{Dates.getDate(requestdata.requestdate)}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Issue Amount <span class="small_txt">(in Rs.)</span></div>
+		<input type="text" class="each_box amount_box" autocomplete="off" ng-model='issue_amt'>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Reference No</span></div>
+		<input type="text" class="each_box" autocomplete="off" ng-model='refno'>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_desc"><br><br><br>Sir,<br><br>As per your request,I am hereby issuing LOC for the above mentioned amount.<br><br><br>Regards<br><br>{{username}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="main_button" ng-click="req_accept()">Issue</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

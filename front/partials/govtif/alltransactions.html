@@ -1,0 +1,56 @@
+<div class="content_heading">Transactions List</div>
+
+<p style="font-famliy:arial;font-size:12px;clear:both;"><span class="stardiv">*</span>Please select the dates and click on search to show the transactions in between those dates</p>
+<br>
+<span class="frm_to_chq">From</span>
+<input type="text" class="dt_slct" id="fdate"><br><br>
+<span class="frm_to_chq">To</span>
+<input type="text" class="dt_slct" id="tdate"><br>
+<button class="scrh_chqs_conf_btn" ng-click="get_conf_chqs()">Search</button><br>
+
+
+
+<div class="srch_dv" ng-show="totaltranslist.length>0" style="margin-top:20px;">
+		<div class="srch_inpbx">
+			<input type="text" ng-model="acsearch" placeholder="Search with PD Account Name,DDO code,HOA,Balance,LOC" class="scrch_inp_bx" style="width:500px;" >
+		</div>
+		<div class="srch_icn">
+			<img src="../front/images/srch.png" class="scrh_icn_img_tg">
+		</div>
+	</div>
+
+<table class='each_table' style="margin-top:20px;" ng-show='totaltranslist.length>0'>
+	<tr class='heading_row clr_wg'>
+		<td>Sno</td>
+		<td>PD Account Name</td>
+		<td>Partyname</td>
+		<td>DDO Code</td>
+		<td>HOA</td>
+		<td>Cheque Issue Date</td>
+		<td>Purpose</td>
+		<td>Amount <span class="shwng_dt_txt">(in Rs.)</span></td>
+		<td>Amount <span class="shwng_dt_txt">(in words)</span></td>
+		<td>Status</td>
+		<td>Payment Date</td>
+	</tr>
+	<tr ng-repeat="x in totaltranslist | filter:acsearch">
+		<td>{{$index+1}}</td>
+		<td>{{x.requser.userdesc}}</td>
+		<td ng-if="x.multiflag==2">
+			<a download href="{{requesturl+'/uploads/'+x.partyfile}}">Download</a>
+		</td>
+		<td ng-if="x.multiflag==1">
+			{{x.partyname}}
+		</td>
+		<td>{{x.issueuser}}</td>
+		<td>{{x.hoa}}</td>
+		<td>{{x.transdate}}</td>
+		<td>{{x.purpose}}</td>
+		<td>{{x.partyamount}}</td>
+		<td>{{x.amtwords}}</td>
+		<td>{{x.stat}}</td>
+		<td>{{x.confirmdate}}</td>
+	</tr>
+</table>
+
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

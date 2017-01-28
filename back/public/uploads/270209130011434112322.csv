@@ -1,0 +1,43 @@
+Sno,"Party Name","Party Account no","Party Bank Name","Party Bank Branch","Party Bank Ifsc Code","Party Amount"
+1,"Medical Superintendent"," Area Hospital"," Kadiri"," Ananthapur",030110011006880,"Andhra Bank"," ","Kadiri ",ANDB0000301,556258
+2,"Medical Superintendent"," Area Hospital"," Hindupur"," Ananthapur",020210011005716,"Andhra Bank"," ",Hindupur,ANDB0000202,820575
+3,"Medical Superintendent","  Area Hospital"," Guntakal"," Ananthapur",014910011011924,"Andhra Bank"," ",Guntakal,ANDB0000149,477356
+4,"Medical Superintendent","  District Hospital",Nandyal," Kurnool",037910011015220,"Andhra Bank"," "," Byrmal street Nandyal.",ANDB0000379,1143645
+5,"Medical Superintendent","  Area Hospital"," Adoni"," Kurnool",000210011007383,"Andhra Bank"," "," Adoni.",ANDB0000002,518154
+6,"Medical Superintendent","  Area Hospital"," Palakonda"," Srikakulam",043910011006646,"Andhra Bank"," "," Palakonda",ANDB0000439,515888
+7,"Medical Superintendent","  Area Hospital"," Tekkali"," Srikakulam",056210011006245,"Andhra Bank"," "," Tekkali",ANDB0000562,562601
+8,"Medical Superintendent","  Area Hospital"," Rajam"," Srikakulam",046610011010065,"Andhra Bank"," "," Rajam Srikakulam",ANDB0000466,466114
+9,"Medical Superintendent","  Area Hospital"," Narsipatnam"," Visakhapatnam",038310100062724,"Andhra Bank",," Narsipatnam",ANDB0000383,567888
+10,"Medical Superintendent"," Area Hospital"," Anakapalli"," Visakhapatnam",001210011010413,"Andhra Bank"," "," Main BranchAnakapalli.",ANDB0000012,637066
+11,"Medical Superintendent","  District Hospital"," Vizianagaram.",133410011000043,"Andhra Bank"," "," Main BranchVizianagaram",ANDB0001334,847997
+12,"Medical Superintendent","  Area Hospital"," Parvathipuram"," Vizianagaram",4010011006769,"Andhra Bank"," "," Belagam BranchParvathiuram.",ANDB0000040,300960
+13,"Medical Superintendent","  District Hospital"," Rajahmundry"," East Godavari",010010011016858,"Andhra Bank"," "," Danavaipeta Rajahmundry",ANDB0000100,1558094
+14,"Medical Superintendent","  Area Hospital"," Amalapuram"," East Godavari",036510011008044,"Andhra Bank"," "," Area Hospital Amalapuram.",ANDB0000365,599804
+15,"Medical Superintendent"," Area Hospital"," Ramachandrapuram"," East Godavari",046710011012412,"Andhra Bank","   ","   Area Hospital Ramchandrapuram",ANDB0000467,446908
+16,"Medical Superintendent"," Area Hospital"," Tuni"," East Godavari",056110011016236,"Andhra Bank"," "," Tuni",ANDB0000561,751512
+17,"Medical Superintendent","  Area Hospital"," Rampachodavaram"," East Godavari",040910011052890,"Andhra Bank","  R","  Rampachodavaram East Godavari",ANDB0000409,448916
+18,"Medical Superintendent","  District Hospital"," Eluru"," West Godavari",046810011320178,"Andhra Bank"," "," Eluru",ANDB0000468,1602450
+19,"Medical Superintendent","  Area Hospital",Tanuku," West Godavari",055410011015945,"Andhra Bank"," "," Tanuku",ANDB0000554,521082
+20,"Medical Superintendent","  Area Hospital"," Tadepalligudem"," West Godavari",055010011040445,"Andhra Bank"," "," Tadepalligudem",ANDB0000550,518325
+21,"Medical Superintendent","  Area Hospital"," Jangareddygudem"," West Godavari",025910011024799,"Andhra Bank"," "," Jangareddygudem WG",ANDB0000259,543919
+22,"Medical Superintendent"," District Hospital"," Machilipatnam"," Krishna",034210011005482,"Andhra Bank"," ","   LIC branch Machilipatnam",ANDB0000342,1171996
+23,"Medical Superintendent","  Area Hospital"," Nuziveedu"," Krishna",038810011014123,"Andhra Bank"," "," Nuziveedu",ANDB0000388,445170
+24,"Medical Superintendent","  Area Hospital"," Gudivada"," Krishna",014610011019582,"Andhra Bank"," ",Gudivada,ANDB0000146,335729
+25,"Medical Superintendent","  District Hospital"," Tenali"," Guntur",055510011021235,"Andhra Bank"," ",Tenali,ANDB0000555,1119193
+26,"Medical Superintendent","  Area Hospital"," Bapatla"," Guntur",003710011079001,"Andhra Bank"," "," Bapatla",ANDB0000037,519068
+27,"Medical Superintendent"," Area Hospital"," Narsaraopet"," Guntur",038111011002306,"Andhra Bank"," "," Narsaraopet",ANDB0000381,508689
+28,"Medical Superintendent","  Area Hospital",Chirala," Prakasam",8010011021494,"Andhra Bank"," "," Chirala",ANDB0000080,387003
+29,"Medical Superintendent","  Area Hospital"," Markapur"," Prakasam",106710011504905,"Andhra Bank"," "," Kandukur",ANDB0001067,524014
+30,"Medical Superintendent","  Area Hospital"," Kandukur"," Prakasam",030410011097160,"Andhra Bank"," "," Kandukur",ANDB0000304,463756
+31,Suptd.,"DSR Govt.Hospital"," Nellore",34650177941,"State Bank of India"," ","Vedayapalem Branch Nellore",SBIN0007457,3133731
+32,"Medical Superintendent","  Area Hospital"," Gudur"," Nellore",014710011010767,"Andhra Bank"," "," Gudur",ANDB0000147,397724
+33,"Medical Superintendent","  Area Hospital"," Kavali"," Nellore",30910100043525,"Andhra Bank"," "," Gudur",ANDB0000309,420749
+34,"Medical Superintendent","  District Hospital"," Chittoor"," Chittoor",008110011011176,"Andhra Bank"," "," Main BranchDistrict Hospital Chittoor",ANDB0000081,2057891
+35,"Medical Superintendent","  Area Hospital"," Kuppam"," Chittoor",059810011000919,"Andhra Bank"," "," Kuppam",ANDB0000598,840991
+36,"Medical Superintendent","  Area Hospital"," Madanapalli"," Chittoor",037010011007292,"Andhra Bank"," "," Madanapalli",ANDB0000370,913112
+37,"Medical Superintendent","  Area Hospital"," Srikalahasti"," Chittoor",051410011006278,"Andhra Bank"," "," Srikalahasti",ANDB0000514,921693
+38,"Medical Superintendent","  Area Hospital"," Chandragiri"," Chittoor",102610011003729,"Andhra Bank"," "," Chandragiri","ANDB 0001026",917196
+39,"Medical Superintendent","  Area Hospital"," Palamaner"," Chittoor",11137525251,"State Bank of India"," ","SBI Palamaner",SBIN00000266,952079
+40,"Medical Superintendent","  Area Hospital"," Pulivendula"," Kadapa",045210011010781,"Andhra Bank",,Pulivendula,ANDB0000452,475546
+41,"Medical Superintendent","  District Hospital"," Proddatur"," Kadapa",043710011009014,"Andhra Bank"," "," Proddatur",ANDB0000437,1136730
+42,MD," APMSIDC"," Hyderabad",142410011000314,"Andhra Bank"," "," Kendriya sadan Branch. Hyderabad",ANDB0001424,2243330

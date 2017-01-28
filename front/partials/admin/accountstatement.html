@@ -1,0 +1,31 @@
+<div class="content_heading">Cheques Report</div>
+<div class='fullwrap'>
+	<div class="wrap_indi">
+		<div class="each_text">Select Area</div>
+		<select class='each_select' ng-model='areamain' ng-change="area_change()">
+			<option value="select">SELECT</option>
+			<option value="{{area.areacode}}" ng-repeat="area in arealist">{{area.areaname}}</option>
+		</select>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Select STO/DTO</div>
+		<select class='each_select' ng-model='stomain' ng-change="sto_change()">
+			<option value="select">SELECT</option>
+			<option value="{{sto.username}}" ng-repeat="sto in stolist">{{sto.userdesc+'( '+sto.username+' )'}}</option>
+		</select>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Select PD Administrator</div>
+		<select class='each_select' ng-model='ddomain' ng-change="ddomainchange(ddomain)">
+			<option value="select">SELECT</option>
+			<option value="{{ddo.username}}" ng-repeat="ddo in ddolist">{{ddo.userdesc+'( '+ddo.username+' )'}}</option>
+		</select>
+	</div>
+
+	<div class="wrap_indi" ng-repeat="book in mybooks">
+		<div class="each_desc">
+			<span>Account with Hoa : <a ui-sref="backadmin.statement({account:book.id})">{{book.scheme.schemename+'    ( '+book.hoa+' ) '}}</a></span>
+		</div>
+	</div>
+	
+</div>

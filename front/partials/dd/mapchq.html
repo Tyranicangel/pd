@@ -1,0 +1,28 @@
+<div class="content_heading">Map Cheuqe Book User</div>
+<div class="fullwrap">
+	<div class="wrap_indi" ng-show="sauser.length==0">
+		<p class="noactnt_p othe_cls_p"><span class="stardiv">*</span>
+			There are no SAs under you, please create SA accounts and then try again!
+		</p>
+	</div>
+	<div class="wrap_indi" ng-show="sauser.length>0">
+		<p class="noactnt_p"><span class="stardiv">*</span>
+			Please select the SA to whom all the cheque book requests should be directed to once a PD Administrator requests for a cheque book!
+		</p>
+	</div>
+	<div class="wrap_indi"  ng-show="sauser.length>0">
+		<div class="each_text">Select SA</div>
+		<select class="each_select" ng-model="sauser" ng-options = "y.username as y.userdesc for y in sausers">
+				
+		</select>	
+	</div>
+
+	<div style="margin:auto;width:331px;"  ng-show="sauser.length>0">
+		<div class="main_button crt_usr_cls" style="margin-top:20px;" ng-click="save_chq_map()">Save Changes</div>
+	</div>
+
+</div>
+
+
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>
+

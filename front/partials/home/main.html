@@ -1,0 +1,81 @@
+<ul style="list-style:none;">
+	<marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();" scrollamount="5" style="font-size:12px;padding:5px;background:#bababa;font-weight:bold;">
+		<li>* PD Administrator has been divided into two roles i.e; PD Admin and PD Admin Authorizer. All the cheques, loc requests and chequebook requests will be forwarded to the particular PD Admin's Authorizer and PD Admin Authorizer will forward to the respective higher authority. &nbsp; &nbsp; &nbsp; * Please press ctrl+f5 key on your keyboard if you are facing any trouble with the application. If the problem persist please contact your tresury officer.</li>
+	</marquee>
+</ul>
+<div class="content_left">
+	<div class="other_content" style='height:auto;border:0px;'>
+		<h2 class="pao_txt">Welcome to the Personal Deposit Accounts Web Portal</h2>
+		<p class="pd_desc_txt" style="text-align:center;">
+			The Personal Deposits Accounts Portal is used by all the PD administrators,DTOs/STOs and banks who are involved in the functioning of the Personal Deposit Accounts.It is a consolidated application which acts as a platform to capture the functioning of the PD accounts in a transparent way.</p>
+		<div class="home_page_icons">
+			<div class="image1" style="border-left:0px;">
+				<img src="images/accounts_icon.png" style="width:90px;"/>
+			</div>
+			<div class="image1">
+				<img src="images/list_icon.png" style="width:90px;"/>
+			</div>
+			<div class="image1">
+				<img src="images/rupee_icon.png" style="padding-top:10px;"/>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="content_right">
+	<div class="login_wrap">
+		<div class="login_header">LOGIN</div>
+		<form ng-submit="login()">
+			<div class="login_indi">
+				<div class="login_text">USER-ID :</div>
+				<input type="text" class="login_field" ng-model="user.id" autocomplete="on">
+			</div>
+			<div class="login_indi">
+				<div class="login_text">PASSWORD :</div>
+				<input type="password" class="login_field" ng-model="user.password" autocomplete="off">
+			</div>
+			<input type="submit" value="SIGN IN" class='main_button'>
+			<div style="clear:both;"></div>
+			<p class="forgotpass" ng-click="forgotbox()">Forgot password?</p>
+			<div class="error_msg" ng-show="errors" style="position: relative;top: -45px;">{{error_msg}}</div>
+		</form>
+	</div>
+	<div class="latest_news">
+		<p class="lat_nws_txt">Latest News</p>
+		<div class="news_div">
+			<ul class="news_dv_ul">
+				<marquee behavior="scroll" direction="up" onmouseover="this.stop();" onmouseout="this.start();" scrollamount="1" style="height:153px;">
+					<li>PD Administrator has been divided into two roles i.e; PD Admin and PD Admin Authorizer. All the cheques, loc requests and chequebook requests will be forwarded to the particular PD Admin's Authorizer and PD Admin Authorizer will forward to the respective higher authority.</li>
+					<li>Please press ctrl+f5 key on your keyboard if you are facing any trouble with the application. If the problem persist please contact your tresury officer.</li>
+					<li>Please use the Online Query system to contact the admin team, all queries will be resolved in 2 working days!</li>
+					<li>Please read the user manual in your respective logins to understand all the features better</li>
+				</marquee>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>
+
+<div class="loader_wrap" ng-show="showloaderforgotpass">
+	<div class="forgotwraper">
+	<div class="closebtn" ng-click="closeforgetbox()">X</div>
+
+	<div class="boxheader"><h3>Forgot Password? </h3></div>
+		<form ng-submit="forgotpasssubmit()" class="forgotpassform">
+		<p style="font-size:10px;padding:0 6px;"><span class="stardiv">*</span> Please enter your user id. Email with new password will be sent to the entered user id's email address registered with us.</p>
+			<div class="field_indi">
+					<div class="field_text">USER-ID :</div>
+					<input type="text" class="login_field" ng-model="forgotuserid" autocomplete="off">
+			</div>
+			<div style="clear:both;height:5px;"></div>
+
+			<div class="field_indisubmit">
+				<input type="submit" class="main_button" id="forgotsubbtn" value="SUBMIT" style="float:none;">
+			</div>
+			<p ng-show="errormesg" class="forgotermesg">
+			{{errormesg}}				
+			</p>
+		</form>
+
+		
+	</div>
+</div>	

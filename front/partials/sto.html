@@ -1,0 +1,40 @@
+<div class="menu">
+	<div class="container">
+		<div class="menu_indi ex_wid_menu_dto">
+			<a ui-sref="sto.main"><div class="menu_item ex_wid_menu_dto">HOME</div></a>
+		</div>
+		<div class="menu_indi ex_wid_menu_dto">
+			<div class="menu_item ex_wid_menu_dto">TRANSACTIONS</div>
+			<div class="sub_menu ex_wid_menu_dto">
+				<a ui-sref="sto.request"><div class="menu_subitem ex_cls_menu_subtiem">Cheque Book Requests</div></a>
+				<a ui-sref="sto.loclist"><div class="menu_subitem ex_cls_menu_subtiem">LOC Requests</div></a> 
+				<a ui-sref="sto.trans"><div class="menu_subitem ex_cls_menu_subtiem">Cheques to be Authorized</div></a>
+			</div>
+		</div>
+		<div class="menu_indi ex_wid_menu_dto">
+			<div class="menu_item ex_wid_menu_dto">REPORTS</div>
+			<div class="sub_menu ex_wid_menu_dto">
+				<!-- <a ui-sref="dto.ledger"><div class="menu_subitem ex_cls_menu_subtiem">My Ledgers</div></a> -->
+				<a ui-sref="sto.statement"><div class="menu_subitem ex_cls_menu_subtiem">Account Statement</div></a>
+				<a ui-sref="sto.locrpt"><div class="menu_subitem ex_cls_menu_subtiem">LOC Report</div></a>
+				<a ui-sref="sto.reqrpt"><div class="menu_subitem ex_cls_menu_subtiem">Cheque Book Report</div></a>
+				<a ui-sref="sto.chqrpt"><div class="menu_subitem ex_cls_menu_subtiem">Cheques Report</div></a>
+			</div>
+		</div>
+		<div class="menu_indi ex_wid_menu_dto">
+			<div class="menu_item ex_wid_menu_dto">GENERAL</div>
+			<div class="sub_menu ex_wid_menu_dto">
+				<a ui-sref="sto.query"><div class="menu_subitem ex_cls_menu_subtiem">Online Query System</div></a>
+				<a href="../front/images/officer.pdf" target="_blank"><div class="menu_subitem ex_cls_menu_subtiem">User Manual</div></a>
+				<a ui-sref="sto.password"><div class="menu_subitem ex_cls_menu_subtiem">Change Password</div></a>
+				<div class="menu_subitem ex_cls_menu_subtiem" ng-click='logout()'>Logout</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="content">
+	<div class="container">
+		<div class="welcome">Welcome {{username}}</div>
+		<div ui-view="content"></div>
+	</div>
+</div>

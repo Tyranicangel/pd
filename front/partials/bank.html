@@ -1,0 +1,40 @@
+<div class="menu">
+	<div class="container">
+		<div class="menu_indi">
+			<a ui-sref="bank.main"><div class="menu_item">HOME</div></a>
+		</div>
+		<!-- <div class="menu_indi">
+			<div class="menu_item">MASTERS</div>
+		</div> -->
+		<div class="menu_indi">
+			<div class="menu_item">TRANSACTIONS</div>
+			<div class="sub_menu">
+				<a ui-sref="bank.recipts"><div class="menu_subitem">Cheques Received List</div></a>
+				<a ui-sref="bank.manualchq"><div class="menu_subitem">Enter Manual Cheques</div></a>
+				<a ui-sref="bank.chqstatus"><div class="menu_subitem">Generate bank files</div></a>
+			</div>
+		</div>
+		<div class="menu_indi">
+			<div class="menu_item">REPORTS</div>
+			<div class="sub_menu">
+				<a ui-sref="bank.chqrpt"><div class="menu_subitem">Cheques Report DDO Wise</div></a>
+				<a ui-sref="bank.conflist"><div class="menu_subitem">Confirmed Cheques Report</div></a>
+			</div>
+		</div>
+		<div class="menu_indi">
+			<div class="menu_item">GENERAL</div>
+			<div class="sub_menu">
+				<a ui-sref="bank.query"><div class="menu_subitem">Online Query System(OQS)</div></a>
+				<a href="../front/images/bank.pdf" target="_blank"><div class="menu_subitem">User Manual</div></a>
+				<a ui-sref="bank.password"><div class="menu_subitem">Change Password</div></a>
+				<div class="menu_subitem" ng-click='logout()'>Logout</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="content">
+	<div class="container">
+		<div class="welcome">Welcome {{username}}</div>
+		<div ui-view="content"></div>
+	</div>
+</div>

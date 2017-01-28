@@ -1,0 +1,93 @@
+Sno,Party Name,Party Account no,Party Bank Name,Party Bank Branch,Party Bank Ifsc Code,Party Amount
+1,RS G Srikalahasthi,62126549832,State Bank of Hyderabad,,SBHY0021039,131350
+2,RS B RCVaram,62205021697,State Bank of Hyderabad,,SBHY0021199,79422
+3,RS B VP South Nagarjunasagar,62333370358,State Bank of Hyderabad,,SBHY0020621,74400
+4,RS B Malli,62179950854,State Bank of Hyderabad,,SBHY0021241,116436
+5,RS G Seethampeta,62212123001,State Bank of Hyderabad,,SBHY0021241,143570
+6,RS B Komarada,62029178195,State Bank of Hyderabad,,SBHY0021005,80352
+7,RS B K R Puram,62181946527,State Bank of Hyderabad,,SBHY0021150,80166
+8,RS G Visannapet,62035469120,State Bank of Hyderabad,,SBHY0020791,128120
+9,RS G R C Varam,62197459003,State Bank of Hyderabad,,SBHY0021199,126670
+10,RS B Jeelugumilli,62181613622,State Bank of Hyderabad,,SBHY0020769,84444
+11,RJC B RC Varam,62205023388,State Bank of Hyderabad,,SBHY0021199,55800
+12,RJC B KR Puram,62187397115,State Bank of Hyderabad,,SBHY0021150,31992
+13,RJC B Jeelugumilli,62197962948,State Bank of Hyderabad,,SBHY0020769,36456
+14,RJC G Rajavomangi,62233261092,State Bank of Hyderabad,,SBHY0020521,54450
+15,RJC B Peddamadi,52101277406,State Bank of Hyderabad,,SBHY0020809,38130
+16,RJC G Buttaigudem,62203785146,State Bank of Hyderabad,,SBHY0020769,68625
+17,COE Visakhapatanam,62196622006,State Bank of Hyderabad,,SBHY0020963,35550
+18,COE Srikalahasthi,62058156314,State Bank of Hyderabad,,SBHY0021039,31275
+19,RS G Rajavommangi,62039007705,State Bank of Hyderabad,,SBHY0020521,126140
+20,RS B Peddamadi,62038329485,State Bank of Hyderabad,,SBHY0020809,85188
+21,RS G  Buttayagudem,62181946129,State Bank of Hyderabad,,SBHY0020769,125775
+22,COE Malli,62295038945,State Bank of Hyderabad,,SBHY0021241,23250
+23,COE Vissannapeta,62296279389,State Bank of Hyderabad,,SBHY0020791,27000
+24,SOE Parvathipuram,62029114528,State Bank of Hyderabad,,SBHY0021005,121495
+25,RJC G RC Varam,62206970917,State Bank of Hyderabad,,SBHY0020339,83475
+26,RJC G Mahanandi,62051855773,State Bank of Hyderabad,,SBHY0020677,72450
+27,G Venkaiah,52193245057,State Bank of Hyderabad,,SBHY0020769,70116
+28,N Bhupal reddy ,115410025202843,Andhra Bank,,ANDB0001154,32500
+29,S P Technologies,6962000000551,HDFC Bank,,HDFC0000696,5938
+30,Ushodaya Enterprises P Ltd,370601010036253,Union Bank,,UBIN0537063,47911
+31,Dy Executive Engineer,52188921259,State Bank of Hyderabad,,SBHY0021026,120000
+32,J Naga Raju Jr Asst,141810100028739,Andhra Bank,,ANDB0001418,2900
+33,Ch Suranna ,52134598818,State Bank of Hyderabad,,SBHY0021026,628100
+34,S Lakshmana Rao ,62033888019,State Bank of Hyderabad,,SBHY0021026,3701
+35,S Lakshmana Rao ,62033888019,State Bank of Hyderabad,,SBHY0021026,1845
+36,S Lakshmana Rao ,62033888019,State Bank of Hyderabad,,SBHY0021026,8330
+37,N Bhupal reddy ,115410025202843,Andhra Bank,,ANDB0001154,1800
+38,RS B Sevagadh Gollaladoddi,33634471908,State Bank of India,,,88350
+39,RS B  Maredumilli  ,32314153217,State Bank of India,,,118296
+40,RS G Mahanandi ,32089055052,State Bank of India,,,95500
+41,RS B Srisailam,32255048773,State Bank of India,,,81840
+42,RS B Kota (chittedu),33518973911,State Bank of India,,,108810
+43,RS B Somasila ,32318695881,State Bank of India,,,81654
+44,RS B Yerragondapalem ,11585124166,State Bank of India,,,78864
+45,RS B Seethampeta ,31996982232,State Bank of India,,,85002
+46,RS B  Araku Valley ,33052488504,State Bank of India,,,116622
+47,R S G K V Palli at Piller,33927648886,State Bank of India,,,17490
+48,RS G  Araku Valley ,33027185475,State Bank of India,,,144620
+49,RS B Thummanavalasa ,31952778078,State Bank of India,,,61380
+50,RS B Bhadragiri  ,11627538912,State Bank of India,,,91512
+51,RS G Bhadragiri  ,11627539187,State Bank of India,,,159470
+52,RS B G Madugula  ,32447256742,State Bank of India,,,85002
+53,URJC G Kurupam  ,31599391228,State Bank of India,,,152595
+54,RS G Thanakal ,11583707751,State Bank of India,,,127200
+55,RS G Rayachoti ,32444007561,State Bank of India,,,88830
+56,RJC B Srisailam ,32449272739,State Bank of India,,,26784
+57,RJC B kota (Chittedu),32476816178,State Bank of India,,,42036
+58,RJC G Seethampeta,30233324110,State Bank of India,,,60075
+59,RJC B Seethampeta,31892336681,State Bank of India,,,69936
+60,RJC B Araku Valley,11599030939,State Bank of India,,,38874
+61,RJC G Araku Valley,11599030928,State Bank of India,,,75375
+62,RJC B Bhadragiri,32060188799,State Bank of India,,,42036
+63,RJC G Bhadragiri,11627475064,State Bank of India,,,66150
+64,RJC B G Madugula,32523391457,State Bank of India,,,59520
+65,RJC G Y Ramavaram,11516011904,State Bank of India,,,41850
+66,RJC B Addateegala,32133833263,State Bank of India,,,36270
+67,RJC B Koyyuru,30238443440,State Bank of India,,,53754
+68,RJC G Paderu,32704577414,State Bank of India,,,92250
+69,RJC B Pedabayalu,11704963096,State Bank of India,,,56730
+70,RJC B P Konavalasa,32086351973,State Bank of India,,,62496
+71,RS G Y Ramavaram,11516007679,State Bank of India,,,125210
+72,RS G Kodavaluru,34087362344,State Bank of India,,,203415
+73,RS B G K Veedhi,31863175446,State Bank of India,,,55800
+74,RS G Dornala,31939217655,State Bank of India,,,51600
+75,RS B Addateegala,31906552465,State Bank of India,,,86676
+76,RS B Koyyuru,11254486827,State Bank of India,,,87420
+77,RS G Paderu,32126623890,State Bank of India,,,144655
+78,RS B Pedabayalu,32426954694,State Bank of India,,,86118
+79,RS B Upper Sileru,34027803777,State Bank of India,,,79422
+80,RS B P Konavalasa,32085741352,State Bank of India,,,88908
+81,RJC B Chintapally,34064169846,State Bank of India,,,66960
+82,RJC B Maredumilli,33628591597,State Bank of India,,,39804
+83,COE Thanakallu,33193472309,State Bank of India,,,35775
+84,RS G Rayachoti ,32444007561,State Bank of India,,,311922
+85,COE Thanakallu,33193472309,State Bank of India,,,346320
+86,RS G Dornala,31939217655,State Bank of India,,,86940
+87,RS B Addateegala,31906552465,State Bank of India,,,100000
+88,RS B EM Renigunta,31849474409,State Bank of India,,,87792
+89,RS B EM Vizag Marikavalasa,31743415954,State Bank of India,,,99696
+90,SOE Srisailam,11318896357,State Bank of India,,,120615
+91,RJC G P Konavalasa,32083975133,State Bank of India,,,75600
+92,RJC G Chinthapally,32416011516,State Bank of India,,,53100

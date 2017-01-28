@@ -1,0 +1,5 @@
+01TOWARDSBANKERCHEQUE0000000012203200                                                                  
+01TOWARDSBANKERCHEQUE0000000021501800                                                                  
+01TOWARDSBANKERCHEQUE0000000005063600                                                                  
+0100000TOWARDSDRAFT0000000004593700                                                                  
+51000000338814547410000000043362300                                                                  

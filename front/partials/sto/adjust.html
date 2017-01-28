@@ -1,0 +1,104 @@
+<div class="content_heading">Make Adjustment</div>
+<div class="fullwrap">
+	<div class="wrap_indi">
+		<div class="each_text">Select Pd Administrator</div>
+		<select class='each_select' ng-model='pdadmin' ng-options="ddo.usernames.userdesc+'    ( '+ddo.ddocode+' )' for ddo in ddolist" style='width:500px;' ng-change="admin_change()">
+		</select>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Select Head of Account</div>
+		<select class='each_select' ng-model='hoa' ng-options="hoa.scheme.schemename+'    ( '+hoa.scheme.hoa+' ) ' for hoa in hoalist" style='width:500px;' ng-change='hoa_change()'>
+		</select>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Balance in Rs</div>
+		<div class="each_data">{{hoa.balance}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Date</div>
+		<input type="text" id='d_from' class='each_box datebox' ng-model='dfrom'>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Transaction Type</div>
+		<input type="radio" name="trans_radio" class="each_radio" ng-model='trans_type' value='cheque'><span class="radio_text">Cheques</span>
+		<input type="radio" name="trans_radio" class="each_radio" ng-model='trans_type' value='recipt'><span class="radio_text">Recipts</span>
+	</div>
+	<div class='wrap_indi' ng-show="transType('cheque')">
+		<div class="wrap_indi">
+			<div class="each_text">Party Type</div>
+			<input type="radio" name="party_radio" class="each_radio" ng-model='party_type' value='single'><span class="radio_text">Single Party</span>
+			<input type="radio" name="party_radio" class="each_radio" ng-model='party_type' value='multiple'><span class="radio_text">Multiple Parties</span>
+		</div>
+		<div class="wrap_indi" ng-show="isShown('single')">
+			<div class="each_text">Enter Party Account No</div>
+			<input type="password" class="each_box" autocomplete="off" ng-model='party.acno'>
+		</div>
+		<div class="wrap_indi" ng-show="isShown('single')">
+			<div class="each_text">Confirm Party Account No</div>
+			<input type="password" class="each_box" autocomplete="off" ng-model='party.cacno' ng-blur="partychange()">
+		</div>
+		<div class="wrap_indi" ng-show="isShown('single')">
+			<div class="each_text">Enter Party Name</div>
+			<input type="text" class="each_box" ng-model='party.name'>
+		</div>
+		<div class="wrap_indi" ng-show="isShown('single')">
+			<div class="each_text">Enter Bank Name</div>
+			<input type="text" class="each_box" ng-model='party.bank'>
+		</div>
+		<div class="wrap_indi" ng-show="isShown('single')">
+			<div class="each_text">Enter Bank Branch</div>
+			<input type="text" class="each_box" ng-model='party.branch'>
+		</div>
+		<div class="wrap_indi" ng-show="isShown('single')">
+			<div class="each_text">Enter Bank IFSC Code</div>
+			<input type="text" class="each_box" ng-model='party.ifsc'>
+		</div>
+		<div class="wrap_indi">
+			<div class="each_text">Enter Party Amount</div>
+			<input type="text" class="each_box" ng-model='party.amount'>
+		</div>
+		<div class="wrap_indi">
+			<div class="each_text">Enter Purpose</div>
+			<input type="text" class="each_box" ng-model='party.purpose'>
+		</div>
+		<div class="wrap_indi">
+			<div class="each_text">Cheque No</div>
+			<input type="text" class="each_box" ng-model='party.cheque'>
+		</div>
+		<div class="wrap_indi" ng-show="isShown('multiple')">
+			<div class="each_text">Upload Party Details</div>
+			<input type="file" class="each_box" file-change="upload">
+		</div>
+		<div class="wrap_indi" ng-show="isShown('multiple')">
+			<div class="instruction">Note:</div>
+			<div class="full_text">* The uploaded file must be in csv format</div>
+			<div class="full_text">* Do not change the order of the columns of the file</div>
+			<div class="full_text">* Download sample file format <a download href='images/sample_file.csv'>here</a></div>
+		</div>
+		<div class="wrap_indi">
+			<div class="main_button" ng-click="chq_submit()">Submit</div>
+		</div>
+	</div>
+	<div class='wrap_indi' ng-show="transType('recipt')">
+		<div class="wrap_indi">
+			<div class="each_text">Enter Recipt Details</div>
+			<input type="text" class="each_box" ng-model='party.name'>
+		</div>
+		<div class="wrap_indi">
+			<div class="each_text">Enter Amount</div>
+			<input type="text" class="each_box" ng-model='party.amount'>
+		</div>
+		<div class="wrap_indi">
+			<div class="each_text">Enter Purpose</div>
+			<input type="text" class="each_box" ng-model='party.purpose'>
+		</div>
+		<div class="wrap_indi">
+			<div class="each_text">Recipt/Challan No</div>
+			<input type="text" class="each_box" ng-model='party.cheque'>
+		</div>
+		<div class="wrap_indi">
+			<div class="main_button" ng-click="recipt_submit()">Submit</div>
+		</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

@@ -1,0 +1,60 @@
+<div class="content_heading">Confirm Accounts</div>
+<div class="fullwrap">
+	<div class="wrap_indi">
+		<div class="each_text">Select Pd Administrator</div>
+		<select class='each_select' ng-model='pdadmin' ng-options="ddo.usernames.userdesc+'    ( '+ddo.ddocode+' )' for ddo in ddolist" style='width:500px;' ng-change="admin_change()">
+		</select>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Select Head of Account</div>
+		<select class='each_select' ng-model='hoa' ng-options="hoa.scheme.schemename+'    ( '+hoa.scheme.hoa+' ) ' for hoa in hoalist" style='width:500px;' ng-change='hoa_change()'>
+		</select>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Balance in Rs</div>
+		<div class="each_data highlight">{{hoa.balance}}</div>
+	</div>
+	<div class="wrap_indi">
+		<table class='book_table'>
+			<tr>
+				<th>Sno</th>
+				<th>Date</th>
+				<th>Particulars</th>
+				<th>Cheque/Recipt/Challan No</th>
+				<th>Withdrawls<br><span class='rs'>(in Rs)</span></th>
+				<th>Deposits<br><span class='rs'>(in Rs)</span></th>
+				<th>Balance<br><span class='rs'>(in Rs)</span></th>
+				<th>Delete</th>
+			</tr>
+			<tr ng-repeat='t in maintrans'>
+				<td>{{Dates.getDate(t.confirmdate)}}</td>
+				<td ng-if="t.multiflag==2">
+					Party Details : <a download href="{{requesturl+'/uploads/'+t.partyfile}}">Download</a>  Purpose : {{t.purpose}}
+				</td>
+				<td ng-if="t.multiflag==1">
+					Party Name : {{t.partyname}}  | Purpose : {{t.purpose}}
+				</td>
+				<td>{{t.chequeno}}</td>
+				<td ng-if="t.transtype==1">
+					{{t.partyamount}}
+				</td>
+				<td ng-if="t.transtype==2">
+					-
+				</td>
+				<td ng-if="t.transtype==2">
+					{{t.partyamount}}
+				</td>
+				<td ng-if="t.transtype==1">
+					-
+				</td>
+				<td>{{t.balance}}</td>
+				<td><div class="main_button" style='margin:10px;' ng-click="delete_trans(t)">Delete</div></td>
+			</tr>
+		</table>
+	</div>
+	<div class="wrap_indi" ng-show="show_data()">
+		<div class="main_button" ng-click="confirm()">Confirm</div>
+		<div class="main_button" ng-click="reject()">Reject</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

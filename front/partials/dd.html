@@ -1,0 +1,59 @@
+<div class="menu">
+	<div class="container">
+		<div class="menu_indi ex_wid_menu_dto">
+			<a ui-sref="dd.main"><div class="menu_item ex_wid_menu_dto">HOME</div></a>
+		</div>
+		<div class="menu_indi ex_wid_menu_dto">
+			<div class="menu_item ex_wid_menu_dto">MASTERS</div>
+			<div class="sub_menu ex_wid_menu_dto">
+				<a ui-sref="dd.create"><div class="menu_subitem ex_cls_menu_subtiem">Confirm PD Accounts</div></a>
+				<a ui-sref="dd.editddo"><div class="menu_subitem ex_cls_menu_subtiem">Change DDO Name</div></a>
+				<a ui-sref="dd.createuac"><div class="menu_subitem ex_cls_menu_subtiem">Create User Account</div></a>
+				<a ui-sref="dd.manageuac.hoatosa"><div class="menu_subitem ex_cls_menu_subtiem">Manage User Accounts</div></a>
+				<a ui-sref="dd.edituser"><div class="menu_subitem ex_cls_menu_subtiem">Edit Users</div></a>
+				<a ui-sref="dd.validateuser"><div class="menu_subitem ex_cls_menu_subtiem">Validate PD accounts</div></a>
+				<a ui-sref="dd.mapauthuser"><div class="menu_subitem ex_cls_menu_subtiem">Map passing authority</div></a>
+			</div>
+		</div>
+		<div class="menu_indi ex_wid_menu_dto">
+			<div class="menu_item ex_wid_menu_dto">TRANSACTIONS</div>
+			<div class="sub_menu ex_wid_menu_dto">
+				<a ui-sref="dd.request"><div class="menu_subitem ex_cls_menu_subtiem">Cheque Book Requests</div></a>
+				<a ui-sref="dd.loclist"><div class="menu_subitem ex_cls_menu_subtiem">LOC Requests</div></a> 
+				<a ui-sref="dd.trans"><div class="menu_subitem ex_cls_menu_subtiem">Cheques to be Authorized</div></a>
+			</div>
+		</div>
+		<div class="menu_indi ex_wid_menu_dto">
+			<div class="menu_item ex_wid_menu_dto">REPORTS</div>
+			<div class="sub_menu ex_wid_menu_dto">
+				<a ui-sref="dd.statement"><div class="menu_subitem ex_cls_menu_subtiem">Account Statement</div></a>
+				<a ui-sref="dd.locrpt"><div class="menu_subitem ex_cls_menu_subtiem">LOC Report</div></a>
+				<a ui-sref="dd.reqrpt"><div class="menu_subitem ex_cls_menu_subtiem">Cheque Book Report</div></a>
+				<a ui-sref="dd.chqrpt"><div class="menu_subitem ex_cls_menu_subtiem">Cheques Report</div></a>
+			</div>
+		</div>
+		<div class="menu_indi ex_wid_menu_dto">
+			<div class="menu_item ex_wid_menu_dto">INVENTORY</div>
+			<div class="sub_menu ex_wid_menu_dto">
+				<a ui-sref="dd.addinventory"><div class="menu_subitem ex_cls_menu_subtiem">Add Inventory</div></a>
+				<a ui-sref="dd.viewinventory"><div class="menu_subitem ex_cls_menu_subtiem">View Inventory</div></a>
+				<a ui-sref="dd.mapchquser"><div class="menu_subitem ex_cls_menu_subtiem">Map Cheque Book User</div></a>
+			</div>
+		</div>
+		<div class="menu_indi ex_wid_menu_dto">
+			<div class="menu_item ex_wid_menu_dto">GENERAL</div>
+			<div class="sub_menu ex_wid_menu_dto">
+				<a ui-sref="dd.query"><div class="menu_subitem ex_cls_menu_subtiem">Online Query System</div></a>
+				<a href="../front/images/officer.pdf" target="_blank"><div class="menu_subitem ex_cls_menu_subtiem">User Manual</div></a>
+				<a ui-sref="dd.password"><div class="menu_subitem ex_cls_menu_subtiem">Change Password</div></a>
+				<div class="menu_subitem ex_cls_menu_subtiem" ng-click='logout()'>Logout</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="content">
+	<div class="container">
+		<div class="welcome">Welcome {{username}}</div>
+		<div ui-view="content"></div>
+	</div>
+</div>

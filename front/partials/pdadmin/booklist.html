@@ -1,0 +1,15 @@
+<div class="content_heading">My Pass Books</div>
+<div class="fullwrap">
+	<div class="wrap_indi">
+		<div class="each_desc">
+			<span>You have {{mybooks.length}} Personal Deposit Account.</span>
+			<span ng-show="placerequest">You can <a ui-sref="admin.request" class='desc_link'>request</a> a new chequebook.</span>
+		</div>
+	</div>
+	<div class="wrap_indi" ng-repeat="book in mybooks">
+		<div class="each_desc">
+			<span>Account with Hoa : <a ui-sref="admin.book({account:book.accountno,page:'last'})">{{book.scheme.schemename+'    ( '+book.hoa+' ) '}}</a></span>
+		</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

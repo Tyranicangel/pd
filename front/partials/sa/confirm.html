@@ -1,0 +1,153 @@
+<div class="content_heading">Forward Cheque</div>
+<div class="fullwrap">
+	<div class="wrap_indi">
+		<div class="chq_img_dv" style="height:390px;border-bottom: 1px solid #e2e2e2;">
+			<div class="chq">
+				<div class="chq_hoa">{{dat.hoa}}</div>
+				<div class="chq_ddo">{{dat.issueuser}}</div>
+				<div class="chq_name"ng-if="dat.multiflag==1">{{dat.partyname}}</div>
+				<div class="chq_name"ng-if="dat.multiflag==2">Pay Your Self</div>
+				<div class="chq_rs">{{words(dat.partyamount)}}</div>
+				<div class="chq_box">{{dat.partyamount}} / -</div>
+				<div class="chq_date">{{Dates.getDate(dat.transdate)}}</div>
+				<div class="chq_area">{{dat.issueuser.substr(0,4)}}</div>
+				<div class="chq_no">|' {{dat.chequeno}} |'</div>
+			</div>
+			<div style='float:left;font-size:12px;font-weight:bold;margin-top:10px;'>* Online Cheque Replica</div>
+		</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Cheque No</div>
+		<div class="each_data">{{dat.chequeno}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">DDO Code</div>
+		<div class="each_data">{{dat.issueuser}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Issue Authority</div>
+		<div class="each_data">{{dat.requser.userdesc}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Head of Account</div>
+		<div class="each_data">{{dat.hoa}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Balance <span class="small_txt">(in Rs.)</span></div>
+		<div class="each_data">{{dat.acinfo.balance}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Purpose</div>
+		<div class="each_data">{{dat.purpose}}</div>
+	</div>
+	<div class="wrap_indi lap_dv" ng-show="salap_check()">
+		<p class="lap_txt"><span class="stardiv">*</span>This is a Lapsable Head of Account, below are the details of the reciept this cheque is mapped to and the expenditure under this reciept till now! </p>
+		<div class="wrap_indi">
+			<div class="each_text ex_wid">Reciept Amount <span class="small_txt">(in Rs.)</span></div>
+			<div class="each_data">{{dat.laprecinfo.partyamount}}</div>
+		</div>
+		<div class="wrap_indi">
+			<div class="each_text ex_wid">Reciept Date</div>
+			<div class="each_data">{{dat.laprecinfo.dtransdate}}</div>
+		</div>
+		<div class="wrap_indi">
+			<div class="each_text ex_wid">Reciept Validity Date</div>
+			<div class="each_data">{{valid_till()}}</div>
+		</div>
+		<div class="wrap_indi">
+			<div class="each_text ex_wid">Balance in this Reciept<span class="small_txt">(in Rs. as of today)</span></div>
+			<div class="each_data">{{dat.laprecinfo.balamt}}</div>
+		</div>
+		<div class="wrap_indi">
+			<div class="each_text ex_wid">Total Expenditure under this Reciept<span class="small_txt">(till now)</span></div>
+			<div class="each_data">{{dat.laprecinfo.lapexp}}</div>
+		</div>
+
+		<table class='each_table'>
+			<tr class='heading_row'>
+				<th>Sno</th>
+				<th>Issue Date</th>
+				<th>Cheque No</th>
+				<th>Party Name</th>
+				<th>Purpose</th>
+				<th>Amount(Rs.)</th>
+			</tr>
+			<tr ng-repeat = 'y in dat.laprecinfo.laptrans'>
+				<td>{{$index+1}}</td>
+				<td>{{y.transdate}}</td>
+				<td>{{y.chequeno}}</td>
+				
+				<td ng-if="y.multiflag==2">
+					<a download href="{{requesturl+'/uploads/'+y.partyfile}}">Download</a>
+				</td>
+				<td ng-if="y.multiflag==1">
+					{{y.partyname}}
+				</td>
+
+				<td>{{y.purpose}}</td>
+				<td>{{y.partyamount}}</td>
+			</tr>
+		</table>
+	<div style="float:left;" ng-show="maindate>dat.laprecinfo.dtransdate">
+		<p class="lap_txt red_clr_dv"><span class="stardiv">*</span>
+			The Validity of this reciept has been crossed, please read the following remarks entered by the PD Administrator before proceeding any further.
+		</p>
+		<div class="wrap_indi">
+			<div class="each_text">Remarks</div>
+			<div class="each_data">{{dat.laprecinfo.lapremarks}}</div>
+		</div>
+	</div>
+	</div>
+
+	<div class="prty_bnk_det_dv_cls">
+		<div class="wrap_indi">
+			<div class="each_text">Party Amount <span class="small_txt">(in Rs.)</span></div>
+			<div class="each_data">{{dat.partyamount}}</div>
+		</div>
+		<div class="wrap_indi" ng-if="dat.multiflag==1">
+			<div class="each_text">Party Name</div>
+			<div class="each_data">{{dat.partyname}}</div>
+		</div>
+		<div class="wrap_indi" ng-if="dat.multiflag==1">
+			<div class="each_text">Party Account No</div>
+			<div class="each_data">{{dat.partyacno}}</div>
+		</div>
+		<div class="wrap_indi" ng-if="dat.multiflag==1">
+			<div class="each_text">Party Bank Name</div>
+			<div class="each_data">{{dat.partybank}}</div>
+		</div>
+		<div class="wrap_indi" ng-if="dat.multiflag==1">
+			<div class="each_text">Party Bank Branch</div>
+			<div class="each_data">{{dat.partybranch}}</div>
+		</div>
+		<div class="wrap_indi" ng-if="dat.multiflag==1">
+			<div class="each_text">Party Bank IFSC Code</div>
+			<div class="each_data">{{dat.partyifsc}}</div>
+		</div>
+		<div class="wrap_indi" ng-if="dat.multiflag==2">
+			<div class="each_text">Party File</div>
+			<div class="each_data"><a download href="{{requesturl+'/uploads/'+dat.partyfile}}">Download</a></div>
+		</div>
+	</div>
+	
+	<div class="wrap_indi" ng-show="dat.transid">
+		<div class="wrap_indi ex_cls_appr_rj_req" ng-show="dat.transid" style='text-align:center;font-weight:bold;'>
+			Transaction ID:{{dat.transid}}
+		</div>
+	</div>
+	<div class="wrap_indi ex_cls_appr_rj_req" ng-show="dat.transid">
+		<input type="radio" name="locreq" value="approve" ng-model='approval'>May be Approved
+		<input type="radio"  name="locreq" value="reject" ng-model='approval'>Reject Cheque
+	</div>
+	<div class="wrap_indi" ng-show="dat.transid">
+		<div class="each_text" style="width:100px;">Remarks</div>
+		<textarea class='textarea ex_cl_txt' placeholder="Enter remarks here.." ng-model='remarks'></textarea>
+	</div>
+	<div class="wrap_indi" style="padding-left:26px;" ng-show="dat.transid">
+		<div class="main_button" ng-click="chq_confirm()" style="width:200px;">Forward to Officer</div>
+	</div>
+	<div class="wrap_indi" style="padding-left:26px;" ng-hide="dat.transid">
+		<div class="main_button" ng-click="chq_generate()" style="width:200px;">Generate Transaction Id</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

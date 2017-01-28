@@ -1,0 +1,141 @@
+<div class="content_heading">Cheques to be Authorized</div>
+<div class="fullwrap">
+	<table class='each_table' ng-show='alltrans.length>0'>
+		<tr class='heading_row'>
+			<th>Sno</th>
+			<th>Cheque No</th>
+			<th>Issue Authority</th>
+			<th>DDO Code</th>
+			<th>Head of Account</th>
+			<th>Date</th>
+			<th>Party Amount<br><span class='rs'>(in Rs)</span></th>
+			<th>Balance in Account<br><span class='rs'>(in Rs)</span></th>
+			<th>Purpose</th>
+			<th>Party Name</th>
+			<th>Remarks</th>
+			<th>SA Recommendation</th>
+			<th>Lapsable Head(Y/N)</th>
+			<th>Lapsable Details</th>
+			<th>
+			Select
+				<input type="checkbox" ng-click="checkall()" ng-checked="allchecked()" style="display:none;">
+			</th>
+		</tr>
+		<tr ng-repeat="trans in alltrans">
+			<td>{{trans.sno}}</td>
+			<td>{{trans.chequeno}}</td>
+			<td>{{trans.requser.userdesc}}</td>
+			<td>{{trans.issueuser}}</td>
+			<td>{{trans.hoa}}</td>
+			<td>{{Dates.getDate(trans.transdate)}}</td>
+			<td>{{getcommas(trans.partyamount)}}</td>
+			<td>{{getcommas(trans.thisbalance)}}</td>
+
+			<td>{{trans.purpose}}</td>
+			<td ng-if="trans.multiflag==2">
+				<a download href="{{requesturl+'/uploads/'+trans.partyfile}}">Download</a>
+			</td>
+			<td ng-if="trans.multiflag==1">
+				{{trans.partyname}}
+			</td>
+			<td>
+				<b>SA:</b> {{trans.rejects}} <br><br>
+				<b>STO:</b> {{trans.storemarks}}
+			</td>
+			<td ng-if="trans.conf_flag==1"><b>SA:</b> Reject</td>
+			<td ng-if="trans.conf_flag==0"><b>SA:</b>Approve</td>
+			<td ng-show="trans.laprecid">Yes</td>
+			<td ng-show="trans.laprecinfo.length==''">No</td>
+			<td style="font-size:11px;">
+				<a class="viw_lp_cls" ng-show="trans.laprecid" ng-click="view_lap_details(trans.laprecinfo)">View Details</a>
+				<a class="viw_lp_cls" ng-hide="trans.laprecid">-</a>
+			</td>
+			<td>
+				<input type='checkbox' ng-model='trans.check'>
+			</td>
+		</tr>
+	</table>
+	<div class="wrap_indi" ng-show='alltrans.length>0'>
+		<div class="each_text" style="width:100px;">Remarks</div>
+		<textarea class='each_area ex_cl_txt'  placeholder="Enter remarks here.." ng-model='remarks'></textarea>
+	</div>
+	<div class="wrap_indi" ng-show='alltrans.length>0' style="padding-left:25px;">
+		<div class="main_button yes_btn" ng-click="chq_confirm()" style="margin-right:20px;" ng-show="chqauthuser!=1">Forward to DD</div>
+		<div class="main_button" ng-click="chq_approve()" style="margin-right:20px;background:#a40004;border:1px solid #003544;" ng-show="chqauthuser==1">Approve</div>
+		<div class="main_button" ng-click="chq_returnsa()" style="margin-right:20px;background:#003544;border:1px solid #003544;" ng-show="chqauthuser==1">Return to SA</div>
+		<div class="main_button" ng-click="chq_reject()" ng-show="chqauthuser==1">Reject</div>
+	</div>
+	<div class="wrap_indi" ng-show="alltrans.length==0">
+		<div class="each_desc">
+			* You do not have any pending cheques to be authorized.
+		</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>
+
+<div class="loader_wrap" ng-show="lapshow"></div>
+
+<div style="width:942px;margin:auto;" ng-show="lapshow">
+	<div class="wrap_indi lap_dv" style="z-index:200;position:absolute;top:10px;">
+		<p class="lap_close_btn" title="close" ng-click="close_lap_dv()">X</p>
+		<p class="lap_txt"><span class="stardiv">*</span>This is a Lapsable Head of Account, below are the details of the reciept this cheque is mapped to and the expenditure under this reciept till now! </p>
+
+		<div class="wrap_indi">
+			<div class="each_text ex_wid">Reciept Amount <span class="small_txt">(in Rs.)</span></div>
+			<div class="each_data">{{dtolap.partyamount}}</div>
+		</div>
+		<div class="wrap_indi">
+			<div class="each_text ex_wid">Reciept Date</div>
+			<div class="each_data">{{dtolap.dtransdate}}</div>
+		</div>
+		<div class="wrap_indi">
+			<div class="each_text ex_wid">Reciept Validity Date</div>
+			<div class="each_data">{{dtovaldate}}</div>
+		</div>
+		<div class="wrap_indi">
+			<div class="each_text ex_wid">Balance in this Reciept<span class="small_txt">(in Rs. as of today)</span></div>
+			<div class="each_data">{{totrecleft}}</div>
+		</div>
+		<div class="wrap_indi">
+			<div class="each_text ex_wid">Total Expenditure under this Reciept<span class="small_txt">(till now)</span></div>
+			<div class="each_data">{{dtolap.lapexp}}</div>
+		</div>
+		<table class='each_table'>
+			<tr class='heading_row'>
+				<th>Sno</th>
+				<th>Issue Date</th>
+				<th>Cheque No</th>
+				<th>Party Name</th>
+				<th>Purpose</th>
+				<th>Amount(Rs.)</th>
+				<th>Status</th>
+			</tr>
+			<tr ng-repeat = 'y in dtolap.laptrans'>
+				<td>{{$index+1}}</td>
+				<td>{{y.transdate}}</td>
+				<td>{{y.chequeno}}</td>
+				
+				<td ng-if="y.multiflag==2">
+					<a download href="{{requesturl+'/uploads/'+y.partyfile}}">Download</a>
+				</td>
+				<td ng-if="y.multiflag==1">
+					{{y.partyname}}
+				</td>
+
+				<td>{{y.purpose}}</td>
+				<td>{{y.partyamount}}</td>
+				<td>{{y.stat}}</td>
+			</tr>
+		</table>
+		<div style="float:left;" ng-show="maindate<dtolap.dtransdate">
+			<p class="lap_txt red_clr_dv"><span class="stardiv">*</span>
+				The Validity of this reciept has been crossed, please read the following remarks entered by the PD Administrator before proceeding any further.
+			</p>
+			<div class="wrap_indi">
+				<div class="each_text">Remarks</div>
+				<div class="each_data">{{dat.laprecinfo.lapremarks}}</div>
+			</div>
+		</div>
+	</div>
+
+</div>

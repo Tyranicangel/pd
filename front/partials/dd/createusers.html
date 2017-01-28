@@ -1,0 +1,50 @@
+<div class="content_heading">Create User Account</div>
+<div class="fullwrap">
+	<div class="wrap_indi ex_cls_chq_bk_typ" style="width:635px;">
+		<div class="each_text" style="width:370px;">Choose the type of account you want to Create</div>
+		<input type="radio" name="party_radio" class="each_radio" ng-model='create_type' ng-click = "get_acnt_dets('sa')" value='sa'>
+			<span class="radio_text">Senior Accountant</span>
+		<input type="radio" name="party_radio" class="each_radio" ng-show="ofctype!='1'" ng-model='create_type' ng-click = "get_acnt_dets('sto')" value='sto'>
+			<span class="radio_text" ng-if="ofctype!='1'">STO</span>
+		<input type="radio" name="party_radio" ng-show="ofctype!='1'" class="each_radio" ng-model='create_type' ng-click = "get_acnt_dets('ato')" value='ato'>
+			<span class="radio_text" ng-if="ofctype!='1'">ATO</span>
+	</div>
+	<div class="wrap_indi" style="margin-top:20px;">
+		<div class="each_text">Enter Name<span class='stardiv'> *</span></div>
+		<input type="text" class="each_box" placeholder="Enter the Name of the person" autocomplete="off" style="height:18px;" ng-model="nusername">
+		<div class="main_button crt_usr_cls" ng-click="crt_new_user()">Create User</div>
+	</div>
+	<div class="wrap_indi" ng-show="uname">
+		<div class="new_usr_cred_det">
+			<p class="nwusr_p_h"><b>New User Created successfully!</b></p>
+			<p style="margin:10px 0px;">
+				<span class="nwusr_spn"><b>UserId:</b></span>
+				<span>{{uname}}</span></p>
+			<p style="margin:10px 0px;">
+				<span class="nwusr_spn"><b>Password:</b></span>
+				<span>{{defpass}}</span>
+			</p>
+			<p style="font-size:10px;"><span class="stardiv">*</span> Please do not share your login credentials with anyone, and please ask the user to change the password as soon as they login to the portal the first time!</p>
+		</div>
+	</div>
+	<div class="wrap_indi" style="margin:0px;">
+		<p class="lst_ex_acs">List of Existing Accounts of this type</p>
+	</div>
+	<div class="wrap_indi" ng-show="salist.length==0">
+		<p class="noactnt_p"><span class="stardiv">*</span>There are no accounts of this type</p>
+	</div>
+	<table class='each_table' ng-show="salist.length>0">
+		<tr class='heading_row fnt_wht_bld'>
+			<td>Sno</td>
+			<td>UserId</td>
+			<td>Username</td>
+		</tr>
+		<tr ng-repeat="x in salist">
+			<td>{{$index+1}}</td>
+			<td>{{x.username}}</td>
+			<td>{{x.userdesc}}</td>
+		</tr>
+	</table>
+</div>
+
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

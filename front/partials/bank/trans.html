@@ -1,0 +1,60 @@
+<div class="content_heading">Cheques To Confirm</div>
+<div class="fullwrap">
+	<table class='each_table' ng-show="alltrans.length>0">
+		<tr class='heading_row'>
+			<!-- <th>
+				<input type="checkbox" ng-click="checkall()" ng-checked="allchecked()">All
+			</th> -->
+			<th>Sno</th>
+			<th>Date</th>
+			<th>Cheque No</th>
+			<th>Issue Authority</th>
+			<th>DDO Code</th>
+			<th>Head of Account</th>
+			<th>Balance</th>
+			<th>Existing LOC</th>
+			<th>Party Amount<br><span class='rs'>(in Rs)</span></th>
+			<th>Purpose</th>
+			<th>Party Name</th>
+			<th>Status</th>
+		</tr>
+		<tr ng-repeat="trans in alltrans">
+			<!-- <td>
+				<input type='checkbox' ng-model='trans.check'>
+			</td> -->
+			<td>{{trans.sno}}</td>
+			<td>{{Dates.getDate(trans.transdate)}}</td>
+			<td>{{trans.chequeno}}</td>
+			<td>{{trans.requser.userdesc}}</td>
+			<td>{{trans.issueuser}}</td>
+			<td>{{trans.hoa}}</td>
+			<td>{{trans.acinfo.balance}}</td>
+			<td>{{trans.acinfo.loc}}</td>
+			<td>{{trans.partyamount}}</td>
+			<td>{{trans.purpose}}</td>
+			<td ng-if="trans.multiflag==2">
+				<a download href="{{requesturl+'/uploads/'+trans.partyfile}}">Download</a>
+			</td>
+			<td ng-if="trans.multiflag==1">
+				{{trans.partyname}}
+			</td>
+			<td>
+				<a ui-sref="bank.confirm({transaction:trans.chequeno})"><div class="table_button">View</div></a>
+			</td>
+		</tr>
+	</table>
+	<!-- <div class="wrap_indi" ng-show="alltrans.length>0" >
+		<div class="each_text" style="width:100px;">Remarks</div>
+		<textarea class='textarea' style="padding:5px;" ng-model='remarks' placeholder="Enter remarks here.."></textarea>
+	</div>
+	<div class="wrap_indi" ng-show="alltrans.length>0" style="padding-left:26px;">
+		<div class="main_button yes_btn" style="margin-right:20px;width:200px;" ng-click="chq_confirm()">Confirm Payment</div>
+		<div class="main_button" style="margin-left:0px;" ng-click="chq_reject()">Reject</div>
+	</div> -->
+	<div class="wrap_indi" ng-show="alltrans.length==0">
+		<div class="each_desc">
+			* You do not have any pending Cheques for payment
+		</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

@@ -1,0 +1,92 @@
+<div class="content_heading">Create Account</div>
+<div class="fullwrap">
+	<div class="wrap_indi">
+		<div class="each_text">DDO Code<span class='stardiv'> *</span></div>
+		<input type="text" class="each_box" placeholder="Enter DDO Code here" autocomplete="off" ng-model="account.ddo" ng-blur="checkddo()">
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">DDO Designation<span class='stardiv'> *</span></div>
+		<input type="text" class="each_box" placeholder="Enter DDO Designation here" autocomplete="off" ng-model="account.ddoname">
+	</div>
+	<!-- <div class="wrap_indi">
+		<div class="each_text">HOA<span class='stardiv'> *</span></div>
+		<input type="text" class="each_box" autocomplete="off" ng-model="account.hoa">
+	</div> -->
+	<div class="wrap_indi">
+		<div class="each_text">Enter HOA<span class='stardiv'> *</span></div>
+		<div class="hoa_boxed">
+			<input type="text" class="hoa_each" maxlength="4" ng-model='hoa1'>
+		</div>
+		<div class="dash">-</div>
+		<div class="hoa_boxed">
+			<input type="text" class="hoa_each" maxlength="2" ng-model='hoa2'>
+		</div>
+		<div class="dash">-</div>
+		<div class="hoa_boxed">
+			<input type="text" class="hoa_each"maxlength="3" ng-model='hoa3'>
+		</div>
+		<div class="dash">-</div>
+		<div class="hoa_boxed">
+			<input type="text" class="hoa_each" maxlength="2" ng-model='hoa4'>
+		</div>
+		<div class="dash">-</div>
+		<div class="hoa_boxed">
+			<input type="text" class="hoa_each" maxlength="2" ng-model='hoa5'>
+		</div>
+		<div class="dash">-</div>
+		<div class="hoa_boxed">
+			<input type="text" class="hoa_each" maxlength="3" ng-model='hoa6'>
+		</div>
+		<div class="dash">-</div>
+		<div class="hoa_boxed">
+			<input type="text" class="hoa_each"  maxlength="3" ng-model='hoa7'>
+		</div>
+		<div class="dash">-</div>
+		<div class="hoa_boxed">
+			<select class="hoa_each" style="width:80px;height:32px;" ng-model='hoa8'>
+				<option value="NVN">NVN</option>
+				<option value="NCN">NCN</option>
+				<option value="PVN">PVN</option>
+				<option value="PCN">PCN</option>
+			</select>
+		</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">HOA Description<span class='stardiv'> *</span></div>
+		<input type="text" class="each_box" placeholder="Enter Description here" autocomplete="off" ng-model='account.hoaname'>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Account Type<span class='stardiv'> *</span></div>
+		<input type="radio" class="each_radio" name='actype' ng-model='account.actype' value='2'><span class="radio_text">LOC</span>
+		<input type="radio" class="each_radio" name="actype" ng-model='account.actype' value='1'><span class="radio_text">NON-LOC</span>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Account Category<span class='stardiv'> *</span></div>
+		<input type="radio" class="each_radio" name='atype' ng-model='account.cat' value='A'><span class="radio_text">A-Category</span>
+		<input type="radio" class="each_radio" name="atype" ng-model='account.cat' value='C'><span class="radio_text">C-Category</span>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Lapsability<span class='stardiv'> *</span></div>
+		<input type="radio" class="each_radio" name='abtype' ng-model='account.lap' value='0' ng-show="account.actype!='2'"><span class="radio_text" ng-show="account.actype!='2'">Non-Lapsable</span>
+		<input type="radio" class="each_radio" name="abtype" ng-model='account.lap' value='1' ng-show="account.actype!='2'"><span class="radio_text" ng-show="account.actype!='2'">Lapsable</span>
+		<div class="each_data" ng-show="account.actype=='2'">Not Applicable</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Opening Balance <span class="small_txt">(in Rs.)</span><span class='stardiv'> *</span></div>
+		<input type="text" class="each_box amount_box" autocomplete="off" ng-model='account.balance'>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Opening Bal. in words<span class="small_txt">(in Rs.)</span><span class='stardiv'> *</span></div>
+		<div class="in_wrds_txt">
+			<span>{{obal_words()}}</span>
+		</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Reference</div>
+		<textarea class='textarea ex_cl_txt' placeholder="Enter the authority/reference for creating this account..." ng-model='account.remarks'></textarea>
+	</div>
+	<div class="wrap_indi send_req_cls">
+		<div class="main_button" ng-click="create_account()">Submit</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

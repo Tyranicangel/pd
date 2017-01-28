@@ -1,0 +1,52 @@
+<div class="content_heading">Approve Cheque Book Request</div>
+<div class="fullwrap">
+	<div class="wrap_indi">
+		<div class="each_text">Request User</div>
+		<div class="each_data">{{requestdata.requser.userdesc}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">DDO Code</div>
+		<div class="each_data">{{requestdata.requestuser}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Request Date</div>
+		<div class="each_data">{{Dates.getDate(requestdata.requestdate)}}</div>
+	</div>
+	<div class="wrap_indi">
+                <div class="each_text">Challan No</div>
+                <div class="each_data">{{requestdata.challanno}}</div>
+        </div>
+        <div class="wrap_indi ex_cls_sa_isschq">
+                <div class="each_text">Remitted Amount</div>
+                <div class="each_data">{{requestdata.remitamount}}</div>
+        </div>
+	<div class="wrap_indi">
+		<div class="each_text">No of Leaves requested</div>
+		<div class="each_data">{{requestdata.leaves}}</div>
+	</div>
+	<div class="wrap_indi ex_cls_sa_isschq">
+		<div class="each_text">No of Leaves left with user</div>
+		<div class="each_data">{{getleaves(requestdata.leafs)}}</div>
+	</div>
+	<div class="ttl_div_req">
+
+		<div class="wrap_indi ex_wid" ng-hide="approval=='reject'">
+			<div class="each_desc ex_cls_sr_bkiss">
+				<p>Sir,</p>
+				<p style="font-weight:normal;font-size:12px;">As per your request,I am hereby approving your request and forwarding it to the Treasury Officer.</p>
+				<p>Regards</p>
+				<p style="font-size:12px;">{{username}}</p>
+			</div>
+		</div>
+		<div class="wrap_indi">
+			<div class="each_text">Remarks</div>
+			<textarea class="textarea" style="width:255px;" placeholder="Enter remarks here" ng-model='remarks'></textarea>
+		</div>
+		<div class="wrap_indi send_req_cls" style="padding-left:40px;width:800px;">
+			<div class="main_button" style="width:200px;" ng-click="req_accept()">Forward</div>
+			<div class="main_button" style="width:200px;" ng-click="req_reject()">Reject</div>
+		</div>
+	</div>
+	
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

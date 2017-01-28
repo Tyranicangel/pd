@@ -1,0 +1,15 @@
+<div class="content_heading">Home</div>
+<div class="fullwrap">
+	<div class="wrap_indi">
+		<div class="each_desc">
+			<span>You have <span class='chqnos'>{{chequeno}}</span> cheques with you.</span>
+			<span ng-show="placerequest">You can <a ui-sref="admin.request" class='desc_link'>request</a> a new chequebook.</span>
+		</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_desc">
+			<span>You can generate your account statements <a ui-sref="admin.aclist" class='desc_link'>here</a>.</span>
+		</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

@@ -1,0 +1,67 @@
+<div class="content_heading">Transactions List</div>
+<div class="fullwrap">
+	<div class="wrap_indi">
+		<div class="each_text">Select Head of Account</div>
+		<select class='each_select' ng-model='hoa' ng-options="scheme.schemename+'    ( '+scheme.hoa+' ) ' for scheme in schemelist" style='width:500px;' ng-change='hoa_change()'>
+		</select>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Select Area</div>
+		<select class='each_select' ng-model='area' ng-options="area.arealist.areaname for area in arealist" style='width:500px;' ng-change="area_change()">
+		</select>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Select Pd Administrator</div>
+		<select class='each_select' ng-model='pdadmin' ng-options="ddo.usernames.userdesc+'    ( '+ddo.ddocode+' )' for ddo in ddolist" style='width:500px;' ng-change="admin_change()">
+		</select>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Date From</div>
+		<input type="text" id='d_from' class='each_box datebox' ng-model='dfrom'>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Date To</div>
+		<input type="text" id='d_to' class='each_box datebox' ng-model='dto'>
+	</div>
+	<div class="wrap_indi" style='padding-bottom:20px;margin-bottom:20px;border-bottom:1px solid #e2e2e2;'>
+		<div class="main_button" ng-click="submit()">Submit</div>
+	</div>
+	<div class="wrap_indi" ng-if="alltrans.length!=0">
+		<div class="each_text">Balance in Rs</div>
+		<div class="each_data">{{pdadmin.balance}}</div>
+	</div>
+	<table class='each_table'>
+		<tr class='heading_row'>
+			<th>Date</th>
+			<th>Cheque/Recipe/Challan No</th>
+			<th>Head of Account</th>
+			<th>Particulars</th>
+			<th>Withdrawls<br><span class='rs'>(in Rs)</span></th>
+			<th>Deposits<br><span class='rs'>(in Rs)</span></th>
+		</tr>
+		<tr ng-repeat="trans in alltrans">
+			<td>{{Dates.getDate(trans.confirmdate)}}</td>
+			<td>{{trans.chequeno}}</td>
+			<td>{{trans.hoa}}</td>
+			<td ng-if="trans.multiflag==2">
+				Party Details : <a download href="{{requesturl+'/uploads/'+trans.partyfile}}">Download</a>  Purpose : {{trans.purpose}}
+			</td>
+			<td ng-if="trans.multiflag==1">
+				Party Name : {{trans.partyname}}  | Purpose : {{trans.purpose}}
+			</td>
+			<td ng-if="trans.transtype==1">
+				{{trans.partyamount}}
+			</td>
+			<td ng-if="trans.transtype==2">
+				-
+			</td>
+			<td ng-if="trans.transtype==2">
+				{{trans.partyamount}}
+			</td>
+			<td ng-if="trans.transtype==1">
+				-
+			</td>
+		</tr>
+	</table>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

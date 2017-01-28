@@ -1,0 +1,102 @@
+<div class="content_heading">Add Inventory</div>
+<div class="fullwrap">
+	<div class="wrap_indi ex_cls_chq_bk_typ">
+		<input type="radio" name="party_radio" class="each_radio" ng-model='uploadtype'  value='normal'>
+			<span class="radio_text" ng-if="ofctype!='1'">Normal Adding</span>
+		<input type="radio" name="party_radio" class="each_radio" ng-model='uploadtype' value='bulk'>
+			<span class="radio_text">Bulk Upload</span>
+	</div>
+</div>
+<div class="fullwrap" ng-show="uploadtype=='normal'">
+	<div class="wrap_indi">
+		<div class="each_text">Book No</div>
+		<input type="text" class="each_box" placeholder="Enter book number" autocomplete="off" ng-model="number">
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Enter First Cheque No.</div>
+		<input type="text" class="each_box" placeholder="Enter first cheque number" autocomplete="off" ng-model='first'>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Enter Last Cheque No.</div>
+		<input type="text" class="each_box" placeholder="Enter last cheque number" autocomplete="off" ng-model='last'>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Number of Cheque Leaves</div>
+		<div class="no_of_chq_l"><span>{{no_leaves()}}</span></div>
+	</div>
+	<div class="wrap_indi send_req_cls">
+		<div class="main_button" ng-click="add_book()">Add</div>
+	</div>
+</div>
+<div class="fullwrap" ng-show="uploadtype=='bulk'">
+	<div class="wrap_indi">
+		<div class="instruction">Instructions:</div>
+		<div class="full_text">* Download sample file format <a download href='images/sample_bulk.csv'>here</a></div>
+		<div class="full_text">* The uploaded file must be in csv format</div>
+		<div class="full_text">* Do not change the order of the columns of the file</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Upload File</div>
+		<input type="file" class="each_box" file-change="upload">
+	</div>
+	<div class="wrap_indi send_req_cls" ng-show="tdata.length!=0 || fdata.length!=0 || hdata.length!=0">
+		<div class="main_button" ng-click="add_bulk()">Add</div>
+	</div>
+</div>
+<div class="fullwrap">
+	<div class="chq_inv_ttl_dv" ng-show="tdata.length!=0">
+		<p class="leav_des">25 Leaves</p>
+		<table class="chq_inv_tab">
+			<tr class="chq_inv_tab_hd_tr">
+				<td>Sno.</td>
+				<td>Book No.</td>
+				<td>First Chq No.</td>
+				<td>Last Chq No.</td>
+			</tr>
+			<tr ng-repeat="dat in tdata">
+				<td>{{$index+1}}</td>
+				<td>{{dat[0]}}</td>
+				<td>{{dat[1]}}</td>
+				<td>{{dat[2]}}</td>
+			</tr>
+		</table>
+		<p class="no_bks_typ" ng-show="tdata.length==0"><span class="stardiv">*</span><span>There are no books of this type</span></p>
+	</div>
+	<div class="chq_inv_ttl_dv" ng-show="fdata.length!=0">
+		<p class="leav_des">50 Leaves</p>
+		<table class="chq_inv_tab">
+			<tr class="chq_inv_tab_hd_tr">
+				<td>Sno.</td>
+				<td>Book No.</td>
+				<td>First Chq No.</td>
+				<td>Last Chq No.</td>
+			</tr>
+			<tr ng-repeat="dat in fdata">
+				<td>{{$index+1}}</td>
+				<td>{{dat[0]}}</td>
+				<td>{{dat[1]}}</td>
+				<td>{{dat[2]}}</td>
+			</tr>
+		</table>
+		<p class="no_bks_typ" ng-show="fdata.length==0"><span class="stardiv">*</span><span>There are no books of this type</span></p>
+	</div>
+	<div class="chq_inv_ttl_dv" ng-show="hdata.length!=0">
+		<p class="leav_des">100 Leaves</p>
+		<table class="chq_inv_tab">
+			<tr class="chq_inv_tab_hd_tr">
+				<td>Sno.</td>
+				<td>Book No.</td>
+				<td>First Chq No.</td>
+				<td>Last Chq No.</td>
+			</tr>
+			<tr ng-repeat="dat in hdata">
+				<td>{{$index+1}}</td>
+				<td>{{dat[0]}}</td>
+				<td>{{dat[1]}}</td>
+				<td>{{dat[2]}}</td>
+			</tr>
+		</table>
+		<p class="no_bks_typ" ng-show="hdata.length==0"><span class="stardiv">*</span><span>There are no books of this type</span></p>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>

@@ -1,0 +1,89 @@
+<div class="content_heading">Issue Cheque Book</div>
+<div class="fullwrap">
+	<div class="wrap_indi">
+		<div class="each_text">Request User</div>
+		<div class="each_data">{{requestdata.requser.userdesc}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">DDO Code</div>
+		<div class="each_data">{{requestdata.requestuser}}</div>
+	</div>
+	<div class="wrap_indi">
+		<div class="each_text">Request Date</div>
+		<div class="each_data">{{Dates.getDate(requestdata.requestdate)}}</div>
+	</div>
+	<div class="wrap_indi">
+                <div class="each_text">Challan No</div>
+                <div class="each_data">{{requestdata.challanno}}</div>
+        </div>
+        <div class="wrap_indi ex_cls_sa_isschq">
+                <div class="each_text">Remitted Amount</div>
+                <div class="each_data">{{requestdata.remitamount}}</div>
+        </div>
+	<div class="wrap_indi">
+		<div class="each_text">No of Leaves requested</div>
+		<div class="each_data">{{requestdata.leaves}}</div>
+	</div>
+	<div class="wrap_indi ex_cls_sa_isschq">
+		<div class="each_text">No of Leaves left with user</div>
+		<div class="each_data">{{getleaves(requestdata.leafs)}}</div>
+	</div>
+	<div class="wrap_indi ex_cls_appr_rj_req">
+		<input type="radio" name="apprejreq" value="approve" ng-model='approval'>Approve Request
+		<input type="radio"  name="apprejreq" value="reject" ng-model='approval'>Reject Request
+	</div>
+	<div class="ttl_div_req">
+		<div class="wrap_indi ex_wid" ng-hide="approval=='reject'">
+			<div class="each_text">Enter Book No<span class='stardiv'> *</span></div>
+			<input type="text" class="each_box" placeholder="Enter book number" autocomplete="off" ng-model="cheques.number" ng-change="get_book()">
+		</div>
+		<div class="wrap_indi ex_wid" style="padding-top:10px;border-top:1px dashed;" ng-hide="approval=='reject'">
+			<div class="each_text">First Cheque No<span class='stardiv'> *</span></div>
+			<div class="no_ofl"><span>{{cheques.first}}</span></div>
+		</div>
+		<div class="wrap_indi ex_wid" ng-hide="approval=='reject'">
+			<div class="each_text">Last Cheque No<span class='stardiv'> *</span></div>
+			<div class="no_ofl"><span>{{cheques.last}}</span></div>
+		</div>
+		<div class="wrap_indi ex_wid" ng-hide="approval=='reject'">
+			<div class="each_text">Number of leaves</div>
+			<div class="no_ofl"><span>{{cheques.size}}</span></div>
+		</div>
+		<div class="wrap_indi ex_wid">
+			<div class="each_text">Remarks</div>
+			<textarea class="textarea" style="width:255px;" placeholder="Enter remarks here" ng-model='remarks'></textarea>
+		</div>
+		<div class="wrap_indi ex_wid" ng-hide="approval=='reject'">
+			<div class="each_desc ex_cls_sr_bkiss">
+				<p>Sir,</p>
+				<p style="font-weight:normal;font-size:12px;">As per your request,I am hereby approving your request and forwarding it to the Treasury Officer.</p>
+				<p>Regards</p>
+				<p style="font-size:12px;">{{username}}</p>
+			</div>
+		</div>
+		<div class="wrap_indi send_req_cls" style="padding-left:80px;">
+			<div class="main_button" style="width:200px;" ng-click="req_accept()">Forward to DTO/STO</div>
+		</div>
+	</div>
+	<div class="right_req_dv" style="width:312px;" ng-hide="approval=='reject'">
+		<div class="exis_inv_cls">
+			<p class="exist_txt">Existing Cheque Book Inventory</p>
+			<p><b>25 LEAVES:</b></p>
+			<p>No of books left: {{book25}}</p>
+			<p><i>Latest Book No.</i>: {{bookno25}}</p>
+			<p><i>First Cheque No.</i>: {{first25}}</p>
+			<p class="lat_frs"><i>Last Cheque No.</i>: {{last25}}</p>
+			<p><b>50 LEAVES:</b></p>
+			<p>No of books left: {{book50}}</p>
+			<p><i>Latest Book No.</i>: {{bookno50}}</p>
+			<p><i>First Cheque No.</i>: {{first50}}</p>
+			<p class="lat_frs"><i>Last Cheque No.</i>: {{last50}}</p>
+			<p><b>100 LEAVES:</b></p>
+			<p>No of books left: {{book100}}</p>
+			<p><i>Latest Book No.</i>: {{bookno100}}</p>
+			<p><i>First Cheque No.</i>: {{first100}}</p>
+			<p class="lat_frs"><i>Last Cheque No.</i>: {{last100}}</p>
+		</div>
+	</div>
+</div>
+<div class="loader_wrap" ng-show="showloader"><div class="loading"></div></div>
